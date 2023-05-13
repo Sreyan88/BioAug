@@ -11,8 +11,9 @@ Implementation of BioAug: Conditional Generation based Data Augmentation for Low
 
 2. Download the UMLS dataset [here]()
 
-3. Pretrain [michiyasunaga/BioLinkBERT-large](https://huggingface.co/michiyasunaga/BioLinkBERT-large) using [OpenNRE](https://github.com/thunlp/OpenNRE)
-Note: OpenNRE does not support pretraining random models. We had to update their code. Check [pretrain.py](./assets/pretrain.py)
+3. Pretrain [michiyasunaga/BioLinkBERT-large](https://huggingface.co/michiyasunaga/BioLinkBERT-large) using [OpenNRE](https://github.com/thunlp/OpenNRE) \
+<b>Note:</b> OpenNRE does not support pretraining random models. We had to update their code. Check [pretrain.py](./assets/pretrain.py) \
+<b>Our checkpoint</b>: https://drive.google.com/file/d/1crS7O0FZvBWTF_XZNba3Kt2nVxHao8po/view?usp=sharing
 
 4. Identify keywords and prepare your dataset in the format given in [sample-dataset](./sample-dataset/)
 
@@ -22,4 +23,4 @@ Note: OpenNRE does not support pretraining random models. We had to update their
 
 6. Run [train_dynamic.sh](./script/train_dynamic.sh)
 
-Note: You'll need to update dataset paths in the scripts according to your own setting.
+<b>Note:</b> You'll need to update dataset paths in the scripts according to your own setting.
