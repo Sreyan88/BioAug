@@ -1,26 +1,21 @@
 # BioAug
-Implementation of BioAug: Conditional Generation based Data Augmentation for Low-Resource Biomedical NER
+[Implementation of BioAug: Conditional Generation based Data Augmentation for Low-Resource Biomedical NER](https://arxiv.org/abs/2305.10647)  
 
-![Methodology](./assets/bioaug.jpeg)
+![Proposed Methodology](./assets/bioaug.jpeg)
 
-<b> Dependencies and Setup </b>
+#### Step to generating data augmentations from BioAug  
 
-1. Installing dependencies
+* Installing dependencies using:  
+```
+pip install -r requirements.txt
+```
+* Setup [OpenNRE](https://github.com/thunlp/OpenNRE) and download the checkpoint [here](https://drive.google.com/file/d/1crS7O0FZvBWTF_XZNba3Kt2nVxHao8po/view?usp=sharing). If you want to train your own OpenNRE model, follow the steps below:  
+    * Prepare a dataset using [this GitHub link](https://github.com/IBM/aihn-ucsd/tree/master/amil) or any other relation extraction (RE) dataset in the format specified in `./re_datasets`. You would need to follow Step 1 and Step 2. For Step 1, you can use the dataset [here](https://drive.google.com/file/d/1toip1QMx4FkYBqk6fgXnZllTjIjbP1RO/view?usp=sharing)  
+    * OpenNRE does not support pretraining random models. We had to update their code. Check [pretrain.py](./assets/pretrain.py).  
+    * We also provide 2 relation extraction datasets in `./re_datasets`.  
 
-        pip install -r requirements.txt
+* Using you OpenNRE model from the previous step, prepare your NER dataset in the given [format](./sample-dataset/)  
 
-2. Download the UMLS dataset [here]()
-
-3. Pretrain [michiyasunaga/BioLinkBERT-large](https://huggingface.co/michiyasunaga/BioLinkBERT-large) using [OpenNRE](https://github.com/thunlp/OpenNRE) \
-<b>Note:</b> OpenNRE does not support pretraining random models. We had to update their code. Check [pretrain.py](./assets/pretrain.py) \
-<b>Our checkpoint</b>: https://drive.google.com/file/d/1crS7O0FZvBWTF_XZNba3Kt2nVxHao8po/view?usp=sharing
-
-4. Identify keywords and prepare your dataset in the format given in [sample-dataset](./sample-dataset/)
-
-        Word \tabspace Label \tabspace Word Class (NOUN, PRONOUN, ...) (Can leave empty as well) \tabspace IsKeyword? (use BIO scheme)
-
-5. Use [preprocess.py](preprocess.py) to convert into the correct format and also precompute the relations between entities. (Do update lines 75, 99 and 118 accordingly)
-
-6. Run [train_dynamic.sh](./script/train_dynamic.sh)
+* Run [train_dynamic.sh](./script/train_dynamic.sh) to train your model. This step will train and generate data augmentations using BioAug followed by training a NER model on gold + augmentations using [flair](https://github.com/flairNLP/flair)  
 
 <b>Note:</b> You'll need to update dataset paths in the scripts according to your own setting.
