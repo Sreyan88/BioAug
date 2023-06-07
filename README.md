@@ -1,9 +1,9 @@
 # BioAug
-[Implementation of BioAug: Conditional Generation based Data Augmentation for Low-Resource Biomedical NER](https://arxiv.org/abs/2305.10647)  
+Implementation of [BioAug: Conditional Generation based Data Augmentation for Low-Resource Biomedical NER](https://arxiv.org/abs/2305.10647)  
 
 ![Proposed Methodology](./assets/bioaug.jpeg)
 
-#### Step to generating data augmentations from BioAug  
+### Steps to generating data augmentations from BioAug  
 
 * Installing dependencies using:  
 ```
