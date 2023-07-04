@@ -16,6 +16,25 @@ pip install -r requirements.txt
 
 * Using you OpenNRE model from the previous step, prepare your NER dataset in the given [format](./sample-dataset/)  
 
-* Run [train_dynamic.sh](./script/train_dynamic.sh) to train your model. This step will train and generate data augmentations using BioAug followed by training a NER model on gold + augmentations using [flair](https://github.com/flairNLP/flair)  
+* Run [train_dynamic.sh](./script/train_dynamic.sh) to train your model using the following command:
+  ```
+  sh train_dynamic.sh <size> <dataset> <flair_batch_size> <SEED> <generations> <shouldLinearizeAllWords>
 
-<b>Note:</b> You'll need to update dataset paths in the scripts according to your own setting.
+  Example:
+  sh train_dynamic.sh 500 ebmnlp 8 42 5 1
+  ```
+* The above step will train and generate data augmentations using BioAug followed by training a NER model on gold + augmentations using [flair](https://github.com/flairNLP/flair)  
+
+### Note: You'll need to update dataset paths in the scripts according to your own setting.
+---
+**Please cite our work:**
+```
+@misc{ghosh2023bioaug,
+      title={BioAug: Conditional Generation based Data Augmentation for Low-Resource Biomedical NER}, 
+      author={Sreyan Ghosh and Utkarsh Tyagi and Sonal Kumar and Dinesh Manocha},
+      year={2023},
+      eprint={2305.10647},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
