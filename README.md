@@ -19,8 +19,9 @@ pip install -r requirements.txt
 * Run [train_dynamic.sh](./script/train_dynamic.sh) to train your model using the following command:
   ```
   sh train_dynamic.sh <size> <dataset> <flair_batch_size> <SEED> <generations> <shouldLinearizeAllWords>
-
+  ```
   Example:
+  ```
   sh train_dynamic.sh 500 ebmnlp 8 42 5 1
   ```
   The above step will train and generate data augmentations using BioAug followed by training a NER model on gold + augmentations using [flair](https://github.com/flairNLP/flair)  
