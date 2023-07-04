@@ -6,12 +6,12 @@ set -x
 
 # -no-knowledge
 
-size="500"
-dataset="ebmnlp"
-flair_batch_size=8
-SEED=42
-generations=5
-shouldLinearizeAllWords=1
+size=$1
+dataset=$2
+flair_batch_size=$3
+SEED=$4
+generations=$5
+shouldLinearizeAllWords=$6
 
 directory=""
 
