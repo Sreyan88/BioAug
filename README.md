@@ -13,7 +13,7 @@ pip install -r requirements.txt
 * Identify keywords and prepare your dataset in the format given in [sample-dataset](./sample-dataset/)
 
 ```
-        Word \tabspace Label \tabspace Word Class (NOUN, PRONOUN, ...) \tabspace IsKeyword? (use BIO tagging scheme)
+Word \tabspace Label \tabspace Word Class (NOUN, PRONOUN, ...) \tabspace IsKeyword? (use BIO tagging scheme)
 ```
 
 * Setup [OpenNRE](https://github.com/thunlp/OpenNRE) and download the checkpoint [here](https://drive.google.com/file/d/1crS7O0FZvBWTF_XZNba3Kt2nVxHao8po/view?usp=sharing). If you want to train your own OpenNRE model, follow the steps below:
