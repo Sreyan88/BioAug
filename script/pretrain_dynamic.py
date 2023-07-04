@@ -289,12 +289,18 @@ with torch.no_grad():
         # new_tokens = ['<b-gene>', '<i-gene>']
         model.model.encoder.embed_tokens.weight[-1, :] += model.model.encoder.embed_tokens.weight[51738, :]
         model.model.encoder.embed_tokens.weight[-2, :] += model.model.encoder.embed_tokens.weight[51738, :]
+        model.model.decoder.embed_tokens.weight[-1, :] += model.model.decoder.embed_tokens.weight[51738, :]
+        model.model.decoder.embed_tokens.weight[-2, :] += model.model.decoder.embed_tokens.weight[51738, :]
     elif 'bc5dr' in args.directory:
         # new_tokens = ['<b-disease>', '<i-disease>', '<b-chemical>', '<i-chemical>']
         model.model.encoder.embed_tokens.weight[-1, :] += model.model.encoder.embed_tokens.weight[22987, :]
         model.model.encoder.embed_tokens.weight[-2, :] += model.model.encoder.embed_tokens.weight[22987, :]
         model.model.encoder.embed_tokens.weight[-3, :] += model.model.encoder.embed_tokens.weight[58994, :]
         model.model.encoder.embed_tokens.weight[-4, :] += model.model.encoder.embed_tokens.weight[58994, :]
+        model.model.decoder.embed_tokens.weight[-1, :] += model.model.decoder.embed_tokens.weight[22987, :]
+        model.model.decoder.embed_tokens.weight[-2, :] += model.model.decoder.embed_tokens.weight[22987, :]
+        model.model.decoder.embed_tokens.weight[-3, :] += model.model.decoder.embed_tokens.weight[58994, :]
+        model.model.decoder.embed_tokens.weight[-4, :] += model.model.decoder.embed_tokens.weight[58994, :]
     elif 'ebmnlp' in args.directory:
         # new_tokens = ['<b-i>', '<i-i>', '<b-out>', '<i-out>', '<b-p>', '<i-p>']
         model.model.encoder.embed_tokens.weight[-1, :] += model.model.encoder.embed_tokens.weight[81674, :]
@@ -303,6 +309,12 @@ with torch.no_grad():
         model.model.encoder.embed_tokens.weight[-4, :] += model.model.encoder.embed_tokens.weight[69933, :]
         model.model.encoder.embed_tokens.weight[-5, :] += model.model.encoder.embed_tokens.weight[52761, :]
         model.model.encoder.embed_tokens.weight[-6, :] += model.model.encoder.embed_tokens.weight[52761, :]
+        model.model.decoder.embed_tokens.weight[-1, :] += model.model.decoder.embed_tokens.weight[81674, :]
+        model.model.decoder.embed_tokens.weight[-2, :] += model.model.decoder.embed_tokens.weight[81674, :]
+        model.model.decoder.embed_tokens.weight[-3, :] += model.model.decoder.embed_tokens.weight[69933, :]
+        model.model.decoder.embed_tokens.weight[-4, :] += model.model.decoder.embed_tokens.weight[69933, :]
+        model.model.decoder.embed_tokens.weight[-5, :] += model.model.decoder.embed_tokens.weight[52761, :]
+        model.model.decoder.embed_tokens.weight[-6, :] += model.model.decoder.embed_tokens.weight[52761, :]
     elif 'jnlpba' in args.directory:
         # new_tokens = ['<b-protein>', '<i-protein>', '<b-dna>', '<i-dna>', '<b-rna>', '<i-rna>', '<b-cell_type>', '<i-cell_type>']
         model.model.encoder.embed_tokens.weight[-1, :] += model.model.encoder.embed_tokens.weight[7841, :]
@@ -313,10 +325,20 @@ with torch.no_grad():
         model.model.encoder.embed_tokens.weight[-6, :] += model.model.encoder.embed_tokens.weight[54674, :]
         model.model.encoder.embed_tokens.weight[-7, :] += model.model.encoder.embed_tokens.weight[43092, :]
         model.model.encoder.embed_tokens.weight[-8, :] += model.model.encoder.embed_tokens.weight[43092, :]
+        model.model.decoder.embed_tokens.weight[-1, :] += model.model.decoder.embed_tokens.weight[7841, :]
+        model.model.decoder.embed_tokens.weight[-2, :] += model.model.decoder.embed_tokens.weight[7841, :]
+        model.model.decoder.embed_tokens.weight[-3, :] += model.model.decoder.embed_tokens.weight[54674, :]
+        model.model.decoder.embed_tokens.weight[-4, :] += model.model.decoder.embed_tokens.weight[54674, :]
+        model.model.decoder.embed_tokens.weight[-5, :] += model.model.decoder.embed_tokens.weight[54674, :]
+        model.model.decoder.embed_tokens.weight[-6, :] += model.model.decoder.embed_tokens.weight[54674, :]
+        model.model.decoder.embed_tokens.weight[-7, :] += model.model.decoder.embed_tokens.weight[43092, :]
+        model.model.decoder.embed_tokens.weight[-8, :] += model.model.decoder.embed_tokens.weight[43092, :]
     elif 'ncbi' in args.directory:
         # new_tokens = ['<b-disease>', '<i-disease>']
         model.model.encoder.embed_tokens.weight[-1, :] += model.model.encoder.embed_tokens.weight[58994, :]
         model.model.encoder.embed_tokens.weight[-2, :] += model.model.encoder.embed_tokens.weight[58994, :]
+        model.model.decoder.embed_tokens.weight[-1, :] += model.model.decoder.embed_tokens.weight[58994, :]
+        model.model.decoder.embed_tokens.weight[-2, :] += model.model.decoder.embed_tokens.weight[58994, :]
 
 
 # logging_steps = len(tokenized_dataset['train']) // batch_size
