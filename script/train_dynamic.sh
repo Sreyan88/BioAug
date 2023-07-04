@@ -4,8 +4,6 @@
 set -e
 set -x
 
-# -no-knowledge
-
 size=$1
 dataset=$2
 flair_batch_size=$3
