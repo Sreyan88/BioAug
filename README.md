@@ -23,7 +23,7 @@ pip install -r requirements.txt
   Example:
   sh train_dynamic.sh 500 ebmnlp 8 42 5 1
   ```
-* The above step will train and generate data augmentations using BioAug followed by training a NER model on gold + augmentations using [flair](https://github.com/flairNLP/flair)  
+  The above step will train and generate data augmentations using BioAug followed by training a NER model on gold + augmentations using [flair](https://github.com/flairNLP/flair)  
 
 ### Note: You'll need to update dataset paths in the scripts according to your own setting.
 ---
