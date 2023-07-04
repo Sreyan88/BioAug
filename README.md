@@ -20,7 +20,7 @@ Word \tabspace Label \tabspace Word Class (NOUN, PRONOUN, ...) \tabspace IsKeywo
     * Prepare a dataset using [this GitHub link](https://github.com/IBM/aihn-ucsd/tree/master/amil) or any other relation extraction (RE) dataset. You would need to follow Step 1 and Step 2. For Step 1, you can use the dataset [here](https://drive.google.com/file/d/1toip1QMx4FkYBqk6fgXnZllTjIjbP1RO/view?usp=sharing)
     * OpenNRE does not support pretraining random models. We had to update their code. Check [pretrain.py](./assets/pretrain.py).
 
-* Use [preprocess.py](preprocess.py) to convert the data into the correct format and also precompute the relations between entities. (Do update lines 75, 99 and 118 according to your dataset)
+* With the help of the pretrained OpenNRE model, run [preprocess.py](preprocess.py) to convert the data into the correct format and also precompute the relations between entities. (Do update lines 75, 99 and 118 according to your dataset)
 
 * Run [train_dynamic.sh](./script/train_dynamic.sh) to train your model using the following command:
   ```
