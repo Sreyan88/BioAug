@@ -26,7 +26,6 @@ python pretrain_dynamic.py \
 --batch_size 16 \
 --file_name $run \
 --seed $SEED \
---shouldLinearizeAllWords $shouldLinearizeAllWords
 
 best_model="${directory}/${attn_train}-${run}-final"
 

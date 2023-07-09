@@ -5,7 +5,7 @@ Implementation of [BioAug: Conditional Generation based Data Augmentation for Lo
 
 ### Steps to generate data augmentations from BioAug
 
-1. Instal dependencies using:
+1. Install dependencies using:
 ```
 pip install -r requirements.txt
 ```
@@ -24,7 +24,7 @@ Word \tabspace Label \tabspace Word Class (NOUN, PRONOUN, ...) \tabspace IsKeywo
 
 4. With the help of the pretrained OpenNRE model, run [preprocess.py](preprocess.py) to convert the data into the correct format and also precompute the relations between entities. (Do update lines 75, 100 and 120 according to your dataset)
 
-Input -> Train and Dev files generated in Step 2
+Input -> Train and Dev files generated in Step 2 \
 Output -> {train/dev}_processed.txt, {train/dev}_processed.json and {train/dev}_processed_precompute.json generated in the same directory
 
 ```
@@ -37,15 +37,21 @@ We have uploaded our preprocessed files in the [datasets-precompute](./datasets-
 
 5. Run [train_dynamic.sh](./script/train_dynamic.sh) to train your model using the following command:
   ```
-  sh train_dynamic.sh <size> <dataset> <flair_batch_size> <SEED> <generations> <shouldLinearizeAllWords>
+  sh train_dynamic.sh \
+      <size (100/200/500/1000/all)> \
+      <dataset (ebmnlp/bc5dr/bc2gm/jnlpba/ncbi)> \
+      <flair_batch_size> \
+      <SEED> \
+      <generations>
   ```
+
   Example:
   ```
-  sh train_dynamic.sh 500 ebmnlp 8 42 5 1
+  sh train_dynamic.sh 500 ebmnlp 8 42 5
   ```
   The above step will train and generate data augmentations using BioAug followed by training a NER model on gold + augmentations using [flair](https://github.com/flairNLP/flair)
 
-### Note: You'll need to replace the encoder and decoder embeddings in [pretrain_dynamic.py](./script/pretrain_dynamic.py) line 246-300 if using an external dataset. Also update the new tokens in [pretrain_dynamic.py](./script/pretrain_dynamic.py) and [test-dynamic.py](./script/test-dynamic.py)
+# Note: You'll need to replace the encoder and decoder embeddings in [pretrain_dynamic.py](./script/pretrain_dynamic.py) line 246-300 if using an external dataset. Also update the new tokens in [pretrain_dynamic.py](./script/pretrain_dynamic.py) and [test-dynamic.py](./script/test-dynamic.py)
 
 ---
 **Please cite our work:**
