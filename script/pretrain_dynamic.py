@@ -33,7 +33,6 @@ parser.add_argument('--seed', '-s', type=int, default=-1, help='random seed')
 parser.add_argument('--mean', '-mean', type=float, default=0.7, help='mean for gauss prob')
 parser.add_argument('--std', '-std', type=float, default=0.1, help='std_dev for gauss prob')
 parser.add_argument('--shouldLinearizeAllWords', type=int, default=1, help='linearize mode')
-# parser.add_argument('--local_rank', type=int,default=0, help='local_rank')
 
 
 args = parser.parse_args()
@@ -80,9 +79,6 @@ new_tokens = set(new_tokens) - set(tokenizer.vocab.keys())
 
 # add the tokens to the tokenizer vocabulary
 tokenizer.add_tokens(list(new_tokens))
-
-# opennre_model = opennre.get_model('entity')
-# opennre_model = opennre_model.to('cuda:1')
 
 
 class ExplicitEnum(str, Enum):
@@ -149,7 +145,6 @@ class DataCollatorForSeq2Seq:
     return_tensors: str = "pt"
 
     def __call__(self, features, return_tensors=None):
-        # features= features[:2]
         text = [i['sentence'] for i in features]
         types = [i['type'] for i in features]
         labels = [i['labels'] for i in features]
@@ -158,31 +153,16 @@ class DataCollatorForSeq2Seq:
         sketch = []
         n_text = []
 
-        # start = time.process_time()
-
         for i in range(len(text)): # for ever datapoint in a batch
-            # print('Text: ', text[i])
             new_text, new_type, new_label = text[i], types[i], labels[i]
             assert len(new_text) == len(new_type) == len(new_label)
             original_text = ' '.join(copy.deepcopy(new_text))
-            # print('Original Text: ', original_text)
             linearize(new_text, new_label, args.shouldLinearizeAllWords)
             final_y = ' '.join(copy.deepcopy(new_text))
             mask_spacy_entities(new_text, new_type, args.mean, args.std)
             generated_sketch = add_relations(new_text, original_text, id[i], train_precompute, dev_precompute)
-            # generated_sketch = merge_list(new_text)
-            # print('Sketch: ', generated_sketch)
             sketch.append(generated_sketch)
             n_text.append(final_y)
-            # print('Pretrain Text Y: ', final_y, '\n\n')
-            # n_text.append(copy_text)
-            # sketch.append(new_sketch)
-            # print('Text: ', copy_text)
-            # print('Sketch: ', new_sketch, '\n\n')
-
-        # print(sketch,'\n',n_text)
-        # fdafddfa
-        # print(time.process_time() - start)
 
         model_inputs = tokenizer(sketch, max_length=max_input_length, truncation=True)
         with tokenizer.as_target_tokenizer():
@@ -242,25 +222,7 @@ class DataCollatorForSeq2Seq:
 
         return features
 
-# ROUGE metric：
-# rouge_score = load_metric("rouge")
 def compute_metrics(eval_pred):
-    # predictions, labels = eval_pred
-    # # Decode generated summaries into text
-    # decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-    # # Replace -100 in the labels as we can't decode them
-    # labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
-    # # Decode reference summaries into text
-    # decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-    # # ROUGE expects a newline after each sentence
-    # decoded_preds = ["\n".join(sent_tokenize(pred.strip())) for pred in decoded_preds]
-    # decoded_labels = ["\n".join(sent_tokenize(label.strip())) for label in decoded_labels]
-    # # Compute ROUGE scores
-    # result = rouge_score.compute(
-    #     predictions=decoded_preds, references=decoded_labels, use_stemmer=True
-    # )
-    # # Extract the median scores
-    # result = {key: value.mid.fmeasure * 100 for key, value in result.items()}
     return {}
 
 
@@ -274,9 +236,6 @@ model_name = model_checkpoint.split("/")[-1]
 
 # load the pretrained weights
 model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint)
-# load only the model, without weights
-# config = AutoConfig.from_pretrained(model_checkpoint)
-# model =  AutoModel.from_config(config)
 
 # add new, random embeddings for the new tokens
 model.resize_token_embeddings(len(tokenizer))
@@ -367,11 +326,6 @@ training_args = Seq2SeqTrainingArguments(
 
 data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
-
-# remove unnecessary columns
-# tokenized_dataset["train"] = tokenized_dataset["train"].remove_columns(['bert_att', 'label'])
-# tokenized_dataset["validation"] = tokenized_dataset["validation"].remove_columns(['bert_att', 'label'])
-
 trainer = Seq2SeqTrainer(
     model,
     training_args,
@@ -382,9 +336,7 @@ trainer = Seq2SeqTrainer(
     compute_metrics=compute_metrics,
 )
 
-
 trainer.train()
-# asdasd
 save_path = output_dir+"-final"
 trainer.save_model(save_path)
 

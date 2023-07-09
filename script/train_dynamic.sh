@@ -11,7 +11,7 @@ SEED=$4
 generations=$5
 shouldLinearizeAllWords=$6
 
-directory=""
+directory="./spacy-datasets/${dataset}/${size}"
 
 attn_train="train_processed"
 attn_dev="dev_processed"

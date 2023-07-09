@@ -8,16 +8,15 @@ import opennre
 
 import argparse
 parser = argparse.ArgumentParser(allow_abbrev=False)
-parser.add_argument('--size', type=str, help='size of dataset')
 parser.add_argument('--type', type=str, default='train', help='type of file')
-parser.add_argument('--dataset', type=str, default='ebmnlp', help='dataset')
+parser.add_argument('--input_file', type=str, help='input file path')
 
 args = parser.parse_args()
 
 model = opennre.get_model('entity')
 model = model.cuda()
 file_type = args.type
-input_file = f'' #add your input file here
+input_file = args.input_file
 
 with open(input_file, 'r') as f:
     data = f.readlines()
@@ -72,6 +71,7 @@ def join_entities(sentence, named_entities, pos_tags, entities):
     for i in range(len(sentence)):
         if entities[i]=='B':
             if len(cur_sentence):
+                # Update the tags according to your dataset
                 if "B-I" in cur_named_entities or "I-I" in cur_named_entities or "B-O" in cur_named_entities or "I-O" in cur_named_entities or "B-P" in cur_named_entities or "I-P" in cur_named_entities:
                     new_sentence += cur_sentence
                     new_named_entities += cur_named_entities
@@ -96,6 +96,7 @@ def join_entities(sentence, named_entities, pos_tags, entities):
             cur_entities.append(entities[i])
         else:
             if len(cur_sentence):
+                # Update the tags according to your dataset
                 if "B-I" in cur_named_entities or "I-I" in cur_named_entities or "B-O" in cur_named_entities or "I-O" in cur_named_entities or "B-P" in cur_named_entities or "I-P" in cur_named_entities:
                     new_sentence += cur_sentence
                     new_named_entities += cur_named_entities
@@ -115,6 +116,7 @@ def join_entities(sentence, named_entities, pos_tags, entities):
             new_entities.append(entities[i])
 
     if len(cur_sentence):
+        # Update the tags according to your dataset
         if "B-I" in cur_named_entities or "I-I" in cur_named_entities or "B-O" in cur_named_entities or "I-O" in cur_named_entities or "B-P" in cur_named_entities or "I-P" in cur_named_entities:
             new_sentence += cur_sentence
             new_named_entities += cur_named_entities
@@ -193,32 +195,20 @@ def precompute(sent, type, id):
             precompute_data[id][key]['relation'] = ' '.join(relation.split('_'))
             precompute_data[id][key]['probability'] = probability
 
-    # print(precompute_data)
-
-
-
 count = 0
 for i in tqdm(data):
     i = i.strip()
     if i=='':
         if len(sentence):
             temp = {}
-            # print(sentence, named_entities, pos_tags, entities, '\n')
             new_sentence, new_named_entities, new_pos_tags, new_entities = join_named_entities(sentence, named_entities, pos_tags, entities)
-            # print(new_sentence, new_named_entities, new_pos_tags, new_entities, '\n')
             new_sentence, new_named_entities, new_pos_tags, new_entities = join_entities(new_sentence, new_named_entities, new_pos_tags, new_entities)
-            # print(new_sentence, new_named_entities, new_pos_tags, new_entities, '\n')
             temp['sentence'] = new_sentence
             temp['labels'] = new_named_entities
-            # temp['pos_tags'] = new_pos_tags
             temp['id'] = f'{file_type}-{count}'
             count+=1
-            # temp['entities'] = new_entities
             temp['type'] = getTypes(new_named_entities, new_entities)
-            # print(temp)
             precompute(new_sentence, temp['type'], temp['id'])
-            # numberOfY.append(len([x for x in temp['shouldCalculateRelations'] if x=='Y']))
-            # numberOfNamedEntities.append(len([x for x in temp['named_entities'] if not x[0]!='B']))
             sentence, named_entities, pos_tags, entities = [], [], [], []
             final_data.append(temp)
 
@@ -241,8 +231,6 @@ output_file = input_file.split('.')[0] + '_processed_precompute.json'
 with open(output_file, 'w', encoding='utf-8') as f:
     json.dump(precompute_data, f, ensure_ascii=False, indent=0)
 
-# print(np.unique(numberOfY, return_counts=True))
-
 print('dataset_length:', len(final_data))
 
 
@@ -263,38 +251,3 @@ output_file = input_file.split('.')[0] + '_processed.txt'
 with open(output_file, 'w', encoding='utf-8') as f:
     for i in final_data:
         f.write(i)
-
-# combination_new_data = []
-# count = 0
-# for i in tqdm(final_data, desc='Combinations'):
-#     sentence = i['sentence']
-#     entities = i['shouldCalculateRelations']
-#     entities = [index for index,element in enumerate(entities) if element=='Y']
-#     all_combinations = list(combinations(entities,2))
-#     for j in all_combinations:
-#         data_point = copy.deepcopy(i)
-#         data_point['mask_indices'] = list(j)
-#         data_point['SNO'] = count
-#         combination_new_data.append(data_point)
-#         count+=1
-
-# print('final_dataset_length:', len(combination_new_data))
-
-# final_output_file = input_file.split('.')[0] + '_combinations.json'
-# with open(final_output_file, 'w', encoding='utf-8') as f:
-#     json.dump(combination_new_data, f, ensure_ascii=False, indent=4)
-
-# relation_format = []
-# for i in tqdm(combination_new_data, desc="Generating relation format data"):
-#     sent = i['sentence']
-#     indices = i['mask_indices']
-#     sent[indices[0]] = '@ENTITY#'
-#     sent[indices[1]] = '@ENTITY#'
-
-#     sent = ' '.join(sent)
-#     relation_format.append(f'random\t{sent}\tNA\n')
-
-# relation_format_file = input_file.split('.')[0] + '_relation_ready.tsv'
-# with open(relation_format_file, 'w', encoding='utf-8') as f:
-#     for i in relation_format:
-#         f.write(i)
