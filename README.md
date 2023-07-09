@@ -51,7 +51,7 @@ We have uploaded our preprocessed files in the [datasets-precompute](./datasets-
   ```
   The above step will train and generate data augmentations using BioAug followed by training a NER model on gold + augmentations using [flair](https://github.com/flairNLP/flair)
 
-# Note: You'll need to replace the encoder and decoder embeddings in [pretrain_dynamic.py](./script/pretrain_dynamic.py) line 246-300 if using an external dataset. Also update the new tokens in [pretrain_dynamic.py](./script/pretrain_dynamic.py) and [test-dynamic.py](./script/test-dynamic.py)
+#### Note: You'll need to replace the encoder and decoder embeddings in [pretrain_dynamic.py](./script/pretrain_dynamic.py) line 246-300 if using an external dataset. Also update the new tokens in [pretrain_dynamic.py](./script/pretrain_dynamic.py) and [test-dynamic.py](./script/test-dynamic.py)
 
 ---
 **Please cite our work:**
