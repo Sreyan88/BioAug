@@ -1,0 +1,9252 @@
+{
+"train-0": {},
+"train-1": {
+"1-7": {
+"relation": "has direct device",
+"probability": 0.4452971816062927
+}
+},
+"train-2": {
+"0-4": {
+"relation": "has supersystem",
+"probability": 0.5170084834098816
+},
+"0-5": {
+"relation": "has supersystem",
+"probability": 0.5274086594581604
+},
+"4-5": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.7882462739944458
+}
+},
+"train-3": {
+"1-3": {
+"relation": "associated procedure of",
+"probability": 0.3204011917114258
+},
+"1-5": {
+"relation": "has answer",
+"probability": 0.24894872307777405
+},
+"3-5": {
+"relation": "has finding method",
+"probability": 0.9642420411109924
+}
+},
+"train-4": {
+"0-2": {
+"relation": "finding method of",
+"probability": 0.9974900484085083
+},
+"0-4": {
+"relation": "regulates",
+"probability": 0.3289181590080261
+},
+"2-4": {
+"relation": "has associated procedure",
+"probability": 0.44175413250923157
+},
+"2-6": {
+"relation": "has finding method",
+"probability": 0.7466490864753723
+},
+"4-6": {
+"relation": "has focus",
+"probability": 0.19293883442878723
+}
+},
+"train-5": {
+"0-5": {
+"relation": "occurs in",
+"probability": 0.7292596101760864
+},
+"1-5": {
+"relation": "measures",
+"probability": 0.7362051606178284
+}
+},
+"train-6": {
+"1-6": {
+"relation": "finding method of",
+"probability": 0.9991315007209778
+},
+"4-6": {
+"relation": "finding method of",
+"probability": 0.9970299005508423
+},
+"4-10": {
+"relation": "has property",
+"probability": 0.49791038036346436
+},
+"6-10": {
+"relation": "has finding method",
+"probability": 0.9952793121337891
+},
+"6-12": {
+"relation": "has finding method",
+"probability": 0.9746499061584473
+},
+"10-12": {
+"relation": "associated condition of",
+"probability": 0.48339807987213135
+}
+},
+"train-7": {
+"1-5": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.3301883339881897
+}
+},
+"train-8": {},
+"train-9": {
+"0-5": {
+"relation": "answer to",
+"probability": 0.4846866726875305
+},
+"0-8": {
+"relation": "has answer",
+"probability": 0.3860856890678406
+},
+"5-8": {
+"relation": "has answer",
+"probability": 0.38527706265449524
+}
+},
+"train-10": {
+"0-10": {
+"relation": "has clinical course",
+"probability": 0.9240677952766418
+},
+"0-26": {
+"relation": "has clinical course",
+"probability": 0.7394612431526184
+},
+"0-28": {
+"relation": "has clinical course",
+"probability": 0.9397619962692261
+},
+"0-29": {
+"relation": "has clinical course",
+"probability": 0.8056479692459106
+},
+"0-32": {
+"relation": "has clinical course",
+"probability": 0.9299658536911011
+},
+"10-26": {
+"relation": "has answer",
+"probability": 0.42740488052368164
+},
+"10-28": {
+"relation": "ingredient of",
+"probability": 0.21001453697681427
+},
+"10-29": {
+"relation": "is not primary anatomic site of disease",
+"probability": 0.3301624059677124
+},
+"10-32": {
+"relation": "is component of chemotherapy regimen",
+"probability": 0.45930641889572144
+},
+"28-29": {
+"relation": "is not primary anatomic site of disease",
+"probability": 0.34348177909851074
+},
+"28-32": {
+"relation": "part of",
+"probability": 0.19315610826015472
+},
+"29-32": {
+"relation": "is not primary anatomic site of disease",
+"probability": 0.29417094588279724
+}
+},
+"train-11": {
+"1-2": {
+"relation": "associated procedure of",
+"probability": 0.4692199230194092
+}
+},
+"train-12": {
+"1-3": {
+"relation": "subject relationship context of",
+"probability": 0.6048891544342041
+},
+"1-7": {
+"relation": "has answer",
+"probability": 0.1644190549850464
+},
+"1-11": {
+"relation": "associated procedure of",
+"probability": 0.589089035987854
+},
+"1-17": {
+"relation": "subject relationship context of",
+"probability": 0.8712231516838074
+},
+"1-18": {
+"relation": "subject relationship context of",
+"probability": 0.5040048956871033
+},
+"1-19": {
+"relation": "focus of",
+"probability": 0.7765100002288818
+},
+"1-26": {
+"relation": "subset includes concept",
+"probability": 0.8366201519966125
+},
+"1-28": {
+"relation": "priority of",
+"probability": 0.13258147239685059
+},
+"1-29": {
+"relation": "focus of",
+"probability": 0.8406519889831543
+},
+"1-31": {
+"relation": "focus of",
+"probability": 0.9907045960426331
+},
+"1-32": {
+"relation": "associated finding of",
+"probability": 0.8564836382865906
+},
+"3-7": {
+"relation": "answer to",
+"probability": 0.49120205640792847
+},
+"3-17": {
+"relation": "answer to",
+"probability": 0.9452560544013977
+},
+"3-18": {
+"relation": "measured by",
+"probability": 0.9550442099571228
+},
+"3-19": {
+"relation": "measured by",
+"probability": 0.3793870806694031
+},
+"3-26": {
+"relation": "property of",
+"probability": 0.7639370560646057
+},
+"3-28": {
+"relation": "answer to",
+"probability": 0.9403791427612305
+},
+"3-29": {
+"relation": "answer to",
+"probability": 0.34388595819473267
+},
+"3-32": {
+"relation": "associated finding of",
+"probability": 0.9290115237236023
+},
+"7-11": {
+"relation": "has focus",
+"probability": 0.3412072956562042
+},
+"7-17": {
+"relation": "answer to",
+"probability": 0.503839910030365
+},
+"7-18": {
+"relation": "answer to",
+"probability": 0.4696101248264313
+},
+"7-26": {
+"relation": "subset includes concept",
+"probability": 0.6656680703163147
+},
+"7-28": {
+"relation": "answer to",
+"probability": 0.5605096220970154
+},
+"7-29": {
+"relation": "answer to",
+"probability": 0.29862427711486816
+},
+"7-31": {
+"relation": "disease is grade",
+"probability": 0.18751366436481476
+},
+"7-32": {
+"relation": "associated finding of",
+"probability": 0.9981076717376709
+},
+"11-17": {
+"relation": "subject relationship context of",
+"probability": 0.8737447261810303
+},
+"11-18": {
+"relation": "recipient category of",
+"probability": 0.3831119239330292
+},
+"11-19": {
+"relation": "focus of",
+"probability": 0.7884769439697266
+},
+"11-26": {
+"relation": "subset includes concept",
+"probability": 0.8176453709602356
+},
+"11-28": {
+"relation": "recipient category of",
+"probability": 0.30207356810569763
+},
+"11-29": {
+"relation": "focus of",
+"probability": 0.8265401721000671
+},
+"11-31": {
+"relation": "focus of",
+"probability": 0.9686522483825684
+},
+"11-32": {
+"relation": "associated finding of",
+"probability": 0.9975191354751587
+},
+"17-18": {
+"relation": "has answer",
+"probability": 0.8338725566864014
+},
+"17-28": {
+"relation": "has subject relationship context",
+"probability": 0.6364409923553467
+},
+"17-29": {
+"relation": "has subject relationship context",
+"probability": 0.5255866646766663
+},
+"17-31": {
+"relation": "has manifestation",
+"probability": 0.2250567525625229
+},
+"17-32": {
+"relation": "associated finding of",
+"probability": 0.9694711565971375
+},
+"18-26": {
+"relation": "property of",
+"probability": 0.8010507822036743
+},
+"18-28": {
+"relation": "answer to",
+"probability": 0.9319689869880676
+},
+"18-29": {
+"relation": "has answer",
+"probability": 0.4327208697795868
+},
+"18-31": {
+"relation": "answer to",
+"probability": 0.5185514688491821
+},
+"18-32": {
+"relation": "associated finding of",
+"probability": 0.7341516017913818
+},
+"19-28": {
+"relation": "sign or symptom of",
+"probability": 0.13682103157043457
+},
+"19-29": {
+"relation": "measures",
+"probability": 0.3328719139099121
+},
+"19-32": {
+"relation": "associated finding of",
+"probability": 0.9149816036224365
+},
+"26-28": {
+"relation": "concept in subset",
+"probability": 0.6953591108322144
+},
+"26-29": {
+"relation": "concept in subset",
+"probability": 0.6363062262535095
+},
+"28-29": {
+"relation": "process includes biological process",
+"probability": 0.2134200632572174
+},
+"28-31": {
+"relation": "population at risk for",
+"probability": 0.21924936771392822
+},
+"28-32": {
+"relation": "associated finding of",
+"probability": 0.9974512457847595
+},
+"29-32": {
+"relation": "associated finding of",
+"probability": 0.9978582262992859
+},
+"31-32": {
+"relation": "associated finding of",
+"probability": 0.9961751699447632
+}
+},
+"train-13": {
+"0-6": {
+"relation": "has focus",
+"probability": 0.6251422166824341
+},
+"0-10": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.21661785244941711
+},
+"2-4": {
+"relation": "contraindicated class of",
+"probability": 0.5098066329956055
+},
+"2-8": {
+"relation": "may be prevented by",
+"probability": 0.9992594122886658
+},
+"2-10": {
+"relation": "contraindicated class of",
+"probability": 0.36338984966278076
+},
+"4-6": {
+"relation": "focus of",
+"probability": 0.904819905757904
+},
+"4-8": {
+"relation": "may be prevented by",
+"probability": 0.9246772527694702
+},
+"4-10": {
+"relation": "dose form of",
+"probability": 0.06208611652255058
+},
+"6-8": {
+"relation": "focus of",
+"probability": 0.7991095781326294
+},
+"6-10": {
+"relation": "has focus",
+"probability": 0.7183241248130798
+},
+"8-10": {
+"relation": "cause of",
+"probability": 0.27646180987358093
+}
+},
+"train-14": {
+"1-3": {
+"relation": "contraindicated class of",
+"probability": 0.9348074793815613
+},
+"1-8": {
+"relation": "may be prevented by",
+"probability": 0.9977085590362549
+},
+"1-12": {
+"relation": "contraindicated class of",
+"probability": 0.9348074793815613
+},
+"1-17": {
+"relation": "has measured component",
+"probability": 0.3137768507003784
+},
+"3-8": {
+"relation": "may be prevented by",
+"probability": 0.998381495475769
+},
+"3-17": {
+"relation": "contraindicated class of",
+"probability": 0.5937736630439758
+},
+"5-6": {
+"relation": "has answer",
+"probability": 0.6661957502365112
+},
+"6-8": {
+"relation": "has severity",
+"probability": 0.918485701084137
+},
+"8-11": {
+"relation": "cause of",
+"probability": 0.7700330018997192
+},
+"8-12": {
+"relation": "may be prevented by",
+"probability": 0.998381495475769
+},
+"8-16": {
+"relation": "cause of",
+"probability": 0.7700330018997192
+},
+"8-17": {
+"relation": "may prevent",
+"probability": 0.9962114095687866
+},
+"8-19": {
+"relation": "cause of",
+"probability": 0.6859241724014282
+},
+"12-17": {
+"relation": "contraindicated class of",
+"probability": 0.5937736630439758
+}
+},
+"train-15": {
+"0-1": {
+"relation": "gene found in organism",
+"probability": 0.6055589914321899
+},
+"0-4": {
+"relation": "has subject relationship context",
+"probability": 0.5277537703514099
+},
+"0-5": {
+"relation": "gene found in organism",
+"probability": 0.6055589914321899
+},
+"0-8": {
+"relation": "has subject relationship context",
+"probability": 0.48785296082496643
+},
+"1-4": {
+"relation": "has associated procedure",
+"probability": 0.6248531341552734
+},
+"1-8": {
+"relation": "has time aspect",
+"probability": 0.5082055330276489
+},
+"4-5": {
+"relation": "has associated procedure",
+"probability": 0.6248531341552734
+},
+"4-8": {
+"relation": "has associated procedure",
+"probability": 0.22664381563663483
+},
+"5-8": {
+"relation": "has time aspect",
+"probability": 0.5082055330276489
+}
+},
+"train-16": {
+"0-7": {
+"relation": "property of",
+"probability": 0.422261118888855
+},
+"3-7": {
+"relation": "subset includes concept",
+"probability": 0.18593528866767883
+}
+},
+"train-17": {
+"0-17": {
+"relation": "has time aspect",
+"probability": 0.48649337887763977
+},
+"0-24": {
+"relation": "has time aspect",
+"probability": 0.3080722689628601
+},
+"3-24": {
+"relation": "subject of information of",
+"probability": 0.5935235619544983
+},
+"6-22": {
+"relation": "gene found in organism",
+"probability": 0.49417605996131897
+},
+"6-24": {
+"relation": "has subject relationship context",
+"probability": 0.32809755206108093
+},
+"10-18": {
+"relation": "has contraindicated class",
+"probability": 0.579560399055481
+},
+"10-22": {
+"relation": "has ingredient",
+"probability": 0.5013803839683533
+},
+"17-24": {
+"relation": "recipient category of",
+"probability": 0.8595516681671143
+},
+"18-22": {
+"relation": "dose form of",
+"probability": 0.31972527503967285
+},
+"22-24": {
+"relation": "recipient category of",
+"probability": 0.9129352569580078
+}
+},
+"train-18": {
+"1-6": {
+"relation": "may be prevented by",
+"probability": 0.9991254210472107
+},
+"2-6": {
+"relation": "has severity",
+"probability": 0.6453742980957031
+},
+"6-9": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.3947577178478241
+}
+},
+"train-19": {},
+"train-20": {
+"2-4": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.8276483416557312
+},
+"2-8": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.9595617651939392
+},
+"2-10": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.5782789587974548
+},
+"2-16": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.5255070924758911
+},
+"2-20": {
+"relation": "has pcdc os permissible value",
+"probability": 0.5605736374855042
+},
+"2-22": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.726554811000824
+},
+"4-8": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.7226888537406921
+},
+"4-10": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.6294459700584412
+},
+"4-11": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.5733299851417542
+},
+"4-20": {
+"relation": "has pcdc os permissible value",
+"probability": 0.3167666494846344
+},
+"4-22": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.25995343923568726
+},
+"8-10": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.5611065030097961
+},
+"8-11": {
+"relation": "mapping qualifier of",
+"probability": 0.2899346351623535
+},
+"8-20": {
+"relation": "has pcdc os permissible value",
+"probability": 0.29892227053642273
+},
+"8-22": {
+"relation": "has time aspect",
+"probability": 0.21411141753196716
+},
+"10-11": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.9495866894721985
+},
+"10-20": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.3520011305809021
+},
+"10-22": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.5945380330085754
+},
+"11-16": {
+"relation": "has finding method",
+"probability": 0.7913268208503723
+},
+"11-22": {
+"relation": "has finding method",
+"probability": 0.9143907427787781
+},
+"13-14": {
+"relation": "has dose form",
+"probability": 0.573007345199585
+},
+"13-16": {
+"relation": "has dose form",
+"probability": 0.7100719213485718
+},
+"13-22": {
+"relation": "has priority",
+"probability": 0.07428744435310364
+},
+"14-16": {
+"relation": "has ingredient",
+"probability": 0.8673279881477356
+},
+"14-22": {
+"relation": "physiologic effect of",
+"probability": 0.4278729259967804
+},
+"16-20": {
+"relation": "subset includes concept",
+"probability": 0.21998755633831024
+},
+"16-22": {
+"relation": "answer to",
+"probability": 0.0790257677435875
+},
+"20-22": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.27776625752449036
+}
+},
+"train-21": {
+"0-1": {
+"relation": "has pcdc os permissible value",
+"probability": 0.3101722002029419
+},
+"0-4": {
+"relation": "has answer",
+"probability": 0.8484215140342712
+},
+"1-4": {
+"relation": "has property",
+"probability": 0.15438498556613922
+}
+},
+"train-22": {
+"0-1": {
+"relation": "supersystem of",
+"probability": 0.5165413618087769
+},
+"0-18": {
+"relation": "supersystem of",
+"probability": 0.5144122838973999
+},
+"1-2": {
+"relation": "has supersystem",
+"probability": 0.5071994066238403
+},
+"1-4": {
+"relation": "has supersystem",
+"probability": 0.498993456363678
+},
+"1-6": {
+"relation": "has system",
+"probability": 0.4144638478755951
+},
+"1-16": {
+"relation": "has system",
+"probability": 0.5028628706932068
+},
+"1-18": {
+"relation": "supersystem of",
+"probability": 0.4111858904361725
+},
+"1-19": {
+"relation": "has supersystem",
+"probability": 0.5071994066238403
+},
+"1-20": {
+"relation": "has supersystem",
+"probability": 0.5002197623252869
+},
+"2-18": {
+"relation": "supersystem of",
+"probability": 0.5226953029632568
+},
+"4-18": {
+"relation": "supersystem of",
+"probability": 0.5039328932762146
+},
+"6-16": {
+"relation": "physiologic effect of",
+"probability": 0.6600580215454102
+},
+"6-18": {
+"relation": "supersystem of",
+"probability": 0.4042160212993622
+},
+"16-18": {
+"relation": "supersystem of",
+"probability": 0.5138336420059204
+},
+"16-20": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.11536364257335663
+},
+"18-19": {
+"relation": "supersystem of",
+"probability": 0.5226953029632568
+},
+"18-20": {
+"relation": "has supersystem",
+"probability": 0.496124267578125
+}
+},
+"train-23": {
+"3-6": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.22885125875473022
+},
+"6-8": {
+"relation": "answer to",
+"probability": 0.7943770885467529
+},
+"6-10": {
+"relation": "answer to",
+"probability": 0.3937596380710602
+},
+"6-12": {
+"relation": "answer to",
+"probability": 0.7763351798057556
+},
+"8-10": {
+"relation": "has associated condition",
+"probability": 0.8267746567726135
+},
+"8-12": {
+"relation": "due to",
+"probability": 0.5106313824653625
+},
+"10-12": {
+"relation": "has manifestation",
+"probability": 0.6821175813674927
+}
+},
+"train-24": {
+"1-4": {
+"relation": "has finding method",
+"probability": 0.9734266996383667
+},
+"1-6": {
+"relation": "has associated procedure",
+"probability": 0.9260755181312561
+},
+"1-9": {
+"relation": "has finding method",
+"probability": 0.9927971959114075
+},
+"1-11": {
+"relation": "has finding method",
+"probability": 0.9989815354347229
+},
+"1-13": {
+"relation": "has finding method",
+"probability": 0.8929484486579895
+},
+"1-17": {
+"relation": "has associated procedure",
+"probability": 0.5827062129974365
+},
+"1-19": {
+"relation": "has finding method",
+"probability": 0.3450530767440796
+},
+"4-6": {
+"relation": "has associated procedure",
+"probability": 0.39956438541412354
+},
+"4-11": {
+"relation": "sign or symptom of",
+"probability": 0.9038241505622864
+},
+"4-13": {
+"relation": "biological process is part of process",
+"probability": 0.5048014521598816
+},
+"4-17": {
+"relation": "has class",
+"probability": 0.7419160008430481
+},
+"4-19": {
+"relation": "may be qualified by",
+"probability": 0.2718668580055237
+},
+"6-11": {
+"relation": "focus of",
+"probability": 0.921777069568634
+},
+"6-13": {
+"relation": "focus of",
+"probability": 0.16630078852176666
+},
+"6-17": {
+"relation": "associated procedure of",
+"probability": 0.434824675321579
+},
+"6-19": {
+"relation": "recipient category of",
+"probability": 0.9942622184753418
+},
+"9-13": {
+"relation": "has property",
+"probability": 0.47302407026290894
+},
+"11-13": {
+"relation": "has related factor",
+"probability": 0.44095927476882935
+},
+"11-17": {
+"relation": "has finding method",
+"probability": 0.9819087982177734
+},
+"11-19": {
+"relation": "has subject of information",
+"probability": 0.8479664325714111
+},
+"13-17": {
+"relation": "has finding method",
+"probability": 0.7382461428642273
+},
+"13-19": {
+"relation": "has recipient category",
+"probability": 0.7193528413772583
+},
+"17-19": {
+"relation": "recipient category of",
+"probability": 0.9503333568572998
+}
+},
+"train-25": {
+"8-12": {
+"relation": "process includes biological process",
+"probability": 0.1998300403356552
+},
+"8-14": {
+"relation": "process includes biological process",
+"probability": 0.9229051470756531
+}
+},
+"train-26": {
+"3-6": {
+"relation": "has time aspect",
+"probability": 0.5966898202896118
+},
+"6-16": {
+"relation": "finding method of",
+"probability": 0.574114203453064
+},
+"14-16": {
+"relation": "finding method of",
+"probability": 0.43173834681510925
+},
+"16-19": {
+"relation": "has finding method",
+"probability": 0.681940495967865
+}
+},
+"train-27": {
+"3-6": {
+"relation": "indirect procedure site of",
+"probability": 0.9782844185829163
+},
+"3-9": {
+"relation": "substance used by",
+"probability": 0.7627765536308289
+},
+"6-9": {
+"relation": "may diagnose",
+"probability": 0.382088303565979
+}
+},
+"train-28": {
+"0-3": {
+"relation": "dose form of",
+"probability": 0.9073434472084045
+},
+"0-13": {
+"relation": "chemical or drug affects cell type or tissue",
+"probability": 0.06565122306346893
+},
+"0-23": {
+"relation": "laterality of",
+"probability": 0.9969357252120972
+},
+"0-25": {
+"relation": "laterality of",
+"probability": 0.4297887086868286
+},
+"0-26": {
+"relation": "gene found in organism",
+"probability": 0.1653183400630951
+},
+"3-13": {
+"relation": "has dose form",
+"probability": 0.9889484643936157
+},
+"3-23": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.6299588680267334
+},
+"13-23": {
+"relation": "laterality of",
+"probability": 0.9936571717262268
+},
+"13-25": {
+"relation": "laterality of",
+"probability": 0.9648208618164062
+},
+"13-26": {
+"relation": "may be diagnosed by",
+"probability": 0.24842630326747894
+},
+"23-25": {
+"relation": "has laterality",
+"probability": 0.9958059787750244
+},
+"23-26": {
+"relation": "has laterality",
+"probability": 0.9977626800537109
+},
+"25-26": {
+"relation": "has laterality",
+"probability": 0.9911449551582336
+}
+},
+"train-29": {
+"0-5": {
+"relation": "has focus",
+"probability": 0.4296606183052063
+},
+"3-5": {
+"relation": "gene found in organism",
+"probability": 0.1422448754310608
+},
+"5-8": {
+"relation": "may be prevented by",
+"probability": 0.6642105579376221
+}
+},
+"train-30": {
+"0-6": {
+"relation": "sign or symptom of",
+"probability": 0.4943207800388336
+},
+"0-9": {
+"relation": "has focus",
+"probability": 0.35715895891189575
+},
+"6-9": {
+"relation": "direct device of",
+"probability": 0.38946422934532166
+},
+"18-21": {
+"relation": "measured by",
+"probability": 0.35677313804626465
+}
+},
+"train-31": {},
+"train-32": {},
+"train-33": {
+"2-5": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.5696909427642822
+},
+"2-8": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.6140544414520264
+},
+"2-14": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.24810929596424103
+},
+"5-8": {
+"relation": "answer to",
+"probability": 0.5425030589103699
+},
+"5-11": {
+"relation": "associated finding of",
+"probability": 0.7039856314659119
+},
+"5-14": {
+"relation": "has manifestation",
+"probability": 0.8425090312957764
+},
+"11-14": {
+"relation": "has manifestation",
+"probability": 0.9501383304595947
+}
+},
+"train-34": {
+"0-7": {
+"relation": "measured by",
+"probability": 0.7246052622795105
+},
+"0-16": {
+"relation": "answer to",
+"probability": 0.9156975150108337
+},
+"0-18": {
+"relation": "biological process is part of process",
+"probability": 0.23834796249866486
+},
+"2-7": {
+"relation": "has manifestation",
+"probability": 0.39453601837158203
+},
+"2-18": {
+"relation": "manifestation of",
+"probability": 0.4762415289878845
+},
+"7-18": {
+"relation": "process includes biological process",
+"probability": 0.4392540156841278
+},
+"14-16": {
+"relation": "answer to",
+"probability": 0.921903669834137
+},
+"16-20": {
+"relation": "has answer",
+"probability": 0.520723819732666
+}
+},
+"train-35": {
+"2-3": {
+"relation": "has time aspect",
+"probability": 0.8754151463508606
+},
+"2-7": {
+"relation": "has time aspect",
+"probability": 0.8399463295936584
+},
+"2-10": {
+"relation": "has time aspect",
+"probability": 0.9604176878929138
+},
+"2-14": {
+"relation": "has time aspect",
+"probability": 0.9661372303962708
+},
+"2-16": {
+"relation": "has time aspect",
+"probability": 0.7868434190750122
+},
+"2-22": {
+"relation": "has time aspect",
+"probability": 0.9863786697387695
+},
+"2-24": {
+"relation": "has time aspect",
+"probability": 0.9540232419967651
+},
+"2-26": {
+"relation": "has time aspect",
+"probability": 0.7721997499465942
+},
+"2-29": {
+"relation": "has time aspect",
+"probability": 0.9668128490447998
+},
+"2-31": {
+"relation": "has time aspect",
+"probability": 0.8441060185432434
+},
+"2-33": {
+"relation": "has time aspect",
+"probability": 0.552026093006134
+},
+"3-14": {
+"relation": "has finding method",
+"probability": 0.31516191363334656
+},
+"3-16": {
+"relation": "associated procedure of",
+"probability": 0.4247308671474457
+},
+"4-7": {
+"relation": "biological process is part of process",
+"probability": 0.4192659258842468
+},
+"4-10": {
+"relation": "biological process is part of process",
+"probability": 0.8491642475128174
+},
+"4-14": {
+"relation": "biological process is part of process",
+"probability": 0.8207825422286987
+},
+"4-16": {
+"relation": "process includes biological process",
+"probability": 0.5807965397834778
+},
+"4-22": {
+"relation": "chemical or drug initiates biological process",
+"probability": 0.4825771749019623
+},
+"4-24": {
+"relation": "chemical or drug initiates biological process",
+"probability": 0.32608339190483093
+},
+"4-26": {
+"relation": "biological process is part of process",
+"probability": 0.577883243560791
+},
+"4-29": {
+"relation": "biological process results from biological process",
+"probability": 0.12098858505487442
+},
+"4-31": {
+"relation": "biological process is part of process",
+"probability": 0.5430537462234497
+},
+"4-33": {
+"relation": "biological process is part of process",
+"probability": 0.4720780551433563
+},
+"7-14": {
+"relation": "has answer",
+"probability": 0.8751795291900635
+},
+"7-22": {
+"relation": "has answer",
+"probability": 0.9808326959609985
+},
+"7-29": {
+"relation": "has answer",
+"probability": 0.3884080946445465
+},
+"8-22": {
+"relation": "measures",
+"probability": 0.4151165783405304
+},
+"10-14": {
+"relation": "has finding method",
+"probability": 0.19806697964668274
+},
+"10-16": {
+"relation": "time aspect of",
+"probability": 0.33967527747154236
+},
+"10-26": {
+"relation": "time aspect of",
+"probability": 0.04910293594002724
+},
+"10-29": {
+"relation": "related factor of",
+"probability": 0.1377483308315277
+},
+"10-31": {
+"relation": "time aspect of",
+"probability": 0.10194796323776245
+},
+"14-16": {
+"relation": "has time aspect",
+"probability": 0.4776902198791504
+},
+"14-22": {
+"relation": "associated condition of",
+"probability": 0.7161509394645691
+},
+"14-24": {
+"relation": "has defining characteristic",
+"probability": 0.29636043310165405
+},
+"14-26": {
+"relation": "disease may have finding",
+"probability": 0.19521476328372955
+},
+"14-29": {
+"relation": "related factor of",
+"probability": 0.5290733575820923
+},
+"14-31": {
+"relation": "has manifestation",
+"probability": 0.17337580025196075
+},
+"14-33": {
+"relation": "has manifestation",
+"probability": 0.40369096398353577
+},
+"16-22": {
+"relation": "has time aspect",
+"probability": 0.9077713489532471
+},
+"16-26": {
+"relation": "has time aspect",
+"probability": 0.3074062764644623
+},
+"16-29": {
+"relation": "has time aspect",
+"probability": 0.7618880271911621
+},
+"16-31": {
+"relation": "has associated procedure",
+"probability": 0.5042654871940613
+},
+"22-24": {
+"relation": "answer to",
+"probability": 0.255933552980423
+},
+"22-26": {
+"relation": "answer to",
+"probability": 0.18536655604839325
+},
+"22-29": {
+"relation": "has associated condition",
+"probability": 0.7975413203239441
+},
+"22-31": {
+"relation": "has mapping qualifier",
+"probability": 0.18832643330097198
+},
+"22-33": {
+"relation": "answer to",
+"probability": 0.46852999925613403
+},
+"24-29": {
+"relation": "has related factor",
+"probability": 0.3239692747592926
+},
+"26-29": {
+"relation": "may be finding of disease",
+"probability": 0.05155454948544502
+},
+"26-33": {
+"relation": "has pcdc os permissible value",
+"probability": 0.03726255148649216
+},
+"29-31": {
+"relation": "disease may have finding",
+"probability": 0.07027465850114822
+},
+"29-33": {
+"relation": "severity of",
+"probability": 0.3049621284008026
+},
+"31-33": {
+"relation": "has time aspect",
+"probability": 0.04423745349049568
+}
+},
+"train-36": {
+"0-5": {
+"relation": "process includes biological process",
+"probability": 0.536769449710846
+},
+"0-10": {
+"relation": "sign or symptom of",
+"probability": 0.23607444763183594
+},
+"0-16": {
+"relation": "sign or symptom of",
+"probability": 0.48400330543518066
+},
+"5-10": {
+"relation": "sign or symptom of",
+"probability": 0.2578252851963043
+},
+"5-16": {
+"relation": "answer to",
+"probability": 0.43954798579216003
+},
+"10-16": {
+"relation": "has related factor",
+"probability": 0.622102677822113
+}
+},
+"train-37": {
+"2-10": {
+"relation": "finding method of",
+"probability": 0.5450851917266846
+},
+"2-13": {
+"relation": "supersystem of",
+"probability": 0.36287519335746765
+},
+"10-13": {
+"relation": "supersystem of",
+"probability": 0.3802708089351654
+},
+"13-18": {
+"relation": "has system",
+"probability": 0.47889018058776855
+},
+"13-20": {
+"relation": "has system",
+"probability": 0.5141238570213318
+},
+"13-24": {
+"relation": "has system",
+"probability": 0.47889018058776855
+},
+"13-26": {
+"relation": "has system",
+"probability": 0.5141238570213318
+}
+},
+"train-38": {
+"1-5": {
+"relation": "has recipient category",
+"probability": 0.7464222311973572
+},
+"1-7": {
+"relation": "answer to",
+"probability": 0.21879170835018158
+},
+"1-12": {
+"relation": "answer to",
+"probability": 0.21264907717704773
+},
+"5-7": {
+"relation": "has associated procedure",
+"probability": 0.17663101851940155
+},
+"5-12": {
+"relation": "recipient category of",
+"probability": 0.8558085560798645
+},
+"5-16": {
+"relation": "focus of",
+"probability": 0.4443260729312897
+},
+"7-12": {
+"relation": "subject of information of",
+"probability": 0.31814491748809814
+}
+},
+"train-39": {
+"3-7": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.554227888584137
+},
+"3-28": {
+"relation": "has answer",
+"probability": 0.29326632618904114
+},
+"3-35": {
+"relation": "has answer",
+"probability": 0.8796767592430115
+},
+"3-37": {
+"relation": "has answer",
+"probability": 0.19958540797233582
+},
+"7-28": {
+"relation": "has associated condition",
+"probability": 0.27033907175064087
+},
+"7-35": {
+"relation": "has recipient category",
+"probability": 0.7184237837791443
+},
+"11-28": {
+"relation": "has at risk population",
+"probability": 0.26293808221817017
+},
+"13-28": {
+"relation": "has associated finding",
+"probability": 0.20185033977031708
+},
+"13-32": {
+"relation": "severity of",
+"probability": 0.5928421020507812
+},
+"28-32": {
+"relation": "answer to",
+"probability": 0.7876057624816895
+},
+"28-35": {
+"relation": "has answer",
+"probability": 0.5306674838066101
+},
+"28-37": {
+"relation": "has answer",
+"probability": 0.4982716143131256
+},
+"32-35": {
+"relation": "has answer",
+"probability": 0.9789863228797913
+},
+"32-37": {
+"relation": "has answer",
+"probability": 0.589204728603363
+},
+"35-37": {
+"relation": "answer to",
+"probability": 0.23131762444972992
+}
+},
+"train-40": {
+"1-2": {
+"relation": "associated procedure of",
+"probability": 0.7892158031463623
+},
+"1-7": {
+"relation": "focus of",
+"probability": 0.93888258934021
+},
+"1-11": {
+"relation": "focus of",
+"probability": 0.765811026096344
+},
+"1-13": {
+"relation": "focus of",
+"probability": 0.4626113176345825
+},
+"2-7": {
+"relation": "has focus",
+"probability": 0.6521024107933044
+},
+"2-11": {
+"relation": "due to",
+"probability": 0.5422317981719971
+},
+"2-13": {
+"relation": "has associated procedure",
+"probability": 0.8053238987922668
+},
+"7-9": {
+"relation": "focus of",
+"probability": 0.9738525152206421
+},
+"7-11": {
+"relation": "focus of",
+"probability": 0.9891218543052673
+},
+"7-13": {
+"relation": "has focus",
+"probability": 0.6103840470314026
+},
+"11-13": {
+"relation": "occurs before",
+"probability": 0.7975391745567322
+}
+},
+"train-41": {},
+"train-42": {
+"0-2": {
+"relation": "has supersystem",
+"probability": 0.4536541998386383
+},
+"0-9": {
+"relation": "has supersystem",
+"probability": 0.504408061504364
+},
+"0-11": {
+"relation": "has supersystem",
+"probability": 0.5212212204933167
+},
+"0-17": {
+"relation": "has supersystem",
+"probability": 0.5163097977638245
+},
+"0-20": {
+"relation": "has supersystem",
+"probability": 0.5312155485153198
+},
+"0-22": {
+"relation": "has supersystem",
+"probability": 0.5166874527931213
+},
+"0-24": {
+"relation": "has supersystem",
+"probability": 0.5471623539924622
+},
+"0-26": {
+"relation": "has supersystem",
+"probability": 0.5393095016479492
+},
+"0-29": {
+"relation": "has supersystem",
+"probability": 0.497585266828537
+},
+"0-32": {
+"relation": "has supersystem",
+"probability": 0.5127708315849304
+},
+"0-38": {
+"relation": "has supersystem",
+"probability": 0.5393095016479492
+},
+"0-41": {
+"relation": "has supersystem",
+"probability": 0.48388102650642395
+},
+"0-43": {
+"relation": "has supersystem",
+"probability": 0.5239006280899048
+},
+"0-46": {
+"relation": "has supersystem",
+"probability": 0.5100324153900146
+},
+"2-9": {
+"relation": "device used by",
+"probability": 0.7272927761077881
+},
+"2-11": {
+"relation": "device used by",
+"probability": 0.4331745207309723
+},
+"2-13": {
+"relation": "approach of",
+"probability": 0.10090474039316177
+},
+"2-17": {
+"relation": "has pcdc os permissible value",
+"probability": 0.7971716523170471
+},
+"2-20": {
+"relation": "procedure device of",
+"probability": 0.09977538138628006
+},
+"2-22": {
+"relation": "indirect procedure site of",
+"probability": 0.48190227150917053
+},
+"2-24": {
+"relation": "indirect procedure site of",
+"probability": 0.9798702001571655
+},
+"2-26": {
+"relation": "indirect procedure site of",
+"probability": 0.9525226354598999
+},
+"2-29": {
+"relation": "indirect procedure site of",
+"probability": 0.30346307158470154
+},
+"2-32": {
+"relation": "approach of",
+"probability": 0.13540220260620117
+},
+"2-38": {
+"relation": "indirect procedure site of",
+"probability": 0.9525226354598999
+},
+"2-41": {
+"relation": "procedure device of",
+"probability": 0.14100784063339233
+},
+"2-43": {
+"relation": "has associated procedure",
+"probability": 0.30080702900886536
+},
+"2-46": {
+"relation": "focus of",
+"probability": 0.2552673816680908
+},
+"9-11": {
+"relation": "uses device",
+"probability": 0.5609807968139648
+},
+"9-13": {
+"relation": "device intended site of",
+"probability": 0.12789615988731384
+},
+"9-17": {
+"relation": "has pcdc os permissible value",
+"probability": 0.40477830171585083
+},
+"9-20": {
+"relation": "uses device",
+"probability": 0.2768683433532715
+},
+"9-22": {
+"relation": "device intended site of",
+"probability": 0.1759306937456131
+},
+"9-24": {
+"relation": "device intended site of",
+"probability": 0.6956261396408081
+},
+"9-26": {
+"relation": "device intended site of",
+"probability": 0.5012471675872803
+},
+"9-29": {
+"relation": "pharmaceutical intended site of",
+"probability": 0.27670812606811523
+},
+"9-32": {
+"relation": "uses device",
+"probability": 0.5995920300483704
+},
+"9-38": {
+"relation": "device intended site of",
+"probability": 0.5012471675872803
+},
+"9-41": {
+"relation": "uses device",
+"probability": 0.746412456035614
+},
+"9-43": {
+"relation": "uses device",
+"probability": 0.5524058938026428
+},
+"9-46": {
+"relation": "may be finding of disease",
+"probability": 0.23788145184516907
+},
+"11-13": {
+"relation": "pharmaceutical intended site of",
+"probability": 0.06801644712686539
+},
+"11-17": {
+"relation": "has pcdc os permissible value",
+"probability": 0.8621839880943298
+},
+"11-20": {
+"relation": "device intended site of",
+"probability": 0.07311341166496277
+},
+"11-22": {
+"relation": "entire anatomy structure of",
+"probability": 0.13689319789409637
+},
+"11-24": {
+"relation": "device intended site of",
+"probability": 0.3273734152317047
+},
+"11-26": {
+"relation": "entire anatomy structure of",
+"probability": 0.3287973701953888
+},
+"11-29": {
+"relation": "pharmaceutical intended site of",
+"probability": 0.30843472480773926
+},
+"11-32": {
+"relation": "mapping qualifier of",
+"probability": 0.038357701152563095
+},
+"11-38": {
+"relation": "entire anatomy structure of",
+"probability": 0.3287973701953888
+},
+"11-41": {
+"relation": "uses device",
+"probability": 0.35760927200317383
+},
+"11-43": {
+"relation": "has associated procedure",
+"probability": 0.3078864812850952
+},
+"11-46": {
+"relation": "manifestation of",
+"probability": 0.19621391594409943
+},
+"13-17": {
+"relation": "has pcdc os permissible value",
+"probability": 0.5638439655303955
+},
+"13-20": {
+"relation": "gene found in organism",
+"probability": 0.14178074896335602
+},
+"13-43": {
+"relation": "has associated procedure",
+"probability": 0.16156814992427826
+},
+"13-46": {
+"relation": "manifestation of",
+"probability": 0.4987003803253174
+},
+"17-20": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.9697699546813965
+},
+"17-22": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.9515799283981323
+},
+"17-24": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.9313893914222717
+},
+"17-26": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.9463763236999512
+},
+"17-29": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.9749577641487122
+},
+"17-32": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.9706738591194153
+},
+"17-38": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.9463763236999512
+},
+"17-41": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.9403262138366699
+},
+"17-43": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.8723967671394348
+},
+"17-46": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.5398226976394653
+},
+"20-24": {
+"relation": "entire anatomy structure of",
+"probability": 0.568813681602478
+},
+"20-26": {
+"relation": "entire anatomy structure of",
+"probability": 0.2883828580379486
+},
+"20-29": {
+"relation": "is not primary anatomic site of disease",
+"probability": 0.32754069566726685
+},
+"20-32": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.10349629074335098
+},
+"20-38": {
+"relation": "entire anatomy structure of",
+"probability": 0.2883828580379486
+},
+"20-41": {
+"relation": "uses device",
+"probability": 0.05216267704963684
+},
+"20-43": {
+"relation": "has associated procedure",
+"probability": 0.19815059006214142
+},
+"20-46": {
+"relation": "manifestation of",
+"probability": 0.64760822057724
+},
+"22-43": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.402351051568985
+},
+"24-26": {
+"relation": "superior to",
+"probability": 0.23135332763195038
+},
+"24-29": {
+"relation": "is location of anatomic structure",
+"probability": 0.2664487063884735
+},
+"24-32": {
+"relation": "laterality of",
+"probability": 0.16764649748802185
+},
+"24-38": {
+"relation": "superior to",
+"probability": 0.23135332763195038
+},
+"24-41": {
+"relation": "has indirect procedure site",
+"probability": 0.6201127767562866
+},
+"24-43": {
+"relation": "has indirect procedure site",
+"probability": 0.4553453028202057
+},
+"24-46": {
+"relation": "may be finding of disease",
+"probability": 0.20353640615940094
+},
+"26-29": {
+"relation": "is not primary anatomic site of disease",
+"probability": 0.540581226348877
+},
+"26-41": {
+"relation": "disease excludes primary anatomic site",
+"probability": 0.31066060066223145
+},
+"26-43": {
+"relation": "has indirect procedure site",
+"probability": 0.3244226574897766
+},
+"26-46": {
+"relation": "manifestation of",
+"probability": 0.726163923740387
+},
+"29-32": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.6403667330741882
+},
+"29-38": {
+"relation": "is not primary anatomic site of disease",
+"probability": 0.540581226348877
+},
+"29-41": {
+"relation": "has dose form intended site",
+"probability": 0.12007688730955124
+},
+"29-43": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.11108852177858353
+},
+"32-41": {
+"relation": "has extent",
+"probability": 0.12564846873283386
+},
+"32-43": {
+"relation": "has associated procedure",
+"probability": 0.24480664730072021
+},
+"32-46": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.36172497272491455
+},
+"38-41": {
+"relation": "disease excludes primary anatomic site",
+"probability": 0.31066060066223145
+},
+"38-43": {
+"relation": "has indirect procedure site",
+"probability": 0.3244226574897766
+},
+"38-46": {
+"relation": "manifestation of",
+"probability": 0.726163923740387
+},
+"41-43": {
+"relation": "has associated procedure",
+"probability": 0.2760738730430603
+},
+"41-46": {
+"relation": "may be finding of disease",
+"probability": 0.2551388144493103
+},
+"43-46": {
+"relation": "has finding method",
+"probability": 0.40204918384552
+}
+},
+"train-43": {
+"2-5": {
+"relation": "focus of",
+"probability": 0.19544239342212677
+},
+"2-8": {
+"relation": "priority of",
+"probability": 0.31085312366485596
+},
+"2-9": {
+"relation": "recipient category of",
+"probability": 0.993861198425293
+},
+"2-17": {
+"relation": "associated procedure of",
+"probability": 0.2989756762981415
+},
+"2-18": {
+"relation": "recipient category of",
+"probability": 0.993861198425293
+},
+"5-8": {
+"relation": "answer to",
+"probability": 0.18157167732715607
+},
+"5-9": {
+"relation": "has recipient category",
+"probability": 0.7497147917747498
+},
+"5-17": {
+"relation": "associated condition of",
+"probability": 0.3153602182865143
+},
+"5-18": {
+"relation": "has recipient category",
+"probability": 0.7497147917747498
+},
+"8-9": {
+"relation": "has recipient category",
+"probability": 0.809082567691803
+},
+"8-17": {
+"relation": "access of",
+"probability": 0.24058373272418976
+},
+"8-18": {
+"relation": "has recipient category",
+"probability": 0.809082567691803
+},
+"9-17": {
+"relation": "has recipient category",
+"probability": 0.9908812046051025
+},
+"17-18": {
+"relation": "has recipient category",
+"probability": 0.9908812046051025
+}
+},
+"train-44": {
+"1-8": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.206487774848938
+},
+"1-9": {
+"relation": "mapping qualifier of",
+"probability": 0.22085855901241302
+},
+"1-12": {
+"relation": "has finding method",
+"probability": 0.4472483992576599
+},
+"1-14": {
+"relation": "has clinician form",
+"probability": 0.11152313649654388
+},
+"8-9": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.6918511390686035
+},
+"8-12": {
+"relation": "has answer",
+"probability": 0.6295045018196106
+},
+"9-12": {
+"relation": "has finding method",
+"probability": 0.9940912127494812
+},
+"9-14": {
+"relation": "has finding method",
+"probability": 0.8119749426841736
+},
+"12-14": {
+"relation": "finding method of",
+"probability": 0.3056468069553375
+}
+},
+"train-45": {
+"2-5": {
+"relation": "has finding method",
+"probability": 0.746807873249054
+},
+"2-9": {
+"relation": "has finding method",
+"probability": 0.7618449330329895
+},
+"2-12": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.4338826835155487
+},
+"2-19": {
+"relation": "has class",
+"probability": 0.7364776730537415
+},
+"2-24": {
+"relation": "concept in subset",
+"probability": 0.23534753918647766
+},
+"5-9": {
+"relation": "has finding method",
+"probability": 0.36545848846435547
+},
+"5-12": {
+"relation": "has focus",
+"probability": 0.3890056312084198
+},
+"5-24": {
+"relation": "subset includes concept",
+"probability": 0.2386498749256134
+},
+"9-12": {
+"relation": "has associated procedure",
+"probability": 0.28926315903663635
+},
+"9-24": {
+"relation": "finding method of",
+"probability": 0.1928960233926773
+},
+"12-19": {
+"relation": "class of",
+"probability": 0.5281646847724915
+},
+"12-24": {
+"relation": "subset includes concept",
+"probability": 0.1547219306230545
+},
+"19-24": {
+"relation": "subset includes concept",
+"probability": 0.381102055311203
+}
+},
+"train-46": {
+"3-5": {
+"relation": "has time aspect",
+"probability": 0.9794798493385315
+},
+"3-7": {
+"relation": "has time aspect",
+"probability": 0.9367586374282837
+},
+"3-14": {
+"relation": "has time aspect",
+"probability": 0.9213783144950867
+},
+"5-7": {
+"relation": "system of",
+"probability": 0.49661770462989807
+},
+"5-14": {
+"relation": "finding method of",
+"probability": 0.325054794549942
+},
+"7-14": {
+"relation": "has subject relationship context",
+"probability": 0.7044030427932739
+}
+},
+"train-47": {
+"0-3": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.48778656125068665
+},
+"3-5": {
+"relation": "recipient category of",
+"probability": 0.40017127990722656
+}
+},
+"train-48": {
+"2-7": {
+"relation": "has time aspect",
+"probability": 0.7003394961357117
+},
+"2-10": {
+"relation": "has time aspect",
+"probability": 0.953711211681366
+},
+"2-15": {
+"relation": "has time aspect",
+"probability": 0.9389914870262146
+},
+"2-17": {
+"relation": "has time aspect",
+"probability": 0.934870183467865
+},
+"2-20": {
+"relation": "has time aspect",
+"probability": 0.973370373249054
+},
+"2-22": {
+"relation": "has time aspect",
+"probability": 0.9564980864524841
+},
+"5-7": {
+"relation": "has finding method",
+"probability": 0.6866375207901001
+},
+"5-10": {
+"relation": "has associated procedure",
+"probability": 0.6091121435165405
+},
+"5-20": {
+"relation": "has finding method",
+"probability": 0.6548136472702026
+},
+"5-22": {
+"relation": "has associated procedure",
+"probability": 0.822456419467926
+},
+"7-10": {
+"relation": "has focus",
+"probability": 0.43292832374572754
+},
+"7-15": {
+"relation": "biological process is part of process",
+"probability": 0.5844898819923401
+},
+"7-20": {
+"relation": "biological process is part of process",
+"probability": 0.3146994709968567
+},
+"10-15": {
+"relation": "focus of",
+"probability": 0.7907978296279907
+},
+"10-17": {
+"relation": "focus of",
+"probability": 0.6928499937057495
+},
+"10-20": {
+"relation": "focus of",
+"probability": 0.9431947469711304
+},
+"10-22": {
+"relation": "focus of",
+"probability": 0.8503302931785583
+},
+"15-17": {
+"relation": "measured by",
+"probability": 0.3663374185562134
+},
+"15-20": {
+"relation": "has class",
+"probability": 0.41368645429611206
+},
+"15-22": {
+"relation": "has mapping qualifier",
+"probability": 0.07024869322776794
+},
+"17-20": {
+"relation": "has class",
+"probability": 0.6580789089202881
+},
+"17-22": {
+"relation": "has mapping qualifier",
+"probability": 0.12257753312587738
+},
+"20-22": {
+"relation": "answer to",
+"probability": 0.3484131395816803
+}
+},
+"train-49": {},
+"train-50": {
+"2-22": {
+"relation": "finding method of",
+"probability": 0.9575414657592773
+},
+"2-26": {
+"relation": "subject relationship context of",
+"probability": 0.978911280632019
+},
+"5-16": {
+"relation": "answer to",
+"probability": 0.564146101474762
+},
+"5-22": {
+"relation": "subset includes concept",
+"probability": 0.28155001997947693
+},
+"5-26": {
+"relation": "subject relationship context of",
+"probability": 0.9657770395278931
+},
+"5-31": {
+"relation": "has answer",
+"probability": 0.2150082290172577
+},
+"5-34": {
+"relation": "answer to",
+"probability": 0.49024245142936707
+},
+"5-35": {
+"relation": "has answer",
+"probability": 0.577165961265564
+},
+"8-11": {
+"relation": "has at risk population",
+"probability": 0.7502805590629578
+},
+"8-13": {
+"relation": "has at risk population",
+"probability": 0.2537350654602051
+},
+"8-16": {
+"relation": "has subject relationship context",
+"probability": 0.4722547233104706
+},
+"8-18": {
+"relation": "has subject relationship context",
+"probability": 0.47395333647727966
+},
+"8-22": {
+"relation": "subset includes concept",
+"probability": 0.5837660431861877
+},
+"8-26": {
+"relation": "subject relationship context of",
+"probability": 0.9405054450035095
+},
+"8-31": {
+"relation": "has at risk population",
+"probability": 0.44889968633651733
+},
+"8-34": {
+"relation": "has subject relationship context",
+"probability": 0.502128541469574
+},
+"8-35": {
+"relation": "has answer",
+"probability": 0.8189837336540222
+},
+"11-13": {
+"relation": "answer to",
+"probability": 0.16141709685325623
+},
+"11-16": {
+"relation": "has related factor",
+"probability": 0.54081130027771
+},
+"11-22": {
+"relation": "finding method of",
+"probability": 0.9060347676277161
+},
+"11-26": {
+"relation": "subject relationship context of",
+"probability": 0.9822935461997986
+},
+"11-31": {
+"relation": "has at risk population",
+"probability": 0.09534624218940735
+},
+"11-33": {
+"relation": "answer to",
+"probability": 0.24971243739128113
+},
+"11-34": {
+"relation": "has focus",
+"probability": 0.4178926348686218
+},
+"11-35": {
+"relation": "has answer",
+"probability": 0.3345004618167877
+},
+"13-16": {
+"relation": "physiologic effect of",
+"probability": 0.39012694358825684
+},
+"13-18": {
+"relation": "subset includes concept",
+"probability": 0.18201203644275665
+},
+"13-22": {
+"relation": "subset includes concept",
+"probability": 0.5684635639190674
+},
+"13-26": {
+"relation": "subject relationship context of",
+"probability": 0.9886924028396606
+},
+"13-31": {
+"relation": "process acts on",
+"probability": 0.3989398777484894
+},
+"13-34": {
+"relation": "has focus",
+"probability": 0.2688092291355133
+},
+"13-35": {
+"relation": "has sign or symptom",
+"probability": 0.40872853994369507
+},
+"16-18": {
+"relation": "has evaluation",
+"probability": 0.18893814086914062
+},
+"16-22": {
+"relation": "finding method of",
+"probability": 0.3262292444705963
+},
+"16-26": {
+"relation": "subject relationship context of",
+"probability": 0.9953920841217041
+},
+"16-31": {
+"relation": "related factor of",
+"probability": 0.6499956846237183
+},
+"16-33": {
+"relation": "focus of",
+"probability": 0.43322521448135376
+},
+"16-34": {
+"relation": "has focus",
+"probability": 0.23675581812858582
+},
+"16-35": {
+"relation": "has sign or symptom",
+"probability": 0.5652973651885986
+},
+"18-22": {
+"relation": "subset includes concept",
+"probability": 0.37159696221351624
+},
+"18-26": {
+"relation": "subject relationship context of",
+"probability": 0.9962636828422546
+},
+"18-31": {
+"relation": "focus of",
+"probability": 0.4129188358783722
+},
+"18-33": {
+"relation": "focus of",
+"probability": 0.6151451468467712
+},
+"18-34": {
+"relation": "has associated procedure",
+"probability": 0.5828889608383179
+},
+"22-26": {
+"relation": "subject relationship context of",
+"probability": 0.9855493903160095
+},
+"22-31": {
+"relation": "has associated condition",
+"probability": 0.5151860117912292
+},
+"22-33": {
+"relation": "concept in subset",
+"probability": 0.6489672064781189
+},
+"22-34": {
+"relation": "concept in subset",
+"probability": 0.42762333154678345
+},
+"22-35": {
+"relation": "concept in subset",
+"probability": 0.6157854199409485
+},
+"26-31": {
+"relation": "has subject relationship context",
+"probability": 0.9883022904396057
+},
+"26-33": {
+"relation": "has subject relationship context",
+"probability": 0.9727432727813721
+},
+"26-34": {
+"relation": "has subject relationship context",
+"probability": 0.9944878220558167
+},
+"26-35": {
+"relation": "has subject relationship context",
+"probability": 0.9872612953186035
+},
+"31-33": {
+"relation": "answer to",
+"probability": 0.15518806874752045
+},
+"31-34": {
+"relation": "has focus",
+"probability": 0.6745530366897583
+},
+"31-35": {
+"relation": "has sign or symptom",
+"probability": 0.6545048952102661
+},
+"33-34": {
+"relation": "has recipient category",
+"probability": 0.3089672029018402
+},
+"33-35": {
+"relation": "has answer",
+"probability": 0.5192181468009949
+},
+"34-35": {
+"relation": "has answer",
+"probability": 0.6399072408676147
+}
+},
+"train-51": {
+"0-4": {
+"relation": "subset includes concept",
+"probability": 0.44408562779426575
+},
+"0-12": {
+"relation": "property of",
+"probability": 0.9040952324867249
+},
+"4-6": {
+"relation": "concept in subset",
+"probability": 0.7730395197868347
+},
+"4-14": {
+"relation": "concept in subset",
+"probability": 0.7554513216018677
+},
+"6-14": {
+"relation": "has mapping qualifier",
+"probability": 0.42968976497650146
+},
+"9-14": {
+"relation": "is pcdc ews permissible value for variable",
+"probability": 0.40940389037132263
+},
+"12-14": {
+"relation": "has property",
+"probability": 0.6851988434791565
+}
+},
+"train-52": {
+"1-4": {
+"relation": "class of",
+"probability": 0.9518025517463684
+},
+"1-7": {
+"relation": "answer to",
+"probability": 0.15522123873233795
+},
+"4-6": {
+"relation": "has class",
+"probability": 0.8438865542411804
+},
+"4-7": {
+"relation": "has class",
+"probability": 0.8946489691734314
+},
+"6-7": {
+"relation": "has focus",
+"probability": 0.2047480195760727
+}
+},
+"train-53": {},
+"train-54": {
+"4-11": {
+"relation": "has time aspect",
+"probability": 0.9506560564041138
+},
+"4-19": {
+"relation": "has time aspect",
+"probability": 0.7869572639465332
+},
+"4-20": {
+"relation": "has time aspect",
+"probability": 0.9310647249221802
+},
+"4-22": {
+"relation": "has time aspect",
+"probability": 0.836311399936676
+},
+"4-26": {
+"relation": "has time aspect",
+"probability": 0.7653401494026184
+},
+"4-33": {
+"relation": "has time aspect",
+"probability": 0.9292431473731995
+},
+"4-36": {
+"relation": "has time aspect",
+"probability": 0.9372085332870483
+},
+"4-41": {
+"relation": "has time aspect",
+"probability": 0.5279943943023682
+},
+"10-11": {
+"relation": "has answer",
+"probability": 0.7362359762191772
+},
+"10-20": {
+"relation": "concept in subset",
+"probability": 0.30158188939094543
+},
+"10-22": {
+"relation": "focus of",
+"probability": 0.6854142546653748
+},
+"10-33": {
+"relation": "concept in subset",
+"probability": 0.22719137370586395
+},
+"10-36": {
+"relation": "has priority",
+"probability": 0.2307150959968567
+},
+"10-43": {
+"relation": "concept in subset",
+"probability": 0.42326444387435913
+},
+"11-13": {
+"relation": "may prevent",
+"probability": 0.7177392840385437
+},
+"11-16": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.6222562789916992
+},
+"11-19": {
+"relation": "answer to",
+"probability": 0.7717179656028748
+},
+"11-20": {
+"relation": "has focus",
+"probability": 0.7887104749679565
+},
+"11-22": {
+"relation": "focus of",
+"probability": 0.8863745331764221
+},
+"11-26": {
+"relation": "focus of",
+"probability": 0.823582112789154
+},
+"11-33": {
+"relation": "has focus",
+"probability": 0.5195561647415161
+},
+"11-36": {
+"relation": "focus of",
+"probability": 0.9798243045806885
+},
+"11-43": {
+"relation": "has focus",
+"probability": 0.2830160856246948
+},
+"13-20": {
+"relation": "has ingredient",
+"probability": 0.731708288192749
+},
+"13-25": {
+"relation": "may be prevented by",
+"probability": 0.9994346499443054
+},
+"13-26": {
+"relation": "may be prevented by",
+"probability": 0.9994267225265503
+},
+"13-33": {
+"relation": "has ingredient",
+"probability": 0.8291341662406921
+},
+"13-36": {
+"relation": "ingredient of",
+"probability": 0.3971768319606781
+},
+"13-43": {
+"relation": "has ingredient",
+"probability": 0.946294367313385
+},
+"16-20": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.46585676074028015
+},
+"16-22": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.31812751293182373
+},
+"16-33": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.26808473467826843
+},
+"16-36": {
+"relation": "recipient category of",
+"probability": 0.11550954729318619
+},
+"19-20": {
+"relation": "has priority",
+"probability": 0.20618778467178345
+},
+"19-22": {
+"relation": "focus of",
+"probability": 0.21852129697799683
+},
+"19-28": {
+"relation": "has pcdc os permissible value",
+"probability": 0.48624858260154724
+},
+"19-33": {
+"relation": "has priority",
+"probability": 0.19679194688796997
+},
+"19-36": {
+"relation": "priority of",
+"probability": 0.5018784999847412
+},
+"19-43": {
+"relation": "has dose form",
+"probability": 0.24825823307037354
+},
+"20-22": {
+"relation": "focus of",
+"probability": 0.9544029235839844
+},
+"20-25": {
+"relation": "may be prevented by",
+"probability": 0.8926522731781006
+},
+"20-26": {
+"relation": "focus of",
+"probability": 0.5310723781585693
+},
+"20-28": {
+"relation": "has pcdc os permissible value",
+"probability": 0.7945472598075867
+},
+"20-33": {
+"relation": "has associated procedure",
+"probability": 0.32619690895080566
+},
+"20-36": {
+"relation": "focus of",
+"probability": 0.8711866140365601
+},
+"20-43": {
+"relation": "ingredient of",
+"probability": 0.30628690123558044
+},
+"22-26": {
+"relation": "focus of",
+"probability": 0.8630360960960388
+},
+"22-33": {
+"relation": "has focus",
+"probability": 0.9537504315376282
+},
+"22-36": {
+"relation": "focus of",
+"probability": 0.9604026079177856
+},
+"22-43": {
+"relation": "has focus",
+"probability": 0.8448171019554138
+},
+"25-26": {
+"relation": "cause of",
+"probability": 0.5239097476005554
+},
+"25-33": {
+"relation": "may prevent",
+"probability": 0.9479096531867981
+},
+"25-36": {
+"relation": "focus of",
+"probability": 0.9854065179824829
+},
+"25-43": {
+"relation": "may prevent",
+"probability": 0.9984036087989807
+},
+"26-33": {
+"relation": "may prevent",
+"probability": 0.7456287145614624
+},
+"26-36": {
+"relation": "focus of",
+"probability": 0.9941480159759521
+},
+"26-43": {
+"relation": "may prevent",
+"probability": 0.9961273074150085
+},
+"28-33": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.6210652589797974
+},
+"28-36": {
+"relation": "has pcdc os permissible value",
+"probability": 0.8363958597183228
+},
+"33-36": {
+"relation": "focus of",
+"probability": 0.42295902967453003
+},
+"33-43": {
+"relation": "ingredient of",
+"probability": 0.2947532832622528
+},
+"36-41": {
+"relation": "system of",
+"probability": 0.2406768798828125
+},
+"36-43": {
+"relation": "ingredient of",
+"probability": 0.25226184725761414
+},
+"36-47": {
+"relation": "focus of",
+"probability": 0.712954044342041
+}
+},
+"train-55": {
+"1-2": {
+"relation": "has answer",
+"probability": 0.9775511622428894
+},
+"1-14": {
+"relation": "has focus",
+"probability": 0.791535496711731
+},
+"2-4": {
+"relation": "may prevent",
+"probability": 0.9541453123092651
+},
+"2-7": {
+"relation": "answer to",
+"probability": 0.9886986613273621
+},
+"2-10": {
+"relation": "answer to",
+"probability": 0.9944979548454285
+},
+"2-11": {
+"relation": "has focus",
+"probability": 0.882920503616333
+},
+"2-14": {
+"relation": "has focus",
+"probability": 0.9712362289428711
+},
+"4-11": {
+"relation": "has ingredient",
+"probability": 0.7970356345176697
+},
+"4-14": {
+"relation": "physiologic effect of",
+"probability": 0.6636254787445068
+},
+"7-11": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.3851887881755829
+},
+"7-14": {
+"relation": "has focus",
+"probability": 0.47348693013191223
+},
+"10-14": {
+"relation": "has focus",
+"probability": 0.5707821846008301
+},
+"11-14": {
+"relation": "focus of",
+"probability": 0.8084892630577087
+}
+},
+"train-56": {
+"0-1": {
+"relation": "technique of",
+"probability": 0.3323783278465271
+},
+"0-4": {
+"relation": "direct device of",
+"probability": 0.6953942775726318
+},
+"0-11": {
+"relation": "has focus",
+"probability": 0.39790940284729004
+},
+"1-4": {
+"relation": "associated procedure of",
+"probability": 0.3956046998500824
+},
+"1-11": {
+"relation": "has technique",
+"probability": 0.9798428416252136
+},
+"4-9": {
+"relation": "concept in subset",
+"probability": 0.4981737434864044
+},
+"4-11": {
+"relation": "concept in subset",
+"probability": 0.24284948408603668
+}
+},
+"train-57": {
+"0-5": {
+"relation": "answer to",
+"probability": 0.3119056522846222
+}
+},
+"train-58": {
+"0-3": {
+"relation": "measured by",
+"probability": 0.8962699174880981
+},
+"0-6": {
+"relation": "class of",
+"probability": 0.335370808839798
+},
+"0-10": {
+"relation": "answer to",
+"probability": 0.17946575582027435
+},
+"0-13": {
+"relation": "class of",
+"probability": 0.42594480514526367
+},
+"0-17": {
+"relation": "answer to",
+"probability": 0.7795386910438538
+},
+"0-18": {
+"relation": "measured by",
+"probability": 0.861505925655365
+},
+"0-21": {
+"relation": "property of",
+"probability": 0.7393028140068054
+},
+"0-27": {
+"relation": "measured by",
+"probability": 0.16457225382328033
+},
+"3-6": {
+"relation": "finding method of",
+"probability": 0.5294770002365112
+},
+"3-10": {
+"relation": "measured by",
+"probability": 0.41644227504730225
+},
+"3-13": {
+"relation": "measured by",
+"probability": 0.42616626620292664
+},
+"3-17": {
+"relation": "answer to",
+"probability": 0.7009081244468689
+},
+"3-18": {
+"relation": "measured by",
+"probability": 0.9959331154823303
+},
+"3-21": {
+"relation": "property of",
+"probability": 0.8621640801429749
+},
+"3-27": {
+"relation": "measured by",
+"probability": 0.7156373262405396
+},
+"6-10": {
+"relation": "has associated procedure",
+"probability": 0.28574496507644653
+},
+"6-13": {
+"relation": "focus of",
+"probability": 0.6400296688079834
+},
+"6-18": {
+"relation": "finding method of",
+"probability": 0.4292275607585907
+},
+"6-27": {
+"relation": "has associated procedure",
+"probability": 0.40512776374816895
+},
+"10-17": {
+"relation": "answer to",
+"probability": 0.7496287226676941
+},
+"10-18": {
+"relation": "measures",
+"probability": 0.5624682307243347
+},
+"10-27": {
+"relation": "has pcdc ews permissible value",
+"probability": 0.057151515036821365
+},
+"13-17": {
+"relation": "answer to",
+"probability": 0.5127737522125244
+},
+"13-18": {
+"relation": "measured by",
+"probability": 0.4935932159423828
+},
+"13-27": {
+"relation": "has owning subsection",
+"probability": 0.35639315843582153
+},
+"17-18": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.5598884224891663
+},
+"17-21": {
+"relation": "has pcdc gct permissible value",
+"probability": 0.42293310165405273
+},
+"17-27": {
+"relation": "has pcdc gct permissible value",
+"probability": 0.1131305918097496
+},
+"18-27": {
+"relation": "measures",
+"probability": 0.3196988105773926
+},
+"21-27": {
+"relation": "has pcdc data type",
+"probability": 0.1538703590631485
+}
+},
+"train-59": {
+"1-4": {
+"relation": "has finding method",
+"probability": 0.6190661787986755
+},
+"1-5": {
+"relation": "has finding method",
+"probability": 0.3581157624721527
+},
+"4-5": {
+"relation": "has answer",
+"probability": 0.2862132787704468
+},
+"5-8": {
+"relation": "measured component of",
+"probability": 0.7589820623397827
+},
+"5-15": {
+"relation": "measures",
+"probability": 0.38236701488494873
+},
+"8-15": {
+"relation": "has measured component",
+"probability": 0.9958866238594055
+}
+},
+"train-60": {
+"3-5": {
+"relation": "has time aspect",
+"probability": 0.6352955102920532
+},
+"3-7": {
+"relation": "has time aspect",
+"probability": 0.9814505577087402
+},
+"3-15": {
+"relation": "has time aspect",
+"probability": 0.914291501045227
+},
+"3-16": {
+"relation": "has time aspect",
+"probability": 0.6452205181121826
+},
+"7-11": {
+"relation": "may diagnose",
+"probability": 0.18447883427143097
+},
+"7-15": {
+"relation": "has focus",
+"probability": 0.21675413846969604
+},
+"11-15": {
+"relation": "has ingredient",
+"probability": 0.8642758727073669
+},
+"11-16": {
+"relation": "has ingredient",
+"probability": 0.4805278778076172
+},
+"15-16": {
+"relation": "subject relationship context of",
+"probability": 0.15645061433315277
+}
+},
+"train-61": {
+"1-8": {
+"relation": "time aspect of",
+"probability": 0.874315619468689
+},
+"1-12": {
+"relation": "has dose form",
+"probability": 0.16772551834583282
+},
+"6-7": {
+"relation": "has pcdc os permissible value",
+"probability": 0.7370989322662354
+},
+"6-8": {
+"relation": "time aspect of",
+"probability": 0.809643030166626
+},
+"6-12": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.48775514960289
+},
+"7-8": {
+"relation": "time aspect of",
+"probability": 0.9151216149330139
+},
+"7-12": {
+"relation": "has dose form",
+"probability": 0.1041705533862114
+},
+"8-9": {
+"relation": "has time aspect",
+"probability": 0.7438504695892334
+},
+"8-12": {
+"relation": "has time aspect",
+"probability": 0.9506027102470398
+}
+},
+"train-62": {
+"0-2": {
+"relation": "basic dose form of",
+"probability": 0.13377942144870758
+},
+"0-6": {
+"relation": "focus of",
+"probability": 0.23320037126541138
+},
+"0-8": {
+"relation": "associated finding of",
+"probability": 0.4887387752532959
+},
+"0-9": {
+"relation": "subject relationship context of",
+"probability": 0.9870012998580933
+},
+"0-11": {
+"relation": "basic dose form of",
+"probability": 0.13377942144870758
+},
+"0-12": {
+"relation": "priority of",
+"probability": 0.2833513617515564
+},
+"2-8": {
+"relation": "induced by",
+"probability": 0.144974023103714
+},
+"2-9": {
+"relation": "has physiologic state",
+"probability": 0.2231936901807785
+},
+"2-12": {
+"relation": "pharmaceutical intended site of",
+"probability": 0.34210044145584106
+},
+"6-8": {
+"relation": "has answer",
+"probability": 0.4498007297515869
+},
+"6-12": {
+"relation": "has associated procedure",
+"probability": 0.10917992144823074
+},
+"8-9": {
+"relation": "has at risk population",
+"probability": 0.7855966687202454
+},
+"8-11": {
+"relation": "induced by",
+"probability": 0.144974023103714
+},
+"8-12": {
+"relation": "answer to",
+"probability": 0.42878276109695435
+},
+"9-11": {
+"relation": "has physiologic state",
+"probability": 0.2231936901807785
+},
+"9-12": {
+"relation": "has subject relationship context",
+"probability": 0.62655109167099
+},
+"11-12": {
+"relation": "pharmaceutical intended site of",
+"probability": 0.34210044145584106
+}
+},
+"train-63": {
+"1-7": {
+"relation": "induced by",
+"probability": 0.4534795880317688
+}
+},
+"train-64": {
+"1-8": {
+"relation": "may prevent",
+"probability": 0.21560494601726532
+},
+"1-10": {
+"relation": "has at risk population",
+"probability": 0.5093867778778076
+},
+"1-16": {
+"relation": "has physiologic state",
+"probability": 0.2174057513475418
+},
+"8-10": {
+"relation": "may be prevented by",
+"probability": 0.4597807228565216
+},
+"8-15": {
+"relation": "has contraindicated class",
+"probability": 0.40998154878616333
+},
+"8-16": {
+"relation": "dose form of",
+"probability": 0.6833569407463074
+},
+"10-16": {
+"relation": "induces",
+"probability": 0.15419897437095642
+},
+"15-16": {
+"relation": "dose form of",
+"probability": 0.3145015239715576
+}
+},
+"train-65": {
+"5-7": {
+"relation": "has subject relationship context",
+"probability": 0.4382128119468689
+},
+"5-16": {
+"relation": "has physiologic state",
+"probability": 0.20198753476142883
+},
+"5-27": {
+"relation": "has subject relationship context",
+"probability": 0.8176060914993286
+},
+"7-16": {
+"relation": "induces",
+"probability": 0.26924145221710205
+},
+"7-22": {
+"relation": "may prevent",
+"probability": 0.7914190888404846
+},
+"7-27": {
+"relation": "may prevent",
+"probability": 0.7269384860992432
+},
+"16-22": {
+"relation": "has dose form",
+"probability": 0.6594240069389343
+},
+"16-27": {
+"relation": "has dose form",
+"probability": 0.3976660966873169
+},
+"22-27": {
+"relation": "chemotherapy regimen has component",
+"probability": 0.11328040808439255
+}
+},
+"train-66": {
+"2-3": {
+"relation": "time aspect of",
+"probability": 0.41402754187583923
+},
+"2-6": {
+"relation": "has count of base of active ingredient",
+"probability": 0.10995884239673615
+},
+"2-8": {
+"relation": "is pcdc aml permissible value for variable",
+"probability": 0.12782137095928192
+},
+"2-10": {
+"relation": "disease is grade",
+"probability": 0.19316616654396057
+},
+"3-6": {
+"relation": "has time aspect",
+"probability": 0.808340847492218
+},
+"3-8": {
+"relation": "has time aspect",
+"probability": 0.9753718972206116
+},
+"3-10": {
+"relation": "has time aspect",
+"probability": 0.9618270993232727
+},
+"6-8": {
+"relation": "induced by",
+"probability": 0.2803153395652771
+},
+"6-10": {
+"relation": "may be prevented by",
+"probability": 0.6158835291862488
+},
+"8-10": {
+"relation": "population at risk for",
+"probability": 0.3369861841201782
+}
+},
+"train-67": {
+"0-9": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.16307805478572845
+},
+"2-9": {
+"relation": "has focus",
+"probability": 0.30863386392593384
+},
+"6-9": {
+"relation": "procedure has target anatomy",
+"probability": 0.7159678936004639
+}
+},
+"train-68": {
+"2-8": {
+"relation": "direct morphology of",
+"probability": 0.6329308152198792
+},
+"2-12": {
+"relation": "indirect procedure site of",
+"probability": 0.9121568202972412
+}
+},
+"train-69": {},
+"train-70": {
+"2-4": {
+"relation": "answer to",
+"probability": 0.6268397569656372
+}
+},
+"train-71": {
+"1-13": {
+"relation": "answer to",
+"probability": 0.9894961714744568
+}
+},
+"train-72": {},
+"train-73": {
+"0-3": {
+"relation": "has clinical course",
+"probability": 0.2636077404022217
+},
+"0-5": {
+"relation": "has priority",
+"probability": 0.18082456290721893
+},
+"0-7": {
+"relation": "has clinical course",
+"probability": 0.8868460655212402
+},
+"0-8": {
+"relation": "has answer",
+"probability": 0.9940757751464844
+},
+"1-3": {
+"relation": "concept in subset",
+"probability": 0.13577768206596375
+},
+"1-5": {
+"relation": "has mapping qualifier",
+"probability": 0.34288856387138367
+},
+"3-5": {
+"relation": "dose form of",
+"probability": 0.415397047996521
+},
+"3-7": {
+"relation": "may be prevented by",
+"probability": 0.9942744374275208
+},
+"3-8": {
+"relation": "has answer",
+"probability": 0.31926602125167847
+},
+"5-7": {
+"relation": "focus of",
+"probability": 0.9603001475334167
+},
+"5-8": {
+"relation": "focus of",
+"probability": 0.37349146604537964
+},
+"7-8": {
+"relation": "has answer",
+"probability": 0.7072755098342896
+}
+},
+"train-74": {
+"0-4": {
+"relation": "clinical course of",
+"probability": 0.1318623274564743
+},
+"0-5": {
+"relation": "is biochemical function of gene product",
+"probability": 0.08660975098609924
+},
+"0-7": {
+"relation": "has answer",
+"probability": 0.3102082908153534
+},
+"0-10": {
+"relation": "has prev name",
+"probability": 0.24607381224632263
+},
+"0-11": {
+"relation": "structural class of",
+"probability": 0.5647182464599609
+},
+"0-22": {
+"relation": "is chemical classification of gene product",
+"probability": 0.3623199164867401
+},
+"0-23": {
+"relation": "has target",
+"probability": 0.3206029534339905
+},
+"0-25": {
+"relation": "has prev name",
+"probability": 0.4257102310657501
+},
+"0-27": {
+"relation": "has prev name",
+"probability": 0.28400349617004395
+},
+"0-29": {
+"relation": "has target",
+"probability": 0.5009778141975403
+},
+"0-30": {
+"relation": "has prev name",
+"probability": 0.3955322206020355
+},
+"0-32": {
+"relation": "has prev name",
+"probability": 0.38255995512008667
+},
+"0-34": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.25714173913002014
+},
+"4-7": {
+"relation": "has answer",
+"probability": 0.9867265224456787
+},
+"4-10": {
+"relation": "has clinical course",
+"probability": 0.44238460063934326
+},
+"4-23": {
+"relation": "has priority",
+"probability": 0.3899320363998413
+},
+"4-25": {
+"relation": "has clinical course",
+"probability": 0.44290995597839355
+},
+"4-27": {
+"relation": "has course",
+"probability": 0.33866748213768005
+},
+"4-29": {
+"relation": "has course",
+"probability": 0.20358504354953766
+},
+"4-30": {
+"relation": "has clinical course",
+"probability": 0.3704986572265625
+},
+"4-32": {
+"relation": "has clinical course",
+"probability": 0.8988169431686401
+},
+"5-23": {
+"relation": "has mapping qualifier",
+"probability": 0.4088970124721527
+},
+"5-25": {
+"relation": "has mapping qualifier",
+"probability": 0.12396091967821121
+},
+"5-27": {
+"relation": "concept in subset",
+"probability": 0.11850501596927643
+},
+"5-29": {
+"relation": "has mapping qualifier",
+"probability": 0.13447816669940948
+},
+"7-23": {
+"relation": "has focus",
+"probability": 0.6761683225631714
+},
+"7-29": {
+"relation": "answer to",
+"probability": 0.34536707401275635
+},
+"7-32": {
+"relation": "has manifestation",
+"probability": 0.41266411542892456
+},
+"7-34": {
+"relation": "answer to",
+"probability": 0.8219817280769348
+},
+"10-11": {
+"relation": "structural class of",
+"probability": 0.998641312122345
+},
+"10-22": {
+"relation": "structural class of",
+"probability": 0.7347840070724487
+},
+"10-23": {
+"relation": "uses substance",
+"probability": 0.8193826079368591
+},
+"10-25": {
+"relation": "has structural class",
+"probability": 0.9810143113136292
+},
+"10-27": {
+"relation": "has structural class",
+"probability": 0.9834529757499695
+},
+"10-29": {
+"relation": "has ingredient",
+"probability": 0.6881177425384521
+},
+"10-30": {
+"relation": "has structural class",
+"probability": 0.8544212579727173
+},
+"10-32": {
+"relation": "may be prevented by",
+"probability": 0.17586690187454224
+},
+"10-34": {
+"relation": "may be prevented by",
+"probability": 0.1987685263156891
+},
+"11-22": {
+"relation": "has structural class",
+"probability": 0.6486180424690247
+},
+"11-23": {
+"relation": "uses substance",
+"probability": 0.9366760849952698
+},
+"11-25": {
+"relation": "has structural class",
+"probability": 0.9988270401954651
+},
+"11-27": {
+"relation": "has structural class",
+"probability": 0.9987074136734009
+},
+"11-29": {
+"relation": "has structural class",
+"probability": 0.9177011251449585
+},
+"11-30": {
+"relation": "has structural class",
+"probability": 0.9969371557235718
+},
+"11-32": {
+"relation": "has structural class",
+"probability": 0.9660521745681763
+},
+"11-34": {
+"relation": "has structural class",
+"probability": 0.7623128294944763
+},
+"14-17": {
+"relation": "measured by",
+"probability": 0.5127859115600586
+},
+"17-23": {
+"relation": "concept in subset",
+"probability": 0.3145543932914734
+},
+"19-23": {
+"relation": "has mapping qualifier",
+"probability": 0.6243734359741211
+},
+"22-23": {
+"relation": "has mapping qualifier",
+"probability": 0.39082038402557373
+},
+"22-25": {
+"relation": "has structural class",
+"probability": 0.7347261905670166
+},
+"22-27": {
+"relation": "has structural class",
+"probability": 0.8307722210884094
+},
+"22-29": {
+"relation": "has structural class",
+"probability": 0.3804745674133301
+},
+"22-30": {
+"relation": "has structural class",
+"probability": 0.5692752003669739
+},
+"23-25": {
+"relation": "ingredient of",
+"probability": 0.8758021593093872
+},
+"23-27": {
+"relation": "ingredient of",
+"probability": 0.818248450756073
+},
+"23-29": {
+"relation": "substance used by",
+"probability": 0.1779368668794632
+},
+"23-30": {
+"relation": "ingredient of",
+"probability": 0.3183298110961914
+},
+"23-32": {
+"relation": "has dose form",
+"probability": 0.09725886583328247
+},
+"23-34": {
+"relation": "dose form of",
+"probability": 0.08811144530773163
+},
+"25-27": {
+"relation": "structural class of",
+"probability": 0.836664617061615
+},
+"25-29": {
+"relation": "has ingredient",
+"probability": 0.8339149951934814
+},
+"25-30": {
+"relation": "has ingredient",
+"probability": 0.31486639380455017
+},
+"25-32": {
+"relation": "may be prevented by",
+"probability": 0.45768091082572937
+},
+"25-34": {
+"relation": "may be prevented by",
+"probability": 0.3179154396057129
+},
+"27-29": {
+"relation": "has ingredient",
+"probability": 0.8214626312255859
+},
+"27-30": {
+"relation": "has ingredient",
+"probability": 0.7425317764282227
+},
+"27-32": {
+"relation": "may be prevented by",
+"probability": 0.39547616243362427
+},
+"27-34": {
+"relation": "may be prevented by",
+"probability": 0.26482123136520386
+},
+"29-30": {
+"relation": "ingredient of",
+"probability": 0.7143901586532593
+},
+"29-32": {
+"relation": "may be prevented by",
+"probability": 0.38624444603919983
+},
+"29-34": {
+"relation": "dose form of",
+"probability": 0.2849336564540863
+},
+"30-32": {
+"relation": "may be prevented by",
+"probability": 0.22509559988975525
+},
+"30-34": {
+"relation": "may be prevented by",
+"probability": 0.08057008683681488
+}
+},
+"train-75": {
+"0-1": {
+"relation": "finding method of",
+"probability": 0.9679158329963684
+},
+"0-6": {
+"relation": "has evaluation",
+"probability": 0.21314331889152527
+},
+"0-12": {
+"relation": "answer to",
+"probability": 0.500191867351532
+},
+"1-6": {
+"relation": "has associated procedure",
+"probability": 0.9270801544189453
+},
+"6-12": {
+"relation": "has structural class",
+"probability": 0.526131808757782
+},
+"6-13": {
+"relation": "structural class of",
+"probability": 0.7011919021606445
+},
+"12-13": {
+"relation": "structural class of",
+"probability": 0.9988275170326233
+},
+"13-14": {
+"relation": "class of",
+"probability": 0.33468201756477356
+}
+},
+"train-76": {
+"0-15": {
+"relation": "answer to",
+"probability": 0.7052048444747925
+},
+"5-6": {
+"relation": "has answer",
+"probability": 0.9157829880714417
+},
+"5-15": {
+"relation": "answer to",
+"probability": 0.8769297003746033
+},
+"6-10": {
+"relation": "answer to",
+"probability": 0.206936776638031
+},
+"6-11": {
+"relation": "class of",
+"probability": 0.7448010444641113
+},
+"6-15": {
+"relation": "answer to",
+"probability": 0.9967784285545349
+},
+"10-11": {
+"relation": "structural class of",
+"probability": 0.9987326264381409
+},
+"10-18": {
+"relation": "has answer",
+"probability": 0.25839680433273315
+},
+"10-23": {
+"relation": "structural class of",
+"probability": 0.2941487431526184
+},
+"11-23": {
+"relation": "has structural class",
+"probability": 0.7038756012916565
+},
+"15-18": {
+"relation": "has answer",
+"probability": 0.6893377304077148
+}
+},
+"train-77": {
+"0-6": {
+"relation": "has answer",
+"probability": 0.6291829347610474
+}
+},
+"train-78": {
+"2-4": {
+"relation": "has system",
+"probability": 0.3962506055831909
+},
+"2-6": {
+"relation": "has system",
+"probability": 0.5298076868057251
+},
+"2-7": {
+"relation": "has system",
+"probability": 0.5959562659263611
+},
+"2-14": {
+"relation": "has supersystem",
+"probability": 0.32118165493011475
+},
+"2-16": {
+"relation": "has system",
+"probability": 0.5021355152130127
+},
+"2-18": {
+"relation": "has system",
+"probability": 0.5852367281913757
+},
+"3-4": {
+"relation": "has answer",
+"probability": 0.3342984914779663
+},
+"3-14": {
+"relation": "class of",
+"probability": 0.8373363614082336
+},
+"3-16": {
+"relation": "has answer",
+"probability": 0.6614123582839966
+},
+"3-18": {
+"relation": "has answer",
+"probability": 0.9511635303497314
+},
+"4-6": {
+"relation": "focus of",
+"probability": 0.7782226204872131
+},
+"4-7": {
+"relation": "focus of",
+"probability": 0.8533883094787598
+},
+"4-9": {
+"relation": "has physiologic effect",
+"probability": 0.3158830404281616
+},
+"4-10": {
+"relation": "has focus",
+"probability": 0.7046214938163757
+},
+"4-12": {
+"relation": "focus of",
+"probability": 0.44342610239982605
+},
+"4-14": {
+"relation": "class of",
+"probability": 0.9909809231758118
+},
+"4-16": {
+"relation": "focus of",
+"probability": 0.27333611249923706
+},
+"4-18": {
+"relation": "focus of",
+"probability": 0.3841516375541687
+},
+"6-10": {
+"relation": "has associated finding",
+"probability": 0.2379811704158783
+},
+"6-12": {
+"relation": "clinical course of",
+"probability": 0.5174068808555603
+},
+"6-14": {
+"relation": "class of",
+"probability": 0.9920077323913574
+},
+"6-18": {
+"relation": "has associated finding",
+"probability": 0.5733336210250854
+},
+"7-10": {
+"relation": "uses substance",
+"probability": 0.6469029784202576
+},
+"7-14": {
+"relation": "class of",
+"probability": 0.9994879961013794
+},
+"7-18": {
+"relation": "sign or symptom of",
+"probability": 0.5047276020050049
+},
+"9-10": {
+"relation": "uses substance",
+"probability": 0.22416424751281738
+},
+"9-12": {
+"relation": "clinical course of",
+"probability": 0.30751076340675354
+},
+"9-14": {
+"relation": "class of",
+"probability": 0.6680130958557129
+},
+"9-18": {
+"relation": "may be prevented by",
+"probability": 0.7047551870346069
+},
+"9-21": {
+"relation": "structural class of",
+"probability": 0.2810223698616028
+},
+"10-12": {
+"relation": "clinical course of",
+"probability": 0.5384095311164856
+},
+"10-14": {
+"relation": "class of",
+"probability": 0.9585896134376526
+},
+"10-18": {
+"relation": "focus of",
+"probability": 0.8728320598602295
+},
+"10-21": {
+"relation": "substance used by",
+"probability": 0.6549187302589417
+},
+"12-14": {
+"relation": "class of",
+"probability": 0.9644003510475159
+},
+"12-16": {
+"relation": "has answer",
+"probability": 0.5628005862236023
+},
+"12-18": {
+"relation": "has answer",
+"probability": 0.9310159087181091
+},
+"14-16": {
+"relation": "has class",
+"probability": 0.9733267426490784
+},
+"14-18": {
+"relation": "has class",
+"probability": 0.9979479908943176
+},
+"14-21": {
+"relation": "has class",
+"probability": 0.6738360524177551
+},
+"16-18": {
+"relation": "has answer",
+"probability": 0.9702726602554321
+}
+},
+"train-79": {
+"0-3": {
+"relation": "has recipient category",
+"probability": 0.09173447638750076
+},
+"0-5": {
+"relation": "mapping qualifier of",
+"probability": 0.24544459581375122
+},
+"0-12": {
+"relation": "has focus",
+"probability": 0.1589893102645874
+},
+"0-15": {
+"relation": "answer to",
+"probability": 0.7508586645126343
+},
+"0-16": {
+"relation": "subject relationship context of",
+"probability": 0.9463749527931213
+},
+"0-24": {
+"relation": "subject relationship context of",
+"probability": 0.7867829203605652
+},
+"0-25": {
+"relation": "finding method of",
+"probability": 0.42326223850250244
+},
+"0-27": {
+"relation": "answer to",
+"probability": 0.7412182688713074
+},
+"0-28": {
+"relation": "subject relationship context of",
+"probability": 0.7867829203605652
+},
+"3-5": {
+"relation": "associated procedure of",
+"probability": 0.2900041937828064
+},
+"3-12": {
+"relation": "associated procedure of",
+"probability": 0.39474794268608093
+},
+"3-15": {
+"relation": "answer to",
+"probability": 0.2558002471923828
+},
+"3-16": {
+"relation": "subject relationship context of",
+"probability": 0.8983263373374939
+},
+"3-24": {
+"relation": "recipient category of",
+"probability": 0.4888959527015686
+},
+"3-25": {
+"relation": "subset includes concept",
+"probability": 0.30089661478996277
+},
+"3-27": {
+"relation": "answer to",
+"probability": 0.17317454516887665
+},
+"3-28": {
+"relation": "recipient category of",
+"probability": 0.4888959527015686
+},
+"3-29": {
+"relation": "focus of",
+"probability": 0.772120475769043
+},
+"5-12": {
+"relation": "has associated procedure",
+"probability": 0.7008060812950134
+},
+"5-16": {
+"relation": "subject relationship context of",
+"probability": 0.9741746187210083
+},
+"5-24": {
+"relation": "subject relationship context of",
+"probability": 0.8297576904296875
+},
+"5-25": {
+"relation": "associated procedure of",
+"probability": 0.3144089877605438
+},
+"5-27": {
+"relation": "answer to",
+"probability": 0.27274155616760254
+},
+"5-28": {
+"relation": "subject relationship context of",
+"probability": 0.8297576904296875
+},
+"5-29": {
+"relation": "focus of",
+"probability": 0.9872283935546875
+},
+"12-15": {
+"relation": "answer to",
+"probability": 0.280826598405838
+},
+"12-16": {
+"relation": "subject relationship context of",
+"probability": 0.9775723814964294
+},
+"12-17": {
+"relation": "focus of",
+"probability": 0.43855512142181396
+},
+"12-24": {
+"relation": "subject relationship context of",
+"probability": 0.9546597003936768
+},
+"12-25": {
+"relation": "associated procedure of",
+"probability": 0.6255901455879211
+},
+"12-27": {
+"relation": "answer to",
+"probability": 0.3596701920032501
+},
+"12-28": {
+"relation": "subject relationship context of",
+"probability": 0.9546597003936768
+},
+"12-29": {
+"relation": "focus of",
+"probability": 0.971977710723877
+},
+"15-17": {
+"relation": "has answer",
+"probability": 0.9441142678260803
+},
+"15-27": {
+"relation": "answer to",
+"probability": 0.48669490218162537
+},
+"15-29": {
+"relation": "has answer",
+"probability": 0.5728123784065247
+},
+"16-17": {
+"relation": "has subject relationship context",
+"probability": 0.6879823207855225
+},
+"16-24": {
+"relation": "has subject relationship context",
+"probability": 0.6674199104309082
+},
+"16-27": {
+"relation": "has subject relationship context",
+"probability": 0.4390280842781067
+},
+"16-28": {
+"relation": "has subject relationship context",
+"probability": 0.6674199104309082
+},
+"16-29": {
+"relation": "has subject relationship context",
+"probability": 0.6114767789840698
+},
+"17-25": {
+"relation": "finding method of",
+"probability": 0.640976071357727
+},
+"17-27": {
+"relation": "answer to",
+"probability": 0.5942512154579163
+},
+"24-29": {
+"relation": "evaluation of",
+"probability": 0.43873903155326843
+},
+"25-29": {
+"relation": "has finding method",
+"probability": 0.5626205205917358
+},
+"27-29": {
+"relation": "has answer",
+"probability": 0.6218219995498657
+},
+"28-29": {
+"relation": "evaluation of",
+"probability": 0.43873903155326843
+}
+},
+"train-80": {
+"0-1": {
+"relation": "answer to",
+"probability": 0.6757213473320007
+}
+},
+"train-81": {
+"5-10": {
+"relation": "has time aspect",
+"probability": 0.8100164532661438
+},
+"5-15": {
+"relation": "has time aspect",
+"probability": 0.9783095121383667
+},
+"5-20": {
+"relation": "has time aspect",
+"probability": 0.5624772310256958
+},
+"5-21": {
+"relation": "has time aspect",
+"probability": 0.9376011490821838
+},
+"5-24": {
+"relation": "has time aspect",
+"probability": 0.9683876037597656
+},
+"5-26": {
+"relation": "has time aspect",
+"probability": 0.7255796194076538
+},
+"5-27": {
+"relation": "has time aspect",
+"probability": 0.9580910205841064
+},
+"5-29": {
+"relation": "has time aspect",
+"probability": 0.9806406497955322
+},
+"10-15": {
+"relation": "has mapping qualifier",
+"probability": 0.09021443128585815
+},
+"10-20": {
+"relation": "has mapping qualifier",
+"probability": 0.31456324458122253
+},
+"10-21": {
+"relation": "measured by",
+"probability": 0.402849018573761
+},
+"10-24": {
+"relation": "has mapping qualifier",
+"probability": 0.10089561343193054
+},
+"10-27": {
+"relation": "has associated condition",
+"probability": 0.4905174672603607
+},
+"10-29": {
+"relation": "has property",
+"probability": 0.2761678993701935
+},
+"15-20": {
+"relation": "other mapped to",
+"probability": 0.31247448921203613
+},
+"15-21": {
+"relation": "mapping qualifier of",
+"probability": 0.18612943589687347
+},
+"15-24": {
+"relation": "has related factor",
+"probability": 0.11925844103097916
+},
+"15-26": {
+"relation": "has sign or symptom",
+"probability": 0.27967339754104614
+},
+"15-27": {
+"relation": "related factor of",
+"probability": 0.4113970398902893
+},
+"15-29": {
+"relation": "has answer",
+"probability": 0.4094906747341156
+},
+"18-24": {
+"relation": "has associated procedure",
+"probability": 0.3786426782608032
+},
+"20-21": {
+"relation": "mapping qualifier of",
+"probability": 0.29980552196502686
+},
+"20-24": {
+"relation": "other mapped to",
+"probability": 0.17156977951526642
+},
+"20-26": {
+"relation": "has sign or symptom",
+"probability": 0.3101312816143036
+},
+"20-27": {
+"relation": "has at risk population",
+"probability": 0.3829989433288574
+},
+"20-29": {
+"relation": "has answer",
+"probability": 0.41620323061943054
+},
+"21-24": {
+"relation": "has mapping qualifier",
+"probability": 0.20154690742492676
+},
+"21-27": {
+"relation": "has associated condition",
+"probability": 0.4446621239185333
+},
+"24-26": {
+"relation": "has sign or symptom",
+"probability": 0.42299219965934753
+},
+"24-27": {
+"relation": "related factor of",
+"probability": 0.6392529010772705
+},
+"24-29": {
+"relation": "has answer",
+"probability": 0.4751470983028412
+},
+"26-27": {
+"relation": "has answer",
+"probability": 0.31481125950813293
+},
+"26-29": {
+"relation": "has answer",
+"probability": 0.49403974413871765
+},
+"27-29": {
+"relation": "has related factor",
+"probability": 0.3412066102027893
+}
+},
+"train-82": {
+"3-5": {
+"relation": "has time aspect",
+"probability": 0.7636997103691101
+},
+"3-10": {
+"relation": "has time aspect",
+"probability": 0.9384583234786987
+},
+"3-18": {
+"relation": "has time aspect",
+"probability": 0.9617652893066406
+},
+"5-10": {
+"relation": "has recipient category",
+"probability": 0.154380202293396
+},
+"5-12": {
+"relation": "subject relationship context of",
+"probability": 0.38661840558052063
+},
+"5-18": {
+"relation": "has at risk population",
+"probability": 0.2698492705821991
+},
+"10-12": {
+"relation": "subject relationship context of",
+"probability": 0.9340014457702637
+},
+"10-18": {
+"relation": "focus of",
+"probability": 0.9866065979003906
+},
+"12-18": {
+"relation": "has at risk population",
+"probability": 0.5167131423950195
+}
+},
+"train-83": {},
+"train-84": {
+"0-2": {
+"relation": "finding method of",
+"probability": 0.5641401410102844
+},
+"0-6": {
+"relation": "associated procedure of",
+"probability": 0.436321496963501
+},
+"0-9": {
+"relation": "class of",
+"probability": 0.4319256544113159
+},
+"9-17": {
+"relation": "occurs after",
+"probability": 0.6644421219825745
+}
+},
+"train-85": {
+"2-5": {
+"relation": "has associated finding",
+"probability": 0.20962803065776825
+},
+"2-7": {
+"relation": "associated finding of",
+"probability": 0.5257233381271362
+},
+"2-12": {
+"relation": "supersystem of",
+"probability": 0.5011246204376221
+},
+"2-24": {
+"relation": "has definitional manifestation",
+"probability": 0.609220564365387
+},
+"2-29": {
+"relation": "has answer",
+"probability": 0.603256106376648
+},
+"5-7": {
+"relation": "has property",
+"probability": 0.7641012072563171
+},
+"5-12": {
+"relation": "supersystem of",
+"probability": 0.5315428972244263
+},
+"5-29": {
+"relation": "has property",
+"probability": 0.4458666443824768
+},
+"7-12": {
+"relation": "supersystem of",
+"probability": 0.5103711485862732
+},
+"7-24": {
+"relation": "has associated finding",
+"probability": 0.33962541818618774
+},
+"7-29": {
+"relation": "has answer",
+"probability": 0.4919475018978119
+},
+"12-24": {
+"relation": "has system",
+"probability": 0.5031182169914246
+},
+"12-29": {
+"relation": "has supersystem",
+"probability": 0.5228768587112427
+},
+"24-29": {
+"relation": "has answer",
+"probability": 0.22135567665100098
+}
+},
+"train-86": {
+"0-2": {
+"relation": "focus of",
+"probability": 0.971527636051178
+},
+"0-5": {
+"relation": "priority of",
+"probability": 0.3368760347366333
+},
+"0-7": {
+"relation": "specialty of",
+"probability": 0.7293998599052429
+},
+"0-9": {
+"relation": "associated procedure of",
+"probability": 0.7575536370277405
+},
+"0-12": {
+"relation": "supersystem of",
+"probability": 0.5215665102005005
+},
+"2-4": {
+"relation": "answer to",
+"probability": 0.9282863140106201
+},
+"2-7": {
+"relation": "answer to",
+"probability": 0.5650972723960876
+},
+"2-12": {
+"relation": "supersystem of",
+"probability": 0.5201816558837891
+},
+"4-5": {
+"relation": "has answer",
+"probability": 0.20570921897888184
+},
+"4-7": {
+"relation": "has answer",
+"probability": 0.7153764963150024
+},
+"4-9": {
+"relation": "has answer",
+"probability": 0.5398367047309875
+},
+"4-12": {
+"relation": "supersystem of",
+"probability": 0.5529534816741943
+},
+"5-7": {
+"relation": "specialty of",
+"probability": 0.2836728096008301
+},
+"5-9": {
+"relation": "associated procedure of",
+"probability": 0.521843671798706
+},
+"5-12": {
+"relation": "supersystem of",
+"probability": 0.5478505492210388
+},
+"7-9": {
+"relation": "has specialty",
+"probability": 0.185974583029747
+},
+"7-12": {
+"relation": "supersystem of",
+"probability": 0.5297176241874695
+},
+"9-12": {
+"relation": "supersystem of",
+"probability": 0.534884512424469
+}
+},
+"train-87": {
+"3-5": {
+"relation": "scale of",
+"probability": 0.4783158600330353
+},
+"3-10": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.5092641115188599
+},
+"5-7": {
+"relation": "has scale",
+"probability": 0.291324645280838
+},
+"5-10": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.1394481211900711
+},
+"7-10": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.16292329132556915
+}
+},
+"train-88": {
+"2-8": {
+"relation": "associated procedure of",
+"probability": 0.45661360025405884
+},
+"2-11": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.3007741868495941
+},
+"2-15": {
+"relation": "property of",
+"probability": 0.8578362464904785
+},
+"2-17": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.08256861567497253
+},
+"2-20": {
+"relation": "has pcdc os permissible value",
+"probability": 0.6096861362457275
+},
+"2-27": {
+"relation": "has associated procedure",
+"probability": 0.13039495050907135
+},
+"11-15": {
+"relation": "property of",
+"probability": 0.5792850852012634
+},
+"11-17": {
+"relation": "has property",
+"probability": 0.2323036640882492
+},
+"11-20": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.3284490704536438
+},
+"11-27": {
+"relation": "has property",
+"probability": 0.5556293725967407
+},
+"15-17": {
+"relation": "has property",
+"probability": 0.987711489200592
+},
+"15-27": {
+"relation": "has property",
+"probability": 0.9942821264266968
+},
+"17-27": {
+"relation": "has property",
+"probability": 0.6507511734962463
+},
+"20-27": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.22669090330600739
+}
+},
+"train-89": {},
+"train-90": {
+"0-12": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.38080140948295593
+},
+"4-17": {
+"relation": "has contraindicated class",
+"probability": 0.5086835026741028
+},
+"9-12": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.8027920126914978
+},
+"10-12": {
+"relation": "answer to",
+"probability": 0.33031603693962097
+}
+},
+"train-91": {
+"3-5": {
+"relation": "concept in subset",
+"probability": 0.5432750582695007
+},
+"3-13": {
+"relation": "concept in subset",
+"probability": 0.9090662598609924
+},
+"3-14": {
+"relation": "concept in subset",
+"probability": 0.8998696208000183
+},
+"3-21": {
+"relation": "concept in subset",
+"probability": 0.9322705864906311
+},
+"3-25": {
+"relation": "has class",
+"probability": 0.6953314542770386
+},
+"3-31": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.7196332812309265
+},
+"3-38": {
+"relation": "concept in subset",
+"probability": 0.8072372078895569
+},
+"5-13": {
+"relation": "has physiologic effect",
+"probability": 0.6363372802734375
+},
+"5-14": {
+"relation": "mapping qualifier of",
+"probability": 0.452494353055954
+},
+"5-17": {
+"relation": "focus of",
+"probability": 0.20886699855327606
+},
+"5-18": {
+"relation": "concept in subset",
+"probability": 0.5432750582695007
+},
+"5-21": {
+"relation": "has physiologic effect",
+"probability": 0.40559256076812744
+},
+"5-25": {
+"relation": "has class",
+"probability": 0.31323498487472534
+},
+"5-28": {
+"relation": "substance used by",
+"probability": 0.4884506165981293
+},
+"5-31": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.6420184373855591
+},
+"5-36": {
+"relation": "focus of",
+"probability": 0.22754330933094025
+},
+"5-38": {
+"relation": "focus of",
+"probability": 0.3961879312992096
+},
+"5-41": {
+"relation": "focus of",
+"probability": 0.7361370325088501
+},
+"13-14": {
+"relation": "contains",
+"probability": 0.1322147101163864
+},
+"13-17": {
+"relation": "clinical course of",
+"probability": 0.2589413523674011
+},
+"13-18": {
+"relation": "concept in subset",
+"probability": 0.9090662598609924
+},
+"13-21": {
+"relation": "structural class of",
+"probability": 0.7101880311965942
+},
+"13-28": {
+"relation": "structural class of",
+"probability": 0.994544267654419
+},
+"13-31": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.20838317275047302
+},
+"13-38": {
+"relation": "may be prevented by",
+"probability": 0.15342143177986145
+},
+"14-17": {
+"relation": "clinical course of",
+"probability": 0.16467729210853577
+},
+"14-18": {
+"relation": "concept in subset",
+"probability": 0.8998696208000183
+},
+"14-21": {
+"relation": "part of",
+"probability": 0.19365227222442627
+},
+"14-28": {
+"relation": "may prevent",
+"probability": 0.5551984310150146
+},
+"14-31": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.37737151980400085
+},
+"14-38": {
+"relation": "mapping qualifier of",
+"probability": 0.07784689217805862
+},
+"14-41": {
+"relation": "mapping qualifier of",
+"probability": 0.40971091389656067
+},
+"17-21": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.19632144272327423
+},
+"17-25": {
+"relation": "has class",
+"probability": 0.6869447827339172
+},
+"17-31": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.8457959294319153
+},
+"17-38": {
+"relation": "concept in subset",
+"probability": 0.19772188365459442
+},
+"17-41": {
+"relation": "has focus",
+"probability": 0.22703246772289276
+},
+"18-21": {
+"relation": "concept in subset",
+"probability": 0.9322705864906311
+},
+"18-25": {
+"relation": "has class",
+"probability": 0.6953314542770386
+},
+"18-31": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.7196332812309265
+},
+"18-38": {
+"relation": "concept in subset",
+"probability": 0.8072372078895569
+},
+"21-28": {
+"relation": "structural class of",
+"probability": 0.7935715317726135
+},
+"21-31": {
+"relation": "may be prevented by",
+"probability": 0.13166657090187073
+},
+"21-38": {
+"relation": "may be prevented by",
+"probability": 0.17496664822101593
+},
+"21-41": {
+"relation": "may be prevented by",
+"probability": 0.47126322984695435
+},
+"25-31": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.7016220688819885
+},
+"25-35": {
+"relation": "class of",
+"probability": 0.5023379325866699
+},
+"25-38": {
+"relation": "class of",
+"probability": 0.3418751358985901
+},
+"25-41": {
+"relation": "class of",
+"probability": 0.3930080235004425
+},
+"28-31": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.37396499514579773
+},
+"28-38": {
+"relation": "may be prevented by",
+"probability": 0.5573591589927673
+},
+"28-41": {
+"relation": "may be prevented by",
+"probability": 0.7959976196289062
+},
+"31-35": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.5035250782966614
+},
+"31-36": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.484452486038208
+},
+"31-38": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.5642110705375671
+},
+"31-41": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.9338067173957825
+},
+"36-38": {
+"relation": "has focus",
+"probability": 0.5942416787147522
+}
+},
+"train-92": {
+"4-6": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.19368822872638702
+},
+"4-13": {
+"relation": "has mapping qualifier",
+"probability": 0.35473859310150146
+},
+"6-9": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.5749295353889465
+},
+"6-13": {
+"relation": "has mapping qualifier",
+"probability": 0.5895419120788574
+},
+"8-9": {
+"relation": "mapping qualifier of",
+"probability": 0.16333608329296112
+},
+"8-13": {
+"relation": "chemotherapy regimen has component",
+"probability": 0.5227401852607727
+},
+"8-16": {
+"relation": "may be prevented by",
+"probability": 0.6623263359069824
+},
+"9-13": {
+"relation": "has mapping qualifier",
+"probability": 0.5522605776786804
+},
+"13-16": {
+"relation": "recipient category of",
+"probability": 0.1890779435634613
+}
+},
+"train-93": {
+"1-7": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.7358071804046631
+},
+"1-11": {
+"relation": "property of",
+"probability": 0.8364804983139038
+},
+"1-21": {
+"relation": "class of",
+"probability": 0.9990216493606567
+},
+"3-7": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.6189743876457214
+},
+"3-21": {
+"relation": "class of",
+"probability": 0.999599277973175
+},
+"5-7": {
+"relation": "severity of",
+"probability": 0.6652190685272217
+},
+"5-11": {
+"relation": "property of",
+"probability": 0.48522210121154785
+},
+"5-16": {
+"relation": "severity of",
+"probability": 0.5574467778205872
+},
+"5-21": {
+"relation": "class of",
+"probability": 0.9968993663787842
+},
+"7-14": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.7358071804046631
+},
+"7-21": {
+"relation": "class of",
+"probability": 0.9867346286773682
+},
+"11-14": {
+"relation": "property of",
+"probability": 0.8364804983139038
+},
+"11-21": {
+"relation": "class of",
+"probability": 0.9893352389335632
+},
+"14-21": {
+"relation": "class of",
+"probability": 0.9990216493606567
+},
+"16-21": {
+"relation": "class of",
+"probability": 0.9745650887489319
+}
+},
+"train-94": {
+"1-3": {
+"relation": "has associated condition",
+"probability": 0.4349976181983948
+},
+"1-7": {
+"relation": "has mapping qualifier",
+"probability": 0.18816332519054413
+},
+"1-8": {
+"relation": "recipient category of",
+"probability": 0.9881566166877747
+},
+"3-7": {
+"relation": "associated condition of",
+"probability": 0.34419310092926025
+},
+"3-8": {
+"relation": "has subject of information",
+"probability": 0.831820547580719
+},
+"7-8": {
+"relation": "has recipient category",
+"probability": 0.9485740065574646
+}
+},
+"train-95": {
+"0-2": {
+"relation": "answer to",
+"probability": 0.44339028000831604
+},
+"0-6": {
+"relation": "answer to",
+"probability": 0.9294258952140808
+},
+"0-19": {
+"relation": "associated condition of",
+"probability": 0.7404068112373352
+},
+"0-27": {
+"relation": "may prevent",
+"probability": 0.9840452671051025
+},
+"2-19": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.20095723867416382
+}
+},
+"train-96": {
+"0-1": {
+"relation": "mapping qualifier of",
+"probability": 0.8628283739089966
+}
+},
+"train-97": {
+"6-7": {
+"relation": "dose form of",
+"probability": 0.5451446771621704
+},
+"6-9": {
+"relation": "has contraindicated class",
+"probability": 0.9858059287071228
+},
+"6-13": {
+"relation": "may be prevented by",
+"probability": 0.9593237638473511
+},
+"7-9": {
+"relation": "ingredient of",
+"probability": 0.6751274466514587
+},
+"7-13": {
+"relation": "supersystem of",
+"probability": 0.49225932359695435
+},
+"9-13": {
+"relation": "may be prevented by",
+"probability": 0.9719220995903015
+}
+},
+"train-98": {},
+"train-99": {
+"2-7": {
+"relation": "supersystem of",
+"probability": 0.3945380449295044
+},
+"2-13": {
+"relation": "subset includes concept",
+"probability": 0.624057412147522
+},
+"2-20": {
+"relation": "supersystem of",
+"probability": 0.3945380449295044
+},
+"2-28": {
+"relation": "supersystem of",
+"probability": 0.3945380449295044
+},
+"2-34": {
+"relation": "supersystem of",
+"probability": 0.3945380449295044
+},
+"4-5": {
+"relation": "focus of",
+"probability": 0.32204553484916687
+},
+"4-7": {
+"relation": "supersystem of",
+"probability": 0.4351062774658203
+},
+"4-9": {
+"relation": "has pcdc os permissible value",
+"probability": 0.9330560564994812
+},
+"4-15": {
+"relation": "has contraindicated class",
+"probability": 0.3200717270374298
+},
+"4-16": {
+"relation": "count of base of active ingredient of",
+"probability": 0.23297849297523499
+},
+"4-20": {
+"relation": "supersystem of",
+"probability": 0.4351062774658203
+},
+"4-23": {
+"relation": "has contraindicated class",
+"probability": 0.29277095198631287
+},
+"4-28": {
+"relation": "supersystem of",
+"probability": 0.4351062774658203
+},
+"4-31": {
+"relation": "mapping qualifier of",
+"probability": 0.1690043956041336
+},
+"4-34": {
+"relation": "supersystem of",
+"probability": 0.4351062774658203
+},
+"5-7": {
+"relation": "supersystem of",
+"probability": 0.5226792693138123
+},
+"5-15": {
+"relation": "may prevent",
+"probability": 0.34125208854675293
+},
+"5-20": {
+"relation": "supersystem of",
+"probability": 0.5226792693138123
+},
+"5-23": {
+"relation": "may prevent",
+"probability": 0.6357614398002625
+},
+"5-28": {
+"relation": "supersystem of",
+"probability": 0.5226792693138123
+},
+"5-34": {
+"relation": "supersystem of",
+"probability": 0.5226792693138123
+},
+"7-9": {
+"relation": "has supersystem",
+"probability": 0.5135795474052429
+},
+"7-13": {
+"relation": "has supersystem",
+"probability": 0.566342294216156
+},
+"7-16": {
+"relation": "has supersystem",
+"probability": 0.44932493567466736
+},
+"7-17": {
+"relation": "has supersystem",
+"probability": 0.5148458480834961
+},
+"7-25": {
+"relation": "has supersystem",
+"probability": 0.5148458480834961
+},
+"7-31": {
+"relation": "has system",
+"probability": 0.5022409558296204
+},
+"9-16": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.8490236401557922
+},
+"9-20": {
+"relation": "has supersystem",
+"probability": 0.5135795474052429
+},
+"9-28": {
+"relation": "has supersystem",
+"probability": 0.5135795474052429
+},
+"9-31": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.587605893611908
+},
+"9-34": {
+"relation": "has supersystem",
+"probability": 0.5135795474052429
+},
+"13-20": {
+"relation": "has supersystem",
+"probability": 0.566342294216156
+},
+"13-28": {
+"relation": "has supersystem",
+"probability": 0.566342294216156
+},
+"13-34": {
+"relation": "has supersystem",
+"probability": 0.566342294216156
+},
+"15-23": {
+"relation": "has contraindicated class",
+"probability": 0.9781085252761841
+},
+"15-31": {
+"relation": "has contraindicated class",
+"probability": 0.38467636704444885
+},
+"16-20": {
+"relation": "has supersystem",
+"probability": 0.44932493567466736
+},
+"16-28": {
+"relation": "has supersystem",
+"probability": 0.44932493567466736
+},
+"16-34": {
+"relation": "has supersystem",
+"probability": 0.44932493567466736
+},
+"17-20": {
+"relation": "has supersystem",
+"probability": 0.5148458480834961
+},
+"17-28": {
+"relation": "has supersystem",
+"probability": 0.5148458480834961
+},
+"17-34": {
+"relation": "has supersystem",
+"probability": 0.5148458480834961
+},
+"20-25": {
+"relation": "has supersystem",
+"probability": 0.5148458480834961
+},
+"20-31": {
+"relation": "has system",
+"probability": 0.5022409558296204
+},
+"23-31": {
+"relation": "has contraindicated class",
+"probability": 0.21031151711940765
+},
+"25-28": {
+"relation": "has supersystem",
+"probability": 0.5148458480834961
+},
+"25-34": {
+"relation": "has supersystem",
+"probability": 0.5148458480834961
+},
+"28-31": {
+"relation": "has system",
+"probability": 0.5022409558296204
+},
+"31-34": {
+"relation": "has system",
+"probability": 0.5022409558296204
+}
+},
+"train-100": {
+"0-10": {
+"relation": "supersystem of",
+"probability": 0.5101854205131531
+},
+"0-18": {
+"relation": "may prevent",
+"probability": 0.9250301122665405
+},
+"0-24": {
+"relation": "may prevent",
+"probability": 0.9285283088684082
+},
+"5-10": {
+"relation": "supersystem of",
+"probability": 0.5153732299804688
+},
+"5-15": {
+"relation": "property of",
+"probability": 0.6690385341644287
+},
+"10-15": {
+"relation": "has supersystem",
+"probability": 0.5057927370071411
+},
+"18-24": {
+"relation": "has contraindicated class",
+"probability": 0.9746742248535156
+}
+},
+"train-101": {
+"1-3": {
+"relation": "class of",
+"probability": 0.24759149551391602
+}
+},
+"train-102": {
+"3-11": {
+"relation": "has mapping qualifier",
+"probability": 0.4970729947090149
+},
+"3-13": {
+"relation": "has mapping qualifier",
+"probability": 0.2441168874502182
+},
+"3-17": {
+"relation": "subset includes concept",
+"probability": 0.5086050629615784
+},
+"7-13": {
+"relation": "biological process has initiator chemical or drug",
+"probability": 0.20467372238636017
+},
+"7-17": {
+"relation": "has evaluation",
+"probability": 0.4213719666004181
+},
+"11-13": {
+"relation": "physiologic effect of",
+"probability": 0.13787338137626648
+},
+"11-17": {
+"relation": "mapping qualifier of",
+"probability": 0.3991314768791199
+},
+"13-17": {
+"relation": "chemical or drug initiates biological process",
+"probability": 0.2884711027145386
+}
+},
+"train-103": {
+"4-5": {
+"relation": "has mapping qualifier",
+"probability": 0.14737148582935333
+},
+"5-7": {
+"relation": "supersystem of",
+"probability": 0.2879500389099121
+}
+},
+"train-104": {
+"1-12": {
+"relation": "may be qualified by",
+"probability": 0.19162951409816742
+},
+"1-14": {
+"relation": "supersystem of",
+"probability": 0.5397883653640747
+},
+"1-16": {
+"relation": "has system",
+"probability": 0.2051931917667389
+},
+"4-12": {
+"relation": "recipient category of",
+"probability": 0.9734147787094116
+},
+"4-14": {
+"relation": "has supersystem",
+"probability": 0.5338999629020691
+},
+"7-9": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.9586925506591797
+},
+"7-14": {
+"relation": "has supersystem",
+"probability": 0.5118028521537781
+},
+"9-12": {
+"relation": "recipient category of",
+"probability": 0.9770177602767944
+},
+"9-14": {
+"relation": "has system",
+"probability": 0.4910697638988495
+},
+"12-14": {
+"relation": "has supersystem",
+"probability": 0.5290510058403015
+},
+"12-15": {
+"relation": "has recipient category",
+"probability": 0.8502241969108582
+},
+"14-15": {
+"relation": "has system",
+"probability": 0.5041437149047852
+},
+"14-16": {
+"relation": "has system",
+"probability": 0.4155087471008301
+},
+"14-20": {
+"relation": "has system",
+"probability": 0.5020802617073059
+},
+"14-32": {
+"relation": "has supersystem",
+"probability": 0.5555433630943298
+}
+},
+"train-105": {},
+"train-106": {
+"1-5": {
+"relation": "class of",
+"probability": 0.9725725054740906
+},
+"1-8": {
+"relation": "subject of information of",
+"probability": 0.5314618945121765
+}
+},
+"train-107": {
+"0-3": {
+"relation": "has direct device",
+"probability": 0.4716619551181793
+}
+},
+"train-108": {
+"1-2": {
+"relation": "recipient category of",
+"probability": 0.8163837194442749
+},
+"1-11": {
+"relation": "may be prevented by",
+"probability": 0.19848912954330444
+},
+"1-13": {
+"relation": "pharmaceutical administration method of",
+"probability": 0.9706136584281921
+},
+"1-16": {
+"relation": "direct device of",
+"probability": 0.13282155990600586
+},
+"1-19": {
+"relation": "has contraindicated class",
+"probability": 0.6117951273918152
+},
+"1-20": {
+"relation": "recipient category of",
+"probability": 0.8163837194442749
+},
+"2-9": {
+"relation": "has recipient category",
+"probability": 0.9750041365623474
+},
+"2-11": {
+"relation": "has subject of information",
+"probability": 0.7845171689987183
+},
+"2-16": {
+"relation": "has recipient category",
+"probability": 0.9751437902450562
+},
+"2-19": {
+"relation": "has recipient category",
+"probability": 0.26583150029182434
+},
+"9-13": {
+"relation": "pharmaceutical administration method of",
+"probability": 0.3719576597213745
+},
+"9-16": {
+"relation": "direct device of",
+"probability": 0.7913873195648193
+},
+"9-20": {
+"relation": "has recipient category",
+"probability": 0.9750041365623474
+},
+"11-19": {
+"relation": "may prevent",
+"probability": 0.9995230436325073
+},
+"11-20": {
+"relation": "has subject of information",
+"probability": 0.7845171689987183
+},
+"13-16": {
+"relation": "has pharmaceutical administration method",
+"probability": 0.9756643772125244
+},
+"13-19": {
+"relation": "has pharmaceutical administration method",
+"probability": 0.8640425205230713
+},
+"16-19": {
+"relation": "has dose form",
+"probability": 0.32919803261756897
+},
+"16-20": {
+"relation": "has recipient category",
+"probability": 0.9751437902450562
+},
+"19-20": {
+"relation": "has recipient category",
+"probability": 0.26583150029182434
+}
+},
+"train-109": {
+"1-5": {
+"relation": "has associated condition",
+"probability": 0.680465579032898
+},
+"3-5": {
+"relation": "induced by",
+"probability": 0.925264298915863
+},
+"3-10": {
+"relation": "may be prevented by",
+"probability": 0.9933990240097046
+},
+"5-8": {
+"relation": "finding method of",
+"probability": 0.6680492758750916
+},
+"5-10": {
+"relation": "has manifestation",
+"probability": 0.9938024282455444
+},
+"5-15": {
+"relation": "associated condition of",
+"probability": 0.26945778727531433
+},
+"14-15": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.29383331537246704
+},
+"15-16": {
+"relation": "has pcdc os permissible value",
+"probability": 0.4769432842731476
+}
+},
+"train-110": {},
+"train-111": {
+"0-3": {
+"relation": "answer to",
+"probability": 0.9681906700134277
+},
+"0-7": {
+"relation": "recipient category of",
+"probability": 0.6291860342025757
+},
+"6-7": {
+"relation": "subject of information of",
+"probability": 0.8010984659194946
+},
+"6-19": {
+"relation": "has manifestation",
+"probability": 0.6442901492118835
+},
+"7-9": {
+"relation": "subject of information of",
+"probability": 0.8010984659194946
+},
+"9-19": {
+"relation": "has manifestation",
+"probability": 0.6442901492118835
+}
+},
+"train-112": {
+"2-19": {
+"relation": "measured by",
+"probability": 0.40950509905815125
+},
+"8-14": {
+"relation": "recipient category of",
+"probability": 0.8544272780418396
+},
+"8-22": {
+"relation": "has answer",
+"probability": 0.7996136546134949
+},
+"8-37": {
+"relation": "recipient category of",
+"probability": 0.8802882432937622
+},
+"8-39": {
+"relation": "has clinical course",
+"probability": 0.14387646317481995
+},
+"8-48": {
+"relation": "recipient category of",
+"probability": 0.8802882432937622
+},
+"14-22": {
+"relation": "has recipient category",
+"probability": 0.3390149176120758
+},
+"14-28": {
+"relation": "has recipient category",
+"probability": 0.5175037980079651
+},
+"14-36": {
+"relation": "has recipient category",
+"probability": 0.44940295815467834
+},
+"14-37": {
+"relation": "subject of information of",
+"probability": 0.1821456104516983
+},
+"14-39": {
+"relation": "has recipient category",
+"probability": 0.7034587860107422
+},
+"14-47": {
+"relation": "has subject of information",
+"probability": 0.659645676612854
+},
+"14-48": {
+"relation": "subject of information of",
+"probability": 0.1821456104516983
+},
+"22-28": {
+"relation": "answer to",
+"probability": 0.41607385873794556
+},
+"22-36": {
+"relation": "answer to",
+"probability": 0.7315611839294434
+},
+"22-37": {
+"relation": "has recipient category",
+"probability": 0.2458704710006714
+},
+"22-39": {
+"relation": "answer to",
+"probability": 0.2042069286108017
+},
+"22-47": {
+"relation": "answer to",
+"probability": 0.7643851041793823
+},
+"22-48": {
+"relation": "has recipient category",
+"probability": 0.2458704710006714
+},
+"28-39": {
+"relation": "other mapped from",
+"probability": 0.3976127505302429
+},
+"28-47": {
+"relation": "has manifestation",
+"probability": 0.7222315669059753
+},
+"36-37": {
+"relation": "has subject of information",
+"probability": 0.31235432624816895
+},
+"36-39": {
+"relation": "disease has finding",
+"probability": 0.13057555258274078
+},
+"36-47": {
+"relation": "has manifestation",
+"probability": 0.3256308138370514
+},
+"36-48": {
+"relation": "has subject of information",
+"probability": 0.31235432624816895
+},
+"37-39": {
+"relation": "has recipient category",
+"probability": 0.741588830947876
+},
+"37-47": {
+"relation": "has subject of information",
+"probability": 0.6105431914329529
+},
+"39-47": {
+"relation": "has manifestation",
+"probability": 0.3530052900314331
+},
+"39-48": {
+"relation": "has recipient category",
+"probability": 0.741588830947876
+},
+"47-48": {
+"relation": "has subject of information",
+"probability": 0.6105431914329529
+}
+},
+"train-113": {
+"1-8": {
+"relation": "has finding method",
+"probability": 0.7852914333343506
+},
+"1-13": {
+"relation": "has finding method",
+"probability": 0.9926962852478027
+},
+"8-14": {
+"relation": "has finding method",
+"probability": 0.7852914333343506
+},
+"8-23": {
+"relation": "has finding method",
+"probability": 0.7852914333343506
+},
+"13-14": {
+"relation": "has finding method",
+"probability": 0.9926962852478027
+},
+"13-23": {
+"relation": "has finding method",
+"probability": 0.9926962852478027
+}
+},
+"train-114": {
+"1-3": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.20231033861637115
+},
+"3-4": {
+"relation": "associated finding of",
+"probability": 0.9596127271652222
+},
+"3-12": {
+"relation": "has answer",
+"probability": 0.5094212293624878
+},
+"4-12": {
+"relation": "has associated finding",
+"probability": 0.9981634020805359
+},
+"8-12": {
+"relation": "has class",
+"probability": 0.9407473206520081
+}
+},
+"train-115": {
+"1-2": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.5778360366821289
+},
+"2-4": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.6210299730300903
+}
+},
+"train-116": {
+"1-10": {
+"relation": "measured component of",
+"probability": 0.39021769165992737
+},
+"1-11": {
+"relation": "recipient category of",
+"probability": 0.6050520539283752
+},
+"10-11": {
+"relation": "recipient category of",
+"probability": 0.45447200536727905
+}
+},
+"train-117": {
+"1-6": {
+"relation": "system of",
+"probability": 0.39962077140808105
+}
+},
+"train-118": {
+"1-2": {
+"relation": "recipient category of",
+"probability": 0.6251230239868164
+},
+"1-5": {
+"relation": "has measured component",
+"probability": 0.36850130558013916
+},
+"1-9": {
+"relation": "has target",
+"probability": 0.09770014882087708
+},
+"1-10": {
+"relation": "recipient category of",
+"probability": 0.6251230239868164
+},
+"2-4": {
+"relation": "has subject of information",
+"probability": 0.6509758830070496
+},
+"2-5": {
+"relation": "has recipient category",
+"probability": 0.45194515585899353
+},
+"2-9": {
+"relation": "has recipient category",
+"probability": 0.8121117949485779
+},
+"4-5": {
+"relation": "has answer",
+"probability": 0.7268693447113037
+},
+"4-10": {
+"relation": "has subject of information",
+"probability": 0.6509758830070496
+},
+"5-10": {
+"relation": "has recipient category",
+"probability": 0.45194515585899353
+},
+"9-10": {
+"relation": "has recipient category",
+"probability": 0.8121117949485779
+}
+},
+"train-119": {
+"0-4": {
+"relation": "has answer",
+"probability": 0.38574931025505066
+},
+"0-8": {
+"relation": "disease has finding",
+"probability": 0.871056079864502
+},
+"4-6": {
+"relation": "class of",
+"probability": 0.23239536583423615
+},
+"4-8": {
+"relation": "answer to",
+"probability": 0.44279205799102783
+},
+"6-8": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.3578792214393616
+}
+},
+"train-120": {
+"2-3": {
+"relation": "has pcdc gct permissible value",
+"probability": 0.430268794298172
+},
+"2-8": {
+"relation": "property of",
+"probability": 0.5019153356552124
+},
+"2-10": {
+"relation": "disease has finding",
+"probability": 0.9440580606460571
+},
+"2-13": {
+"relation": "answer to",
+"probability": 0.4015856981277466
+},
+"2-14": {
+"relation": "disease has finding",
+"probability": 0.5587869882583618
+},
+"2-18": {
+"relation": "has answer",
+"probability": 0.3976695239543915
+},
+"3-6": {
+"relation": "answer to",
+"probability": 0.790039598941803
+},
+"3-7": {
+"relation": "has inherent attribute",
+"probability": 0.4468444287776947
+},
+"3-8": {
+"relation": "property of",
+"probability": 0.7487059235572815
+},
+"3-10": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.4229758381843567
+},
+"3-13": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.7800751328468323
+},
+"3-14": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.5122320055961609
+},
+"3-17": {
+"relation": "answer to",
+"probability": 0.790039598941803
+},
+"3-18": {
+"relation": "has property",
+"probability": 0.3252773582935333
+},
+"6-8": {
+"relation": "property of",
+"probability": 0.2934498190879822
+},
+"6-13": {
+"relation": "answer to",
+"probability": 0.9466269016265869
+},
+"6-18": {
+"relation": "has answer",
+"probability": 0.6263807415962219
+},
+"7-8": {
+"relation": "has class",
+"probability": 0.5995053648948669
+},
+"7-13": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.8892139792442322
+},
+"7-18": {
+"relation": "inheres in",
+"probability": 0.646821141242981
+},
+"8-10": {
+"relation": "has property",
+"probability": 0.9089612364768982
+},
+"8-13": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.7960056662559509
+},
+"8-14": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.7899280190467834
+},
+"8-17": {
+"relation": "property of",
+"probability": 0.2934498190879822
+},
+"8-18": {
+"relation": "has property",
+"probability": 0.9516205191612244
+},
+"10-13": {
+"relation": "is grade of disease",
+"probability": 0.4981641471385956
+},
+"10-14": {
+"relation": "disease has finding",
+"probability": 0.5991194248199463
+},
+"10-18": {
+"relation": "measures",
+"probability": 0.5326583981513977
+},
+"13-14": {
+"relation": "disease is grade",
+"probability": 0.602835476398468
+},
+"13-17": {
+"relation": "answer to",
+"probability": 0.9466269016265869
+},
+"13-18": {
+"relation": "has answer",
+"probability": 0.6438428163528442
+},
+"14-18": {
+"relation": "has answer",
+"probability": 0.33636724948883057
+},
+"17-18": {
+"relation": "has answer",
+"probability": 0.6263807415962219
+}
+},
+"train-121": {
+"0-1": {
+"relation": "measures",
+"probability": 0.14001812040805817
+},
+"0-3": {
+"relation": "related to genetic biomarker",
+"probability": 0.18145860731601715
+},
+"0-10": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.5496417880058289
+},
+"0-24": {
+"relation": "temporally related to",
+"probability": 0.0638916939496994
+},
+"1-3": {
+"relation": "is finding of disease",
+"probability": 0.07700283080339432
+},
+"1-8": {
+"relation": "has class",
+"probability": 0.2249298095703125
+},
+"1-10": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.4247450530529022
+},
+"1-12": {
+"relation": "has class",
+"probability": 0.2704756557941437
+},
+"1-17": {
+"relation": "has class",
+"probability": 0.3240794241428375
+},
+"1-24": {
+"relation": "focus of",
+"probability": 0.1804666966199875
+},
+"1-26": {
+"relation": "has class",
+"probability": 0.2704756557941437
+},
+"1-31": {
+"relation": "has class",
+"probability": 0.3240794241428375
+},
+"3-8": {
+"relation": "has answer",
+"probability": 0.4189586043357849
+},
+"3-10": {
+"relation": "is finding of disease",
+"probability": 0.5465631484985352
+},
+"3-12": {
+"relation": "has answer",
+"probability": 0.2958311140537262
+},
+"3-17": {
+"relation": "has pcdc os permissible value",
+"probability": 0.2941703200340271
+},
+"3-24": {
+"relation": "disease excludes finding",
+"probability": 0.21107825636863708
+},
+"3-26": {
+"relation": "has answer",
+"probability": 0.2958311140537262
+},
+"3-31": {
+"relation": "has pcdc os permissible value",
+"probability": 0.2941703200340271
+},
+"8-12": {
+"relation": "has class",
+"probability": 0.5363031029701233
+},
+"8-17": {
+"relation": "has class",
+"probability": 0.4012552499771118
+},
+"8-24": {
+"relation": "answer to",
+"probability": 0.8319964408874512
+},
+"8-26": {
+"relation": "has class",
+"probability": 0.5363031029701233
+},
+"8-31": {
+"relation": "has class",
+"probability": 0.4012552499771118
+},
+"10-17": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.5810250639915466
+},
+"10-24": {
+"relation": "disease has finding",
+"probability": 0.5277557969093323
+},
+"10-31": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.5810250639915466
+},
+"12-17": {
+"relation": "measured by",
+"probability": 0.47445783019065857
+},
+"12-24": {
+"relation": "answer to",
+"probability": 0.8493403792381287
+},
+"12-31": {
+"relation": "measured by",
+"probability": 0.47445783019065857
+},
+"17-24": {
+"relation": "answer to",
+"probability": 0.4088232219219208
+},
+"17-26": {
+"relation": "measured by",
+"probability": 0.47445783019065857
+},
+"24-26": {
+"relation": "answer to",
+"probability": 0.8493403792381287
+},
+"24-31": {
+"relation": "answer to",
+"probability": 0.4088232219219208
+},
+"26-31": {
+"relation": "measured by",
+"probability": 0.47445783019065857
+}
+},
+"train-122": {
+"1-3": {
+"relation": "answer to",
+"probability": 0.5279818177223206
+},
+"1-4": {
+"relation": "supersystem of",
+"probability": 0.4996308982372284
+},
+"1-5": {
+"relation": "has answer",
+"probability": 0.7167965769767761
+},
+"1-12": {
+"relation": "has pcdc os permissible value",
+"probability": 0.2488187551498413
+},
+"1-15": {
+"relation": "finding method of",
+"probability": 0.9541857838630676
+},
+"1-18": {
+"relation": "property of",
+"probability": 0.9016596674919128
+},
+"1-20": {
+"relation": "has pcdc os permissible value",
+"probability": 0.30007728934288025
+},
+"1-22": {
+"relation": "disease has finding",
+"probability": 0.12109148502349854
+},
+"3-4": {
+"relation": "supersystem of",
+"probability": 0.5424792170524597
+},
+"3-5": {
+"relation": "has answer",
+"probability": 0.6844058036804199
+},
+"3-12": {
+"relation": "answer to",
+"probability": 0.5722384452819824
+},
+"3-13": {
+"relation": "measured by",
+"probability": 0.6468236446380615
+},
+"3-15": {
+"relation": "finding method of",
+"probability": 0.8593424558639526
+},
+"3-18": {
+"relation": "property of",
+"probability": 0.5119783878326416
+},
+"4-5": {
+"relation": "has supersystem",
+"probability": 0.5232571363449097
+},
+"4-12": {
+"relation": "has supersystem",
+"probability": 0.5349590182304382
+},
+"4-13": {
+"relation": "has supersystem",
+"probability": 0.527891218662262
+},
+"4-15": {
+"relation": "has supersystem",
+"probability": 0.5280967354774475
+},
+"4-18": {
+"relation": "has supersystem",
+"probability": 0.5267343521118164
+},
+"4-20": {
+"relation": "has supersystem",
+"probability": 0.49868524074554443
+},
+"4-22": {
+"relation": "has supersystem",
+"probability": 0.5046886801719666
+},
+"5-12": {
+"relation": "answer to",
+"probability": 0.9607567191123962
+},
+"5-13": {
+"relation": "measured by",
+"probability": 0.48385903239250183
+},
+"5-15": {
+"relation": "has focus",
+"probability": 0.4450751841068268
+},
+"5-18": {
+"relation": "property of",
+"probability": 0.906943678855896
+},
+"5-20": {
+"relation": "has pcdc os permissible value",
+"probability": 0.35571882128715515
+},
+"12-13": {
+"relation": "has answer",
+"probability": 0.8735028505325317
+},
+"12-15": {
+"relation": "finding method of",
+"probability": 0.9242658019065857
+},
+"12-18": {
+"relation": "finding method of",
+"probability": 0.441476047039032
+},
+"13-15": {
+"relation": "has focus",
+"probability": 0.5087181329727173
+},
+"13-18": {
+"relation": "property of",
+"probability": 0.5289908647537231
+},
+"13-22": {
+"relation": "has focus",
+"probability": 0.9428465962409973
+},
+"15-18": {
+"relation": "focus of",
+"probability": 0.5844138860702515
+},
+"15-20": {
+"relation": "focus of",
+"probability": 0.5102112889289856
+},
+"15-22": {
+"relation": "has associated procedure",
+"probability": 0.5562132596969604
+},
+"18-20": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.27114689350128174
+},
+"18-22": {
+"relation": "has property",
+"probability": 0.24156028032302856
+},
+"20-22": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.3449380099773407
+}
+},
+"train-123": {
+"0-2": {
+"relation": "has occurrence",
+"probability": 0.21646101772785187
+},
+"0-5": {
+"relation": "occurs in",
+"probability": 0.3145478069782257
+},
+"0-6": {
+"relation": "occurs in",
+"probability": 0.4841989278793335
+},
+"0-10": {
+"relation": "occurs in",
+"probability": 0.6835658550262451
+},
+"3-5": {
+"relation": "biological process results from biological process",
+"probability": 0.0480043962597847
+},
+"3-6": {
+"relation": "focus of",
+"probability": 0.3556285500526428
+},
+"3-8": {
+"relation": "severity of",
+"probability": 0.8840638995170593
+},
+"3-10": {
+"relation": "has focus",
+"probability": 0.26516860723495483
+},
+"3-11": {
+"relation": "focus of",
+"probability": 0.6669020056724548
+},
+"5-6": {
+"relation": "biological process results from biological process",
+"probability": 0.23859591782093048
+},
+"5-8": {
+"relation": "severity of",
+"probability": 0.9802329540252686
+},
+"5-10": {
+"relation": "has focus",
+"probability": 0.08929933607578278
+},
+"5-11": {
+"relation": "process includes biological process",
+"probability": 0.34054985642433167
+},
+"5-14": {
+"relation": "time aspect of",
+"probability": 0.208960622549057
+},
+"6-8": {
+"relation": "severity of",
+"probability": 0.9432364106178284
+},
+"6-10": {
+"relation": "has focus",
+"probability": 0.18400631844997406
+},
+"6-11": {
+"relation": "process includes biological process",
+"probability": 0.990731418132782
+},
+"8-10": {
+"relation": "has severity",
+"probability": 0.9704990983009338
+},
+"8-14": {
+"relation": "has pcdc os permissible value",
+"probability": 0.3221016526222229
+},
+"10-11": {
+"relation": "focus of",
+"probability": 0.4219532608985901
+},
+"10-14": {
+"relation": "time aspect of",
+"probability": 0.16439096629619598
+},
+"11-14": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.24224933981895447
+}
+},
+"train-124": {
+"3-6": {
+"relation": "has answer",
+"probability": 0.30699703097343445
+},
+"3-9": {
+"relation": "has focus",
+"probability": 0.5940907001495361
+},
+"3-13": {
+"relation": "property of",
+"probability": 0.9895508885383606
+},
+"3-18": {
+"relation": "property of",
+"probability": 0.8158069252967834
+},
+"3-22": {
+"relation": "has associated procedure",
+"probability": 0.3426612615585327
+},
+"3-26": {
+"relation": "property of",
+"probability": 0.9895508885383606
+},
+"3-31": {
+"relation": "property of",
+"probability": 0.8158069252967834
+},
+"6-9": {
+"relation": "has focus",
+"probability": 0.9561173915863037
+},
+"6-12": {
+"relation": "anatomy originated from biological process",
+"probability": 0.3726294934749603
+},
+"6-13": {
+"relation": "property of",
+"probability": 0.9794039726257324
+},
+"6-18": {
+"relation": "property of",
+"probability": 0.8584028482437134
+},
+"6-22": {
+"relation": "has focus",
+"probability": 0.9140046834945679
+},
+"6-25": {
+"relation": "anatomy originated from biological process",
+"probability": 0.3726294934749603
+},
+"6-26": {
+"relation": "property of",
+"probability": 0.9794039726257324
+},
+"6-31": {
+"relation": "property of",
+"probability": 0.8584028482437134
+},
+"9-12": {
+"relation": "indirect procedure site of",
+"probability": 0.9954363703727722
+},
+"9-13": {
+"relation": "property of",
+"probability": 0.8886123299598694
+},
+"9-18": {
+"relation": "property of",
+"probability": 0.46364355087280273
+},
+"9-22": {
+"relation": "has associated procedure",
+"probability": 0.31720179319381714
+},
+"9-25": {
+"relation": "indirect procedure site of",
+"probability": 0.9954363703727722
+},
+"9-26": {
+"relation": "property of",
+"probability": 0.8886123299598694
+},
+"9-31": {
+"relation": "property of",
+"probability": 0.46364355087280273
+},
+"12-22": {
+"relation": "has indirect procedure site",
+"probability": 0.9966757297515869
+},
+"13-18": {
+"relation": "has property",
+"probability": 0.9979816675186157
+},
+"13-22": {
+"relation": "has property",
+"probability": 0.904988169670105
+},
+"13-31": {
+"relation": "has property",
+"probability": 0.9979816675186157
+},
+"18-22": {
+"relation": "has property",
+"probability": 0.683923065662384
+},
+"18-26": {
+"relation": "has property",
+"probability": 0.9979816675186157
+},
+"22-25": {
+"relation": "has indirect procedure site",
+"probability": 0.9966757297515869
+},
+"22-26": {
+"relation": "has property",
+"probability": 0.904988169670105
+},
+"22-31": {
+"relation": "has property",
+"probability": 0.683923065662384
+},
+"26-31": {
+"relation": "has property",
+"probability": 0.9979816675186157
+}
+},
+"train-125": {
+"0-2": {
+"relation": "may prevent",
+"probability": 0.3473028242588043
+},
+"0-5": {
+"relation": "pharmaceutical intended site of",
+"probability": 0.2599055767059326
+},
+"2-5": {
+"relation": "dose form of",
+"probability": 0.973471462726593
+},
+"2-15": {
+"relation": "may be diagnosed by",
+"probability": 0.5401145815849304
+},
+"5-15": {
+"relation": "biological process has initiator chemical or drug",
+"probability": 0.07953985780477524
+}
+},
+"train-126": {
+"1-3": {
+"relation": "has manifestation",
+"probability": 0.9497878551483154
+},
+"1-4": {
+"relation": "associated condition of",
+"probability": 0.21657459437847137
+},
+"1-8": {
+"relation": "subject relationship context of",
+"probability": 0.6231889128684998
+},
+"1-9": {
+"relation": "subject of information of",
+"probability": 0.8288375735282898
+},
+"1-10": {
+"relation": "finding method of",
+"probability": 0.9994459748268127
+},
+"3-4": {
+"relation": "has focus",
+"probability": 0.1349911391735077
+},
+"3-8": {
+"relation": "subject relationship context of",
+"probability": 0.6731815338134766
+},
+"3-9": {
+"relation": "subject of information of",
+"probability": 0.7173023223876953
+},
+"3-10": {
+"relation": "finding method of",
+"probability": 0.9987286925315857
+},
+"4-8": {
+"relation": "subject relationship context of",
+"probability": 0.9536765813827515
+},
+"4-9": {
+"relation": "recipient category of",
+"probability": 0.9908090829849243
+},
+"4-10": {
+"relation": "associated procedure of",
+"probability": 0.622751772403717
+},
+"8-9": {
+"relation": "may be qualified by",
+"probability": 0.47530093789100647
+},
+"8-10": {
+"relation": "finding method of",
+"probability": 0.9056629538536072
+},
+"9-10": {
+"relation": "finding method of",
+"probability": 0.680171012878418
+}
+},
+"train-127": {
+"3-5": {
+"relation": "answer to",
+"probability": 0.17511789500713348
+},
+"3-7": {
+"relation": "has answer",
+"probability": 0.5436766743659973
+},
+"3-14": {
+"relation": "answer to",
+"probability": 0.5714714527130127
+},
+"7-14": {
+"relation": "occurs before",
+"probability": 0.2768442630767822
+},
+"9-14": {
+"relation": "has subject relationship context",
+"probability": 0.9537585973739624
+}
+},
+"train-128": {
+"0-12": {
+"relation": "answer to",
+"probability": 0.5193997621536255
+},
+"0-15": {
+"relation": "measured by",
+"probability": 0.47259464859962463
+},
+"0-17": {
+"relation": "answer to",
+"probability": 0.8137493133544922
+},
+"0-18": {
+"relation": "has answer",
+"probability": 0.1959027796983719
+},
+"0-20": {
+"relation": "answer to",
+"probability": 0.968602180480957
+},
+"5-6": {
+"relation": "uses substance",
+"probability": 0.8371093273162842
+},
+"5-8": {
+"relation": "has structural class",
+"probability": 0.7875794768333435
+},
+"5-12": {
+"relation": "may be prevented by",
+"probability": 0.6023975610733032
+},
+"5-18": {
+"relation": "process acts on",
+"probability": 0.535961925983429
+},
+"5-20": {
+"relation": "may be prevented by",
+"probability": 0.9958213567733765
+},
+"6-8": {
+"relation": "substance used by",
+"probability": 0.7270966172218323
+},
+"6-18": {
+"relation": "focus of",
+"probability": 0.11197944730520248
+},
+"8-12": {
+"relation": "dose form of",
+"probability": 0.10287630558013916
+},
+"8-15": {
+"relation": "may be prevented by",
+"probability": 0.1313813477754593
+},
+"8-17": {
+"relation": "has at risk population",
+"probability": 0.20080219209194183
+},
+"8-18": {
+"relation": "has process output",
+"probability": 0.4796731173992157
+},
+"8-20": {
+"relation": "may be prevented by",
+"probability": 0.2889440953731537
+},
+"12-18": {
+"relation": "process acts on",
+"probability": 0.12404289096593857
+},
+"15-17": {
+"relation": "answer to",
+"probability": 0.19066736102104187
+},
+"15-18": {
+"relation": "has property",
+"probability": 0.3554826080799103
+},
+"15-20": {
+"relation": "measures",
+"probability": 0.34075769782066345
+},
+"17-18": {
+"relation": "has answer",
+"probability": 0.8994412422180176
+},
+"17-20": {
+"relation": "has answer",
+"probability": 0.28709250688552856
+},
+"18-20": {
+"relation": "population at risk for",
+"probability": 0.41007816791534424
+}
+},
+"train-129": {
+"1-3": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.42252251505851746
+},
+"1-4": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.36039960384368896
+},
+"1-19": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.4024975001811981
+},
+"1-32": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.4521552324295044
+},
+"3-4": {
+"relation": "has answer",
+"probability": 0.7786756157875061
+},
+"3-7": {
+"relation": "has answer",
+"probability": 0.6063333749771118
+},
+"4-7": {
+"relation": "system of",
+"probability": 0.34344878792762756
+},
+"4-12": {
+"relation": "measured component of",
+"probability": 0.5704023241996765
+},
+"4-16": {
+"relation": "focus of",
+"probability": 0.3259238004684448
+},
+"4-17": {
+"relation": "focus of",
+"probability": 0.6611108183860779
+},
+"4-19": {
+"relation": "measured by",
+"probability": 0.18067003786563873
+},
+"4-25": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.7065060138702393
+},
+"4-26": {
+"relation": "measured component of",
+"probability": 0.9439448118209839
+},
+"4-28": {
+"relation": "measured component of",
+"probability": 0.9669651985168457
+},
+"4-29": {
+"relation": "characterized by",
+"probability": 0.21066302061080933
+},
+"4-37": {
+"relation": "focus of",
+"probability": 0.37942764163017273
+},
+"7-12": {
+"relation": "answer to",
+"probability": 0.2689861059188843
+},
+"7-17": {
+"relation": "has focus",
+"probability": 0.24297210574150085
+},
+"7-19": {
+"relation": "answer to",
+"probability": 0.533879816532135
+},
+"7-26": {
+"relation": "system of",
+"probability": 0.3500438928604126
+},
+"12-16": {
+"relation": "may be prevented by",
+"probability": 0.9834263324737549
+},
+"12-17": {
+"relation": "focus of",
+"probability": 0.9296619296073914
+},
+"12-19": {
+"relation": "may be prevented by",
+"probability": 0.8388482928276062
+},
+"12-25": {
+"relation": "cell type or tissue affected by chemical or drug",
+"probability": 0.5608598589897156
+},
+"12-26": {
+"relation": "measured component of",
+"probability": 0.8936481475830078
+},
+"12-28": {
+"relation": "has ingredient",
+"probability": 0.725124180316925
+},
+"12-29": {
+"relation": "process acts on",
+"probability": 0.15827879309654236
+},
+"12-37": {
+"relation": "may be prevented by",
+"probability": 0.9878793358802795
+},
+"16-17": {
+"relation": "has focus",
+"probability": 0.9865204095840454
+},
+"16-19": {
+"relation": "manifestation of",
+"probability": 0.5944282412528992
+},
+"16-25": {
+"relation": "is normal cell origin of disease",
+"probability": 0.8647354245185852
+},
+"16-28": {
+"relation": "may be prevented by",
+"probability": 0.9972308278083801
+},
+"16-37": {
+"relation": "has manifestation",
+"probability": 0.5788877606391907
+},
+"17-19": {
+"relation": "has focus",
+"probability": 0.7424163818359375
+},
+"17-29": {
+"relation": "focus of",
+"probability": 0.86798095703125
+},
+"17-32": {
+"relation": "focus of",
+"probability": 0.2014486938714981
+},
+"17-37": {
+"relation": "focus of",
+"probability": 0.9882940053939819
+},
+"19-25": {
+"relation": "is normal cell origin of disease",
+"probability": 0.834760308265686
+},
+"19-26": {
+"relation": "has measured component",
+"probability": 0.16033202409744263
+},
+"19-28": {
+"relation": "has measured component",
+"probability": 0.7588239908218384
+},
+"19-29": {
+"relation": "has sign or symptom",
+"probability": 0.3210029602050781
+},
+"19-32": {
+"relation": "has pcdc os permissible value",
+"probability": 0.5009070634841919
+},
+"19-37": {
+"relation": "has manifestation",
+"probability": 0.6536111235618591
+},
+"25-26": {
+"relation": "specimen of",
+"probability": 0.5059871673583984
+},
+"25-28": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.5190435647964478
+},
+"25-37": {
+"relation": "disease has normal cell origin",
+"probability": 0.9205179214477539
+},
+"26-28": {
+"relation": "measured component of",
+"probability": 0.9812034964561462
+},
+"26-29": {
+"relation": "characterized by",
+"probability": 0.21483980119228363
+},
+"26-32": {
+"relation": "time aspect of",
+"probability": 0.4376412332057953
+},
+"28-29": {
+"relation": "process acts on",
+"probability": 0.313721626996994
+},
+"28-37": {
+"relation": "may be prevented by",
+"probability": 0.9979093670845032
+}
+},
+"train-130": {
+"1-4": {
+"relation": "time aspect of",
+"probability": 0.9633423686027527
+},
+"1-9": {
+"relation": "measures",
+"probability": 0.828373372554779
+},
+"1-10": {
+"relation": "measures",
+"probability": 0.8761148452758789
+},
+"1-17": {
+"relation": "has inherent attribute",
+"probability": 0.19659194350242615
+},
+"1-19": {
+"relation": "measures",
+"probability": 0.42534539103507996
+},
+"4-9": {
+"relation": "has time aspect",
+"probability": 0.8743652105331421
+},
+"4-10": {
+"relation": "has time aspect",
+"probability": 0.9781169891357422
+},
+"4-17": {
+"relation": "has time aspect",
+"probability": 0.943569540977478
+},
+"4-19": {
+"relation": "has time aspect",
+"probability": 0.9412848353385925
+},
+"9-10": {
+"relation": "has answer",
+"probability": 0.9068605899810791
+},
+"9-17": {
+"relation": "analyzed by",
+"probability": 0.32856133580207825
+},
+"10-17": {
+"relation": "specimen of",
+"probability": 0.7603919506072998
+},
+"10-19": {
+"relation": "answer to",
+"probability": 0.3391488492488861
+},
+"17-19": {
+"relation": "has specimen",
+"probability": 0.42093244194984436
+}
+},
+"train-131": {
+"1-7": {
+"relation": "has time aspect",
+"probability": 0.9291795492172241
+},
+"1-9": {
+"relation": "has time aspect",
+"probability": 0.8628756403923035
+},
+"1-11": {
+"relation": "has time aspect",
+"probability": 0.7548493146896362
+},
+"1-12": {
+"relation": "has time aspect",
+"probability": 0.9199032783508301
+},
+"7-12": {
+"relation": "has class",
+"probability": 0.7664796710014343
+},
+"9-11": {
+"relation": "focus of",
+"probability": 0.27896222472190857
+},
+"11-12": {
+"relation": "has answer",
+"probability": 0.5069901347160339
+}
+},
+"train-132": {
+"2-11": {
+"relation": "supersystem of",
+"probability": 0.5232462882995605
+},
+"2-14": {
+"relation": "has focus",
+"probability": 0.8766404986381531
+},
+"5-11": {
+"relation": "supersystem of",
+"probability": 0.4999452233314514
+},
+"5-14": {
+"relation": "has direct morphology",
+"probability": 0.7427223324775696
+},
+"11-14": {
+"relation": "has supersystem",
+"probability": 0.5187526941299438
+}
+},
+"train-133": {
+"1-3": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.6991477608680725
+},
+"1-5": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.9918633699417114
+},
+"3-5": {
+"relation": "has mapping qualifier",
+"probability": 0.28269779682159424
+}
+},
+"train-134": {
+"0-5": {
+"relation": "measures",
+"probability": 0.8816390037536621
+},
+"8-10": {
+"relation": "has subject of information",
+"probability": 0.5623459815979004
+},
+"8-11": {
+"relation": "has recipient category",
+"probability": 0.9010523557662964
+},
+"10-11": {
+"relation": "has answer",
+"probability": 0.5004470348358154
+}
+},
+"train-135": {
+"3-13": {
+"relation": "has mapping qualifier",
+"probability": 0.7737563252449036
+},
+"3-30": {
+"relation": "has mapping qualifier",
+"probability": 0.7737563252449036
+},
+"3-47": {
+"relation": "has mapping qualifier",
+"probability": 0.7737563252449036
+},
+"6-11": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.3879503905773163
+},
+"6-13": {
+"relation": "has pcdc ews permissible value",
+"probability": 0.17228861153125763
+},
+"6-18": {
+"relation": "has answer",
+"probability": 0.4385716915130615
+},
+"6-28": {
+"relation": "has answer",
+"probability": 0.817779004573822
+},
+"6-30": {
+"relation": "has pcdc ews permissible value",
+"probability": 0.17228861153125763
+},
+"6-35": {
+"relation": "has answer",
+"probability": 0.4385716915130615
+},
+"6-45": {
+"relation": "has answer",
+"probability": 0.6618571281433105
+},
+"6-47": {
+"relation": "has pcdc ews permissible value",
+"probability": 0.17228861153125763
+},
+"6-52": {
+"relation": "has answer",
+"probability": 0.4385716915130615
+},
+"11-13": {
+"relation": "clinician form of",
+"probability": 0.17230699956417084
+},
+"11-18": {
+"relation": "has physiologic effect",
+"probability": 0.32481130957603455
+},
+"11-28": {
+"relation": "focus of",
+"probability": 0.4043017625808716
+},
+"11-30": {
+"relation": "clinician form of",
+"probability": 0.17230699956417084
+},
+"11-35": {
+"relation": "has physiologic effect",
+"probability": 0.32481130957603455
+},
+"11-45": {
+"relation": "focus of",
+"probability": 0.4669407904148102
+},
+"11-47": {
+"relation": "clinician form of",
+"probability": 0.17230699956417084
+},
+"11-52": {
+"relation": "has physiologic effect",
+"probability": 0.32481130957603455
+},
+"13-18": {
+"relation": "clinician form of",
+"probability": 0.08061593025922775
+},
+"13-28": {
+"relation": "clinician form of",
+"probability": 0.12052209675312042
+},
+"13-35": {
+"relation": "clinician form of",
+"probability": 0.08061593025922775
+},
+"13-45": {
+"relation": "clinician form of",
+"probability": 0.14777380228042603
+},
+"13-52": {
+"relation": "clinician form of",
+"probability": 0.08061593025922775
+},
+"18-28": {
+"relation": "measures",
+"probability": 0.19067847728729248
+},
+"18-30": {
+"relation": "clinician form of",
+"probability": 0.08061593025922775
+},
+"18-45": {
+"relation": "focus of",
+"probability": 0.7510837316513062
+},
+"18-47": {
+"relation": "clinician form of",
+"probability": 0.08061593025922775
+},
+"28-30": {
+"relation": "clinician form of",
+"probability": 0.12052209675312042
+},
+"28-35": {
+"relation": "measures",
+"probability": 0.19067847728729248
+},
+"28-45": {
+"relation": "focus of",
+"probability": 0.37241798639297485
+},
+"28-47": {
+"relation": "clinician form of",
+"probability": 0.12052209675312042
+},
+"28-52": {
+"relation": "measures",
+"probability": 0.19067847728729248
+},
+"30-35": {
+"relation": "clinician form of",
+"probability": 0.08061593025922775
+},
+"30-45": {
+"relation": "clinician form of",
+"probability": 0.14777380228042603
+},
+"30-52": {
+"relation": "clinician form of",
+"probability": 0.08061593025922775
+},
+"35-45": {
+"relation": "focus of",
+"probability": 0.7510837316513062
+},
+"35-47": {
+"relation": "clinician form of",
+"probability": 0.08061593025922775
+},
+"45-47": {
+"relation": "clinician form of",
+"probability": 0.14777380228042603
+},
+"45-52": {
+"relation": "focus of",
+"probability": 0.7510837316513062
+},
+"47-52": {
+"relation": "clinician form of",
+"probability": 0.08061593025922775
+}
+},
+"train-136": {
+"0-3": {
+"relation": "clinician form of",
+"probability": 0.2279929369688034
+},
+"0-6": {
+"relation": "has pcdc os permissible value",
+"probability": 0.3392888605594635
+},
+"0-8": {
+"relation": "clinician form of",
+"probability": 0.1403174251317978
+},
+"0-15": {
+"relation": "direct morphology of",
+"probability": 0.6901793479919434
+},
+"3-6": {
+"relation": "property of",
+"probability": 0.31692779064178467
+},
+"3-8": {
+"relation": "focus of",
+"probability": 0.1409483402967453
+},
+"3-10": {
+"relation": "clinician form of",
+"probability": 0.2279929369688034
+},
+"3-15": {
+"relation": "direct morphology of",
+"probability": 0.40471524000167847
+},
+"6-8": {
+"relation": "has property",
+"probability": 0.7561935186386108
+},
+"6-10": {
+"relation": "has pcdc os permissible value",
+"probability": 0.3392888605594635
+},
+"6-15": {
+"relation": "has property",
+"probability": 0.851598858833313
+},
+"8-10": {
+"relation": "clinician form of",
+"probability": 0.1403174251317978
+},
+"8-15": {
+"relation": "focus of",
+"probability": 0.2712845206260681
+},
+"10-15": {
+"relation": "direct morphology of",
+"probability": 0.6901793479919434
+}
+},
+"train-137": {},
+"train-138": {
+"0-4": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.37405744194984436
+},
+"0-6": {
+"relation": "has answer",
+"probability": 0.9648036360740662
+},
+"0-7": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.6191633343696594
+},
+"0-13": {
+"relation": "is seronet permissible value for variable",
+"probability": 0.18649540841579437
+},
+"0-16": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.5952776670455933
+},
+"0-19": {
+"relation": "time aspect of",
+"probability": 0.4923918843269348
+},
+"3-16": {
+"relation": "has answer",
+"probability": 0.5204470157623291
+},
+"4-7": {
+"relation": "chemotherapy regimen has component",
+"probability": 0.3162861764431
+},
+"4-13": {
+"relation": "has prev name",
+"probability": 0.2642024755477905
+},
+"4-16": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.3046402335166931
+},
+"4-19": {
+"relation": "time aspect of",
+"probability": 0.5164254903793335
+},
+"6-13": {
+"relation": "answer to",
+"probability": 0.9565520882606506
+},
+"6-16": {
+"relation": "class of",
+"probability": 0.39510104060173035
+},
+"6-19": {
+"relation": "time aspect of",
+"probability": 0.9774422645568848
+},
+"7-16": {
+"relation": "has pcdc os permissible value",
+"probability": 0.34838125109672546
+},
+"7-19": {
+"relation": "time aspect of",
+"probability": 0.6590110063552856
+},
+"13-16": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.6029060482978821
+},
+"13-19": {
+"relation": "time aspect of",
+"probability": 0.76636803150177
+},
+"16-19": {
+"relation": "time aspect of",
+"probability": 0.790425181388855
+}
+},
+"train-139": {
+"0-8": {
+"relation": "property of",
+"probability": 0.9083000421524048
+},
+"0-12": {
+"relation": "supersystem of",
+"probability": 0.5212298631668091
+},
+"8-12": {
+"relation": "supersystem of",
+"probability": 0.5306209325790405
+},
+"8-26": {
+"relation": "has property",
+"probability": 0.851633608341217
+},
+"8-27": {
+"relation": "has property",
+"probability": 0.4351494014263153
+},
+"10-12": {
+"relation": "supersystem of",
+"probability": 0.3436014652252197
+},
+"10-27": {
+"relation": "has evaluation",
+"probability": 0.2805304527282715
+},
+"12-14": {
+"relation": "has supersystem",
+"probability": 0.49788200855255127
+},
+"12-19": {
+"relation": "has supersystem",
+"probability": 0.5332881212234497
+},
+"12-26": {
+"relation": "has supersystem",
+"probability": 0.5195780992507935
+},
+"12-27": {
+"relation": "has supersystem",
+"probability": 0.5044320225715637
+},
+"26-27": {
+"relation": "subset includes concept",
+"probability": 0.17859187722206116
+}
+},
+"train-140": {
+"0-3": {
+"relation": "measures",
+"probability": 0.5407499670982361
+},
+"0-8": {
+"relation": "answer to",
+"probability": 0.25763261318206787
+},
+"3-8": {
+"relation": "measures",
+"probability": 0.34189218282699585
+}
+},
+"train-141": {
+"6-13": {
+"relation": "has recipient category",
+"probability": 0.17288991808891296
+},
+"6-16": {
+"relation": "has recipient category",
+"probability": 0.2604178190231323
+},
+"6-19": {
+"relation": "has associated procedure",
+"probability": 0.3012677729129791
+},
+"6-25": {
+"relation": "has associated condition",
+"probability": 0.4558964669704437
+},
+"13-16": {
+"relation": "has recipient category",
+"probability": 0.6403964161872864
+},
+"13-19": {
+"relation": "has recipient category",
+"probability": 0.13372521102428436
+},
+"13-24": {
+"relation": "severity of",
+"probability": 0.7018396854400635
+},
+"13-25": {
+"relation": "has associated condition",
+"probability": 0.12299826741218567
+},
+"16-19": {
+"relation": "focus of",
+"probability": 0.7566331028938293
+},
+"16-24": {
+"relation": "severity of",
+"probability": 0.973849356174469
+},
+"16-25": {
+"relation": "focus of",
+"probability": 0.9751397967338562
+},
+"19-24": {
+"relation": "severity of",
+"probability": 0.9896901845932007
+},
+"19-25": {
+"relation": "has related factor",
+"probability": 0.14195036888122559
+},
+"24-25": {
+"relation": "has severity",
+"probability": 0.995043158531189
+}
+},
+"train-142": {
+"1-6": {
+"relation": "has answer",
+"probability": 0.8168707489967346
+}
+},
+"train-143": {
+"0-2": {
+"relation": "has contraindicated class",
+"probability": 0.9849790930747986
+},
+"0-7": {
+"relation": "may be prevented by",
+"probability": 0.999007523059845
+},
+"2-7": {
+"relation": "may be prevented by",
+"probability": 0.9953255653381348
+},
+"5-7": {
+"relation": "occurs after",
+"probability": 0.7355847954750061
+}
+},
+"train-144": {
+"2-5": {
+"relation": "has property",
+"probability": 0.9039204716682434
+}
+},
+"train-145": {
+"0-1": {
+"relation": "focus of",
+"probability": 0.4382789731025696
+},
+"0-3": {
+"relation": "focus of",
+"probability": 0.6202577948570251
+},
+"0-5": {
+"relation": "is target",
+"probability": 0.748345673084259
+},
+"1-3": {
+"relation": "focus of",
+"probability": 0.7720510363578796
+},
+"1-5": {
+"relation": "chemical or drug has physiologic effect",
+"probability": 0.30216461420059204
+},
+"3-5": {
+"relation": "gene product malfunction associated with disease",
+"probability": 0.5428831577301025
+}
+},
+"train-146": {
+"7-9": {
+"relation": "exhibited by",
+"probability": 0.7749919295310974
+},
+"7-13": {
+"relation": "has target",
+"probability": 0.8113258481025696
+},
+"7-14": {
+"relation": "negatively regulated by",
+"probability": 0.09622754156589508
+},
+"7-16": {
+"relation": "gene encodes gene product",
+"probability": 0.26271140575408936
+},
+"7-17": {
+"relation": "associated with malfunction of gene product",
+"probability": 0.18165206909179688
+},
+"7-19": {
+"relation": "disease has associated gene",
+"probability": 0.650739312171936
+},
+"7-21": {
+"relation": "disease has associated gene",
+"probability": 0.5531589388847351
+},
+"7-22": {
+"relation": "is organism source of gene product",
+"probability": 0.9741345643997192
+},
+"7-23": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.9974693059921265
+},
+"9-13": {
+"relation": "has target",
+"probability": 0.7618697285652161
+},
+"9-14": {
+"relation": "negatively regulated by",
+"probability": 0.150845006108284
+},
+"9-16": {
+"relation": "gene encodes gene product",
+"probability": 0.40384918451309204
+},
+"9-17": {
+"relation": "biological process results from biological process",
+"probability": 0.3911239504814148
+},
+"9-19": {
+"relation": "disease has associated gene",
+"probability": 0.7222660183906555
+},
+"9-21": {
+"relation": "disease has associated gene",
+"probability": 0.5838552713394165
+},
+"9-22": {
+"relation": "is organism source of gene product",
+"probability": 0.9634953737258911
+},
+"9-23": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.9973719120025635
+},
+"13-14": {
+"relation": "is physiologic effect of chemical or drug",
+"probability": 0.7278726696968079
+},
+"13-16": {
+"relation": "is target",
+"probability": 0.9351422190666199
+},
+"13-17": {
+"relation": "is physiologic effect of chemical or drug",
+"probability": 0.6289198994636536
+},
+"13-19": {
+"relation": "may be prevented by",
+"probability": 0.9285830855369568
+},
+"13-21": {
+"relation": "may be prevented by",
+"probability": 0.9886521697044373
+},
+"13-22": {
+"relation": "is organism source of gene product",
+"probability": 0.18774864077568054
+},
+"13-23": {
+"relation": "cell type or tissue affected by chemical or drug",
+"probability": 0.2885611951351166
+},
+"14-16": {
+"relation": "negatively regulated by",
+"probability": 0.1862156093120575
+},
+"14-17": {
+"relation": "biological process has result biological process",
+"probability": 0.48810797929763794
+},
+"14-19": {
+"relation": "due to",
+"probability": 0.8719622492790222
+},
+"16-17": {
+"relation": "biological process results from biological process",
+"probability": 0.5099943280220032
+},
+"16-19": {
+"relation": "disease has associated gene",
+"probability": 0.6447547674179077
+},
+"16-21": {
+"relation": "disease has associated gene",
+"probability": 0.47083616256713867
+},
+"16-22": {
+"relation": "is organism source of gene product",
+"probability": 0.8109886050224304
+},
+"16-23": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.9976766705513
+},
+"17-19": {
+"relation": "biological process results from biological process",
+"probability": 0.42667344212532043
+},
+"17-22": {
+"relation": "biological process results from biological process",
+"probability": 0.5457168817520142
+},
+"19-21": {
+"relation": "cause of",
+"probability": 0.9394087195396423
+},
+"19-23": {
+"relation": "cause of",
+"probability": 0.6343442797660828
+}
+},
+"train-147": {
+"3-4": {
+"relation": "focus of",
+"probability": 0.7109399437904358
+},
+"3-7": {
+"relation": "is organism source of gene product",
+"probability": 0.2168635129928589
+},
+"3-24": {
+"relation": "used by",
+"probability": 0.29892441630363464
+},
+"7-24": {
+"relation": "gene product has organism source",
+"probability": 0.32926520705223083
+}
+},
+"train-148": {
+"3-4": {
+"relation": "uses",
+"probability": 0.1879987120628357
+},
+"3-6": {
+"relation": "is target",
+"probability": 0.9017159938812256
+},
+"3-9": {
+"relation": "is target",
+"probability": 0.8099884986877441
+},
+"3-10": {
+"relation": "is physiologic effect of chemical or drug",
+"probability": 0.663417637348175
+},
+"4-7": {
+"relation": "process includes biological process",
+"probability": 0.969619631767273
+},
+"4-9": {
+"relation": "chemical or drug has physiologic effect",
+"probability": 0.2696255147457123
+},
+"4-10": {
+"relation": "related factor of",
+"probability": 0.34154969453811646
+},
+"6-9": {
+"relation": "gene product encoded by gene",
+"probability": 0.29849326610565186
+},
+"6-10": {
+"relation": "biological process results from biological process",
+"probability": 0.4518231451511383
+},
+"7-10": {
+"relation": "biological process is part of process",
+"probability": 0.9698081612586975
+},
+"9-10": {
+"relation": "biological process results from biological process",
+"probability": 0.42618274688720703
+}
+},
+"train-149": {},
+"train-150": {
+"0-8": {
+"relation": "finding method of",
+"probability": 0.5763666033744812
+},
+"1-5": {
+"relation": "subject of information of",
+"probability": 0.571732759475708
+}
+},
+"train-151": {
+"1-3": {
+"relation": "has associated procedure",
+"probability": 0.21474818885326385
+},
+"3-6": {
+"relation": "associated procedure of",
+"probability": 0.6388716101646423
+},
+"5-8": {
+"relation": "may be prevented by",
+"probability": 0.8475490212440491
+}
+},
+"train-152": {
+"6-8": {
+"relation": "has associated procedure",
+"probability": 0.28960832953453064
+},
+"8-17": {
+"relation": "population at risk for",
+"probability": 0.1628076732158661
+},
+"10-13": {
+"relation": "may be prevented by",
+"probability": 0.5896118879318237
+},
+"10-17": {
+"relation": "may be prevented by",
+"probability": 0.9991455078125
+},
+"13-15": {
+"relation": "characterizes",
+"probability": 0.4372740089893341
+},
+"13-17": {
+"relation": "disease has finding",
+"probability": 0.35484376549720764
+}
+},
+"train-153": {
+"0-2": {
+"relation": "may prevent",
+"probability": 0.912835419178009
+},
+"0-12": {
+"relation": "may prevent",
+"probability": 0.8759862184524536
+},
+"2-12": {
+"relation": "structural class of",
+"probability": 0.4072483777999878
+}
+},
+"train-154": {
+"1-5": {
+"relation": "recipient category of",
+"probability": 0.9688531756401062
+},
+"5-9": {
+"relation": "has recipient category",
+"probability": 0.34308168292045593
+},
+"9-13": {
+"relation": "property of",
+"probability": 0.6265313625335693
+}
+},
+"train-155": {
+"2-15": {
+"relation": "has associated procedure",
+"probability": 0.3113844394683838
+},
+"4-9": {
+"relation": "may prevent",
+"probability": 0.566198468208313
+},
+"15-17": {
+"relation": "associated procedure of",
+"probability": 0.3932497203350067
+}
+},
+"train-156": {
+"1-4": {
+"relation": "has direct device",
+"probability": 0.09756641089916229
+}
+},
+"train-157": {
+"1-8": {
+"relation": "has focus",
+"probability": 0.9339572787284851
+},
+"1-23": {
+"relation": "has focus",
+"probability": 0.5279194116592407
+},
+"2-8": {
+"relation": "has focus",
+"probability": 0.5334165096282959
+},
+"2-20": {
+"relation": "system of",
+"probability": 0.11949266493320465
+},
+"2-23": {
+"relation": "has focus",
+"probability": 0.6851610541343689
+},
+"5-8": {
+"relation": "has focus",
+"probability": 0.5524634718894958
+},
+"5-23": {
+"relation": "has priority",
+"probability": 0.3378182649612427
+},
+"8-18": {
+"relation": "focus of",
+"probability": 0.21101972460746765
+},
+"8-20": {
+"relation": "recipient category of",
+"probability": 0.2456304430961609
+},
+"8-23": {
+"relation": "has focus",
+"probability": 0.43001681566238403
+},
+"18-20": {
+"relation": "concept in subset",
+"probability": 0.4949410855770111
+},
+"18-23": {
+"relation": "has focus",
+"probability": 0.2347291111946106
+},
+"20-23": {
+"relation": "has recipient category",
+"probability": 0.4144672453403473
+}
+},
+"train-158": {
+"1-7": {
+"relation": "has focus",
+"probability": 0.32191798090934753
+},
+"1-18": {
+"relation": "subject of information of",
+"probability": 0.3889716863632202
+},
+"3-18": {
+"relation": "recipient category of",
+"probability": 0.2972445487976074
+},
+"4-7": {
+"relation": "has recipient category",
+"probability": 0.13815432786941528
+},
+"4-18": {
+"relation": "subject of information of",
+"probability": 0.5506424903869629
+},
+"7-17": {
+"relation": "recipient category of",
+"probability": 0.26982495188713074
+},
+"7-18": {
+"relation": "recipient category of",
+"probability": 0.9093301296234131
+},
+"17-18": {
+"relation": "recipient category of",
+"probability": 0.9843786358833313
+}
+},
+"train-159": {
+"5-7": {
+"relation": "has severity",
+"probability": 0.6689295768737793
+},
+"5-8": {
+"relation": "has severity",
+"probability": 0.3796823024749756
+},
+"5-11": {
+"relation": "has severity",
+"probability": 0.6119235157966614
+},
+"5-13": {
+"relation": "has answer",
+"probability": 0.9981306195259094
+},
+"7-8": {
+"relation": "has answer",
+"probability": 0.5707499980926514
+},
+"7-11": {
+"relation": "has answer",
+"probability": 0.5010113716125488
+},
+"7-13": {
+"relation": "has answer",
+"probability": 0.9977136850357056
+},
+"8-13": {
+"relation": "focus of",
+"probability": 0.9166420102119446
+},
+"11-13": {
+"relation": "has answer",
+"probability": 0.934668242931366
+}
+},
+"train-160": {
+"0-5": {
+"relation": "has pcdc os permissible value",
+"probability": 0.7438071370124817
+},
+"0-14": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.37933626770973206
+},
+"0-16": {
+"relation": "has seronet permissible value",
+"probability": 0.611107349395752
+}
+},
+"train-161": {
+"0-5": {
+"relation": "finding method of",
+"probability": 0.6971001625061035
+},
+"0-28": {
+"relation": "has property",
+"probability": 0.1465485692024231
+},
+"3-22": {
+"relation": "answer to",
+"probability": 0.4817194640636444
+},
+"5-10": {
+"relation": "device used by",
+"probability": 0.37154942750930786
+},
+"5-12": {
+"relation": "device used by",
+"probability": 0.21641330420970917
+},
+"5-15": {
+"relation": "device used by",
+"probability": 0.22370094060897827
+},
+"5-19": {
+"relation": "focus of",
+"probability": 0.8246827125549316
+},
+"5-21": {
+"relation": "finding method of",
+"probability": 0.6971001625061035
+},
+"5-22": {
+"relation": "focus of",
+"probability": 0.8109269738197327
+},
+"5-24": {
+"relation": "device used by",
+"probability": 0.22370094060897827
+},
+"5-28": {
+"relation": "device used by",
+"probability": 0.3203805088996887
+},
+"10-12": {
+"relation": "has prev name",
+"probability": 0.4603968858718872
+},
+"10-15": {
+"relation": "has recipient category",
+"probability": 0.05765393748879433
+},
+"10-19": {
+"relation": "has occurrence",
+"probability": 0.7335633635520935
+},
+"10-24": {
+"relation": "has recipient category",
+"probability": 0.05765393748879433
+},
+"10-28": {
+"relation": "measured by",
+"probability": 0.13173310458660126
+},
+"12-15": {
+"relation": "chemotherapy regimen has component",
+"probability": 0.04487040638923645
+},
+"12-19": {
+"relation": "has occurrence",
+"probability": 0.8455795049667358
+},
+"12-24": {
+"relation": "chemotherapy regimen has component",
+"probability": 0.04487040638923645
+},
+"12-28": {
+"relation": "has prev name",
+"probability": 0.07422633469104767
+},
+"15-22": {
+"relation": "focus of",
+"probability": 0.5965200066566467
+},
+"15-28": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.07455939054489136
+},
+"21-28": {
+"relation": "has property",
+"probability": 0.1465485692024231
+},
+"22-24": {
+"relation": "focus of",
+"probability": 0.5965200066566467
+},
+"24-28": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.07455939054489136
+}
+},
+"train-162": {
+"5-6": {
+"relation": "answer to",
+"probability": 0.9210429787635803
+},
+"5-10": {
+"relation": "has focus",
+"probability": 0.7838777899742126
+},
+"5-12": {
+"relation": "answer to",
+"probability": 0.9221119284629822
+},
+"5-21": {
+"relation": "has focus",
+"probability": 0.32627588510513306
+},
+"6-8": {
+"relation": "has answer",
+"probability": 0.531228244304657
+},
+"6-10": {
+"relation": "has focus",
+"probability": 0.7064201235771179
+},
+"6-12": {
+"relation": "answer to",
+"probability": 0.6887341141700745
+},
+"6-24": {
+"relation": "has answer",
+"probability": 0.27287760376930237
+},
+"10-21": {
+"relation": "procedure device of",
+"probability": 0.21446925401687622
+},
+"10-24": {
+"relation": "direct device of",
+"probability": 0.19226384162902832
+},
+"21-24": {
+"relation": "manifestation of",
+"probability": 0.030729226768016815
+}
+},
+"train-163": {
+"4-9": {
+"relation": "severity of",
+"probability": 0.20285163819789886
+},
+"4-10": {
+"relation": "focus of",
+"probability": 0.7757261395454407
+},
+"4-13": {
+"relation": "has occurrence",
+"probability": 0.9974186420440674
+},
+"9-10": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.5511572360992432
+},
+"9-13": {
+"relation": "has occurrence",
+"probability": 0.8490923047065735
+},
+"10-13": {
+"relation": "has occurrence",
+"probability": 0.8762552738189697
+},
+"10-14": {
+"relation": "focus of",
+"probability": 0.9179650545120239
+},
+"13-14": {
+"relation": "occurs in",
+"probability": 0.9598494172096252
+}
+},
+"train-164": {
+"2-16": {
+"relation": "has focus",
+"probability": 0.388583779335022
+},
+"12-16": {
+"relation": "has focus",
+"probability": 0.5420838594436646
+}
+},
+"train-165": {
+"2-6": {
+"relation": "has time aspect",
+"probability": 0.7617878913879395
+},
+"2-17": {
+"relation": "has time aspect",
+"probability": 0.8452457189559937
+},
+"6-15": {
+"relation": "mapping qualifier of",
+"probability": 0.8054724335670471
+},
+"6-17": {
+"relation": "supersystem of",
+"probability": 0.33083319664001465
+}
+},
+"train-166": {
+"2-8": {
+"relation": "finding method of",
+"probability": 0.9201323390007019
+},
+"5-8": {
+"relation": "has focus",
+"probability": 0.5471374988555908
+},
+"8-11": {
+"relation": "process includes biological process",
+"probability": 0.6672460436820984
+},
+"8-13": {
+"relation": "focus of",
+"probability": 0.7594444751739502
+},
+"8-14": {
+"relation": "focus of",
+"probability": 0.9815628528594971
+},
+"8-16": {
+"relation": "focus of",
+"probability": 0.942469596862793
+},
+"11-13": {
+"relation": "biological process is part of process",
+"probability": 0.895413875579834
+},
+"11-14": {
+"relation": "biological process is part of process",
+"probability": 0.9179642796516418
+},
+"13-14": {
+"relation": "biological process is part of process",
+"probability": 0.9258182644844055
+},
+"14-16": {
+"relation": "sign or symptom of",
+"probability": 0.6012544631958008
+}
+},
+"train-167": {},
+"train-168": {
+"1-5": {
+"relation": "finding method of",
+"probability": 0.8313459157943726
+},
+"1-9": {
+"relation": "finding method of",
+"probability": 0.2676399350166321
+},
+"1-12": {
+"relation": "characterizes",
+"probability": 0.24790531396865845
+},
+"1-28": {
+"relation": "biological process is part of process",
+"probability": 0.9770106077194214
+},
+"5-6": {
+"relation": "has finding method",
+"probability": 0.9497302174568176
+},
+"5-9": {
+"relation": "has associated procedure",
+"probability": 0.4631001353263855
+},
+"5-12": {
+"relation": "has technique",
+"probability": 0.9905548691749573
+},
+"5-17": {
+"relation": "has technique",
+"probability": 0.9314795732498169
+},
+"5-27": {
+"relation": "has finding method",
+"probability": 0.9334217309951782
+},
+"5-28": {
+"relation": "has finding method",
+"probability": 0.8938862681388855
+},
+"6-12": {
+"relation": "has property",
+"probability": 0.6043409109115601
+},
+"9-12": {
+"relation": "has finding method",
+"probability": 0.15201318264007568
+},
+"9-13": {
+"relation": "recipient category of",
+"probability": 0.9932680726051331
+},
+"9-17": {
+"relation": "has associated procedure",
+"probability": 0.09407045692205429
+},
+"9-18": {
+"relation": "recipient category of",
+"probability": 0.9932680726051331
+},
+"9-20": {
+"relation": "subject relationship context of",
+"probability": 0.4906085729598999
+},
+"9-27": {
+"relation": "target anatomy has procedure",
+"probability": 0.5317831635475159
+},
+"9-28": {
+"relation": "associated procedure of",
+"probability": 0.4037274122238159
+},
+"12-13": {
+"relation": "recipient category of",
+"probability": 0.4590965211391449
+},
+"12-17": {
+"relation": "has focus",
+"probability": 0.16990111768245697
+},
+"12-18": {
+"relation": "recipient category of",
+"probability": 0.4590965211391449
+},
+"12-20": {
+"relation": "system of",
+"probability": 0.2613367438316345
+},
+"12-27": {
+"relation": "measured by",
+"probability": 0.5566834807395935
+},
+"12-28": {
+"relation": "measured by",
+"probability": 0.25631415843963623
+},
+"13-17": {
+"relation": "has recipient category",
+"probability": 0.9842079281806946
+},
+"13-20": {
+"relation": "has subject of information",
+"probability": 0.3789271116256714
+},
+"13-27": {
+"relation": "has subject of information",
+"probability": 0.4368637502193451
+},
+"13-28": {
+"relation": "has recipient category",
+"probability": 0.9756917357444763
+},
+"17-18": {
+"relation": "has recipient category",
+"probability": 0.9842079281806946
+},
+"17-20": {
+"relation": "subject relationship context of",
+"probability": 0.7734429240226746
+},
+"17-27": {
+"relation": "subset includes concept",
+"probability": 0.5404811501502991
+},
+"17-28": {
+"relation": "focus of",
+"probability": 0.20462796092033386
+},
+"18-20": {
+"relation": "has subject of information",
+"probability": 0.3789271116256714
+},
+"18-27": {
+"relation": "has subject of information",
+"probability": 0.4368637502193451
+},
+"18-28": {
+"relation": "has recipient category",
+"probability": 0.9756917357444763
+},
+"27-28": {
+"relation": "procedure has target anatomy",
+"probability": 0.28082481026649475
+}
+},
+"train-169": {
+"0-2": {
+"relation": "has focus",
+"probability": 0.4104173481464386
+},
+"0-5": {
+"relation": "occurs after",
+"probability": 0.29910439252853394
+},
+"0-8": {
+"relation": "has basic dose form",
+"probability": 0.05943131819367409
+},
+"0-11": {
+"relation": "has mapping qualifier",
+"probability": 0.3120418190956116
+},
+"0-14": {
+"relation": "has pharmaceutical administration method",
+"probability": 0.30188506841659546
+},
+"2-4": {
+"relation": "focus of",
+"probability": 0.09432084858417511
+},
+"2-5": {
+"relation": "focus of",
+"probability": 0.9763620495796204
+},
+"2-8": {
+"relation": "has physiologic effect",
+"probability": 0.21406298875808716
+},
+"2-11": {
+"relation": "direct device of",
+"probability": 0.1460951864719391
+},
+"2-13": {
+"relation": "direct morphology of",
+"probability": 0.8008497953414917
+},
+"2-14": {
+"relation": "direct device of",
+"probability": 0.15291103720664978
+},
+"4-8": {
+"relation": "has pharmaceutical intended site",
+"probability": 0.1128496453166008
+},
+"4-14": {
+"relation": "has pharmaceutical intended site",
+"probability": 0.17070381343364716
+},
+"5-8": {
+"relation": "may prevent",
+"probability": 0.7191864252090454
+},
+"5-11": {
+"relation": "may prevent",
+"probability": 0.41518598794937134
+},
+"5-13": {
+"relation": "cause of",
+"probability": 0.37597015500068665
+},
+"5-14": {
+"relation": "may prevent",
+"probability": 0.7042298316955566
+},
+"8-11": {
+"relation": "has basic dose form",
+"probability": 0.13621926307678223
+},
+"8-13": {
+"relation": "device intended site of",
+"probability": 0.18508942425251007
+},
+"8-14": {
+"relation": "pharmaceutical administration method of",
+"probability": 0.11570710688829422
+},
+"11-13": {
+"relation": "indirect procedure site of",
+"probability": 0.19295550882816315
+},
+"11-14": {
+"relation": "has pharmaceutical intended site",
+"probability": 0.1378718912601471
+},
+"13-14": {
+"relation": "has indirect procedure site",
+"probability": 0.6374096274375916
+}
+},
+"train-170": {
+"1-6": {
+"relation": "recipient category of",
+"probability": 0.4287835955619812
+},
+"1-10": {
+"relation": "has indirect procedure site",
+"probability": 0.5529183745384216
+},
+"1-13": {
+"relation": "has indirect procedure site",
+"probability": 0.913142204284668
+},
+"1-15": {
+"relation": "has member",
+"probability": 0.1540248990058899
+},
+"1-17": {
+"relation": "has indirect procedure site",
+"probability": 0.8016940355300903
+},
+"6-8": {
+"relation": "has subject of information",
+"probability": 0.7427632212638855
+},
+"6-10": {
+"relation": "has recipient category",
+"probability": 0.9883785843849182
+},
+"6-11": {
+"relation": "has subject of information",
+"probability": 0.6750279664993286
+},
+"6-13": {
+"relation": "has recipient category",
+"probability": 0.9901856184005737
+},
+"6-15": {
+"relation": "has subject of information",
+"probability": 0.5808428525924683
+},
+"6-17": {
+"relation": "has recipient category",
+"probability": 0.9898183941841125
+},
+"8-10": {
+"relation": "device used by",
+"probability": 0.12544046342372894
+},
+"8-11": {
+"relation": "disease is grade",
+"probability": 0.15871712565422058
+},
+"8-13": {
+"relation": "has revision status",
+"probability": 0.10862094908952713
+},
+"8-15": {
+"relation": "disease is grade",
+"probability": 0.18928924202919006
+},
+"8-17": {
+"relation": "has revision status",
+"probability": 0.08716365694999695
+},
+"10-11": {
+"relation": "count of base of active ingredient of",
+"probability": 0.06775079667568207
+},
+"10-13": {
+"relation": "uses device",
+"probability": 0.487618088722229
+},
+"10-15": {
+"relation": "uses device",
+"probability": 0.11351790279150009
+},
+"10-17": {
+"relation": "uses device",
+"probability": 0.43685007095336914
+},
+"11-13": {
+"relation": "has revision status",
+"probability": 0.11231350898742676
+},
+"11-15": {
+"relation": "disease is grade",
+"probability": 0.1866375207901001
+},
+"11-17": {
+"relation": "has revision status",
+"probability": 0.10451804101467133
+},
+"13-15": {
+"relation": "approach of",
+"probability": 0.05120275914669037
+},
+"13-17": {
+"relation": "has procedure device",
+"probability": 0.10504327714443207
+},
+"15-17": {
+"relation": "has revision status",
+"probability": 0.07943738251924515
+}
+},
+"train-171": {
+"1-5": {
+"relation": "has direct morphology",
+"probability": 0.30651572346687317
+},
+"1-8": {
+"relation": "has direct morphology",
+"probability": 0.9764154553413391
+},
+"1-10": {
+"relation": "has direct morphology",
+"probability": 0.3389039635658264
+},
+"5-8": {
+"relation": "has direct device",
+"probability": 0.5520617365837097
+},
+"5-10": {
+"relation": "has basic dose form",
+"probability": 0.270894318819046
+},
+"5-13": {
+"relation": "has system",
+"probability": 0.14815297722816467
+},
+"8-10": {
+"relation": "chemical or drug plays role in biological process",
+"probability": 0.10586317628622055
+},
+"10-13": {
+"relation": "pharmaceutical administration method of",
+"probability": 0.10825186222791672
+}
+},
+"train-172": {
+"0-4": {
+"relation": "has indirect procedure site",
+"probability": 0.995429515838623
+},
+"0-6": {
+"relation": "has specimen source topography",
+"probability": 0.3189971446990967
+},
+"0-10": {
+"relation": "has pharmaceutical intended site",
+"probability": 0.3800915479660034
+},
+"4-6": {
+"relation": "focus of",
+"probability": 0.8522279858589172
+},
+"4-10": {
+"relation": "substance used by",
+"probability": 0.5311827063560486
+},
+"4-16": {
+"relation": "focus of",
+"probability": 0.9334748387336731
+},
+"6-10": {
+"relation": "has dose form",
+"probability": 0.8240188956260681
+},
+"6-16": {
+"relation": "has defining characteristic",
+"probability": 0.5805778503417969
+},
+"10-16": {
+"relation": "induced by",
+"probability": 0.8680787086486816
+}
+},
+"train-173": {
+"1-6": {
+"relation": "pharmaceutical state of matter of",
+"probability": 0.4096568822860718
+},
+"5-6": {
+"relation": "pharmaceutical state of matter of",
+"probability": 0.22898012399673462
+},
+"5-9": {
+"relation": "finding method of",
+"probability": 0.16450844705104828
+},
+"6-12": {
+"relation": "has system",
+"probability": 0.4702260494232178
+},
+"9-16": {
+"relation": "has finding method",
+"probability": 0.540993869304657
+},
+"12-16": {
+"relation": "scale of",
+"probability": 0.16662715375423431
+},
+"12-17": {
+"relation": "system of",
+"probability": 0.37867456674575806
+}
+},
+"train-174": {
+"0-3": {
+"relation": "may be prevented by",
+"probability": 0.989838719367981
+},
+"1-3": {
+"relation": "occurs after",
+"probability": 0.585669755935669
+}
+},
+"train-175": {
+"4-5": {
+"relation": "may be prevented by",
+"probability": 0.9139738082885742
+},
+"4-7": {
+"relation": "physiologic effect of",
+"probability": 0.4973401725292206
+},
+"4-9": {
+"relation": "physiologic effect of",
+"probability": 0.9953807592391968
+},
+"5-7": {
+"relation": "associated condition of",
+"probability": 0.4871521592140198
+},
+"5-9": {
+"relation": "occurs before",
+"probability": 0.38854944705963135
+},
+"7-9": {
+"relation": "process includes biological process",
+"probability": 0.2547992467880249
+}
+},
+"train-176": {},
+"train-177": {
+"0-4": {
+"relation": "recipient category of",
+"probability": 0.4483793377876282
+},
+"0-5": {
+"relation": "answer to",
+"probability": 0.30787786841392517
+},
+"0-13": {
+"relation": "has focus",
+"probability": 0.43363121151924133
+},
+"0-15": {
+"relation": "answer to",
+"probability": 0.8559935688972473
+},
+"4-5": {
+"relation": "has subject of information",
+"probability": 0.7121203541755676
+},
+"4-13": {
+"relation": "has recipient category",
+"probability": 0.9839408993721008
+},
+"4-15": {
+"relation": "has subject of information",
+"probability": 0.7902738451957703
+},
+"5-15": {
+"relation": "disease is grade",
+"probability": 0.05219174921512604
+},
+"13-15": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.1560083031654358
+}
+},
+"train-178": {
+"1-3": {
+"relation": "focus of",
+"probability": 0.3880954086780548
+},
+"1-11": {
+"relation": "focus of",
+"probability": 0.6110635995864868
+},
+"1-20": {
+"relation": "focus of",
+"probability": 0.4807533919811249
+},
+"1-26": {
+"relation": "focus of",
+"probability": 0.990243136882782
+},
+"1-30": {
+"relation": "focus of",
+"probability": 0.6110635995864868
+},
+"3-11": {
+"relation": "has route of administration",
+"probability": 0.3581119179725647
+},
+"3-13": {
+"relation": "has dose form",
+"probability": 0.903839647769928
+},
+"3-14": {
+"relation": "has dose form",
+"probability": 0.9582515954971313
+},
+"3-29": {
+"relation": "has dose form",
+"probability": 0.9582515954971313
+},
+"3-30": {
+"relation": "has route of administration",
+"probability": 0.3581119179725647
+},
+"11-13": {
+"relation": "has dose form",
+"probability": 0.962367057800293
+},
+"11-14": {
+"relation": "has dose form",
+"probability": 0.9897597432136536
+},
+"11-29": {
+"relation": "has dose form",
+"probability": 0.9897597432136536
+},
+"13-14": {
+"relation": "has structural class",
+"probability": 0.9614812731742859
+},
+"13-26": {
+"relation": "may be prevented by",
+"probability": 0.9974184036254883
+},
+"13-29": {
+"relation": "has structural class",
+"probability": 0.9614812731742859
+},
+"13-30": {
+"relation": "has dose form",
+"probability": 0.962367057800293
+},
+"14-26": {
+"relation": "may be prevented by",
+"probability": 0.9994943141937256
+},
+"14-30": {
+"relation": "has dose form",
+"probability": 0.9897597432136536
+},
+"16-20": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.6020739078521729
+},
+"16-24": {
+"relation": "has answer",
+"probability": 0.5059110522270203
+},
+"26-29": {
+"relation": "may be prevented by",
+"probability": 0.9994943141937256
+},
+"29-30": {
+"relation": "has dose form",
+"probability": 0.9897597432136536
+}
+},
+"train-179": {
+"5-7": {
+"relation": "uses",
+"probability": 0.23656734824180603
+}
+},
+"train-180": {
+"1-6": {
+"relation": "has answer",
+"probability": 0.7135972380638123
+},
+"1-9": {
+"relation": "property of",
+"probability": 0.9960261583328247
+},
+"1-11": {
+"relation": "property of",
+"probability": 0.9180509448051453
+},
+"1-13": {
+"relation": "supersystem of",
+"probability": 0.5069916248321533
+},
+"6-9": {
+"relation": "property of",
+"probability": 0.991886556148529
+},
+"6-11": {
+"relation": "property of",
+"probability": 0.9254443645477295
+},
+"6-13": {
+"relation": "system of",
+"probability": 0.49733221530914307
+},
+"9-11": {
+"relation": "has property",
+"probability": 0.7990882396697998
+},
+"9-13": {
+"relation": "has property",
+"probability": 0.6878373622894287
+}
+},
+"train-181": {
+"0-7": {
+"relation": "has system",
+"probability": 0.4737475514411926
+},
+"0-10": {
+"relation": "has system",
+"probability": 0.6380908489227295
+},
+"7-10": {
+"relation": "has answer",
+"probability": 0.46696770191192627
+}
+},
+"train-182": {
+"0-4": {
+"relation": "has answer",
+"probability": 0.7605193853378296
+}
+},
+"train-183": {
+"2-9": {
+"relation": "subject of information of",
+"probability": 0.6812912821769714
+},
+"2-12": {
+"relation": "procedure has partially excised anatomy",
+"probability": 0.130765900015831
+},
+"2-19": {
+"relation": "subject of information of",
+"probability": 0.6812912821769714
+},
+"2-22": {
+"relation": "prev name of",
+"probability": 0.13730399310588837
+},
+"9-12": {
+"relation": "has recipient category",
+"probability": 0.9599252343177795
+},
+"9-22": {
+"relation": "has recipient category",
+"probability": 0.8482698202133179
+},
+"12-19": {
+"relation": "has recipient category",
+"probability": 0.9599252343177795
+},
+"12-22": {
+"relation": "completely excised anatomy has procedure",
+"probability": 0.09572843462228775
+},
+"19-22": {
+"relation": "has recipient category",
+"probability": 0.8482698202133179
+}
+},
+"train-184": {
+"0-3": {
+"relation": "supersystem of",
+"probability": 0.5191227197647095
+},
+"0-8": {
+"relation": "class of",
+"probability": 0.34163805842399597
+},
+"0-11": {
+"relation": "subject of information of",
+"probability": 0.4352876543998718
+},
+"3-5": {
+"relation": "has supersystem",
+"probability": 0.5302624106407166
+},
+"3-8": {
+"relation": "has supersystem",
+"probability": 0.5263334512710571
+},
+"3-11": {
+"relation": "has supersystem",
+"probability": 0.5222618579864502
+},
+"3-14": {
+"relation": "has supersystem",
+"probability": 0.5302624106407166
+},
+"8-11": {
+"relation": "subject of information of",
+"probability": 0.7185953259468079
+}
+},
+"train-185": {
+"7-10": {
+"relation": "recipient category of",
+"probability": 0.8930038213729858
+},
+"10-18": {
+"relation": "has recipient category",
+"probability": 0.757960855960846
+}
+},
+"train-186": {
+"1-3": {
+"relation": "has answer",
+"probability": 0.5752565264701843
+},
+"1-13": {
+"relation": "subject of information of",
+"probability": 0.5650587677955627
+},
+"3-12": {
+"relation": "finding method of",
+"probability": 0.1961142122745514
+},
+"3-13": {
+"relation": "subject of information of",
+"probability": 0.4235823154449463
+},
+"12-13": {
+"relation": "recipient category of",
+"probability": 0.96840500831604
+}
+},
+"train-187": {
+"1-8": {
+"relation": "recipient category of",
+"probability": 0.22743594646453857
+}
+},
+"train-188": {
+"5-10": {
+"relation": "related to genetic biomarker",
+"probability": 0.13800060749053955
+},
+"8-10": {
+"relation": "has extent",
+"probability": 0.4240404963493347
+}
+},
+"train-189": {
+"0-2": {
+"relation": "finding method of",
+"probability": 0.3535284996032715
+},
+"0-7": {
+"relation": "is pcdc ews permissible value for variable",
+"probability": 0.12041519582271576
+},
+"2-4": {
+"relation": "focus of",
+"probability": 0.8150805830955505
+},
+"2-7": {
+"relation": "focus of",
+"probability": 0.17782089114189148
+},
+"4-7": {
+"relation": "gene associated with disease",
+"probability": 0.5870853066444397
+}
+},
+"train-190": {
+"2-20": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.40005260705947876
+},
+"4-10": {
+"relation": "has target",
+"probability": 0.28706789016723633
+},
+"4-14": {
+"relation": "is organism source of gene product",
+"probability": 0.30072301626205444
+},
+"4-16": {
+"relation": "has focus",
+"probability": 0.23177362978458405
+},
+"4-20": {
+"relation": "has target",
+"probability": 0.09974195808172226
+},
+"8-10": {
+"relation": "is pcdc ews permissible value for variable",
+"probability": 0.32285404205322266
+},
+"8-20": {
+"relation": "is pcdc ews permissible value for variable",
+"probability": 0.4247090220451355
+},
+"10-16": {
+"relation": "focus of",
+"probability": 0.6878869533538818
+},
+"10-20": {
+"relation": "focus of",
+"probability": 0.2634216845035553
+},
+"16-20": {
+"relation": "focus of",
+"probability": 0.3040953278541565
+}
+},
+"train-191": {
+"1-2": {
+"relation": "has course",
+"probability": 0.9678395390510559
+},
+"1-5": {
+"relation": "has course",
+"probability": 0.42173925042152405
+},
+"1-7": {
+"relation": "has course",
+"probability": 0.8396729230880737
+},
+"1-9": {
+"relation": "has course",
+"probability": 0.9690955281257629
+},
+"1-12": {
+"relation": "has course",
+"probability": 0.9919247031211853
+},
+"1-14": {
+"relation": "has course",
+"probability": 0.9968735575675964
+},
+"2-12": {
+"relation": "has associated condition",
+"probability": 0.7731344699859619
+},
+"2-14": {
+"relation": "has associated condition",
+"probability": 0.6792666912078857
+},
+"4-5": {
+"relation": "process acts on",
+"probability": 0.46107369661331177
+},
+"4-7": {
+"relation": "has specimen substance",
+"probability": 0.980620801448822
+},
+"4-9": {
+"relation": "has specimen substance",
+"probability": 0.5499230623245239
+},
+"4-12": {
+"relation": "has defining characteristic",
+"probability": 0.4004915654659271
+},
+"4-14": {
+"relation": "has associated condition",
+"probability": 0.5261355042457581
+},
+"5-7": {
+"relation": "analyzed by",
+"probability": 0.1333371102809906
+},
+"5-9": {
+"relation": "characterizes",
+"probability": 0.20291464030742645
+},
+"5-11": {
+"relation": "process acts on",
+"probability": 0.46107369661331177
+},
+"5-12": {
+"relation": "sign or symptom of",
+"probability": 0.4907984435558319
+},
+"5-14": {
+"relation": "sign or symptom of",
+"probability": 0.6709840893745422
+},
+"7-9": {
+"relation": "has specimen",
+"probability": 0.9887067079544067
+},
+"7-11": {
+"relation": "has specimen substance",
+"probability": 0.980620801448822
+},
+"7-12": {
+"relation": "has specimen",
+"probability": 0.20956431329250336
+},
+"9-11": {
+"relation": "has specimen substance",
+"probability": 0.5499230623245239
+},
+"9-12": {
+"relation": "has defining characteristic",
+"probability": 0.41432106494903564
+},
+"9-14": {
+"relation": "answer to",
+"probability": 0.29751279950141907
+},
+"11-12": {
+"relation": "has defining characteristic",
+"probability": 0.4004915654659271
+},
+"11-14": {
+"relation": "has associated condition",
+"probability": 0.5261355042457581
+},
+"12-14": {
+"relation": "related factor of",
+"probability": 0.41138437390327454
+}
+},
+"train-192": {
+"1-7": {
+"relation": "has class",
+"probability": 0.34579288959503174
+},
+"2-7": {
+"relation": "has class",
+"probability": 0.3608672618865967
+},
+"2-26": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.10954750329256058
+},
+"4-7": {
+"relation": "has answer",
+"probability": 0.5214366912841797
+},
+"5-7": {
+"relation": "has class",
+"probability": 0.9980509281158447
+},
+"5-26": {
+"relation": "has finding method",
+"probability": 0.647972822189331
+},
+"7-15": {
+"relation": "answer to",
+"probability": 0.9723275303840637
+},
+"7-18": {
+"relation": "analyzed by",
+"probability": 0.17171232402324677
+},
+"7-24": {
+"relation": "system of",
+"probability": 0.31247207522392273
+},
+"7-26": {
+"relation": "class of",
+"probability": 0.559852123260498
+},
+"18-26": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.4334924519062042
+}
+},
+"train-193": {
+"0-1": {
+"relation": "has mapping qualifier",
+"probability": 0.2839611768722534
+},
+"0-6": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.28985363245010376
+},
+"1-3": {
+"relation": "may be prevented by",
+"probability": 0.9543120265007019
+},
+"1-4": {
+"relation": "may be prevented by",
+"probability": 0.9961870312690735
+},
+"3-4": {
+"relation": "has clinical course",
+"probability": 0.5484503507614136
+},
+"4-6": {
+"relation": "definitional manifestation of",
+"probability": 0.11781594157218933
+}
+},
+"train-194": {
+"4-6": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.2386285364627838
+},
+"4-8": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.46553492546081543
+},
+"4-15": {
+"relation": "subset includes concept",
+"probability": 0.3949250280857086
+},
+"6-8": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.8378446698188782
+},
+"8-15": {
+"relation": "has pcdc os permissible value",
+"probability": 0.2358144372701645
+}
+},
+"train-195": {
+"1-7": {
+"relation": "supersystem of",
+"probability": 0.5181717276573181
+},
+"4-7": {
+"relation": "supersystem of",
+"probability": 0.4908897578716278
+},
+"7-11": {
+"relation": "has supersystem",
+"probability": 0.515723466873169
+},
+"7-12": {
+"relation": "has supersystem",
+"probability": 0.5230199098587036
+}
+},
+"train-196": {
+"5-19": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.3832772672176361
+},
+"5-40": {
+"relation": "is pcdc os permissible value for variable",
+"probability": 0.40197107195854187
+},
+"19-40": {
+"relation": "part of",
+"probability": 0.36030313372612
+}
+},
+"train-197": {
+"2-3": {
+"relation": "property of",
+"probability": 0.8467491865158081
+},
+"2-33": {
+"relation": "answer to",
+"probability": 0.6499443650245667
+},
+"3-30": {
+"relation": "has property",
+"probability": 0.8650189638137817
+},
+"3-33": {
+"relation": "has property",
+"probability": 0.4727930426597595
+},
+"3-48": {
+"relation": "has property",
+"probability": 0.9302988648414612
+},
+"6-21": {
+"relation": "has focus",
+"probability": 0.21538472175598145
+},
+"21-25": {
+"relation": "is component of chemotherapy regimen",
+"probability": 0.3151559829711914
+},
+"21-33": {
+"relation": "has pcdc os permissible value",
+"probability": 0.22963686287403107
+},
+"21-48": {
+"relation": "is component of chemotherapy regimen",
+"probability": 0.2866143584251404
+},
+"25-48": {
+"relation": "has modification",
+"probability": 0.17952817678451538
+},
+"30-33": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.8256149888038635
+},
+"33-48": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.3774239420890808
+}
+},
+"train-198": {}
+}

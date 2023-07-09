@@ -1,0 +1,9234 @@
+{
+"train-0": {
+"2-5": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.2856839597225189
+},
+"2-8": {
+"relation": "disease has associated gene",
+"probability": 0.4319257140159607
+},
+"5-8": {
+"relation": "has mapping qualifier",
+"probability": 0.554868221282959
+}
+},
+"train-1": {
+"1-4": {
+"relation": "is not finding of disease",
+"probability": 0.2912353277206421
+},
+"1-6": {
+"relation": "gene mapped to disease",
+"probability": 0.6157829761505127
+},
+"1-10": {
+"relation": "is finding of disease",
+"probability": 0.7875726222991943
+},
+"1-12": {
+"relation": "gene product malfunction associated with disease",
+"probability": 0.599968671798706
+},
+"1-24": {
+"relation": "gene mapped to disease",
+"probability": 0.6828504204750061
+},
+"1-26": {
+"relation": "gene product malfunction associated with disease",
+"probability": 0.4767136573791504
+},
+"4-22": {
+"relation": "biological process has result biological process",
+"probability": 0.4092659652233124
+},
+"6-12": {
+"relation": "gene product encoded by gene",
+"probability": 0.879391610622406
+},
+"6-15": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.9991692304611206
+},
+"6-22": {
+"relation": "has gene product element",
+"probability": 0.1671784669160843
+},
+"6-24": {
+"relation": "gene product encoded by gene",
+"probability": 0.4253331422805786
+},
+"6-26": {
+"relation": "gene product encoded by gene",
+"probability": 0.5460901260375977
+},
+"12-15": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.9994532465934753
+},
+"12-22": {
+"relation": "has gene product element",
+"probability": 0.13558843731880188
+},
+"12-24": {
+"relation": "gene encodes gene product",
+"probability": 0.5680508017539978
+},
+"12-26": {
+"relation": "gene encodes gene product",
+"probability": 0.43485820293426514
+},
+"15-24": {
+"relation": "gene product has associated anatomy",
+"probability": 0.9988355040550232
+},
+"15-26": {
+"relation": "gene product has associated anatomy",
+"probability": 0.9985982775688171
+},
+"22-24": {
+"relation": "gene product has biochemical function",
+"probability": 0.18776360154151917
+},
+"24-26": {
+"relation": "is biochemical function of gene product",
+"probability": 0.6073146462440491
+}
+},
+"train-2": {
+"2-5": {
+"relation": "organism has gene",
+"probability": 0.23175065219402313
+},
+"2-7": {
+"relation": "organism has gene",
+"probability": 0.4158533215522766
+},
+"2-8": {
+"relation": "disease mapped to gene",
+"probability": 0.6625566482543945
+},
+"2-9": {
+"relation": "subject of information of",
+"probability": 0.48987558484077454
+},
+"2-14": {
+"relation": "process includes biological process",
+"probability": 0.5019248723983765
+},
+"2-21": {
+"relation": "disease has associated gene",
+"probability": 0.8314810991287231
+},
+"3-8": {
+"relation": "has mapping qualifier",
+"probability": 0.47794726490974426
+},
+"3-9": {
+"relation": "subject of information of",
+"probability": 0.40799787640571594
+},
+"5-7": {
+"relation": "organism has gene",
+"probability": 0.19857800006866455
+},
+"5-8": {
+"relation": "has manifestation",
+"probability": 0.26603972911834717
+},
+"5-9": {
+"relation": "subject of information of",
+"probability": 0.4041355550289154
+},
+"5-11": {
+"relation": "has answer",
+"probability": 0.2335984706878662
+},
+"7-8": {
+"relation": "has inheritance type",
+"probability": 0.5009742379188538
+},
+"7-9": {
+"relation": "subject of information of",
+"probability": 0.5015190243721008
+},
+"7-11": {
+"relation": "has answer",
+"probability": 0.3494338095188141
+},
+"8-9": {
+"relation": "subject of information of",
+"probability": 0.8376325964927673
+},
+"8-11": {
+"relation": "inheritance type of",
+"probability": 0.15540185570716858
+},
+"8-21": {
+"relation": "associated genetic condition",
+"probability": 0.5756051540374756
+},
+"9-11": {
+"relation": "has subject of information",
+"probability": 0.5970427989959717
+},
+"9-13": {
+"relation": "may qualify",
+"probability": 0.4616539180278778
+},
+"9-14": {
+"relation": "may qualify",
+"probability": 0.46197760105133057
+},
+"9-17": {
+"relation": "has subject of information",
+"probability": 0.7783874869346619
+},
+"9-21": {
+"relation": "has subject of information",
+"probability": 0.9328834414482117
+}
+},
+"train-3": {
+"2-18": {
+"relation": "finding method of",
+"probability": 0.8990788459777832
+},
+"2-32": {
+"relation": "has mapping qualifier",
+"probability": 0.46651381254196167
+},
+"5-10": {
+"relation": "disease excludes finding",
+"probability": 0.359658420085907
+},
+"5-11": {
+"relation": "subject of information of",
+"probability": 0.6312140226364136
+},
+"5-12": {
+"relation": "finding method of",
+"probability": 0.3189135789871216
+},
+"5-18": {
+"relation": "finding method of",
+"probability": 0.8944955468177795
+},
+"5-22": {
+"relation": "property of",
+"probability": 0.6227577924728394
+},
+"5-32": {
+"relation": "has inheritance type",
+"probability": 0.11141663044691086
+},
+"5-33": {
+"relation": "may be qualified by",
+"probability": 0.43964841961860657
+},
+"5-34": {
+"relation": "finding method of",
+"probability": 0.3189135789871216
+},
+"10-11": {
+"relation": "subject of information of",
+"probability": 0.880352258682251
+},
+"10-14": {
+"relation": "has manifestation",
+"probability": 0.23090137541294098
+},
+"10-20": {
+"relation": "is grade of disease",
+"probability": 0.5074571967124939
+},
+"10-31": {
+"relation": "has manifestation",
+"probability": 0.3898584246635437
+},
+"10-32": {
+"relation": "associated disease",
+"probability": 0.6631984114646912
+},
+"10-33": {
+"relation": "subject of information of",
+"probability": 0.5573506951332092
+},
+"11-12": {
+"relation": "has recipient category",
+"probability": 0.5870839953422546
+},
+"11-14": {
+"relation": "has subject of information",
+"probability": 0.8909516334533691
+},
+"11-18": {
+"relation": "has recipient category",
+"probability": 0.5395383834838867
+},
+"11-20": {
+"relation": "has subject of information",
+"probability": 0.9759306311607361
+},
+"11-22": {
+"relation": "has subject of information",
+"probability": 0.4898375868797302
+},
+"11-31": {
+"relation": "has subject of information",
+"probability": 0.755075216293335
+},
+"11-32": {
+"relation": "has subject of information",
+"probability": 0.8761276602745056
+},
+"11-33": {
+"relation": "has subject of information",
+"probability": 0.9151943922042847
+},
+"11-34": {
+"relation": "has recipient category",
+"probability": 0.5870839953422546
+},
+"12-18": {
+"relation": "associated procedure of",
+"probability": 0.8062581419944763
+},
+"12-22": {
+"relation": "has finding method",
+"probability": 0.5564285516738892
+},
+"12-32": {
+"relation": "has mapping qualifier",
+"probability": 0.27996399998664856
+},
+"12-33": {
+"relation": "recipient category of",
+"probability": 0.5901952981948853
+},
+"14-31": {
+"relation": "is location of anatomic structure",
+"probability": 0.0589032918214798
+},
+"14-32": {
+"relation": "has inheritance type",
+"probability": 0.24991756677627563
+},
+"14-33": {
+"relation": "subject of information of",
+"probability": 0.5528347492218018
+},
+"18-20": {
+"relation": "has finding method",
+"probability": 0.8936764001846313
+},
+"18-22": {
+"relation": "has finding method",
+"probability": 0.9182080030441284
+},
+"18-32": {
+"relation": "has finding method",
+"probability": 0.2878461480140686
+},
+"18-33": {
+"relation": "recipient category of",
+"probability": 0.23937517404556274
+},
+"18-34": {
+"relation": "associated procedure of",
+"probability": 0.8062581419944763
+},
+"20-22": {
+"relation": "property of",
+"probability": 0.5247151851654053
+},
+"20-32": {
+"relation": "has manifestation",
+"probability": 0.29587459564208984
+},
+"20-33": {
+"relation": "subject of information of",
+"probability": 0.9307448863983154
+},
+"22-32": {
+"relation": "has property",
+"probability": 0.4865872263908386
+},
+"22-34": {
+"relation": "has finding method",
+"probability": 0.5564285516738892
+},
+"31-32": {
+"relation": "has inheritance type",
+"probability": 0.27202513813972473
+},
+"31-33": {
+"relation": "may be qualified by",
+"probability": 0.31533536314964294
+},
+"32-33": {
+"relation": "subject of information of",
+"probability": 0.40892136096954346
+},
+"32-34": {
+"relation": "has mapping qualifier",
+"probability": 0.27996399998664856
+},
+"33-34": {
+"relation": "recipient category of",
+"probability": 0.5901952981948853
+}
+},
+"train-4": {
+"4-18": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.3691260814666748
+},
+"4-19": {
+"relation": "subject of information of",
+"probability": 0.5494007468223572
+},
+"4-21": {
+"relation": "has prev name",
+"probability": 0.2883470058441162
+},
+"7-19": {
+"relation": "subject of information of",
+"probability": 0.5779436230659485
+},
+"17-19": {
+"relation": "subject of information of",
+"probability": 0.5779436230659485
+},
+"18-19": {
+"relation": "subject of information of",
+"probability": 0.38915106654167175
+},
+"19-21": {
+"relation": "has subject of information",
+"probability": 0.8509436249732971
+}
+},
+"train-5": {
+"4-5": {
+"relation": "property of",
+"probability": 0.0998828336596489
+},
+"4-7": {
+"relation": "subject of information of",
+"probability": 0.3182944655418396
+},
+"4-16": {
+"relation": "prev name of",
+"probability": 0.26032811403274536
+},
+"4-19": {
+"relation": "subject of information of",
+"probability": 0.2104855626821518
+},
+"4-20": {
+"relation": "has inheritance type",
+"probability": 0.3514232933521271
+},
+"4-21": {
+"relation": "subject of information of",
+"probability": 0.9793592691421509
+},
+"5-20": {
+"relation": "has mapping qualifier",
+"probability": 0.09572340548038483
+},
+"5-21": {
+"relation": "subject of information of",
+"probability": 0.5653912425041199
+},
+"7-16": {
+"relation": "prev name of",
+"probability": 0.18884006142616272
+},
+"7-20": {
+"relation": "has inheritance type",
+"probability": 0.13076771795749664
+},
+"7-21": {
+"relation": "subject of information of",
+"probability": 0.73796546459198
+},
+"16-19": {
+"relation": "disease mapped to gene",
+"probability": 0.15018269419670105
+},
+"16-20": {
+"relation": "disease mapped to gene",
+"probability": 0.6719822883605957
+},
+"16-21": {
+"relation": "subject of information of",
+"probability": 0.44336917996406555
+},
+"17-20": {
+"relation": "has mapping qualifier",
+"probability": 0.4783669412136078
+},
+"19-20": {
+"relation": "has manifestation",
+"probability": 0.20917686820030212
+},
+"19-21": {
+"relation": "subject of information of",
+"probability": 0.8314405083656311
+},
+"20-21": {
+"relation": "subject of information of",
+"probability": 0.8369523882865906
+}
+},
+"train-6": {
+"1-3": {
+"relation": "disease excludes finding",
+"probability": 0.248825341463089
+},
+"1-5": {
+"relation": "answer to",
+"probability": 0.9910775423049927
+},
+"1-14": {
+"relation": "population at risk for",
+"probability": 0.5930700898170471
+},
+"1-16": {
+"relation": "population at risk for",
+"probability": 0.8824575543403625
+},
+"3-5": {
+"relation": "is grade of disease",
+"probability": 0.9274155497550964
+},
+"3-14": {
+"relation": "inheritance type of",
+"probability": 0.18323208391666412
+},
+"3-16": {
+"relation": "physiologic state of",
+"probability": 0.26746517419815063
+},
+"5-14": {
+"relation": "population at risk for",
+"probability": 0.3547244668006897
+},
+"5-16": {
+"relation": "population at risk for",
+"probability": 0.45880937576293945
+},
+"14-16": {
+"relation": "has physiologic state",
+"probability": 0.2440275251865387
+},
+"34-38": {
+"relation": "measured by",
+"probability": 0.8590278625488281
+}
+},
+"train-7": {
+"1-6": {
+"relation": "has at risk population",
+"probability": 0.8761681914329529
+},
+"1-8": {
+"relation": "has physiologic state",
+"probability": 0.1935180425643921
+},
+"1-19": {
+"relation": "has inheritance type",
+"probability": 0.23207461833953857
+},
+"6-8": {
+"relation": "disease excludes finding",
+"probability": 0.30717986822128296
+},
+"6-19": {
+"relation": "population at risk for",
+"probability": 0.18308793008327484
+},
+"8-19": {
+"relation": "disease may have associated disease",
+"probability": 0.7636964917182922
+},
+"14-19": {
+"relation": "occurs in",
+"probability": 0.501502513885498
+}
+},
+"train-8": {
+"0-4": {
+"relation": "measured by",
+"probability": 0.6895304322242737
+},
+"0-15": {
+"relation": "class of",
+"probability": 0.8489567041397095
+},
+"0-18": {
+"relation": "property of",
+"probability": 0.9986047148704529
+},
+"4-7": {
+"relation": "has manifestation",
+"probability": 0.603503406047821
+},
+"4-9": {
+"relation": "has manifestation",
+"probability": 0.8256573677062988
+},
+"4-15": {
+"relation": "has class",
+"probability": 0.12993106245994568
+},
+"4-18": {
+"relation": "property of",
+"probability": 0.9955319166183472
+},
+"4-22": {
+"relation": "is structural domain or motif of gene product",
+"probability": 0.29775044322013855
+},
+"4-25": {
+"relation": "has manifestation",
+"probability": 0.8256573677062988
+},
+"4-26": {
+"relation": "gene encodes gene product",
+"probability": 0.7524882555007935
+},
+"7-9": {
+"relation": "has manifestation",
+"probability": 0.57822185754776
+},
+"7-15": {
+"relation": "manifestation of",
+"probability": 0.7801859974861145
+},
+"7-22": {
+"relation": "gene product malfunction associated with disease",
+"probability": 0.32434171438217163
+},
+"7-25": {
+"relation": "has manifestation",
+"probability": 0.57822185754776
+},
+"7-26": {
+"relation": "gene associated with disease",
+"probability": 0.25915446877479553
+},
+"9-15": {
+"relation": "manifestation of",
+"probability": 0.6873485445976257
+},
+"9-22": {
+"relation": "gene product malfunction associated with disease",
+"probability": 0.4294273257255554
+},
+"9-26": {
+"relation": "gene associated with disease",
+"probability": 0.2664451599121094
+},
+"15-18": {
+"relation": "property of",
+"probability": 0.9785100221633911
+},
+"15-25": {
+"relation": "manifestation of",
+"probability": 0.6873485445976257
+},
+"15-26": {
+"relation": "gene encodes gene product",
+"probability": 0.44305601716041565
+},
+"18-22": {
+"relation": "has property",
+"probability": 0.7388026118278503
+},
+"22-25": {
+"relation": "gene product malfunction associated with disease",
+"probability": 0.4294273257255554
+},
+"22-26": {
+"relation": "gene encodes gene product",
+"probability": 0.9266000986099243
+},
+"25-26": {
+"relation": "gene associated with disease",
+"probability": 0.2664451599121094
+}
+},
+"train-9": {
+"3-7": {
+"relation": "is structural domain or motif of gene product",
+"probability": 0.594896674156189
+},
+"3-8": {
+"relation": "property of",
+"probability": 0.8039724230766296
+},
+"3-11": {
+"relation": "disease has associated gene",
+"probability": 0.8759355545043945
+},
+"3-12": {
+"relation": "gene encodes gene product",
+"probability": 0.9764509201049805
+},
+"3-15": {
+"relation": "disease has associated gene",
+"probability": 0.8759355545043945
+},
+"3-16": {
+"relation": "supersystem of",
+"probability": 0.5527820587158203
+},
+"3-24": {
+"relation": "has system",
+"probability": 0.17621098458766937
+},
+"4-8": {
+"relation": "property of",
+"probability": 0.9415698647499084
+},
+"4-12": {
+"relation": "gene encodes gene product",
+"probability": 0.5949155688285828
+},
+"4-16": {
+"relation": "supersystem of",
+"probability": 0.5077551603317261
+},
+"4-20": {
+"relation": "finding method of",
+"probability": 0.8611540198326111
+},
+"7-8": {
+"relation": "property of",
+"probability": 0.8910340666770935
+},
+"7-11": {
+"relation": "has manifestation",
+"probability": 0.3012075424194336
+},
+"7-12": {
+"relation": "gene encodes gene product",
+"probability": 0.8696041703224182
+},
+"7-15": {
+"relation": "has manifestation",
+"probability": 0.3012075424194336
+},
+"7-16": {
+"relation": "supersystem of",
+"probability": 0.48939505219459534
+},
+"7-24": {
+"relation": "has measured component",
+"probability": 0.23074129223823547
+},
+"8-16": {
+"relation": "supersystem of",
+"probability": 0.5197744965553284
+},
+"8-20": {
+"relation": "finding method of",
+"probability": 0.6305999159812927
+},
+"8-24": {
+"relation": "property of",
+"probability": 0.9978717565536499
+},
+"11-12": {
+"relation": "gene associated with disease",
+"probability": 0.24996638298034668
+},
+"11-24": {
+"relation": "has manifestation",
+"probability": 0.5628045797348022
+},
+"12-15": {
+"relation": "gene associated with disease",
+"probability": 0.24996638298034668
+},
+"12-16": {
+"relation": "supersystem of",
+"probability": 0.5475127100944519
+},
+"12-20": {
+"relation": "gene product encoded by gene",
+"probability": 0.28641873598098755
+},
+"12-24": {
+"relation": "gene encodes gene product",
+"probability": 0.8079200983047485
+},
+"15-24": {
+"relation": "has manifestation",
+"probability": 0.5628045797348022
+},
+"16-20": {
+"relation": "has supersystem",
+"probability": 0.5082327723503113
+},
+"16-24": {
+"relation": "supersystem of",
+"probability": 0.5043708682060242
+},
+"20-24": {
+"relation": "finding method of",
+"probability": 0.20222526788711548
+}
+},
+"train-10": {
+"5-11": {
+"relation": "has property",
+"probability": 0.06627649813890457
+},
+"5-13": {
+"relation": "has mapping qualifier",
+"probability": 0.14602792263031006
+},
+"5-31": {
+"relation": "has property",
+"probability": 0.06627649813890457
+},
+"8-9": {
+"relation": "property of",
+"probability": 0.9972243309020996
+},
+"8-13": {
+"relation": "inheritance type of",
+"probability": 0.25914815068244934
+},
+"8-14": {
+"relation": "has manifestation",
+"probability": 0.20905517041683197
+},
+"8-17": {
+"relation": "physiologic state of",
+"probability": 0.3600620925426483
+},
+"8-18": {
+"relation": "supersystem of",
+"probability": 0.5018450021743774
+},
+"8-24": {
+"relation": "gene product encoded by gene",
+"probability": 0.32203519344329834
+},
+"8-33": {
+"relation": "physiologic state of",
+"probability": 0.32614871859550476
+},
+"8-36": {
+"relation": "physiologic state of",
+"probability": 0.5219448804855347
+},
+"9-11": {
+"relation": "has property",
+"probability": 0.9976717829704285
+},
+"9-13": {
+"relation": "has property",
+"probability": 0.9369090795516968
+},
+"9-18": {
+"relation": "supersystem of",
+"probability": 0.5209153294563293
+},
+"9-24": {
+"relation": "has property",
+"probability": 0.755593478679657
+},
+"9-26": {
+"relation": "has property",
+"probability": 0.9075740575790405
+},
+"9-28": {
+"relation": "has property",
+"probability": 0.9961042404174805
+},
+"9-31": {
+"relation": "has property",
+"probability": 0.9976717829704285
+},
+"11-13": {
+"relation": "may be qualified by",
+"probability": 0.2972547709941864
+},
+"11-14": {
+"relation": "has manifestation",
+"probability": 0.9220626354217529
+},
+"11-18": {
+"relation": "supersystem of",
+"probability": 0.524682343006134
+},
+"11-24": {
+"relation": "gene associated with disease",
+"probability": 0.28093260526657104
+},
+"11-28": {
+"relation": "has answer",
+"probability": 0.6066626906394958
+},
+"11-36": {
+"relation": "physiologic state of",
+"probability": 0.35653001070022583
+},
+"13-14": {
+"relation": "has inheritance type",
+"probability": 0.9264913201332092
+},
+"13-17": {
+"relation": "physiologic state of",
+"probability": 0.19998615980148315
+},
+"13-18": {
+"relation": "supersystem of",
+"probability": 0.570587158203125
+},
+"13-24": {
+"relation": "has inheritance type",
+"probability": 0.3055075407028198
+},
+"13-28": {
+"relation": "has answer",
+"probability": 0.8918951153755188
+},
+"13-31": {
+"relation": "may be qualified by",
+"probability": 0.2972547709941864
+},
+"13-33": {
+"relation": "has inheritance type",
+"probability": 0.28333383798599243
+},
+"13-36": {
+"relation": "physiologic state of",
+"probability": 0.22958967089653015
+},
+"14-17": {
+"relation": "inheritance type of",
+"probability": 0.2560230493545532
+},
+"14-24": {
+"relation": "gene associated with disease",
+"probability": 0.7267599105834961
+},
+"14-31": {
+"relation": "has manifestation",
+"probability": 0.9220626354217529
+},
+"14-33": {
+"relation": "inheritance type of",
+"probability": 0.3021148443222046
+},
+"14-36": {
+"relation": "physiologic state of",
+"probability": 0.3046037554740906
+},
+"17-18": {
+"relation": "supersystem of",
+"probability": 0.4429587721824646
+},
+"17-24": {
+"relation": "gene product has organism source",
+"probability": 0.175541490316391
+},
+"17-33": {
+"relation": "has entire anatomy structure",
+"probability": 0.7300556898117065
+},
+"17-36": {
+"relation": "has physiologic state",
+"probability": 0.20410960912704468
+},
+"18-24": {
+"relation": "has supersystem",
+"probability": 0.4930867552757263
+},
+"18-26": {
+"relation": "has supersystem",
+"probability": 0.5189487934112549
+},
+"18-28": {
+"relation": "has supersystem",
+"probability": 0.5311963558197021
+},
+"18-31": {
+"relation": "supersystem of",
+"probability": 0.524682343006134
+},
+"18-33": {
+"relation": "has supersystem",
+"probability": 0.43743810057640076
+},
+"18-36": {
+"relation": "has supersystem",
+"probability": 0.43098458647727966
+},
+"24-31": {
+"relation": "gene associated with disease",
+"probability": 0.28093260526657104
+},
+"24-33": {
+"relation": "is organism source of gene product",
+"probability": 0.12333144247531891
+},
+"24-36": {
+"relation": "is organism source of gene product",
+"probability": 0.11331792920827866
+},
+"26-28": {
+"relation": "measured by",
+"probability": 0.30380362272262573
+},
+"28-31": {
+"relation": "has answer",
+"probability": 0.6066626906394958
+},
+"28-36": {
+"relation": "population at risk for",
+"probability": 0.5245563387870789
+},
+"31-36": {
+"relation": "physiologic state of",
+"probability": 0.35653001070022583
+},
+"33-36": {
+"relation": "has physiologic state",
+"probability": 0.2344512641429901
+}
+},
+"train-11": {
+"1-8": {
+"relation": "organism has gene",
+"probability": 0.12109141796827316
+},
+"1-14": {
+"relation": "has specimen",
+"probability": 0.41034331917762756
+},
+"1-17": {
+"relation": "has system",
+"probability": 0.22712932527065277
+},
+"1-19": {
+"relation": "due to",
+"probability": 0.38829028606414795
+},
+"8-14": {
+"relation": "has subject relationship context",
+"probability": 0.21371757984161377
+},
+"8-17": {
+"relation": "has subject relationship context",
+"probability": 0.7594181299209595
+},
+"8-24": {
+"relation": "has subject relationship context",
+"probability": 0.29057231545448303
+},
+"8-29": {
+"relation": "organism has gene",
+"probability": 0.12109141796827316
+},
+"12-14": {
+"relation": "has course",
+"probability": 0.7760226130485535
+},
+"12-17": {
+"relation": "class of",
+"probability": 0.8723663091659546
+},
+"12-19": {
+"relation": "has course",
+"probability": 0.845180869102478
+},
+"12-21": {
+"relation": "has course",
+"probability": 0.5012638568878174
+},
+"14-17": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.9879540205001831
+},
+"14-19": {
+"relation": "other mapped from",
+"probability": 0.23509612679481506
+},
+"14-21": {
+"relation": "is finding of disease",
+"probability": 0.24238988757133484
+},
+"14-24": {
+"relation": "has occurrence",
+"probability": 0.9479811191558838
+},
+"14-29": {
+"relation": "has specimen",
+"probability": 0.41034331917762756
+},
+"17-19": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.9913074374198914
+},
+"17-21": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.9002816081047058
+},
+"17-24": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.4490058720111847
+},
+"17-29": {
+"relation": "has system",
+"probability": 0.22712932527065277
+},
+"19-21": {
+"relation": "manifestation of",
+"probability": 0.22880789637565613
+},
+"19-24": {
+"relation": "has occurrence",
+"probability": 0.9361386895179749
+},
+"19-29": {
+"relation": "due to",
+"probability": 0.38829028606414795
+}
+},
+"train-12": {
+"0-6": {
+"relation": "subject relationship context of",
+"probability": 0.25974321365356445
+},
+"0-10": {
+"relation": "associated finding of",
+"probability": 0.47247204184532166
+},
+"0-12": {
+"relation": "manifestation of",
+"probability": 0.5075538158416748
+},
+"0-14": {
+"relation": "manifestation of",
+"probability": 0.9972187280654907
+},
+"0-17": {
+"relation": "has occurrence",
+"probability": 0.9467156529426575
+},
+"0-21": {
+"relation": "subject relationship context of",
+"probability": 0.3812645375728607
+},
+"0-22": {
+"relation": "class of",
+"probability": 0.5035222768783569
+},
+"0-28": {
+"relation": "has manifestation",
+"probability": 0.47223368287086487
+},
+"6-10": {
+"relation": "associated finding of",
+"probability": 0.9105209708213806
+},
+"6-17": {
+"relation": "subject relationship context of",
+"probability": 0.6069107055664062
+},
+"6-21": {
+"relation": "has entire anatomy structure",
+"probability": 0.48157864809036255
+},
+"6-22": {
+"relation": "class of",
+"probability": 0.999442994594574
+},
+"6-28": {
+"relation": "has subject of information",
+"probability": 0.5537667274475098
+},
+"10-12": {
+"relation": "has associated finding",
+"probability": 0.9299277067184448
+},
+"10-14": {
+"relation": "has associated finding",
+"probability": 0.8841294646263123
+},
+"10-21": {
+"relation": "has associated finding",
+"probability": 0.4866419732570648
+},
+"10-22": {
+"relation": "class of",
+"probability": 0.9622510075569153
+},
+"10-28": {
+"relation": "has associated finding",
+"probability": 0.995250940322876
+},
+"12-14": {
+"relation": "due to",
+"probability": 0.30776911973953247
+},
+"12-17": {
+"relation": "has occurrence",
+"probability": 0.7697407007217407
+},
+"14-28": {
+"relation": "has manifestation",
+"probability": 0.9174573421478271
+},
+"17-21": {
+"relation": "has subject relationship context",
+"probability": 0.32766109704971313
+},
+"17-28": {
+"relation": "has subject relationship context",
+"probability": 0.44996753334999084
+},
+"21-22": {
+"relation": "class of",
+"probability": 0.9992321729660034
+},
+"21-28": {
+"relation": "has subject of information",
+"probability": 0.6698855757713318
+},
+"22-26": {
+"relation": "has class",
+"probability": 0.596012532711029
+},
+"22-28": {
+"relation": "has class",
+"probability": 0.9952841401100159
+}
+},
+"train-13": {
+"1-5": {
+"relation": "system of",
+"probability": 0.7705686092376709
+},
+"1-8": {
+"relation": "answer to",
+"probability": 0.8575862646102905
+},
+"1-19": {
+"relation": "process includes biological process",
+"probability": 0.9604206681251526
+},
+"7-8": {
+"relation": "manifestation of",
+"probability": 0.4155075252056122
+},
+"7-9": {
+"relation": "manifestation of",
+"probability": 0.9906298518180847
+},
+"7-13": {
+"relation": "manifestation of",
+"probability": 0.6709192991256714
+},
+"7-19": {
+"relation": "process includes biological process",
+"probability": 0.9258937239646912
+},
+"7-21": {
+"relation": "manifestation of",
+"probability": 0.5791654586791992
+},
+"8-9": {
+"relation": "has answer",
+"probability": 0.6048164963722229
+},
+"8-21": {
+"relation": "has clinical course",
+"probability": 0.1875930279493332
+},
+"9-13": {
+"relation": "has focus",
+"probability": 0.5430469512939453
+},
+"9-19": {
+"relation": "process includes biological process",
+"probability": 0.47849544882774353
+},
+"9-21": {
+"relation": "disease has finding",
+"probability": 0.8495907783508301
+},
+"13-19": {
+"relation": "process includes biological process",
+"probability": 0.9980588555335999
+},
+"13-21": {
+"relation": "due to",
+"probability": 0.6398771405220032
+},
+"19-21": {
+"relation": "biological process is part of process",
+"probability": 0.7017521858215332
+}
+},
+"train-14": {
+"0-1": {
+"relation": "has answer",
+"probability": 0.9685520529747009
+},
+"0-5": {
+"relation": "supersystem of",
+"probability": 0.5441482067108154
+},
+"1-3": {
+"relation": "class of",
+"probability": 0.5226617455482483
+},
+"1-5": {
+"relation": "supersystem of",
+"probability": 0.5259972214698792
+},
+"3-5": {
+"relation": "supersystem of",
+"probability": 0.5356723070144653
+},
+"3-7": {
+"relation": "due to",
+"probability": 0.23334702849388123
+},
+"5-7": {
+"relation": "has supersystem",
+"probability": 0.37931400537490845
+}
+},
+"train-15": {
+"1-9": {
+"relation": "has time aspect",
+"probability": 0.9592634439468384
+},
+"1-18": {
+"relation": "has time aspect",
+"probability": 0.7458567023277283
+},
+"7-11": {
+"relation": "supersystem of",
+"probability": 0.5538128614425659
+},
+"9-11": {
+"relation": "supersystem of",
+"probability": 0.5390983819961548
+},
+"9-13": {
+"relation": "population at risk for",
+"probability": 0.527099072933197
+},
+"9-16": {
+"relation": "answer to",
+"probability": 0.7053168416023254
+},
+"9-18": {
+"relation": "property of",
+"probability": 0.6445530652999878
+},
+"11-13": {
+"relation": "has supersystem",
+"probability": 0.47693124413490295
+},
+"11-16": {
+"relation": "has supersystem",
+"probability": 0.5047511458396912
+},
+"11-18": {
+"relation": "has supersystem",
+"probability": 0.5088165402412415
+},
+"16-18": {
+"relation": "has answer",
+"probability": 0.7494081854820251
+}
+},
+"train-16": {
+"0-11": {
+"relation": "supersystem of",
+"probability": 0.5076001286506653
+},
+"2-3": {
+"relation": "has seronet permissible value",
+"probability": 0.32765698432922363
+},
+"2-4": {
+"relation": "has answer",
+"probability": 0.9717967510223389
+},
+"2-11": {
+"relation": "supersystem of",
+"probability": 0.5545026063919067
+},
+"2-15": {
+"relation": "has answer",
+"probability": 0.612220287322998
+},
+"2-22": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.5241144895553589
+},
+"2-36": {
+"relation": "has answer",
+"probability": 0.612220287322998
+},
+"2-41": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.47404053807258606
+},
+"3-4": {
+"relation": "has answer",
+"probability": 0.9589448571205139
+},
+"3-6": {
+"relation": "has answer",
+"probability": 0.39184650778770447
+},
+"3-11": {
+"relation": "supersystem of",
+"probability": 0.5417064428329468
+},
+"3-13": {
+"relation": "population at risk for",
+"probability": 0.6827872395515442
+},
+"3-15": {
+"relation": "has answer",
+"probability": 0.983027458190918
+},
+"3-22": {
+"relation": "has answer",
+"probability": 0.9399152994155884
+},
+"3-34": {
+"relation": "population at risk for",
+"probability": 0.36322200298309326
+},
+"3-36": {
+"relation": "has answer",
+"probability": 0.983027458190918
+},
+"3-41": {
+"relation": "has answer",
+"probability": 0.9925123453140259
+},
+"4-6": {
+"relation": "answer to",
+"probability": 0.5707017183303833
+},
+"4-11": {
+"relation": "supersystem of",
+"probability": 0.5443309545516968
+},
+"4-13": {
+"relation": "population at risk for",
+"probability": 0.40975290536880493
+},
+"4-15": {
+"relation": "has property",
+"probability": 0.18925780057907104
+},
+"4-22": {
+"relation": "answer to",
+"probability": 0.7312992811203003
+},
+"4-34": {
+"relation": "population at risk for",
+"probability": 0.3528362810611725
+},
+"4-36": {
+"relation": "has property",
+"probability": 0.18925780057907104
+},
+"4-41": {
+"relation": "has answer",
+"probability": 0.2612268030643463
+},
+"6-11": {
+"relation": "supersystem of",
+"probability": 0.5441855192184448
+},
+"6-13": {
+"relation": "other mapped to",
+"probability": 0.10853251069784164
+},
+"6-15": {
+"relation": "measures",
+"probability": 0.2273760437965393
+},
+"6-22": {
+"relation": "has system",
+"probability": 0.43718546628952026
+},
+"6-36": {
+"relation": "measures",
+"probability": 0.2273760437965393
+},
+"6-41": {
+"relation": "has system",
+"probability": 0.39710769057273865
+},
+"11-13": {
+"relation": "has supersystem",
+"probability": 0.5176131129264832
+},
+"11-15": {
+"relation": "has supersystem",
+"probability": 0.5200448632240295
+},
+"11-22": {
+"relation": "has supersystem",
+"probability": 0.5256775617599487
+},
+"11-36": {
+"relation": "has supersystem",
+"probability": 0.5200448632240295
+},
+"11-41": {
+"relation": "has supersystem",
+"probability": 0.5268873572349548
+},
+"13-22": {
+"relation": "manifestation of",
+"probability": 0.9690931439399719
+},
+"13-34": {
+"relation": "manifestation of",
+"probability": 0.8701164126396179
+},
+"15-22": {
+"relation": "property of",
+"probability": 0.3788468539714813
+},
+"15-34": {
+"relation": "answer to",
+"probability": 0.24574114382266998
+},
+"15-41": {
+"relation": "property of",
+"probability": 0.7026574611663818
+},
+"22-34": {
+"relation": "has manifestation",
+"probability": 0.43470826745033264
+},
+"22-36": {
+"relation": "property of",
+"probability": 0.3788468539714813
+},
+"22-41": {
+"relation": "measured by",
+"probability": 0.7253302931785583
+},
+"34-36": {
+"relation": "answer to",
+"probability": 0.24574114382266998
+},
+"36-41": {
+"relation": "property of",
+"probability": 0.7026574611663818
+}
+},
+"train-17": {
+"1-2": {
+"relation": "has class",
+"probability": 0.6018425822257996
+},
+"1-5": {
+"relation": "has associated finding",
+"probability": 0.4051903784275055
+},
+"1-8": {
+"relation": "subject relationship context of",
+"probability": 0.6207183599472046
+},
+"1-16": {
+"relation": "has class",
+"probability": 0.6018425822257996
+},
+"2-5": {
+"relation": "has property",
+"probability": 0.7228695154190063
+},
+"2-14": {
+"relation": "answer to",
+"probability": 0.49015483260154724
+},
+"2-15": {
+"relation": "has class",
+"probability": 0.6018425822257996
+},
+"5-8": {
+"relation": "subject relationship context of",
+"probability": 0.7224639058113098
+},
+"5-14": {
+"relation": "answer to",
+"probability": 0.9795235395431519
+},
+"5-15": {
+"relation": "has associated finding",
+"probability": 0.4051903784275055
+},
+"5-16": {
+"relation": "has property",
+"probability": 0.7228695154190063
+},
+"5-19": {
+"relation": "answer to",
+"probability": 0.3448435664176941
+},
+"8-14": {
+"relation": "has subject relationship context",
+"probability": 0.5189289450645447
+},
+"8-15": {
+"relation": "subject relationship context of",
+"probability": 0.6207183599472046
+},
+"8-19": {
+"relation": "subject relationship context of",
+"probability": 0.2884485721588135
+},
+"8-20": {
+"relation": "subject of information of",
+"probability": 0.4110056459903717
+},
+"14-16": {
+"relation": "answer to",
+"probability": 0.49015483260154724
+},
+"15-16": {
+"relation": "has class",
+"probability": 0.6018425822257996
+}
+},
+"train-18": {
+"0-4": {
+"relation": "system of",
+"probability": 0.49890080094337463
+},
+"0-6": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.3110577166080475
+},
+"2-4": {
+"relation": "system of",
+"probability": 0.5096195936203003
+}
+},
+"train-19": {
+"5-7": {
+"relation": "has class",
+"probability": 0.45745179057121277
+},
+"5-10": {
+"relation": "has mapping qualifier",
+"probability": 0.522087812423706
+},
+"5-16": {
+"relation": "may be qualified by",
+"probability": 0.3912767171859741
+},
+"5-19": {
+"relation": "supersystem of",
+"probability": 0.5673316121101379
+},
+"5-22": {
+"relation": "has mapping qualifier",
+"probability": 0.4864429235458374
+},
+"7-16": {
+"relation": "may be qualified by",
+"probability": 0.5507902503013611
+},
+"7-19": {
+"relation": "supersystem of",
+"probability": 0.5451526641845703
+},
+"10-16": {
+"relation": "subject of information of",
+"probability": 0.9573152661323547
+},
+"10-22": {
+"relation": "manifestation of",
+"probability": 0.7918903231620789
+},
+"14-16": {
+"relation": "recipient category of",
+"probability": 0.5462038516998291
+},
+"14-19": {
+"relation": "supersystem of",
+"probability": 0.550041913986206
+},
+"16-19": {
+"relation": "supersystem of",
+"probability": 0.6740669012069702
+},
+"16-22": {
+"relation": "has subject of information",
+"probability": 0.9844983220100403
+}
+},
+"train-20": {
+"9-11": {
+"relation": "definitional manifestation of",
+"probability": 0.24411699175834656
+},
+"9-13": {
+"relation": "associated condition of",
+"probability": 0.38440248370170593
+},
+"9-17": {
+"relation": "has definitional manifestation",
+"probability": 0.27483728528022766
+},
+"9-18": {
+"relation": "associated finding of",
+"probability": 0.6173496842384338
+},
+"11-13": {
+"relation": "has associated condition",
+"probability": 0.5518709421157837
+}
+},
+"train-21": {
+"2-4": {
+"relation": "gene product expressed in tissue",
+"probability": 0.11601362377405167
+},
+"2-14": {
+"relation": "manifestation of",
+"probability": 0.6983897686004639
+},
+"2-19": {
+"relation": "disease mapped to gene",
+"probability": 0.6188706159591675
+},
+"4-6": {
+"relation": "has contraindicated class",
+"probability": 0.5103598237037659
+},
+"4-8": {
+"relation": "has modification",
+"probability": 0.8239229321479797
+},
+"4-17": {
+"relation": "supersystem of",
+"probability": 0.5127648711204529
+},
+"4-19": {
+"relation": "may be prevented by",
+"probability": 0.9196629524230957
+},
+"6-8": {
+"relation": "has modification",
+"probability": 0.5999736189842224
+},
+"6-17": {
+"relation": "supersystem of",
+"probability": 0.49746647477149963
+},
+"6-19": {
+"relation": "may be prevented by",
+"probability": 0.9747961163520813
+},
+"8-17": {
+"relation": "system of",
+"probability": 0.4689691662788391
+},
+"8-19": {
+"relation": "may be prevented by",
+"probability": 0.9781554341316223
+},
+"9-17": {
+"relation": "supersystem of",
+"probability": 0.4868147671222687
+},
+"9-19": {
+"relation": "biological process is part of process",
+"probability": 0.6143147945404053
+},
+"14-17": {
+"relation": "supersystem of",
+"probability": 0.5093058347702026
+}
+},
+"train-22": {
+"0-2": {
+"relation": "prev name of",
+"probability": 0.4803429841995239
+},
+"0-6": {
+"relation": "manifestation of",
+"probability": 0.7574220299720764
+},
+"0-7": {
+"relation": "manifestation of",
+"probability": 0.9892043471336365
+},
+"0-10": {
+"relation": "gene mapped to disease",
+"probability": 0.2405712604522705
+},
+"0-12": {
+"relation": "inheritance type of",
+"probability": 0.3088023364543915
+},
+"0-15": {
+"relation": "chromosome involved in cytogenetic abnormality",
+"probability": 0.3120838403701782
+},
+"0-18": {
+"relation": "organism has gene",
+"probability": 0.9951268434524536
+},
+"2-6": {
+"relation": "manifestation of",
+"probability": 0.7760947346687317
+},
+"2-7": {
+"relation": "manifestation of",
+"probability": 0.9316501617431641
+},
+"2-10": {
+"relation": "chemotherapy regimen has component",
+"probability": 0.1223689541220665
+},
+"2-12": {
+"relation": "inheritance type of",
+"probability": 0.22739499807357788
+},
+"2-15": {
+"relation": "is chromosomal location of gene",
+"probability": 0.6456481218338013
+},
+"2-18": {
+"relation": "organism has gene",
+"probability": 0.9952947497367859
+},
+"6-7": {
+"relation": "occurs in",
+"probability": 0.2350701540708542
+},
+"6-10": {
+"relation": "has manifestation",
+"probability": 0.14444103837013245
+},
+"6-15": {
+"relation": "has manifestation",
+"probability": 0.09336154162883759
+},
+"6-18": {
+"relation": "organism has gene",
+"probability": 0.9900172352790833
+},
+"7-10": {
+"relation": "gene mapped to disease",
+"probability": 0.48553070425987244
+},
+"7-12": {
+"relation": "inheritance type of",
+"probability": 0.37483716011047363
+},
+"7-15": {
+"relation": "chromosome involved in cytogenetic abnormality",
+"probability": 0.2576116621494293
+},
+"7-18": {
+"relation": "organism has gene",
+"probability": 0.9932814836502075
+},
+"10-12": {
+"relation": "has pcdc ews permissible value",
+"probability": 0.044866546988487244
+},
+"10-15": {
+"relation": "is chromosomal location of gene",
+"probability": 0.61834317445755
+},
+"10-18": {
+"relation": "organism has gene",
+"probability": 0.9738703966140747
+},
+"12-15": {
+"relation": "chromosome involved in cytogenetic abnormality",
+"probability": 0.14985308051109314
+},
+"12-18": {
+"relation": "organism has gene",
+"probability": 0.995519757270813
+},
+"15-18": {
+"relation": "organism has gene",
+"probability": 0.9834681749343872
+}
+},
+"train-23": {
+"0-2": {
+"relation": "gene encodes gene product",
+"probability": 0.5342421531677246
+},
+"0-4": {
+"relation": "prev name of",
+"probability": 0.4387560188770294
+},
+"0-6": {
+"relation": "mapping qualifier of",
+"probability": 0.2620129883289337
+},
+"0-9": {
+"relation": "disease mapped to gene",
+"probability": 0.20349477231502533
+},
+"0-11": {
+"relation": "disease mapped to gene",
+"probability": 0.2577143907546997
+},
+"2-4": {
+"relation": "gene product encoded by gene",
+"probability": 0.8826752305030823
+},
+"2-9": {
+"relation": "disease mapped to gene",
+"probability": 0.47101691365242004
+},
+"2-11": {
+"relation": "disease has associated gene",
+"probability": 0.6103184819221497
+},
+"4-9": {
+"relation": "disease mapped to gene",
+"probability": 0.39375364780426025
+},
+"4-11": {
+"relation": "disease has associated gene",
+"probability": 0.8560830354690552
+},
+"6-9": {
+"relation": "has mapping qualifier",
+"probability": 0.6236464381217957
+},
+"9-11": {
+"relation": "associated genetic condition",
+"probability": 0.615018904209137
+}
+},
+"train-24": {
+"0-4": {
+"relation": "has inheritance type",
+"probability": 0.30088379979133606
+},
+"0-6": {
+"relation": "may be qualified by",
+"probability": 0.31828343868255615
+},
+"0-8": {
+"relation": "has inheritance type",
+"probability": 0.38580018281936646
+},
+"0-15": {
+"relation": "may be qualified by",
+"probability": 0.49972978234291077
+},
+"0-16": {
+"relation": "may be qualified by",
+"probability": 0.8353446125984192
+},
+"0-18": {
+"relation": "has inheritance type",
+"probability": 0.6612685322761536
+},
+"1-18": {
+"relation": "has mapping qualifier",
+"probability": 0.6206061244010925
+},
+"4-6": {
+"relation": "gene encodes gene product",
+"probability": 0.8851223587989807
+},
+"4-8": {
+"relation": "prev name of",
+"probability": 0.34118109941482544
+},
+"4-15": {
+"relation": "prev name of",
+"probability": 0.22270983457565308
+},
+"4-16": {
+"relation": "subject of information of",
+"probability": 0.47611016035079956
+},
+"4-18": {
+"relation": "disease mapped to gene",
+"probability": 0.2587772011756897
+},
+"6-8": {
+"relation": "gene product encoded by gene",
+"probability": 0.866007387638092
+},
+"6-15": {
+"relation": "gene product encoded by gene",
+"probability": 0.28948938846588135
+},
+"6-16": {
+"relation": "subject of information of",
+"probability": 0.2259102314710617
+},
+"6-18": {
+"relation": "disease mapped to gene",
+"probability": 0.3920806646347046
+},
+"8-15": {
+"relation": "has prev name",
+"probability": 0.2927074134349823
+},
+"8-16": {
+"relation": "subject of information of",
+"probability": 0.37839633226394653
+},
+"8-18": {
+"relation": "disease mapped to gene",
+"probability": 0.3324265778064728
+},
+"15-16": {
+"relation": "subject of information of",
+"probability": 0.8702632188796997
+},
+"15-18": {
+"relation": "has inheritance type",
+"probability": 0.13470804691314697
+},
+"16-18": {
+"relation": "has subject of information",
+"probability": 0.7568771243095398
+}
+},
+"train-25": {
+"1-9": {
+"relation": "has subject of information",
+"probability": 0.9271166324615479
+},
+"1-16": {
+"relation": "has subject of information",
+"probability": 0.9823287129402161
+},
+"1-18": {
+"relation": "has subject of information",
+"probability": 0.25143471360206604
+},
+"1-31": {
+"relation": "has subject of information",
+"probability": 0.9271166324615479
+}
+},
+"train-26": {
+"2-7": {
+"relation": "has subject of information",
+"probability": 0.9519724249839783
+},
+"2-9": {
+"relation": "has subject of information",
+"probability": 0.7184182405471802
+},
+"2-11": {
+"relation": "has subject of information",
+"probability": 0.6876384019851685
+},
+"2-14": {
+"relation": "has subject of information",
+"probability": 0.9177059531211853
+},
+"2-24": {
+"relation": "has subject of information",
+"probability": 0.9269835948944092
+},
+"2-27": {
+"relation": "has subject of information",
+"probability": 0.6349390745162964
+},
+"2-28": {
+"relation": "has subject of information",
+"probability": 0.9584838151931763
+},
+"2-30": {
+"relation": "has subject of information",
+"probability": 0.8891793489456177
+},
+"2-32": {
+"relation": "has system",
+"probability": 0.28002625703811646
+},
+"5-7": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.7928990721702576
+},
+"5-9": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.24109546840190887
+},
+"5-14": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.19100388884544373
+},
+"5-28": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.3114374279975891
+},
+"5-30": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.36293187737464905
+},
+"7-9": {
+"relation": "has answer",
+"probability": 0.39957016706466675
+},
+"7-14": {
+"relation": "has pcdc all permissible value",
+"probability": 0.1189345270395279
+},
+"7-22": {
+"relation": "has answer",
+"probability": 0.6363486051559448
+},
+"7-27": {
+"relation": "gene found in organism",
+"probability": 0.17869849503040314
+},
+"7-28": {
+"relation": "has answer",
+"probability": 0.7450650334358215
+},
+"7-30": {
+"relation": "disease excludes finding",
+"probability": 0.11670178174972534
+},
+"9-11": {
+"relation": "measured by",
+"probability": 0.36947599053382874
+},
+"9-14": {
+"relation": "has inheritance type",
+"probability": 0.4046163558959961
+},
+"9-22": {
+"relation": "system of",
+"probability": 0.6721602082252502
+},
+"9-24": {
+"relation": "has inheritance type",
+"probability": 0.5007238388061523
+},
+"9-27": {
+"relation": "has inheritance type",
+"probability": 0.19638453423976898
+},
+"9-28": {
+"relation": "answer to",
+"probability": 0.7560433149337769
+},
+"9-30": {
+"relation": "has inheritance type",
+"probability": 0.5725071430206299
+},
+"11-14": {
+"relation": "has mapping qualifier",
+"probability": 0.18872827291488647
+},
+"11-28": {
+"relation": "answer to",
+"probability": 0.7861942648887634
+},
+"14-22": {
+"relation": "mapping qualifier of",
+"probability": 0.23526550829410553
+},
+"14-24": {
+"relation": "may be associated disease of disease",
+"probability": 0.29863208532333374
+},
+"14-27": {
+"relation": "gene mapped to disease",
+"probability": 0.6435937285423279
+},
+"14-28": {
+"relation": "associated genetic condition",
+"probability": 0.14451104402542114
+},
+"14-30": {
+"relation": "is associated disease of",
+"probability": 0.27665627002716064
+},
+"24-27": {
+"relation": "gene associated with disease",
+"probability": 0.7332761287689209
+},
+"24-28": {
+"relation": "has at risk population",
+"probability": 0.30020672082901
+},
+"24-30": {
+"relation": "may be associated disease of disease",
+"probability": 0.25257790088653564
+},
+"27-28": {
+"relation": "inheritance type of",
+"probability": 0.07835329324007034
+},
+"27-30": {
+"relation": "gene associated with disease",
+"probability": 0.6819285750389099
+},
+"28-30": {
+"relation": "has at risk population",
+"probability": 0.28660860657691956
+}
+},
+"train-27": {
+"4-6": {
+"relation": "subject of information of",
+"probability": 0.9367180466651917
+},
+"6-7": {
+"relation": "has subject of information",
+"probability": 0.4755348563194275
+},
+"6-13": {
+"relation": "has subject of information",
+"probability": 0.5243440866470337
+},
+"7-13": {
+"relation": "gene associated with disease",
+"probability": 0.6737957000732422
+}
+},
+"train-28": {
+"1-2": {
+"relation": "gene product has structural domain or motif",
+"probability": 0.35301685333251953
+},
+"1-4": {
+"relation": "organism has gene",
+"probability": 0.8383926153182983
+},
+"1-5": {
+"relation": "gene product has structural domain or motif",
+"probability": 0.9760385155677795
+},
+"1-10": {
+"relation": "manifestation of",
+"probability": 0.7145766615867615
+},
+"1-12": {
+"relation": "gene product has structural domain or motif",
+"probability": 0.2721920311450958
+},
+"2-4": {
+"relation": "organism has gene",
+"probability": 0.9621841311454773
+},
+"2-5": {
+"relation": "has manifestation",
+"probability": 0.2862520217895508
+},
+"2-10": {
+"relation": "has manifestation",
+"probability": 0.6262255907058716
+},
+"2-12": {
+"relation": "has manifestation",
+"probability": 0.9437562823295593
+},
+"4-5": {
+"relation": "gene found in organism",
+"probability": 0.9844750165939331
+},
+"4-6": {
+"relation": "gene found in organism",
+"probability": 0.6339219212532043
+},
+"4-9": {
+"relation": "gene found in organism",
+"probability": 0.5198032855987549
+},
+"4-10": {
+"relation": "gene found in organism",
+"probability": 0.3189707100391388
+},
+"4-12": {
+"relation": "gene found in organism",
+"probability": 0.9787499904632568
+},
+"5-10": {
+"relation": "manifestation of",
+"probability": 0.5053697824478149
+},
+"5-12": {
+"relation": "disease mapped to gene",
+"probability": 0.8016353249549866
+},
+"10-12": {
+"relation": "has manifestation",
+"probability": 0.995877742767334
+}
+},
+"train-29": {
+"1-3": {
+"relation": "gene mapped to disease",
+"probability": 0.573401153087616
+},
+"1-5": {
+"relation": "gene associated with disease",
+"probability": 0.5350310802459717
+},
+"1-12": {
+"relation": "is finding of disease",
+"probability": 0.3273876905441284
+},
+"1-15": {
+"relation": "manifestation of",
+"probability": 0.7052757740020752
+},
+"1-24": {
+"relation": "manifestation of",
+"probability": 0.5668632388114929
+},
+"1-26": {
+"relation": "manifestation of",
+"probability": 0.5771782994270325
+},
+"1-29": {
+"relation": "manifestation of",
+"probability": 0.9450207352638245
+},
+"1-34": {
+"relation": "manifestation of",
+"probability": 0.9723392724990845
+},
+"3-5": {
+"relation": "gene product encoded by gene",
+"probability": 0.9401862621307373
+},
+"3-12": {
+"relation": "biological process is part of process",
+"probability": 0.4825742840766907
+},
+"3-15": {
+"relation": "disease mapped to gene",
+"probability": 0.2914692461490631
+},
+"3-22": {
+"relation": "gene mapped to disease",
+"probability": 0.573401153087616
+},
+"3-24": {
+"relation": "disease mapped to gene",
+"probability": 0.5399211049079895
+},
+"3-26": {
+"relation": "disease has associated gene",
+"probability": 0.53777015209198
+},
+"3-29": {
+"relation": "disease has associated gene",
+"probability": 0.46814605593681335
+},
+"3-34": {
+"relation": "manifestation of",
+"probability": 0.2366970330476761
+},
+"5-12": {
+"relation": "has gene product element",
+"probability": 0.47129371762275696
+},
+"5-15": {
+"relation": "disease mapped to gene",
+"probability": 0.38235318660736084
+},
+"5-22": {
+"relation": "gene associated with disease",
+"probability": 0.5350310802459717
+},
+"5-24": {
+"relation": "disease mapped to gene",
+"probability": 0.4644589424133301
+},
+"5-26": {
+"relation": "disease has associated gene",
+"probability": 0.8282737135887146
+},
+"5-29": {
+"relation": "disease has associated gene",
+"probability": 0.9267436265945435
+},
+"5-34": {
+"relation": "disease has associated gene",
+"probability": 0.7197001576423645
+},
+"12-15": {
+"relation": "biological process is part of process",
+"probability": 0.40219467878341675
+},
+"12-22": {
+"relation": "is finding of disease",
+"probability": 0.3273876905441284
+},
+"12-24": {
+"relation": "disease has normal tissue origin",
+"probability": 0.19532233476638794
+},
+"12-34": {
+"relation": "occurs in",
+"probability": 0.4641796350479126
+},
+"15-22": {
+"relation": "manifestation of",
+"probability": 0.7052757740020752
+},
+"15-24": {
+"relation": "disease may have associated disease",
+"probability": 0.3042845129966736
+},
+"15-26": {
+"relation": "manifestation of",
+"probability": 0.6493862867355347
+},
+"15-29": {
+"relation": "has manifestation",
+"probability": 0.35136082768440247
+},
+"15-34": {
+"relation": "manifestation of",
+"probability": 0.9785798788070679
+},
+"20-32": {
+"relation": "has associated finding",
+"probability": 0.7117753624916077
+},
+"20-34": {
+"relation": "due to",
+"probability": 0.7800353169441223
+},
+"22-24": {
+"relation": "manifestation of",
+"probability": 0.5668632388114929
+},
+"22-26": {
+"relation": "manifestation of",
+"probability": 0.5771782994270325
+},
+"22-29": {
+"relation": "manifestation of",
+"probability": 0.9450207352638245
+},
+"22-34": {
+"relation": "manifestation of",
+"probability": 0.9723392724990845
+},
+"24-26": {
+"relation": "may be associated disease of disease",
+"probability": 0.3838783800601959
+},
+"24-29": {
+"relation": "may be associated disease of disease",
+"probability": 0.3003809154033661
+},
+"24-34": {
+"relation": "may be finding of disease",
+"probability": 0.36116769909858704
+},
+"26-29": {
+"relation": "has manifestation",
+"probability": 0.5449270009994507
+},
+"29-34": {
+"relation": "manifestation of",
+"probability": 0.37524986267089844
+}
+},
+"train-30": {
+"0-1": {
+"relation": "supersystem of",
+"probability": 0.5018103122711182
+},
+"0-4": {
+"relation": "inheritance type of",
+"probability": 0.6942283511161804
+},
+"0-6": {
+"relation": "inheritance type of",
+"probability": 0.6672818064689636
+},
+"0-8": {
+"relation": "gene mapped to disease",
+"probability": 0.6933616399765015
+},
+"0-17": {
+"relation": "is biochemical function of gene product",
+"probability": 0.5751304030418396
+},
+"0-20": {
+"relation": "gene mapped to disease",
+"probability": 0.20065723359584808
+},
+"0-23": {
+"relation": "is structural domain or motif of gene product",
+"probability": 0.9351096749305725
+},
+"1-4": {
+"relation": "has supersystem",
+"probability": 0.5000917315483093
+},
+"1-6": {
+"relation": "has system",
+"probability": 0.5632723569869995
+},
+"1-8": {
+"relation": "has supersystem",
+"probability": 0.5191105008125305
+},
+"1-12": {
+"relation": "has system",
+"probability": 0.5069730877876282
+},
+"1-17": {
+"relation": "has system",
+"probability": 0.3544312119483948
+},
+"1-20": {
+"relation": "has supersystem",
+"probability": 0.540040135383606
+},
+"1-22": {
+"relation": "has supersystem",
+"probability": 0.4287133812904358
+},
+"1-23": {
+"relation": "has supersystem",
+"probability": 0.5058271288871765
+},
+"4-6": {
+"relation": "has inheritance type",
+"probability": 0.31192752718925476
+},
+"4-8": {
+"relation": "has inheritance type",
+"probability": 0.5741740465164185
+},
+"6-8": {
+"relation": "has inheritance type",
+"probability": 0.15518127381801605
+},
+"6-12": {
+"relation": "mapping qualifier of",
+"probability": 0.3877098858356476
+},
+"6-23": {
+"relation": "has inheritance type",
+"probability": 0.26368364691734314
+},
+"8-17": {
+"relation": "is biochemical function of gene product",
+"probability": 0.8589106798171997
+},
+"8-20": {
+"relation": "has prev name",
+"probability": 0.3345421254634857
+},
+"8-22": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.1675216555595398
+},
+"8-23": {
+"relation": "is structural domain or motif of gene product",
+"probability": 0.9733306169509888
+},
+"17-20": {
+"relation": "has measured component",
+"probability": 0.4936007857322693
+},
+"17-23": {
+"relation": "is structural domain or motif of gene product",
+"probability": 0.7633166909217834
+},
+"20-22": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.3193826973438263
+},
+"20-23": {
+"relation": "is structural domain or motif of gene product",
+"probability": 0.9175368547439575
+},
+"22-23": {
+"relation": "is structural domain or motif of gene product",
+"probability": 0.18079707026481628
+}
+},
+"train-31": {
+"3-7": {
+"relation": "organism has gene",
+"probability": 0.7859005928039551
+},
+"3-8": {
+"relation": "has inheritance type",
+"probability": 0.18738538026809692
+},
+"3-9": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.10932594537734985
+},
+"3-11": {
+"relation": "has inheritance type",
+"probability": 0.18738538026809692
+},
+"3-13": {
+"relation": "has inheritance type",
+"probability": 0.2877398133277893
+},
+"3-18": {
+"relation": "has inheritance type",
+"probability": 0.18966636061668396
+},
+"3-26": {
+"relation": "has inheritance type",
+"probability": 0.38928118348121643
+},
+"3-29": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.4383927285671234
+},
+"3-31": {
+"relation": "has inheritance type",
+"probability": 0.1705109179019928
+},
+"7-8": {
+"relation": "gene found in organism",
+"probability": 0.9866951704025269
+},
+"7-9": {
+"relation": "gene found in organism",
+"probability": 0.968295156955719
+},
+"7-11": {
+"relation": "gene found in organism",
+"probability": 0.9866951704025269
+},
+"7-13": {
+"relation": "gene found in organism",
+"probability": 0.9811800718307495
+},
+"7-17": {
+"relation": "gene found in organism",
+"probability": 0.9399041533470154
+},
+"7-18": {
+"relation": "gene found in organism",
+"probability": 0.9844872355461121
+},
+"7-20": {
+"relation": "gene found in organism",
+"probability": 0.9898307919502258
+},
+"7-26": {
+"relation": "gene found in organism",
+"probability": 0.9910637140274048
+},
+"7-29": {
+"relation": "gene found in organism",
+"probability": 0.8936389088630676
+},
+"7-31": {
+"relation": "gene found in organism",
+"probability": 0.9824740290641785
+},
+"8-9": {
+"relation": "subset includes concept",
+"probability": 0.15614542365074158
+},
+"8-13": {
+"relation": "has prev name",
+"probability": 0.29448679089546204
+},
+"8-17": {
+"relation": "manifestation of",
+"probability": 0.3124611973762512
+},
+"8-18": {
+"relation": "has prev name",
+"probability": 0.4951894283294678
+},
+"8-20": {
+"relation": "gene product encoded by gene",
+"probability": 0.25164514780044556
+},
+"8-23": {
+"relation": "disease has associated gene",
+"probability": 0.7767260074615479
+},
+"8-26": {
+"relation": "disease mapped to gene",
+"probability": 0.5136258602142334
+},
+"8-29": {
+"relation": "inheritance type of",
+"probability": 0.5993890762329102
+},
+"8-31": {
+"relation": "organism has gene",
+"probability": 0.5706856846809387
+},
+"9-11": {
+"relation": "subset includes concept",
+"probability": 0.15614542365074158
+},
+"9-13": {
+"relation": "is ctdc value of",
+"probability": 0.2685195803642273
+},
+"9-18": {
+"relation": "is ctdc value of",
+"probability": 0.22161291539669037
+},
+"9-20": {
+"relation": "is ctdc value of",
+"probability": 0.3242466151714325
+},
+"9-26": {
+"relation": "is ctdc value of",
+"probability": 0.21184350550174713
+},
+"9-29": {
+"relation": "is ctdc value of",
+"probability": 0.14572575688362122
+},
+"9-31": {
+"relation": "is ctdc value of",
+"probability": 0.1304006278514862
+},
+"11-13": {
+"relation": "has prev name",
+"probability": 0.29448679089546204
+},
+"11-17": {
+"relation": "manifestation of",
+"probability": 0.3124611973762512
+},
+"11-18": {
+"relation": "has prev name",
+"probability": 0.4951894283294678
+},
+"11-20": {
+"relation": "gene product encoded by gene",
+"probability": 0.25164514780044556
+},
+"11-23": {
+"relation": "disease has associated gene",
+"probability": 0.7767260074615479
+},
+"11-26": {
+"relation": "disease mapped to gene",
+"probability": 0.5136258602142334
+},
+"11-29": {
+"relation": "inheritance type of",
+"probability": 0.5993890762329102
+},
+"11-31": {
+"relation": "organism has gene",
+"probability": 0.5706856846809387
+},
+"13-17": {
+"relation": "manifestation of",
+"probability": 0.3265761137008667
+},
+"13-18": {
+"relation": "prev name of",
+"probability": 0.47309496998786926
+},
+"13-20": {
+"relation": "prev name of",
+"probability": 0.29034149646759033
+},
+"13-23": {
+"relation": "disease has associated gene",
+"probability": 0.830083429813385
+},
+"13-26": {
+"relation": "prev name of",
+"probability": 0.3094772696495056
+},
+"13-29": {
+"relation": "inheritance type of",
+"probability": 0.6618316173553467
+},
+"13-31": {
+"relation": "organism has gene",
+"probability": 0.4103778004646301
+},
+"17-18": {
+"relation": "has manifestation",
+"probability": 0.26028135418891907
+},
+"17-20": {
+"relation": "has manifestation",
+"probability": 0.18620549142360687
+},
+"17-26": {
+"relation": "has manifestation",
+"probability": 0.8910176753997803
+},
+"17-29": {
+"relation": "has occurrence",
+"probability": 0.48026981949806213
+},
+"17-31": {
+"relation": "has manifestation",
+"probability": 0.6311748623847961
+},
+"18-20": {
+"relation": "has prev name",
+"probability": 0.3775140941143036
+},
+"18-23": {
+"relation": "disease has associated gene",
+"probability": 0.8759059309959412
+},
+"18-26": {
+"relation": "disease mapped to gene",
+"probability": 0.3260427415370941
+},
+"18-29": {
+"relation": "inheritance type of",
+"probability": 0.6264533400535583
+},
+"18-31": {
+"relation": "organism has gene",
+"probability": 0.7088446617126465
+},
+"20-23": {
+"relation": "disease has associated gene",
+"probability": 0.5804699659347534
+},
+"20-26": {
+"relation": "has prev name",
+"probability": 0.3223048746585846
+},
+"20-31": {
+"relation": "organism has gene",
+"probability": 0.5533586740493774
+},
+"23-26": {
+"relation": "has manifestation",
+"probability": 0.9915364980697632
+},
+"23-28": {
+"relation": "has occurrence",
+"probability": 0.521491289138794
+},
+"23-29": {
+"relation": "inheritance type of",
+"probability": 0.5260676741600037
+},
+"23-31": {
+"relation": "has manifestation",
+"probability": 0.6339302659034729
+},
+"26-29": {
+"relation": "inheritance type of",
+"probability": 0.6786660552024841
+},
+"26-31": {
+"relation": "organism has gene",
+"probability": 0.5383163690567017
+},
+"29-31": {
+"relation": "has inheritance type",
+"probability": 0.6486345529556274
+}
+},
+"train-32": {
+"0-2": {
+"relation": "has finding method",
+"probability": 0.5628663897514343
+},
+"0-3": {
+"relation": "has finding method",
+"probability": 0.5268045663833618
+},
+"0-5": {
+"relation": "organism has gene",
+"probability": 0.6085130572319031
+},
+"0-8": {
+"relation": "has mapping qualifier",
+"probability": 0.2926066219806671
+},
+"0-10": {
+"relation": "has finding method",
+"probability": 0.5628663897514343
+},
+"0-12": {
+"relation": "has finding method",
+"probability": 0.27449408173561096
+},
+"0-16": {
+"relation": "has finding method",
+"probability": 0.3696022629737854
+},
+"2-3": {
+"relation": "has answer",
+"probability": 0.518336832523346
+},
+"2-5": {
+"relation": "organism has gene",
+"probability": 0.715297520160675
+},
+"2-8": {
+"relation": "other mapped to",
+"probability": 0.11368782073259354
+},
+"2-12": {
+"relation": "process includes biological process",
+"probability": 0.9275930523872375
+},
+"3-5": {
+"relation": "organism has gene",
+"probability": 0.6287973523139954
+},
+"3-8": {
+"relation": "has manifestation",
+"probability": 0.7694725394248962
+},
+"3-10": {
+"relation": "has answer",
+"probability": 0.518336832523346
+},
+"3-11": {
+"relation": "anatomy originated from biological process",
+"probability": 0.4110903739929199
+},
+"3-12": {
+"relation": "process includes biological process",
+"probability": 0.9857827425003052
+},
+"3-15": {
+"relation": "chemical or drug initiates biological process",
+"probability": 0.37518835067749023
+},
+"3-16": {
+"relation": "gene product is element in pathway",
+"probability": 0.21978648006916046
+},
+"5-6": {
+"relation": "gene found in organism",
+"probability": 0.9365642070770264
+},
+"5-8": {
+"relation": "gene found in organism",
+"probability": 0.9852588176727295
+},
+"5-10": {
+"relation": "organism has gene",
+"probability": 0.715297520160675
+},
+"5-11": {
+"relation": "gene found in organism",
+"probability": 0.5671769380569458
+},
+"5-15": {
+"relation": "gene found in organism",
+"probability": 0.6863711476325989
+},
+"5-16": {
+"relation": "gene found in organism",
+"probability": 0.9907688498497009
+},
+"8-10": {
+"relation": "other mapped to",
+"probability": 0.11368782073259354
+},
+"8-11": {
+"relation": "is normal tissue origin of disease",
+"probability": 0.7923786044120789
+},
+"8-15": {
+"relation": "gene mapped to disease",
+"probability": 0.4515165090560913
+},
+"8-16": {
+"relation": "gene mapped to disease",
+"probability": 0.704270601272583
+},
+"10-12": {
+"relation": "process includes biological process",
+"probability": 0.9275930523872375
+},
+"11-15": {
+"relation": "gene product has associated anatomy",
+"probability": 0.8327113389968872
+},
+"11-16": {
+"relation": "gene product expressed in tissue",
+"probability": 0.9776806831359863
+},
+"15-16": {
+"relation": "gene product has biochemical function",
+"probability": 0.9873363375663757
+}
+},
+"train-33": {
+"0-2": {
+"relation": "has manifestation",
+"probability": 0.22066690027713776
+},
+"0-7": {
+"relation": "inheritance type of",
+"probability": 0.9903318881988525
+},
+"0-10": {
+"relation": "is normal tissue origin of disease",
+"probability": 0.9834591746330261
+},
+"0-11": {
+"relation": "manifestation of",
+"probability": 0.8180705308914185
+},
+"0-12": {
+"relation": "manifestation of",
+"probability": 0.27204230427742004
+},
+"0-13": {
+"relation": "clinical course of",
+"probability": 0.1380341649055481
+},
+"2-7": {
+"relation": "inheritance type of",
+"probability": 0.9894586801528931
+},
+"2-10": {
+"relation": "is normal tissue origin of disease",
+"probability": 0.9870126843452454
+},
+"2-11": {
+"relation": "manifestation of",
+"probability": 0.8453949689865112
+},
+"2-12": {
+"relation": "clinical course of",
+"probability": 0.37888872623443604
+},
+"2-13": {
+"relation": "definitional manifestation of",
+"probability": 0.16246606409549713
+},
+"7-11": {
+"relation": "manifestation of",
+"probability": 0.6298923492431641
+},
+"7-12": {
+"relation": "has inheritance type",
+"probability": 0.6999647617340088
+},
+"7-13": {
+"relation": "has inheritance type",
+"probability": 0.5769354701042175
+},
+"11-13": {
+"relation": "severity of",
+"probability": 0.3752674162387848
+},
+"12-13": {
+"relation": "has at risk population",
+"probability": 0.1972743719816208
+},
+"12-14": {
+"relation": "has sign or symptom",
+"probability": 0.5251488089561462
+},
+"13-14": {
+"relation": "has sign or symptom",
+"probability": 0.5159855484962463
+}
+},
+"train-34": {
+"0-8": {
+"relation": "has class",
+"probability": 0.5937889218330383
+},
+"5-7": {
+"relation": "subset includes concept",
+"probability": 0.563595712184906
+},
+"7-8": {
+"relation": "has focus",
+"probability": 0.347241073846817
+},
+"8-13": {
+"relation": "focus of",
+"probability": 0.980749785900116
+},
+"10-13": {
+"relation": "occurs in",
+"probability": 0.8826383352279663
+},
+"12-13": {
+"relation": "occurs in",
+"probability": 0.4139624238014221
+}
+},
+"train-35": {
+"5-10": {
+"relation": "focus of",
+"probability": 0.991797924041748
+},
+"5-12": {
+"relation": "focus of",
+"probability": 0.9932392835617065
+},
+"5-17": {
+"relation": "focus of",
+"probability": 0.7095106840133667
+},
+"5-19": {
+"relation": "focus of",
+"probability": 0.6497043967247009
+},
+"5-22": {
+"relation": "focus of",
+"probability": 0.8977538347244263
+},
+"7-10": {
+"relation": "occurs in",
+"probability": 0.9178354740142822
+},
+"7-12": {
+"relation": "occurs in",
+"probability": 0.7018402814865112
+},
+"9-10": {
+"relation": "occurs in",
+"probability": 0.4894948899745941
+},
+"9-12": {
+"relation": "occurs in",
+"probability": 0.3675086796283722
+},
+"10-12": {
+"relation": "has manifestation",
+"probability": 0.6570942401885986
+},
+"10-17": {
+"relation": "manifestation of",
+"probability": 0.9799818992614746
+},
+"10-19": {
+"relation": "manifestation of",
+"probability": 0.9856918454170227
+},
+"10-22": {
+"relation": "manifestation of",
+"probability": 0.9885041117668152
+},
+"10-24": {
+"relation": "manifestation of",
+"probability": 0.9866300821304321
+},
+"12-17": {
+"relation": "manifestation of",
+"probability": 0.674071729183197
+},
+"12-19": {
+"relation": "manifestation of",
+"probability": 0.9090145230293274
+},
+"12-22": {
+"relation": "manifestation of",
+"probability": 0.9343570470809937
+},
+"12-24": {
+"relation": "manifestation of",
+"probability": 0.9602652192115784
+},
+"17-19": {
+"relation": "measured by",
+"probability": 0.5794389843940735
+},
+"17-22": {
+"relation": "measured by",
+"probability": 0.23825673758983612
+},
+"17-24": {
+"relation": "measures",
+"probability": 0.18821759521961212
+},
+"19-22": {
+"relation": "measured by",
+"probability": 0.31289657950401306
+},
+"19-24": {
+"relation": "measures",
+"probability": 0.2525864541530609
+},
+"22-24": {
+"relation": "measures",
+"probability": 0.5063867568969727
+}
+},
+"train-36": {
+"2-4": {
+"relation": "has supersystem",
+"probability": 0.5243716239929199
+},
+"2-6": {
+"relation": "has supersystem",
+"probability": 0.5423335433006287
+},
+"2-9": {
+"relation": "has supersystem",
+"probability": 0.5474444031715393
+},
+"2-13": {
+"relation": "has supersystem",
+"probability": 0.5365138649940491
+},
+"2-16": {
+"relation": "has supersystem",
+"probability": 0.5412096381187439
+},
+"2-18": {
+"relation": "has supersystem",
+"probability": 0.4742625057697296
+},
+"2-24": {
+"relation": "has supersystem",
+"probability": 0.5610009431838989
+},
+"2-27": {
+"relation": "has system",
+"probability": 0.4787195324897766
+},
+"4-9": {
+"relation": "finding method of",
+"probability": 0.6431666612625122
+},
+"6-9": {
+"relation": "finding method of",
+"probability": 0.5521501302719116
+},
+"7-9": {
+"relation": "finding method of",
+"probability": 0.8599615693092346
+},
+"7-18": {
+"relation": "may diagnose",
+"probability": 0.19798466563224792
+},
+"7-26": {
+"relation": "may prevent",
+"probability": 0.9959608912467957
+},
+"7-27": {
+"relation": "has focus",
+"probability": 0.9850966334342957
+},
+"9-13": {
+"relation": "has class",
+"probability": 0.7669878005981445
+},
+"9-16": {
+"relation": "has class",
+"probability": 0.9969822764396667
+},
+"9-18": {
+"relation": "has class",
+"probability": 0.8722530007362366
+},
+"9-26": {
+"relation": "has class",
+"probability": 0.5294274091720581
+},
+"9-27": {
+"relation": "has class",
+"probability": 0.684086799621582
+},
+"11-18": {
+"relation": "has indirect procedure site",
+"probability": 0.36989402770996094
+},
+"11-26": {
+"relation": "may diagnose",
+"probability": 0.7006990909576416
+},
+"11-27": {
+"relation": "has indirect procedure site",
+"probability": 0.6096422672271729
+},
+"13-16": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.4784930944442749
+},
+"13-18": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.6270618438720703
+},
+"13-19": {
+"relation": "time aspect of",
+"probability": 0.7207245826721191
+},
+"13-26": {
+"relation": "substance used by",
+"probability": 0.7481729388237
+},
+"16-18": {
+"relation": "genetic biomarker related to",
+"probability": 0.08202163130044937
+},
+"16-19": {
+"relation": "time aspect of",
+"probability": 0.8831194639205933
+},
+"16-26": {
+"relation": "may diagnose",
+"probability": 0.20870348811149597
+},
+"16-27": {
+"relation": "mapping qualifier of",
+"probability": 0.19036372005939484
+},
+"18-19": {
+"relation": "time aspect of",
+"probability": 0.8390454053878784
+},
+"18-26": {
+"relation": "is component of chemotherapy regimen",
+"probability": 0.25544270873069763
+},
+"18-27": {
+"relation": "mapping qualifier of",
+"probability": 0.48634693026542664
+},
+"19-27": {
+"relation": "has time aspect",
+"probability": 0.886732280254364
+},
+"26-27": {
+"relation": "physiologic effect of",
+"probability": 0.6781452894210815
+}
+},
+"train-37": {
+"1-5": {
+"relation": "supersystem of",
+"probability": 0.4992486238479614
+},
+"1-10": {
+"relation": "class of",
+"probability": 0.9989240765571594
+},
+"1-18": {
+"relation": "supersystem of",
+"probability": 0.4992486238479614
+},
+"1-33": {
+"relation": "class of",
+"probability": 0.9989240765571594
+},
+"5-8": {
+"relation": "has supersystem",
+"probability": 0.4595063328742981
+},
+"5-10": {
+"relation": "has supersystem",
+"probability": 0.5326829552650452
+},
+"5-12": {
+"relation": "has supersystem",
+"probability": 0.5255632400512695
+},
+"5-22": {
+"relation": "has supersystem",
+"probability": 0.5353909134864807
+},
+"5-28": {
+"relation": "has supersystem",
+"probability": 0.5401557683944702
+},
+"5-32": {
+"relation": "has supersystem",
+"probability": 0.5177492499351501
+},
+"5-33": {
+"relation": "has supersystem",
+"probability": 0.5326829552650452
+},
+"5-35": {
+"relation": "has supersystem",
+"probability": 0.5255632400512695
+},
+"5-36": {
+"relation": "has supersystem",
+"probability": 0.539366602897644
+},
+"8-10": {
+"relation": "class of",
+"probability": 0.6721692681312561
+},
+"8-12": {
+"relation": "finding method of",
+"probability": 0.8117290139198303
+},
+"8-18": {
+"relation": "has supersystem",
+"probability": 0.4595063328742981
+},
+"8-22": {
+"relation": "is grade of disease",
+"probability": 0.614994466304779
+},
+"8-32": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.6270300149917603
+},
+"8-33": {
+"relation": "class of",
+"probability": 0.6721692681312561
+},
+"8-35": {
+"relation": "finding method of",
+"probability": 0.8117290139198303
+},
+"10-12": {
+"relation": "has class",
+"probability": 0.9987125396728516
+},
+"10-18": {
+"relation": "has supersystem",
+"probability": 0.5326829552650452
+},
+"10-22": {
+"relation": "has class",
+"probability": 0.9997957348823547
+},
+"10-28": {
+"relation": "has class",
+"probability": 0.9998471736907959
+},
+"10-32": {
+"relation": "has class",
+"probability": 0.9927297234535217
+},
+"10-35": {
+"relation": "has class",
+"probability": 0.9987125396728516
+},
+"10-36": {
+"relation": "has class",
+"probability": 0.9997610449790955
+},
+"12-18": {
+"relation": "has supersystem",
+"probability": 0.5255632400512695
+},
+"12-22": {
+"relation": "has class",
+"probability": 0.6915356516838074
+},
+"12-28": {
+"relation": "has class",
+"probability": 0.9614894390106201
+},
+"12-33": {
+"relation": "has class",
+"probability": 0.9987125396728516
+},
+"18-22": {
+"relation": "has supersystem",
+"probability": 0.5353909134864807
+},
+"18-28": {
+"relation": "has supersystem",
+"probability": 0.5401557683944702
+},
+"18-32": {
+"relation": "has supersystem",
+"probability": 0.5177492499351501
+},
+"18-33": {
+"relation": "has supersystem",
+"probability": 0.5326829552650452
+},
+"18-35": {
+"relation": "has supersystem",
+"probability": 0.5255632400512695
+},
+"18-36": {
+"relation": "has supersystem",
+"probability": 0.539366602897644
+},
+"22-28": {
+"relation": "has answer",
+"probability": 0.6439881920814514
+},
+"22-32": {
+"relation": "answer to",
+"probability": 0.8850345611572266
+},
+"22-33": {
+"relation": "has class",
+"probability": 0.9997957348823547
+},
+"22-35": {
+"relation": "has class",
+"probability": 0.6915356516838074
+},
+"28-33": {
+"relation": "has class",
+"probability": 0.9998471736907959
+},
+"28-35": {
+"relation": "has class",
+"probability": 0.9614894390106201
+},
+"32-33": {
+"relation": "has class",
+"probability": 0.9927297234535217
+},
+"33-35": {
+"relation": "has class",
+"probability": 0.9987125396728516
+},
+"33-36": {
+"relation": "has class",
+"probability": 0.9997610449790955
+}
+},
+"train-38": {
+"0-4": {
+"relation": "supersystem of",
+"probability": 0.5397855043411255
+},
+"0-9": {
+"relation": "disease mapped to gene",
+"probability": 0.5014672875404358
+},
+"1-4": {
+"relation": "supersystem of",
+"probability": 0.49863705039024353
+},
+"4-6": {
+"relation": "has supersystem",
+"probability": 0.5592242479324341
+},
+"4-8": {
+"relation": "has supersystem",
+"probability": 0.5428466200828552
+},
+"6-9": {
+"relation": "occurs in",
+"probability": 0.5605103373527527
+}
+},
+"train-39": {
+"1-11": {
+"relation": "system of",
+"probability": 0.5024786591529846
+},
+"4-11": {
+"relation": "supersystem of",
+"probability": 0.5303173065185547
+},
+"4-13": {
+"relation": "disease has associated gene",
+"probability": 0.9422990679740906
+},
+"4-14": {
+"relation": "associated finding of",
+"probability": 0.974123477935791
+},
+"4-18": {
+"relation": "disease mapped to gene",
+"probability": 0.8362917900085449
+},
+"5-11": {
+"relation": "supersystem of",
+"probability": 0.4977041184902191
+},
+"5-18": {
+"relation": "due to",
+"probability": 0.3403578996658325
+},
+"11-14": {
+"relation": "has supersystem",
+"probability": 0.5379084348678589
+},
+"13-14": {
+"relation": "associated finding of",
+"probability": 0.9997072815895081
+},
+"13-18": {
+"relation": "has definitional manifestation",
+"probability": 0.8442002534866333
+},
+"14-18": {
+"relation": "has associated finding",
+"probability": 0.9923143982887268
+}
+},
+"train-40": {
+"3-5": {
+"relation": "gene product encoded by gene",
+"probability": 0.32675406336784363
+},
+"3-7": {
+"relation": "gene product encoded by gene",
+"probability": 0.4175863265991211
+},
+"3-12": {
+"relation": "organism has gene",
+"probability": 0.23215731978416443
+},
+"3-13": {
+"relation": "supersystem of",
+"probability": 0.49699166417121887
+},
+"3-15": {
+"relation": "cytogenetic abnormality involves chromosome",
+"probability": 0.1591920703649521
+},
+"3-17": {
+"relation": "cytogenetic abnormality involves chromosome",
+"probability": 0.07399138063192368
+},
+"3-22": {
+"relation": "specimen source topography of",
+"probability": 0.46427154541015625
+},
+"3-23": {
+"relation": "cytogenetic abnormality involves chromosome",
+"probability": 0.10862333327531815
+},
+"3-25": {
+"relation": "gene product encoded by gene",
+"probability": 0.24888284504413605
+},
+"3-27": {
+"relation": "has system",
+"probability": 0.11834368109703064
+},
+"5-7": {
+"relation": "gene product encoded by gene",
+"probability": 0.32398301362991333
+},
+"5-12": {
+"relation": "is organism source of gene product",
+"probability": 0.42406702041625977
+},
+"5-15": {
+"relation": "disease mapped to gene",
+"probability": 0.36122745275497437
+},
+"5-17": {
+"relation": "associated with malfunction of gene product",
+"probability": 0.2077750414609909
+},
+"5-22": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.48126596212387085
+},
+"5-23": {
+"relation": "disease mapped to gene",
+"probability": 0.2737337052822113
+},
+"5-25": {
+"relation": "gene product encoded by gene",
+"probability": 0.7513782978057861
+},
+"7-15": {
+"relation": "disease mapped to gene",
+"probability": 0.36999043822288513
+},
+"7-17": {
+"relation": "associated with malfunction of gene product",
+"probability": 0.2552781403064728
+},
+"7-23": {
+"relation": "associated with malfunction of gene product",
+"probability": 0.2459631860256195
+},
+"7-25": {
+"relation": "gene product encoded by gene",
+"probability": 0.6759330630302429
+},
+"12-13": {
+"relation": "supersystem of",
+"probability": 0.5772233605384827
+},
+"12-15": {
+"relation": "has manifestation",
+"probability": 0.3657251298427582
+},
+"12-17": {
+"relation": "gene found in organism",
+"probability": 0.5805824995040894
+},
+"12-23": {
+"relation": "has manifestation",
+"probability": 0.4682728946208954
+},
+"12-25": {
+"relation": "gene found in organism",
+"probability": 0.6149801015853882
+},
+"13-15": {
+"relation": "has supersystem",
+"probability": 0.41356298327445984
+},
+"13-20": {
+"relation": "has supersystem",
+"probability": 0.5107532143592834
+},
+"13-22": {
+"relation": "has supersystem",
+"probability": 0.5413947701454163
+},
+"13-25": {
+"relation": "has supersystem",
+"probability": 0.47348079085350037
+},
+"13-27": {
+"relation": "has system",
+"probability": 0.5363065004348755
+},
+"15-17": {
+"relation": "prev name of",
+"probability": 0.26374053955078125
+},
+"15-22": {
+"relation": "inheritance type of",
+"probability": 0.8252154588699341
+},
+"15-23": {
+"relation": "associated genetic condition",
+"probability": 0.1990959346294403
+},
+"15-25": {
+"relation": "gene mapped to disease",
+"probability": 0.8021690845489502
+},
+"15-27": {
+"relation": "mapping qualifier of",
+"probability": 0.5829254388809204
+},
+"17-22": {
+"relation": "inheritance type of",
+"probability": 0.7563281059265137
+},
+"17-23": {
+"relation": "disease mapped to gene",
+"probability": 0.17194154858589172
+},
+"17-25": {
+"relation": "gene mapped to disease",
+"probability": 0.7195330262184143
+},
+"17-27": {
+"relation": "mapping qualifier of",
+"probability": 0.48639440536499023
+},
+"20-27": {
+"relation": "has property",
+"probability": 0.594711184501648
+},
+"22-23": {
+"relation": "has inheritance type",
+"probability": 0.7951850891113281
+},
+"22-25": {
+"relation": "gene product encoded by gene",
+"probability": 0.18321357667446136
+},
+"22-27": {
+"relation": "occurs in",
+"probability": 0.2722756266593933
+},
+"23-25": {
+"relation": "gene mapped to disease",
+"probability": 0.7783830761909485
+},
+"23-27": {
+"relation": "mapping qualifier of",
+"probability": 0.5065948367118835
+},
+"25-27": {
+"relation": "mapping qualifier of",
+"probability": 0.1936565786600113
+}
+},
+"train-41": {
+"5-9": {
+"relation": "has mapping qualifier",
+"probability": 0.25100356340408325
+},
+"5-15": {
+"relation": "has mapping qualifier",
+"probability": 0.3150094449520111
+},
+"5-20": {
+"relation": "has mapping qualifier",
+"probability": 0.25100356340408325
+},
+"5-26": {
+"relation": "has focus",
+"probability": 0.992709755897522
+},
+"5-29": {
+"relation": "has mapping qualifier",
+"probability": 0.15970447659492493
+},
+"5-35": {
+"relation": "has mapping qualifier",
+"probability": 0.43271687626838684
+},
+"5-36": {
+"relation": "system of",
+"probability": 0.49658864736557007
+},
+"7-9": {
+"relation": "has property",
+"probability": 0.9180889129638672
+},
+"7-15": {
+"relation": "has property",
+"probability": 0.5617715120315552
+},
+"7-20": {
+"relation": "has property",
+"probability": 0.9180889129638672
+},
+"7-26": {
+"relation": "has property",
+"probability": 0.3502376675605774
+},
+"7-29": {
+"relation": "has property",
+"probability": 0.8771973848342896
+},
+"7-32": {
+"relation": "has property",
+"probability": 0.15045231580734253
+},
+"7-36": {
+"relation": "supersystem of",
+"probability": 0.5325384736061096
+},
+"9-15": {
+"relation": "genetic biomarker related to",
+"probability": 0.06367857754230499
+},
+"9-26": {
+"relation": "focus of",
+"probability": 0.8614924550056458
+},
+"9-29": {
+"relation": "inheritance type of",
+"probability": 0.12951380014419556
+},
+"9-32": {
+"relation": "genetic biomarker related to",
+"probability": 0.48327627778053284
+},
+"9-33": {
+"relation": "gene encodes gene product",
+"probability": 0.8655611872673035
+},
+"9-35": {
+"relation": "disease mapped to gene",
+"probability": 0.1834038645029068
+},
+"9-36": {
+"relation": "supersystem of",
+"probability": 0.5198490023612976
+},
+"15-20": {
+"relation": "genetic biomarker related to",
+"probability": 0.06367857754230499
+},
+"15-26": {
+"relation": "focus of",
+"probability": 0.5192487835884094
+},
+"15-28": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.2690697908401489
+},
+"15-29": {
+"relation": "inheritance type of",
+"probability": 0.417501300573349
+},
+"15-32": {
+"relation": "genetic biomarker related to",
+"probability": 0.3511806130409241
+},
+"15-33": {
+"relation": "gene encodes gene product",
+"probability": 0.7120969891548157
+},
+"15-35": {
+"relation": "has manifestation",
+"probability": 0.162132129073143
+},
+"15-36": {
+"relation": "supersystem of",
+"probability": 0.49704277515411377
+},
+"20-26": {
+"relation": "focus of",
+"probability": 0.8614924550056458
+},
+"20-29": {
+"relation": "inheritance type of",
+"probability": 0.12951380014419556
+},
+"20-32": {
+"relation": "genetic biomarker related to",
+"probability": 0.48327627778053284
+},
+"20-33": {
+"relation": "gene encodes gene product",
+"probability": 0.8655611872673035
+},
+"20-35": {
+"relation": "disease mapped to gene",
+"probability": 0.1834038645029068
+},
+"20-36": {
+"relation": "supersystem of",
+"probability": 0.5198490023612976
+},
+"26-28": {
+"relation": "has focus",
+"probability": 0.7985508441925049
+},
+"26-29": {
+"relation": "focus of",
+"probability": 0.8153579235076904
+},
+"26-32": {
+"relation": "has focus",
+"probability": 0.375799298286438
+},
+"26-33": {
+"relation": "focus of",
+"probability": 0.6952157616615295
+},
+"26-35": {
+"relation": "focus of",
+"probability": 0.7938528656959534
+},
+"26-36": {
+"relation": "supersystem of",
+"probability": 0.5121698379516602
+},
+"28-29": {
+"relation": "has pcdc data type",
+"probability": 0.10370157659053802
+},
+"28-32": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.13464421033859253
+},
+"28-33": {
+"relation": "gene encodes gene product",
+"probability": 0.5234811902046204
+},
+"28-36": {
+"relation": "system of",
+"probability": 0.5100440382957458
+},
+"29-32": {
+"relation": "has inheritance type",
+"probability": 0.6101951003074646
+},
+"29-33": {
+"relation": "gene encodes gene product",
+"probability": 0.14073534309864044
+},
+"29-35": {
+"relation": "has inheritance type",
+"probability": 0.9136120676994324
+},
+"29-36": {
+"relation": "supersystem of",
+"probability": 0.5393965840339661
+},
+"32-33": {
+"relation": "gene encodes gene product",
+"probability": 0.9639187455177307
+},
+"32-35": {
+"relation": "disease mapped to gene",
+"probability": 0.7458993792533875
+},
+"32-36": {
+"relation": "supersystem of",
+"probability": 0.5265112519264221
+},
+"33-35": {
+"relation": "gene product encoded by gene",
+"probability": 0.5703785419464111
+},
+"33-36": {
+"relation": "supersystem of",
+"probability": 0.5807154178619385
+}
+},
+"train-42": {
+"0-2": {
+"relation": "gene mapped to disease",
+"probability": 0.5953959226608276
+},
+"0-8": {
+"relation": "manifestation of",
+"probability": 0.3869238495826721
+},
+"0-18": {
+"relation": "inheritance type of",
+"probability": 0.5965030789375305
+},
+"2-8": {
+"relation": "disease mapped to gene",
+"probability": 0.3071073591709137
+},
+"2-10": {
+"relation": "organism has gene",
+"probability": 0.43883848190307617
+},
+"10-28": {
+"relation": "has context binding",
+"probability": 0.24579989910125732
+},
+"14-28": {
+"relation": "class of",
+"probability": 0.28261393308639526
+}
+},
+"train-43": {
+"0-3": {
+"relation": "has finding method",
+"probability": 0.250323623418808
+},
+"0-8": {
+"relation": "has finding method",
+"probability": 0.3948034644126892
+},
+"0-12": {
+"relation": "has finding method",
+"probability": 0.3543587625026703
+},
+"0-13": {
+"relation": "has finding method",
+"probability": 0.7270488142967224
+},
+"0-16": {
+"relation": "has finding method",
+"probability": 0.65372633934021
+},
+"0-17": {
+"relation": "has finding method",
+"probability": 0.41251587867736816
+},
+"0-19": {
+"relation": "has finding method",
+"probability": 0.5293813943862915
+},
+"0-21": {
+"relation": "is pcdc ews permissible value for variable",
+"probability": 0.06363607943058014
+},
+"0-24": {
+"relation": "gene product encoded by gene",
+"probability": 0.09411168098449707
+},
+"0-26": {
+"relation": "has finding method",
+"probability": 0.6687323451042175
+},
+"0-32": {
+"relation": "has finding method",
+"probability": 0.250323623418808
+},
+"2-3": {
+"relation": "gene found in organism",
+"probability": 0.3863023817539215
+},
+"2-8": {
+"relation": "gene found in organism",
+"probability": 0.6235634088516235
+},
+"2-12": {
+"relation": "gene found in organism",
+"probability": 0.7234146595001221
+},
+"2-16": {
+"relation": "gene found in organism",
+"probability": 0.696887731552124
+},
+"2-17": {
+"relation": "gene found in organism",
+"probability": 0.6404369473457336
+},
+"2-19": {
+"relation": "gene found in organism",
+"probability": 0.799801230430603
+},
+"2-21": {
+"relation": "gene found in organism",
+"probability": 0.7442454695701599
+},
+"2-24": {
+"relation": "gene found in organism",
+"probability": 0.907907247543335
+},
+"2-26": {
+"relation": "gene found in organism",
+"probability": 0.6713621020317078
+},
+"2-32": {
+"relation": "gene found in organism",
+"probability": 0.3863023817539215
+},
+"3-8": {
+"relation": "gene mapped to disease",
+"probability": 0.545570433139801
+},
+"3-12": {
+"relation": "has manifestation",
+"probability": 0.41388264298439026
+},
+"3-16": {
+"relation": "manifestation of",
+"probability": 0.603416383266449
+},
+"3-17": {
+"relation": "gene mapped to disease",
+"probability": 0.19114787876605988
+},
+"3-19": {
+"relation": "gene mapped to disease",
+"probability": 0.5159708261489868
+},
+"3-21": {
+"relation": "gene mapped to disease",
+"probability": 0.2143711894750595
+},
+"3-24": {
+"relation": "gene mapped to disease",
+"probability": 0.7040924429893494
+},
+"3-26": {
+"relation": "manifestation of",
+"probability": 0.5075135827064514
+},
+"3-31": {
+"relation": "gene found in organism",
+"probability": 0.3863023817539215
+},
+"8-12": {
+"relation": "prev name of",
+"probability": 0.17597471177577972
+},
+"8-16": {
+"relation": "has prev name",
+"probability": 0.28205326199531555
+},
+"8-17": {
+"relation": "gene encodes gene product",
+"probability": 0.3267504572868347
+},
+"8-19": {
+"relation": "prev name of",
+"probability": 0.2749044597148895
+},
+"8-21": {
+"relation": "is chromosomal location of gene",
+"probability": 0.2931264042854309
+},
+"8-24": {
+"relation": "gene encodes gene product",
+"probability": 0.680553674697876
+},
+"8-26": {
+"relation": "prev name of",
+"probability": 0.30953478813171387
+},
+"8-31": {
+"relation": "gene found in organism",
+"probability": 0.6235634088516235
+},
+"8-32": {
+"relation": "disease mapped to gene",
+"probability": 0.7310526967048645
+},
+"12-16": {
+"relation": "prev name of",
+"probability": 0.10563810914754868
+},
+"12-17": {
+"relation": "gene encodes gene product",
+"probability": 0.10500308871269226
+},
+"12-19": {
+"relation": "prev name of",
+"probability": 0.370189368724823
+},
+"12-21": {
+"relation": "is chromosomal location of gene",
+"probability": 0.17426899075508118
+},
+"12-24": {
+"relation": "gene encodes gene product",
+"probability": 0.4081496298313141
+},
+"12-26": {
+"relation": "prev name of",
+"probability": 0.2820863127708435
+},
+"12-31": {
+"relation": "gene found in organism",
+"probability": 0.7234146595001221
+},
+"12-32": {
+"relation": "has manifestation",
+"probability": 0.41388264298439026
+},
+"13-21": {
+"relation": "disease excludes finding",
+"probability": 0.038426581770181656
+},
+"16-17": {
+"relation": "gene encodes gene product",
+"probability": 0.1691158413887024
+},
+"16-19": {
+"relation": "has prev name",
+"probability": 0.283143550157547
+},
+"16-21": {
+"relation": "is chromosomal location of gene",
+"probability": 0.10861621797084808
+},
+"16-24": {
+"relation": "gene encodes gene product",
+"probability": 0.40443676710128784
+},
+"16-26": {
+"relation": "has prev name",
+"probability": 0.4193560481071472
+},
+"16-31": {
+"relation": "gene found in organism",
+"probability": 0.696887731552124
+},
+"16-32": {
+"relation": "manifestation of",
+"probability": 0.603416383266449
+},
+"17-19": {
+"relation": "gene product encoded by gene",
+"probability": 0.3821374475955963
+},
+"17-21": {
+"relation": "gene product encoded by gene",
+"probability": 0.21975529193878174
+},
+"17-24": {
+"relation": "gene encodes gene product",
+"probability": 0.5376600027084351
+},
+"17-26": {
+"relation": "gene product encoded by gene",
+"probability": 0.4974120855331421
+},
+"17-31": {
+"relation": "gene found in organism",
+"probability": 0.6404369473457336
+},
+"17-32": {
+"relation": "gene mapped to disease",
+"probability": 0.19114787876605988
+},
+"19-21": {
+"relation": "gene encodes gene product",
+"probability": 0.19614489376544952
+},
+"19-24": {
+"relation": "gene encodes gene product",
+"probability": 0.6168125867843628
+},
+"19-26": {
+"relation": "is modification of",
+"probability": 0.2388458102941513
+},
+"19-31": {
+"relation": "gene found in organism",
+"probability": 0.799801230430603
+},
+"19-32": {
+"relation": "gene mapped to disease",
+"probability": 0.5159708261489868
+},
+"21-24": {
+"relation": "gene encodes gene product",
+"probability": 0.39697694778442383
+},
+"21-26": {
+"relation": "gene product encoded by gene",
+"probability": 0.23408368229866028
+},
+"21-31": {
+"relation": "gene found in organism",
+"probability": 0.7442454695701599
+},
+"21-32": {
+"relation": "gene mapped to disease",
+"probability": 0.2143711894750595
+},
+"24-26": {
+"relation": "gene product encoded by gene",
+"probability": 0.6425482034683228
+},
+"24-31": {
+"relation": "gene found in organism",
+"probability": 0.907907247543335
+},
+"24-32": {
+"relation": "gene mapped to disease",
+"probability": 0.7040924429893494
+},
+"26-31": {
+"relation": "gene found in organism",
+"probability": 0.6713621020317078
+},
+"26-32": {
+"relation": "manifestation of",
+"probability": 0.5075135827064514
+},
+"31-32": {
+"relation": "gene found in organism",
+"probability": 0.3863023817539215
+}
+},
+"train-44": {
+"0-6": {
+"relation": "inheritance type of",
+"probability": 0.21257488429546356
+},
+"0-9": {
+"relation": "inheritance type of",
+"probability": 0.970317006111145
+},
+"0-10": {
+"relation": "disease mapped to gene",
+"probability": 0.5331748127937317
+},
+"0-12": {
+"relation": "prev name of",
+"probability": 0.42700713872909546
+},
+"3-12": {
+"relation": "has measured component",
+"probability": 0.3606351912021637
+},
+"6-9": {
+"relation": "has inheritance type",
+"probability": 0.701002299785614
+},
+"6-10": {
+"relation": "has mapping qualifier",
+"probability": 0.3923477828502655
+},
+"6-12": {
+"relation": "has inheritance type",
+"probability": 0.3063057065010071
+},
+"9-10": {
+"relation": "has inheritance type",
+"probability": 0.989013671875
+},
+"9-12": {
+"relation": "has inheritance type",
+"probability": 0.9837876558303833
+},
+"10-12": {
+"relation": "gene mapped to disease",
+"probability": 0.44060832262039185
+}
+},
+"train-45": {
+"0-3": {
+"relation": "time aspect of",
+"probability": 0.5674301385879517
+},
+"0-5": {
+"relation": "has mapping qualifier",
+"probability": 0.5773242712020874
+},
+"0-14": {
+"relation": "has mapping qualifier",
+"probability": 0.2480928599834442
+},
+"2-3": {
+"relation": "time aspect of",
+"probability": 0.8872901797294617
+},
+"2-5": {
+"relation": "has inheritance type",
+"probability": 0.2822127342224121
+},
+"2-8": {
+"relation": "answer to",
+"probability": 0.2536221742630005
+},
+"2-9": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.4134811460971832
+},
+"2-14": {
+"relation": "answer to",
+"probability": 0.2232639044523239
+},
+"2-21": {
+"relation": "may be qualified by",
+"probability": 0.09588062018156052
+},
+"3-8": {
+"relation": "has time aspect",
+"probability": 0.8894389271736145
+},
+"3-9": {
+"relation": "has time aspect",
+"probability": 0.9718741178512573
+},
+"3-11": {
+"relation": "has time aspect",
+"probability": 0.850125789642334
+},
+"3-14": {
+"relation": "has time aspect",
+"probability": 0.9541206955909729
+},
+"3-18": {
+"relation": "has time aspect",
+"probability": 0.9367631077766418
+},
+"3-22": {
+"relation": "has time aspect",
+"probability": 0.544316291809082
+},
+"5-8": {
+"relation": "inheritance type of",
+"probability": 0.6877790093421936
+},
+"5-11": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.22636796534061432
+},
+"5-14": {
+"relation": "manifestation of",
+"probability": 0.3042248785495758
+},
+"5-18": {
+"relation": "inheritance type of",
+"probability": 0.4664627015590668
+},
+"5-21": {
+"relation": "inheritance type of",
+"probability": 0.46445220708847046
+},
+"5-22": {
+"relation": "inheritance type of",
+"probability": 0.3473539352416992
+},
+"8-9": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.7831241488456726
+},
+"8-11": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.4427611231803894
+},
+"8-14": {
+"relation": "has at risk population",
+"probability": 0.5721784234046936
+},
+"8-18": {
+"relation": "has answer",
+"probability": 0.29302671551704407
+},
+"8-21": {
+"relation": "may be qualified by",
+"probability": 0.34764108061790466
+},
+"8-22": {
+"relation": "may be qualified by",
+"probability": 0.2951816916465759
+},
+"9-11": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.6401064991950989
+},
+"9-17": {
+"relation": "answer to",
+"probability": 0.6097993850708008
+},
+"11-14": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.4137638211250305
+},
+"11-18": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.24181413650512695
+},
+"14-17": {
+"relation": "answer to",
+"probability": 0.588613748550415
+},
+"14-18": {
+"relation": "has answer",
+"probability": 0.7838862538337708
+},
+"14-21": {
+"relation": "population at risk for",
+"probability": 0.6717585325241089
+},
+"14-22": {
+"relation": "population at risk for",
+"probability": 0.6372868418693542
+},
+"17-18": {
+"relation": "has answer",
+"probability": 0.9258074760437012
+},
+"17-22": {
+"relation": "population at risk for",
+"probability": 0.4179930090904236
+},
+"21-22": {
+"relation": "subject of information of",
+"probability": 0.16382646560668945
+}
+},
+"train-46": {
+"0-2": {
+"relation": "prev name of",
+"probability": 0.3622684180736542
+},
+"0-6": {
+"relation": "inheritance type of",
+"probability": 0.9748511910438538
+},
+"0-9": {
+"relation": "clinical course of",
+"probability": 0.5732507109642029
+},
+"0-11": {
+"relation": "definitional manifestation of",
+"probability": 0.8791678547859192
+},
+"0-13": {
+"relation": "manifestation of",
+"probability": 0.9974034428596497
+},
+"0-15": {
+"relation": "manifestation of",
+"probability": 0.9974512457847595
+},
+"2-6": {
+"relation": "inheritance type of",
+"probability": 0.9746135473251343
+},
+"2-9": {
+"relation": "course of",
+"probability": 0.5756446123123169
+},
+"2-11": {
+"relation": "has definitional manifestation",
+"probability": 0.9643315076828003
+},
+"2-13": {
+"relation": "manifestation of",
+"probability": 0.9978799819946289
+},
+"2-15": {
+"relation": "manifestation of",
+"probability": 0.9979302883148193
+},
+"6-11": {
+"relation": "inheritance type of",
+"probability": 0.3772417902946472
+},
+"6-13": {
+"relation": "manifestation of",
+"probability": 0.6371558308601379
+},
+"6-15": {
+"relation": "manifestation of",
+"probability": 0.5142132043838501
+},
+"9-11": {
+"relation": "course of",
+"probability": 0.6316943168640137
+},
+"9-13": {
+"relation": "has course",
+"probability": 0.5253925323486328
+},
+"9-15": {
+"relation": "has course",
+"probability": 0.512673556804657
+},
+"13-15": {
+"relation": "disease has finding",
+"probability": 0.8174490332603455
+}
+},
+"train-47": {
+"0-3": {
+"relation": "has answer",
+"probability": 0.9939330220222473
+},
+"0-11": {
+"relation": "supersystem of",
+"probability": 0.5391003489494324
+},
+"0-14": {
+"relation": "has answer",
+"probability": 0.9465100169181824
+},
+"0-18": {
+"relation": "has pcdc gct permissible value",
+"probability": 0.05354444682598114
+},
+"0-19": {
+"relation": "has answer",
+"probability": 0.39551496505737305
+},
+"0-22": {
+"relation": "has answer",
+"probability": 0.7067389488220215
+},
+"0-23": {
+"relation": "scale of",
+"probability": 0.42299684882164
+},
+"0-26": {
+"relation": "has answer",
+"probability": 0.2612912058830261
+},
+"0-27": {
+"relation": "has answer",
+"probability": 0.6561652421951294
+},
+"0-29": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.4598887860774994
+},
+"0-31": {
+"relation": "has answer",
+"probability": 0.19699136912822723
+},
+"0-34": {
+"relation": "has manifestation",
+"probability": 0.32210126519203186
+},
+"0-35": {
+"relation": "has answer",
+"probability": 0.19699136912822723
+},
+"0-36": {
+"relation": "supersystem of",
+"probability": 0.5391003489494324
+},
+"0-38": {
+"relation": "has manifestation",
+"probability": 0.4987691044807434
+},
+"3-11": {
+"relation": "supersystem of",
+"probability": 0.5439395308494568
+},
+"3-14": {
+"relation": "measured by",
+"probability": 0.33236706256866455
+},
+"3-18": {
+"relation": "gene encodes gene product",
+"probability": 0.188686802983284
+},
+"3-23": {
+"relation": "scale of",
+"probability": 0.5330787897109985
+},
+"3-26": {
+"relation": "answer to",
+"probability": 0.5096132159233093
+},
+"3-27": {
+"relation": "class of",
+"probability": 0.597467839717865
+},
+"3-29": {
+"relation": "answer to",
+"probability": 0.4980510473251343
+},
+"3-31": {
+"relation": "answer to",
+"probability": 0.7653570771217346
+},
+"3-32": {
+"relation": "system of",
+"probability": 0.2486737221479416
+},
+"3-35": {
+"relation": "answer to",
+"probability": 0.7653570771217346
+},
+"3-36": {
+"relation": "supersystem of",
+"probability": 0.5439395308494568
+},
+"6-11": {
+"relation": "supersystem of",
+"probability": 0.5252025723457336
+},
+"6-18": {
+"relation": "gene encodes gene product",
+"probability": 0.08103583753108978
+},
+"6-19": {
+"relation": "has ctdc value",
+"probability": 0.1689436137676239
+},
+"6-22": {
+"relation": "has ctdc value",
+"probability": 0.13073204457759857
+},
+"6-23": {
+"relation": "scale of",
+"probability": 0.3444899618625641
+},
+"6-26": {
+"relation": "inheritance type of",
+"probability": 0.28020569682121277
+},
+"6-32": {
+"relation": "organism has gene",
+"probability": 0.42288416624069214
+},
+"6-34": {
+"relation": "organism has gene",
+"probability": 0.22643005847930908
+},
+"6-36": {
+"relation": "supersystem of",
+"probability": 0.5252025723457336
+},
+"6-38": {
+"relation": "has manifestation",
+"probability": 0.462157666683197
+},
+"7-11": {
+"relation": "system of",
+"probability": 0.5043004751205444
+},
+"7-36": {
+"relation": "system of",
+"probability": 0.5043004751205444
+},
+"11-14": {
+"relation": "has supersystem",
+"probability": 0.5091789364814758
+},
+"11-17": {
+"relation": "has supersystem",
+"probability": 0.49561938643455505
+},
+"11-18": {
+"relation": "has system",
+"probability": 0.5098938345909119
+},
+"11-19": {
+"relation": "has system",
+"probability": 0.5049107670783997
+},
+"11-22": {
+"relation": "has system",
+"probability": 0.507716953754425
+},
+"11-23": {
+"relation": "has supersystem",
+"probability": 0.5328723192214966
+},
+"11-26": {
+"relation": "has supersystem",
+"probability": 0.5370670557022095
+},
+"11-27": {
+"relation": "has supersystem",
+"probability": 0.5196017026901245
+},
+"11-29": {
+"relation": "has supersystem",
+"probability": 0.5129954814910889
+},
+"11-31": {
+"relation": "has supersystem",
+"probability": 0.5504413843154907
+},
+"11-32": {
+"relation": "has supersystem",
+"probability": 0.5508463978767395
+},
+"11-34": {
+"relation": "has supersystem",
+"probability": 0.5243375301361084
+},
+"11-35": {
+"relation": "has supersystem",
+"probability": 0.5504413843154907
+},
+"11-41": {
+"relation": "has supersystem",
+"probability": 0.49735569953918457
+},
+"11-42": {
+"relation": "has supersystem",
+"probability": 0.469331294298172
+},
+"14-23": {
+"relation": "scale of",
+"probability": 0.339655339717865
+},
+"14-26": {
+"relation": "answer to",
+"probability": 0.7036094665527344
+},
+"14-29": {
+"relation": "answer to",
+"probability": 0.5730594396591187
+},
+"14-31": {
+"relation": "answer to",
+"probability": 0.594830334186554
+},
+"14-32": {
+"relation": "is seronet permissible value for variable",
+"probability": 0.4792421758174896
+},
+"14-34": {
+"relation": "answer to",
+"probability": 0.6156153678894043
+},
+"14-35": {
+"relation": "answer to",
+"probability": 0.594830334186554
+},
+"14-36": {
+"relation": "has supersystem",
+"probability": 0.5091789364814758
+},
+"17-18": {
+"relation": "concept in subset",
+"probability": 0.433560311794281
+},
+"17-19": {
+"relation": "concept in subset",
+"probability": 0.2763720750808716
+},
+"17-22": {
+"relation": "concept in subset",
+"probability": 0.2806509733200073
+},
+"17-23": {
+"relation": "subset includes concept",
+"probability": 0.5216184854507446
+},
+"17-36": {
+"relation": "has supersystem",
+"probability": 0.49561938643455505
+},
+"18-19": {
+"relation": "has ctdc value",
+"probability": 0.06759022176265717
+},
+"18-22": {
+"relation": "gene product encoded by gene",
+"probability": 0.06312520802021027
+},
+"18-23": {
+"relation": "pcdc data type of",
+"probability": 0.21464839577674866
+},
+"18-26": {
+"relation": "inheritance type of",
+"probability": 0.24165692925453186
+},
+"18-27": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.7342436909675598
+},
+"18-31": {
+"relation": "organism has gene",
+"probability": 0.15587595105171204
+},
+"18-32": {
+"relation": "organism has gene",
+"probability": 0.4484180212020874
+},
+"18-34": {
+"relation": "organism has gene",
+"probability": 0.1442287266254425
+},
+"18-35": {
+"relation": "organism has gene",
+"probability": 0.15587595105171204
+},
+"18-36": {
+"relation": "has system",
+"probability": 0.5098938345909119
+},
+"18-38": {
+"relation": "disease mapped to gene",
+"probability": 0.2737482786178589
+},
+"19-22": {
+"relation": "measures",
+"probability": 0.851506769657135
+},
+"19-23": {
+"relation": "scale of",
+"probability": 0.34335511922836304
+},
+"19-26": {
+"relation": "may qualify",
+"probability": 0.09495095908641815
+},
+"19-27": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.5311440825462341
+},
+"19-29": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.2310628890991211
+},
+"19-32": {
+"relation": "organism has gene",
+"probability": 0.17423294484615326
+},
+"19-34": {
+"relation": "may be qualified by",
+"probability": 0.07847888767719269
+},
+"19-36": {
+"relation": "has system",
+"probability": 0.5049107670783997
+},
+"19-38": {
+"relation": "has inheritance type",
+"probability": 0.1672879308462143
+},
+"22-23": {
+"relation": "scale of",
+"probability": 0.48831596970558167
+},
+"22-26": {
+"relation": "answer to",
+"probability": 0.2588428556919098
+},
+"22-27": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.4241958260536194
+},
+"22-29": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.3216114044189453
+},
+"22-31": {
+"relation": "answer to",
+"probability": 0.31383463740348816
+},
+"22-32": {
+"relation": "organism has gene",
+"probability": 0.12712882459163666
+},
+"22-34": {
+"relation": "may be qualified by",
+"probability": 0.07160120457410812
+},
+"22-35": {
+"relation": "answer to",
+"probability": 0.31383463740348816
+},
+"22-36": {
+"relation": "has system",
+"probability": 0.507716953754425
+},
+"22-38": {
+"relation": "has inheritance type",
+"probability": 0.16004697978496552
+},
+"23-26": {
+"relation": "has scale",
+"probability": 0.41004669666290283
+},
+"23-27": {
+"relation": "has scale",
+"probability": 0.4278823137283325
+},
+"23-29": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.26022398471832275
+},
+"23-34": {
+"relation": "has scale",
+"probability": 0.20587877929210663
+},
+"23-36": {
+"relation": "has supersystem",
+"probability": 0.5328723192214966
+},
+"26-27": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.7193298935890198
+},
+"26-31": {
+"relation": "may be qualified by",
+"probability": 0.15494784712791443
+},
+"26-32": {
+"relation": "may be qualified by",
+"probability": 0.17915920913219452
+},
+"26-34": {
+"relation": "may be qualified by",
+"probability": 0.33911508321762085
+},
+"26-35": {
+"relation": "may be qualified by",
+"probability": 0.15494784712791443
+},
+"26-36": {
+"relation": "has supersystem",
+"probability": 0.5370670557022095
+},
+"26-38": {
+"relation": "has inheritance type",
+"probability": 0.45329707860946655
+},
+"27-29": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.5962985157966614
+},
+"27-31": {
+"relation": "answer to",
+"probability": 0.47198858857154846
+},
+"27-35": {
+"relation": "answer to",
+"probability": 0.47198858857154846
+},
+"27-36": {
+"relation": "has supersystem",
+"probability": 0.5196017026901245
+},
+"29-36": {
+"relation": "has supersystem",
+"probability": 0.5129954814910889
+},
+"31-34": {
+"relation": "has manifestation",
+"probability": 0.08996519446372986
+},
+"31-36": {
+"relation": "has supersystem",
+"probability": 0.5504413843154907
+},
+"31-38": {
+"relation": "has manifestation",
+"probability": 0.4413561224937439
+},
+"32-36": {
+"relation": "has supersystem",
+"probability": 0.5508463978767395
+},
+"32-38": {
+"relation": "has manifestation",
+"probability": 0.268157422542572
+},
+"34-35": {
+"relation": "has manifestation",
+"probability": 0.08996519446372986
+},
+"34-36": {
+"relation": "has supersystem",
+"probability": 0.5243375301361084
+},
+"34-38": {
+"relation": "has manifestation",
+"probability": 0.3655566871166229
+},
+"35-36": {
+"relation": "has supersystem",
+"probability": 0.5504413843154907
+},
+"35-38": {
+"relation": "has manifestation",
+"probability": 0.4413561224937439
+},
+"36-41": {
+"relation": "has supersystem",
+"probability": 0.49735569953918457
+},
+"36-42": {
+"relation": "has supersystem",
+"probability": 0.469331294298172
+}
+},
+"train-48": {
+"0-2": {
+"relation": "manifestation of",
+"probability": 0.3678329885005951
+},
+"0-6": {
+"relation": "manifestation of",
+"probability": 0.6697831153869629
+},
+"2-6": {
+"relation": "manifestation of",
+"probability": 0.8917339444160461
+}
+},
+"train-49": {
+"1-8": {
+"relation": "supersystem of",
+"probability": 0.5222231149673462
+},
+"1-10": {
+"relation": "has inheritance type",
+"probability": 0.5642715692520142
+},
+"2-10": {
+"relation": "disease mapped to gene",
+"probability": 0.6376567482948303
+},
+"3-8": {
+"relation": "supersystem of",
+"probability": 0.5027044415473938
+},
+"8-13": {
+"relation": "has supersystem",
+"probability": 0.5190617442131042
+}
+},
+"train-50": {
+"2-5": {
+"relation": "gene encodes gene product",
+"probability": 0.7864659428596497
+},
+"2-8": {
+"relation": "gene encodes gene product",
+"probability": 0.20793426036834717
+},
+"2-9": {
+"relation": "negatively regulated by",
+"probability": 0.20749439299106598
+},
+"2-20": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.9929439425468445
+},
+"2-23": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.9952796697616577
+},
+"2-28": {
+"relation": "gene encodes gene product",
+"probability": 0.23031312227249146
+},
+"5-8": {
+"relation": "inheritance type of",
+"probability": 0.3913078010082245
+},
+"5-9": {
+"relation": "has gene product element",
+"probability": 0.18149830400943756
+},
+"5-11": {
+"relation": "has gene product element",
+"probability": 0.3325517475605011
+},
+"5-20": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.9916197061538696
+},
+"5-23": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.96364426612854
+},
+"5-28": {
+"relation": "gene product encoded by gene",
+"probability": 0.937270998954773
+},
+"8-9": {
+"relation": "biological process has result biological process",
+"probability": 0.21224460005760193
+},
+"8-28": {
+"relation": "gene product encoded by gene",
+"probability": 0.21129068732261658
+},
+"9-11": {
+"relation": "biological process results from biological process",
+"probability": 0.5419813394546509
+},
+"9-18": {
+"relation": "biological process results from biological process",
+"probability": 0.1505262404680252
+},
+"9-20": {
+"relation": "has occurrence",
+"probability": 0.5005006790161133
+},
+"9-23": {
+"relation": "biological process results from biological process",
+"probability": 0.13296015560626984
+},
+"9-28": {
+"relation": "chemical or drug has physiologic effect",
+"probability": 0.1607966274023056
+},
+"11-20": {
+"relation": "has occurrence",
+"probability": 0.8871859908103943
+},
+"11-28": {
+"relation": "gene product is element in pathway",
+"probability": 0.3428591191768646
+},
+"20-23": {
+"relation": "anatomic structure has location",
+"probability": 0.8012847900390625
+},
+"20-28": {
+"relation": "gene product has associated anatomy",
+"probability": 0.9915562868118286
+},
+"23-28": {
+"relation": "gene product has associated anatomy",
+"probability": 0.9811813235282898
+}
+},
+"train-51": {
+"0-1": {
+"relation": "has severity",
+"probability": 0.8834530711174011
+},
+"0-3": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.5135117769241333
+},
+"0-4": {
+"relation": "has answer",
+"probability": 0.9952669143676758
+},
+"0-10": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.6445477604866028
+},
+"0-19": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.6445477604866028
+},
+"1-4": {
+"relation": "has answer",
+"probability": 0.7179467678070068
+},
+"1-10": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.8365157246589661
+},
+"1-12": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.9968468546867371
+},
+"1-19": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.8365157246589661
+},
+"1-21": {
+"relation": "inheritance type of",
+"probability": 0.19351543486118317
+},
+"3-10": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.4053599238395691
+},
+"3-19": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.4053599238395691
+},
+"4-10": {
+"relation": "answer to",
+"probability": 0.4984971880912781
+},
+"4-19": {
+"relation": "answer to",
+"probability": 0.4984971880912781
+},
+"10-13": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.41627562046051025
+},
+"10-21": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.8529754281044006
+},
+"12-21": {
+"relation": "occurs in",
+"probability": 0.9802321195602417
+},
+"13-19": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.41627562046051025
+},
+"13-21": {
+"relation": "has mapping qualifier",
+"probability": 0.15915291011333466
+},
+"19-21": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.8529754281044006
+}
+},
+"train-52": {
+"0-2": {
+"relation": "gene mapped to disease",
+"probability": 0.3968391418457031
+},
+"0-9": {
+"relation": "cause of",
+"probability": 0.9644842147827148
+},
+"0-14": {
+"relation": "inheritance type of",
+"probability": 0.5614383816719055
+},
+"0-15": {
+"relation": "has at risk population",
+"probability": 0.20337386429309845
+},
+"10-15": {
+"relation": "has answer",
+"probability": 0.9778947234153748
+},
+"14-15": {
+"relation": "has answer",
+"probability": 0.9786677956581116
+}
+},
+"train-53": {
+"2-5": {
+"relation": "supersystem of",
+"probability": 0.5184840559959412
+},
+"4-5": {
+"relation": "supersystem of",
+"probability": 0.5054185390472412
+},
+"4-12": {
+"relation": "has prev name",
+"probability": 0.230134978890419
+},
+"4-14": {
+"relation": "disease mapped to gene",
+"probability": 0.2805994749069214
+},
+"5-8": {
+"relation": "has system",
+"probability": 0.5062049031257629
+},
+"5-12": {
+"relation": "has system",
+"probability": 0.34605473279953003
+},
+"5-14": {
+"relation": "has supersystem",
+"probability": 0.4892210066318512
+},
+"12-14": {
+"relation": "prev name of",
+"probability": 0.4215449392795563
+}
+},
+"train-54": {
+"1-6": {
+"relation": "related factor of",
+"probability": 0.2041836977005005
+},
+"1-8": {
+"relation": "has answer",
+"probability": 0.46106502413749695
+},
+"1-12": {
+"relation": "focus of",
+"probability": 0.4196174740791321
+},
+"6-8": {
+"relation": "has answer",
+"probability": 0.4126235842704773
+},
+"6-12": {
+"relation": "associated condition of",
+"probability": 0.49197918176651
+},
+"6-15": {
+"relation": "due to",
+"probability": 0.9245132803916931
+},
+"8-12": {
+"relation": "has focus",
+"probability": 0.42646247148513794
+},
+"12-15": {
+"relation": "has associated condition",
+"probability": 0.40339675545692444
+}
+},
+"train-55": {
+"0-2": {
+"relation": "prev name of",
+"probability": 0.43207114934921265
+},
+"0-6": {
+"relation": "mapping qualifier of",
+"probability": 0.6131908893585205
+},
+"0-10": {
+"relation": "mapping qualifier of",
+"probability": 0.3165486454963684
+},
+"0-12": {
+"relation": "gene mapped to disease",
+"probability": 0.3187737464904785
+},
+"0-14": {
+"relation": "inheritance type of",
+"probability": 0.1467447578907013
+},
+"0-16": {
+"relation": "is biochemical function of gene product",
+"probability": 0.9250221848487854
+},
+"0-18": {
+"relation": "gene mapped to disease",
+"probability": 0.4099111557006836
+},
+"0-26": {
+"relation": "organism has gene",
+"probability": 0.5225648283958435
+},
+"0-29": {
+"relation": "other mapped from",
+"probability": 0.15446631610393524
+},
+"0-32": {
+"relation": "mapping qualifier of",
+"probability": 0.3289875090122223
+},
+"0-35": {
+"relation": "organism has gene",
+"probability": 0.9505391716957092
+},
+"2-6": {
+"relation": "manifestation of",
+"probability": 0.15519404411315918
+},
+"2-12": {
+"relation": "prev name of",
+"probability": 0.3931784927845001
+},
+"2-14": {
+"relation": "has prev name",
+"probability": 0.11533617973327637
+},
+"2-16": {
+"relation": "is biochemical function of gene product",
+"probability": 0.9315217733383179
+},
+"2-18": {
+"relation": "prev name of",
+"probability": 0.5027464628219604
+},
+"2-26": {
+"relation": "organism has gene",
+"probability": 0.902883768081665
+},
+"2-29": {
+"relation": "related to genetic biomarker",
+"probability": 0.05252853408455849
+},
+"2-35": {
+"relation": "organism has gene",
+"probability": 0.9082797169685364
+},
+"6-10": {
+"relation": "mapping qualifier of",
+"probability": 0.41751667857170105
+},
+"6-12": {
+"relation": "has manifestation",
+"probability": 0.32821956276893616
+},
+"6-16": {
+"relation": "has manifestation",
+"probability": 0.12513941526412964
+},
+"6-18": {
+"relation": "has manifestation",
+"probability": 0.2731887400150299
+},
+"6-26": {
+"relation": "organism has gene",
+"probability": 0.2705589234828949
+},
+"6-29": {
+"relation": "other mapped from",
+"probability": 0.12620100378990173
+},
+"6-32": {
+"relation": "mapping qualifier of",
+"probability": 0.5432692170143127
+},
+"6-35": {
+"relation": "organism has gene",
+"probability": 0.8097570538520813
+},
+"10-14": {
+"relation": "pcdc data type of",
+"probability": 0.04809965938329697
+},
+"10-26": {
+"relation": "organism has gene",
+"probability": 0.4880554974079132
+},
+"10-29": {
+"relation": "biological process has result biological process",
+"probability": 0.11630383878946304
+},
+"10-35": {
+"relation": "organism has gene",
+"probability": 0.8916618824005127
+},
+"12-14": {
+"relation": "gene encodes gene product",
+"probability": 0.1912139505147934
+},
+"12-16": {
+"relation": "is biochemical function of gene product",
+"probability": 0.9936779141426086
+},
+"12-18": {
+"relation": "gene encodes gene product",
+"probability": 0.443932443857193
+},
+"12-26": {
+"relation": "is organism source of gene product",
+"probability": 0.6269980669021606
+},
+"12-29": {
+"relation": "is physiologic effect of chemical or drug",
+"probability": 0.08709777146577835
+},
+"12-35": {
+"relation": "is organism source of gene product",
+"probability": 0.9440407156944275
+},
+"14-16": {
+"relation": "exhibits",
+"probability": 0.244634211063385
+},
+"14-18": {
+"relation": "gene in chromosomal location",
+"probability": 0.10504338145256042
+},
+"14-26": {
+"relation": "organism has gene",
+"probability": 0.6606041789054871
+},
+"14-29": {
+"relation": "biological process has result biological process",
+"probability": 0.05639328807592392
+},
+"14-35": {
+"relation": "organism has gene",
+"probability": 0.9689843654632568
+},
+"16-18": {
+"relation": "gene product has biochemical function",
+"probability": 0.9791101217269897
+},
+"16-26": {
+"relation": "is organism source of gene product",
+"probability": 0.6585712432861328
+},
+"16-29": {
+"relation": "biological process has result biological process",
+"probability": 0.19890038669109344
+},
+"16-35": {
+"relation": "is organism source of gene product",
+"probability": 0.9511095285415649
+},
+"18-26": {
+"relation": "organism has gene",
+"probability": 0.94243985414505
+},
+"18-29": {
+"relation": "is physiologic effect of chemical or drug",
+"probability": 0.06837469339370728
+},
+"18-35": {
+"relation": "organism has gene",
+"probability": 0.9669897556304932
+},
+"26-29": {
+"relation": "gene found in organism",
+"probability": 0.2151472419500351
+},
+"26-35": {
+"relation": "organism has gene",
+"probability": 0.8790885806083679
+},
+"29-32": {
+"relation": "biological process results from biological process",
+"probability": 0.4201580286026001
+},
+"29-35": {
+"relation": "organism has gene",
+"probability": 0.5974100232124329
+}
+},
+"train-56": {
+"0-2": {
+"relation": "has manifestation",
+"probability": 0.620959997177124
+},
+"0-12": {
+"relation": "has manifestation",
+"probability": 0.5189042091369629
+},
+"0-19": {
+"relation": "mapping qualifier of",
+"probability": 0.38697317242622375
+},
+"0-23": {
+"relation": "mapping qualifier of",
+"probability": 0.9920774102210999
+},
+"0-25": {
+"relation": "inheritance type of",
+"probability": 0.8998230695724487
+},
+"0-28": {
+"relation": "inheritance type of",
+"probability": 0.9832460880279541
+},
+"2-12": {
+"relation": "manifestation of",
+"probability": 0.9667930603027344
+},
+"2-19": {
+"relation": "class of",
+"probability": 0.3114314377307892
+},
+"2-23": {
+"relation": "mapping qualifier of",
+"probability": 0.9905356764793396
+},
+"2-25": {
+"relation": "inheritance type of",
+"probability": 0.8454943895339966
+},
+"2-28": {
+"relation": "inheritance type of",
+"probability": 0.9767518639564514
+},
+"12-19": {
+"relation": "mapping qualifier of",
+"probability": 0.6446094512939453
+},
+"12-23": {
+"relation": "mapping qualifier of",
+"probability": 0.9882898330688477
+},
+"12-25": {
+"relation": "inheritance type of",
+"probability": 0.8684931993484497
+},
+"12-28": {
+"relation": "inheritance type of",
+"probability": 0.9794583320617676
+},
+"19-25": {
+"relation": "may qualify",
+"probability": 0.2554702162742615
+},
+"19-28": {
+"relation": "inheritance type of",
+"probability": 0.1841134876012802
+},
+"23-25": {
+"relation": "inheritance type of",
+"probability": 0.26820239424705505
+},
+"25-28": {
+"relation": "has inheritance type",
+"probability": 0.37297332286834717
+}
+},
+"train-57": {
+"3-9": {
+"relation": "has time aspect",
+"probability": 0.6021516919136047
+},
+"3-10": {
+"relation": "has time aspect",
+"probability": 0.5122109055519104
+},
+"3-12": {
+"relation": "has time aspect",
+"probability": 0.6021516919136047
+},
+"3-16": {
+"relation": "has time aspect",
+"probability": 0.5122109055519104
+},
+"3-25": {
+"relation": "has time aspect",
+"probability": 0.5375373959541321
+},
+"3-27": {
+"relation": "has time aspect",
+"probability": 0.5391274094581604
+},
+"3-29": {
+"relation": "has time aspect",
+"probability": 0.8938862681388855
+},
+"9-10": {
+"relation": "gene encodes gene product",
+"probability": 0.9276835322380066
+},
+"9-16": {
+"relation": "gene encodes gene product",
+"probability": 0.9276835322380066
+},
+"9-19": {
+"relation": "disease mapped to gene",
+"probability": 0.6666314005851746
+},
+"9-25": {
+"relation": "subject of information of",
+"probability": 0.7997943758964539
+},
+"9-27": {
+"relation": "disease has associated gene",
+"probability": 0.3539363741874695
+},
+"9-29": {
+"relation": "prev name of",
+"probability": 0.5063928365707397
+},
+"10-12": {
+"relation": "gene encodes gene product",
+"probability": 0.9276835322380066
+},
+"10-19": {
+"relation": "disease mapped to gene",
+"probability": 0.3000060021877289
+},
+"10-25": {
+"relation": "may be qualified by",
+"probability": 0.2170548290014267
+},
+"10-27": {
+"relation": "gene product encoded by gene",
+"probability": 0.308754026889801
+},
+"10-29": {
+"relation": "gene product encoded by gene",
+"probability": 0.9398360252380371
+},
+"12-16": {
+"relation": "gene encodes gene product",
+"probability": 0.9276835322380066
+},
+"12-19": {
+"relation": "disease mapped to gene",
+"probability": 0.6666314005851746
+},
+"12-25": {
+"relation": "subject of information of",
+"probability": 0.7997943758964539
+},
+"12-27": {
+"relation": "disease has associated gene",
+"probability": 0.3539363741874695
+},
+"12-29": {
+"relation": "prev name of",
+"probability": 0.5063928365707397
+},
+"16-19": {
+"relation": "disease mapped to gene",
+"probability": 0.3000060021877289
+},
+"16-25": {
+"relation": "may be qualified by",
+"probability": 0.2170548290014267
+},
+"16-27": {
+"relation": "gene product encoded by gene",
+"probability": 0.308754026889801
+},
+"16-29": {
+"relation": "gene product encoded by gene",
+"probability": 0.9398360252380371
+},
+"19-25": {
+"relation": "subject of information of",
+"probability": 0.9164489507675171
+},
+"19-27": {
+"relation": "manifestation of",
+"probability": 0.9962228536605835
+},
+"19-29": {
+"relation": "manifestation of",
+"probability": 0.8415561318397522
+},
+"25-27": {
+"relation": "has subject of information",
+"probability": 0.9790458679199219
+},
+"25-29": {
+"relation": "has subject of information",
+"probability": 0.9783872365951538
+},
+"27-29": {
+"relation": "has manifestation",
+"probability": 0.7481926083564758
+}
+},
+"train-58": {
+"2-4": {
+"relation": "measured by",
+"probability": 0.4539228081703186
+},
+"4-8": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.2857688367366791
+},
+"6-11": {
+"relation": "has mapping qualifier",
+"probability": 0.42622217535972595
+},
+"8-11": {
+"relation": "manifestation of",
+"probability": 0.3007628619670868
+}
+},
+"train-59": {
+"4-11": {
+"relation": "due to",
+"probability": 0.4660952091217041
+},
+"4-16": {
+"relation": "manifestation of",
+"probability": 0.9739705920219421
+},
+"4-20": {
+"relation": "manifestation of",
+"probability": 0.9665552377700806
+},
+"11-16": {
+"relation": "is finding of disease",
+"probability": 0.41816195845603943
+},
+"11-20": {
+"relation": "manifestation of",
+"probability": 0.6692615151405334
+},
+"16-20": {
+"relation": "has associated finding",
+"probability": 0.734026312828064
+}
+},
+"train-60": {
+"0-3": {
+"relation": "occurs in",
+"probability": 0.6767378449440002
+},
+"2-3": {
+"relation": "may be qualified by",
+"probability": 0.10283608734607697
+},
+"2-8": {
+"relation": "clinical course of",
+"probability": 0.27801260352134705
+},
+"3-8": {
+"relation": "clinical course of",
+"probability": 0.9872257113456726
+},
+"3-9": {
+"relation": "manifestation of",
+"probability": 0.5142554044723511
+},
+"8-9": {
+"relation": "has clinical course",
+"probability": 0.970603883266449
+}
+},
+"train-61": {
+"3-13": {
+"relation": "has supersystem",
+"probability": 0.5470795631408691
+},
+"3-15": {
+"relation": "has supersystem",
+"probability": 0.5411497950553894
+},
+"6-13": {
+"relation": "has supersystem",
+"probability": 0.5470795631408691
+},
+"6-15": {
+"relation": "has supersystem",
+"probability": 0.5411497950553894
+},
+"8-13": {
+"relation": "has occurrence",
+"probability": 0.8996033668518066
+},
+"8-15": {
+"relation": "mapping qualifier of",
+"probability": 0.20102092623710632
+},
+"8-16": {
+"relation": "has manifestation",
+"probability": 0.3459668457508087
+},
+"8-22": {
+"relation": "has manifestation",
+"probability": 0.8538094758987427
+},
+"11-13": {
+"relation": "has supersystem",
+"probability": 0.5470795631408691
+},
+"11-15": {
+"relation": "has supersystem",
+"probability": 0.5411497950553894
+},
+"13-16": {
+"relation": "has occurrence",
+"probability": 0.6149490475654602
+},
+"13-20": {
+"relation": "has supersystem",
+"probability": 0.5470795631408691
+},
+"13-22": {
+"relation": "occurs in",
+"probability": 0.8568917512893677
+},
+"15-20": {
+"relation": "has supersystem",
+"probability": 0.5411497950553894
+},
+"15-22": {
+"relation": "occurs in",
+"probability": 0.34227171540260315
+},
+"16-22": {
+"relation": "has manifestation",
+"probability": 0.963653564453125
+}
+},
+"train-62": {
+"3-8": {
+"relation": "system of",
+"probability": 0.5023136734962463
+},
+"3-10": {
+"relation": "has finding method",
+"probability": 0.24023006856441498
+},
+"3-12": {
+"relation": "has associated procedure",
+"probability": 0.37760695815086365
+},
+"3-14": {
+"relation": "has associated procedure",
+"probability": 0.2881442904472351
+},
+"3-16": {
+"relation": "genetic biomarker related to",
+"probability": 0.22795899212360382
+},
+"3-18": {
+"relation": "measured component of",
+"probability": 0.2600390613079071
+},
+"3-22": {
+"relation": "specimen of",
+"probability": 0.4040485620498657
+},
+"3-27": {
+"relation": "specimen of",
+"probability": 0.8890531659126282
+},
+"3-30": {
+"relation": "specimen of",
+"probability": 0.3900611996650696
+},
+"3-33": {
+"relation": "specimen of",
+"probability": 0.6129915118217468
+},
+"3-34": {
+"relation": "specimen of",
+"probability": 0.20623508095741272
+},
+"7-8": {
+"relation": "supersystem of",
+"probability": 0.5514805316925049
+},
+"7-10": {
+"relation": "has manifestation",
+"probability": 0.4464907646179199
+},
+"7-12": {
+"relation": "gene found in organism",
+"probability": 0.16140346229076385
+},
+"7-14": {
+"relation": "has subject relationship context",
+"probability": 0.16375957429409027
+},
+"7-16": {
+"relation": "gene product has organism source",
+"probability": 0.6829474568367004
+},
+"7-22": {
+"relation": "gene product has organism source",
+"probability": 0.48278769850730896
+},
+"7-27": {
+"relation": "has specimen source topography",
+"probability": 0.5375320911407471
+},
+"7-30": {
+"relation": "is normal cell origin of disease",
+"probability": 0.31387096643447876
+},
+"8-12": {
+"relation": "has system",
+"probability": 0.5533155798912048
+},
+"8-14": {
+"relation": "has system",
+"probability": 0.5457826852798462
+},
+"8-18": {
+"relation": "has supersystem",
+"probability": 0.5013637542724609
+},
+"8-27": {
+"relation": "has system",
+"probability": 0.503577470779419
+},
+"8-30": {
+"relation": "has system",
+"probability": 0.3604840934276581
+},
+"8-33": {
+"relation": "has supersystem",
+"probability": 0.48212966322898865
+},
+"10-12": {
+"relation": "manifestation of",
+"probability": 0.2187521606683731
+},
+"10-14": {
+"relation": "manifestation of",
+"probability": 0.2457633763551712
+},
+"10-16": {
+"relation": "gene product malfunction associated with disease",
+"probability": 0.4034072756767273
+},
+"10-18": {
+"relation": "manifestation of",
+"probability": 0.35756272077560425
+},
+"10-22": {
+"relation": "is chemical classification of gene product",
+"probability": 0.31090372800827026
+},
+"10-27": {
+"relation": "is normal tissue origin of disease",
+"probability": 0.6253811717033386
+},
+"10-30": {
+"relation": "is normal cell origin of disease",
+"probability": 0.8370406627655029
+},
+"10-34": {
+"relation": "is normal cell origin of disease",
+"probability": 0.9014308452606201
+},
+"12-14": {
+"relation": "clinician form of",
+"probability": 0.4011856019496918
+},
+"12-16": {
+"relation": "genetic biomarker related to",
+"probability": 0.700674831867218
+},
+"12-18": {
+"relation": "measured component of",
+"probability": 0.5279998183250427
+},
+"12-22": {
+"relation": "measured component of",
+"probability": 0.7114752531051636
+},
+"12-27": {
+"relation": "specimen of",
+"probability": 0.9863343834877014
+},
+"12-30": {
+"relation": "measured component of",
+"probability": 0.36000487208366394
+},
+"12-33": {
+"relation": "specimen of",
+"probability": 0.9814635515213013
+},
+"12-34": {
+"relation": "specimen of",
+"probability": 0.5761272311210632
+},
+"14-16": {
+"relation": "genetic biomarker related to",
+"probability": 0.5853977203369141
+},
+"14-18": {
+"relation": "specimen of",
+"probability": 0.7650920748710632
+},
+"14-22": {
+"relation": "measured component of",
+"probability": 0.44350048899650574
+},
+"14-27": {
+"relation": "specimen of",
+"probability": 0.9791608452796936
+},
+"14-30": {
+"relation": "specimen of",
+"probability": 0.39684805274009705
+},
+"14-33": {
+"relation": "specimen of",
+"probability": 0.9790590405464172
+},
+"14-34": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.45417988300323486
+},
+"16-18": {
+"relation": "is chemical classification of gene product",
+"probability": 0.16447719931602478
+},
+"16-22": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.7876810431480408
+},
+"16-27": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.8654297590255737
+},
+"16-30": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.6064642667770386
+},
+"16-33": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.9860079884529114
+},
+"16-34": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.9700593948364258
+},
+"18-22": {
+"relation": "measured component of",
+"probability": 0.4427008032798767
+},
+"18-27": {
+"relation": "specimen of",
+"probability": 0.5677109360694885
+},
+"18-30": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.35171860456466675
+},
+"18-33": {
+"relation": "specimen of",
+"probability": 0.3299797475337982
+},
+"18-34": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.9294095635414124
+},
+"22-27": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.6959739923477173
+},
+"22-30": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.43583306670188904
+},
+"22-33": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.8232895731925964
+},
+"22-34": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.9597642421722412
+},
+"27-30": {
+"relation": "specimen source topography of",
+"probability": 0.2148085981607437
+},
+"27-33": {
+"relation": "specimen source topography of",
+"probability": 0.6582430601119995
+},
+"27-34": {
+"relation": "specimen source topography of",
+"probability": 0.9098343253135681
+},
+"30-33": {
+"relation": "disease excludes abnormal cell",
+"probability": 0.13228371739387512
+},
+"30-34": {
+"relation": "is normal cell origin of disease",
+"probability": 0.5012900233268738
+},
+"33-34": {
+"relation": "specimen source topography of",
+"probability": 0.4090740382671356
+}
+},
+"train-63": {
+"5-10": {
+"relation": "supersystem of",
+"probability": 0.5172995924949646
+},
+"5-20": {
+"relation": "class of",
+"probability": 0.962367832660675
+},
+"5-22": {
+"relation": "has class",
+"probability": 0.74803227186203
+},
+"5-23": {
+"relation": "finding method of",
+"probability": 0.5665246248245239
+},
+"5-25": {
+"relation": "class of",
+"probability": 0.7956604957580566
+},
+"8-10": {
+"relation": "supersystem of",
+"probability": 0.5061302781105042
+},
+"8-25": {
+"relation": "has evaluation",
+"probability": 0.4974234700202942
+},
+"8-26": {
+"relation": "evaluation of",
+"probability": 0.36429309844970703
+},
+"10-15": {
+"relation": "has supersystem",
+"probability": 0.5129680633544922
+},
+"10-20": {
+"relation": "has supersystem",
+"probability": 0.5235629677772522
+},
+"10-22": {
+"relation": "has supersystem",
+"probability": 0.5205351114273071
+},
+"10-23": {
+"relation": "has supersystem",
+"probability": 0.5015780329704285
+},
+"10-25": {
+"relation": "has supersystem",
+"probability": 0.528917133808136
+},
+"10-26": {
+"relation": "has supersystem",
+"probability": 0.5237387418746948
+},
+"12-22": {
+"relation": "has answer",
+"probability": 0.7818212509155273
+},
+"15-20": {
+"relation": "class of",
+"probability": 0.6792762279510498
+},
+"15-23": {
+"relation": "finding method of",
+"probability": 0.38994425535202026
+},
+"20-22": {
+"relation": "has class",
+"probability": 0.8546814918518066
+},
+"20-23": {
+"relation": "regulates",
+"probability": 0.17300553619861603
+},
+"22-28": {
+"relation": "has answer",
+"probability": 0.7818212509155273
+},
+"23-25": {
+"relation": "biological process results from biological process",
+"probability": 0.2559027373790741
+},
+"23-26": {
+"relation": "process includes biological process",
+"probability": 0.38471001386642456
+},
+"25-26": {
+"relation": "evaluation of",
+"probability": 0.4686405658721924
+}
+},
+"train-64": {
+"2-3": {
+"relation": "gene found in organism",
+"probability": 0.8799481987953186
+},
+"2-7": {
+"relation": "gene found in organism",
+"probability": 0.9899784326553345
+},
+"2-8": {
+"relation": "gene found in organism",
+"probability": 0.9857237935066223
+},
+"2-10": {
+"relation": "gene found in organism",
+"probability": 0.9706990122795105
+},
+"2-12": {
+"relation": "gene product has organism source",
+"probability": 0.9735121130943298
+},
+"3-10": {
+"relation": "has manifestation",
+"probability": 0.4329003095626831
+},
+"7-10": {
+"relation": "gene product is element in pathway",
+"probability": 0.1387980431318283
+},
+"10-12": {
+"relation": "is biochemical function of gene product",
+"probability": 0.5614967942237854
+}
+},
+"train-65": {
+"5-6": {
+"relation": "process includes biological process",
+"probability": 0.24897420406341553
+},
+"5-8": {
+"relation": "biological process has result biological process",
+"probability": 0.4015997350215912
+},
+"5-9": {
+"relation": "gene found in organism",
+"probability": 0.21308329701423645
+},
+"5-11": {
+"relation": "gene product has organism source",
+"probability": 0.7097315192222595
+},
+"5-18": {
+"relation": "manifestation of",
+"probability": 0.3378410339355469
+},
+"6-8": {
+"relation": "biological process is part of process",
+"probability": 0.8994824886322021
+},
+"8-9": {
+"relation": "biological process has result biological process",
+"probability": 0.12258031219244003
+},
+"8-18": {
+"relation": "disease has finding",
+"probability": 0.41011080145835876
+},
+"9-11": {
+"relation": "is biochemical function of gene product",
+"probability": 0.667064905166626
+},
+"9-16": {
+"relation": "manifestation of",
+"probability": 0.22438350319862366
+},
+"9-18": {
+"relation": "disease mapped to gene",
+"probability": 0.48908329010009766
+},
+"11-18": {
+"relation": "associated with malfunction of gene product",
+"probability": 0.8157338500022888
+},
+"16-18": {
+"relation": "has manifestation",
+"probability": 0.31554707884788513
+}
+},
+"train-66": {
+"5-11": {
+"relation": "organism has gene",
+"probability": 0.9891443848609924
+},
+"5-12": {
+"relation": "disease has normal cell origin",
+"probability": 0.5668691396713257
+},
+"7-11": {
+"relation": "organism has gene",
+"probability": 0.9921940565109253
+},
+"11-12": {
+"relation": "gene found in organism",
+"probability": 0.8591857552528381
+}
+},
+"train-67": {
+"6-23": {
+"relation": "gene product malfunction associated with disease",
+"probability": 0.37224331498146057
+},
+"11-13": {
+"relation": "is location of anatomic structure",
+"probability": 0.10612597316503525
+},
+"11-23": {
+"relation": "gene product has associated anatomy",
+"probability": 0.31760382652282715
+},
+"13-23": {
+"relation": "gene product has associated anatomy",
+"probability": 0.5800244212150574
+},
+"13-29": {
+"relation": "gene product has associated anatomy",
+"probability": 0.5209737420082092
+},
+"21-23": {
+"relation": "gene product has chemical classification",
+"probability": 0.16610513627529144
+},
+"23-26": {
+"relation": "has gene product element",
+"probability": 0.505366325378418
+},
+"23-29": {
+"relation": "is chemical classification of gene product",
+"probability": 0.5119778513908386
+},
+"25-26": {
+"relation": "biological process has initiator process",
+"probability": 0.6090839505195618
+}
+},
+"train-68": {
+"1-2": {
+"relation": "gene mapped to disease",
+"probability": 0.24894794821739197
+},
+"1-5": {
+"relation": "may prevent",
+"probability": 0.9632935523986816
+},
+"1-7": {
+"relation": "gene mapped to disease",
+"probability": 0.4860454499721527
+},
+"2-7": {
+"relation": "gene product encoded by gene",
+"probability": 0.9747251272201538
+},
+"5-7": {
+"relation": "is target",
+"probability": 0.7557342648506165
+}
+},
+"train-69": {
+"0-7": {
+"relation": "manifestation of",
+"probability": 0.968275785446167
+},
+"0-11": {
+"relation": "has occurrence",
+"probability": 0.9965971112251282
+},
+"0-12": {
+"relation": "manifestation of",
+"probability": 0.9970589876174927
+},
+"0-14": {
+"relation": "manifestation of",
+"probability": 0.9845601320266724
+},
+"7-11": {
+"relation": "has occurrence",
+"probability": 0.9987934827804565
+},
+"7-12": {
+"relation": "manifestation of",
+"probability": 0.47900068759918213
+},
+"7-14": {
+"relation": "manifestation of",
+"probability": 0.8961312174797058
+},
+"9-11": {
+"relation": "has occurrence",
+"probability": 0.6707350015640259
+},
+"11-12": {
+"relation": "occurs in",
+"probability": 0.9984325766563416
+},
+"11-14": {
+"relation": "occurs in",
+"probability": 0.9985443353652954
+},
+"12-14": {
+"relation": "associated condition of",
+"probability": 0.4092654585838318
+}
+},
+"train-70": {
+"4-8": {
+"relation": "is biochemical function of gene product",
+"probability": 0.9980425834655762
+},
+"4-10": {
+"relation": "has target",
+"probability": 0.6930049061775208
+},
+"4-12": {
+"relation": "has target",
+"probability": 0.5591353178024292
+},
+"4-16": {
+"relation": "has target",
+"probability": 0.4312068223953247
+},
+"4-23": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.9813736081123352
+},
+"4-29": {
+"relation": "disease mapped to gene",
+"probability": 0.8099665641784668
+},
+"5-24": {
+"relation": "evaluation of",
+"probability": 0.5867255926132202
+},
+"8-29": {
+"relation": "gene product has biochemical function",
+"probability": 0.8286343812942505
+},
+"10-12": {
+"relation": "contraindicated class of",
+"probability": 0.5610376596450806
+},
+"10-16": {
+"relation": "is modification of",
+"probability": 0.5696436166763306
+},
+"10-23": {
+"relation": "may be diagnosed by",
+"probability": 0.5878347158432007
+},
+"10-29": {
+"relation": "may be prevented by",
+"probability": 0.9409258365631104
+},
+"12-16": {
+"relation": "is modification of",
+"probability": 0.3295629322528839
+},
+"12-23": {
+"relation": "may be diagnosed by",
+"probability": 0.984492301940918
+},
+"12-29": {
+"relation": "may be diagnosed by",
+"probability": 0.7590824961662292
+},
+"16-29": {
+"relation": "may be prevented by",
+"probability": 0.8078809976577759
+},
+"23-29": {
+"relation": "has manifestation",
+"probability": 0.39584410190582275
+},
+"24-27": {
+"relation": "has class",
+"probability": 0.8529859781265259
+}
+},
+"train-71": {
+"0-2": {
+"relation": "has manifestation",
+"probability": 0.18140065670013428
+},
+"0-7": {
+"relation": "inheritance type of",
+"probability": 0.9749625325202942
+},
+"2-7": {
+"relation": "inheritance type of",
+"probability": 0.9779675006866455
+}
+},
+"train-72": {
+"1-5": {
+"relation": "has inheritance type",
+"probability": 0.2788262367248535
+},
+"1-15": {
+"relation": "has inheritance type",
+"probability": 0.5578562617301941
+},
+"1-16": {
+"relation": "inheritance type of",
+"probability": 0.3949509561061859
+},
+"1-19": {
+"relation": "has inheritance type",
+"probability": 0.3394091725349426
+},
+"1-39": {
+"relation": "has inheritance type",
+"probability": 0.2788262367248535
+},
+"1-40": {
+"relation": "has inheritance type",
+"probability": 0.5578562617301941
+},
+"1-41": {
+"relation": "inheritance type of",
+"probability": 0.3949509561061859
+},
+"5-15": {
+"relation": "manifestation of",
+"probability": 0.2343001812696457
+},
+"5-16": {
+"relation": "has ctdc value",
+"probability": 0.7675074934959412
+},
+"5-19": {
+"relation": "prev name of",
+"probability": 0.4272739589214325
+},
+"5-29": {
+"relation": "cause of",
+"probability": 0.6802029013633728
+},
+"5-40": {
+"relation": "manifestation of",
+"probability": 0.2343001812696457
+},
+"5-41": {
+"relation": "has ctdc value",
+"probability": 0.7675074934959412
+},
+"15-16": {
+"relation": "has ctdc value",
+"probability": 0.6939259767532349
+},
+"15-19": {
+"relation": "manifestation of",
+"probability": 0.22395965456962585
+},
+"15-29": {
+"relation": "cause of",
+"probability": 0.9824721813201904
+},
+"15-39": {
+"relation": "manifestation of",
+"probability": 0.2343001812696457
+},
+"15-41": {
+"relation": "has ctdc value",
+"probability": 0.6939259767532349
+},
+"16-19": {
+"relation": "is ctdc value of",
+"probability": 0.8791375160217285
+},
+"16-23": {
+"relation": "is ctdc value of",
+"probability": 0.3783973753452301
+},
+"16-37": {
+"relation": "is ctdc value of",
+"probability": 0.7908172011375427
+},
+"16-39": {
+"relation": "has ctdc value",
+"probability": 0.7675074934959412
+},
+"16-40": {
+"relation": "has ctdc value",
+"probability": 0.6939259767532349
+},
+"19-29": {
+"relation": "cause of",
+"probability": 0.8189423084259033
+},
+"19-39": {
+"relation": "prev name of",
+"probability": 0.4272739589214325
+},
+"19-40": {
+"relation": "manifestation of",
+"probability": 0.22395965456962585
+},
+"19-41": {
+"relation": "is ctdc value of",
+"probability": 0.8791375160217285
+},
+"23-29": {
+"relation": "associated finding of",
+"probability": 0.49661582708358765
+},
+"23-37": {
+"relation": "answer to",
+"probability": 0.9829400777816772
+},
+"23-41": {
+"relation": "is ctdc value of",
+"probability": 0.3783973753452301
+},
+"29-39": {
+"relation": "cause of",
+"probability": 0.6802029013633728
+},
+"29-40": {
+"relation": "cause of",
+"probability": 0.9824721813201904
+},
+"37-41": {
+"relation": "is ctdc value of",
+"probability": 0.7908172011375427
+},
+"39-40": {
+"relation": "manifestation of",
+"probability": 0.2343001812696457
+},
+"39-41": {
+"relation": "has ctdc value",
+"probability": 0.7675074934959412
+},
+"40-41": {
+"relation": "has ctdc value",
+"probability": 0.6939259767532349
+}
+},
+"train-73": {
+"5-13": {
+"relation": "manifestation of",
+"probability": 0.2809540629386902
+},
+"5-20": {
+"relation": "inheritance type of",
+"probability": 0.2465299665927887
+},
+"5-24": {
+"relation": "prev name of",
+"probability": 0.4823482930660248
+},
+"5-31": {
+"relation": "has manifestation",
+"probability": 0.17120863497257233
+},
+"5-32": {
+"relation": "has ctdc value",
+"probability": 0.7380102872848511
+},
+"6-20": {
+"relation": "has mapping qualifier",
+"probability": 0.08757320046424866
+},
+"6-32": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.23989076912403107
+},
+"10-20": {
+"relation": "has mapping qualifier",
+"probability": 0.12105897068977356
+},
+"13-20": {
+"relation": "inheritance type of",
+"probability": 0.3548281192779541
+},
+"13-24": {
+"relation": "gene associated with disease",
+"probability": 0.3105074465274811
+},
+"13-31": {
+"relation": "has manifestation",
+"probability": 0.6794235110282898
+},
+"13-32": {
+"relation": "chromosome involved in cytogenetic abnormality",
+"probability": 0.3443506062030792
+},
+"13-38": {
+"relation": "manifestation of",
+"probability": 0.2809540629386902
+},
+"20-24": {
+"relation": "has inheritance type",
+"probability": 0.2390204519033432
+},
+"20-25": {
+"relation": "has mapping qualifier",
+"probability": 0.08757320046424866
+},
+"20-31": {
+"relation": "has inheritance type",
+"probability": 0.4088035523891449
+},
+"20-32": {
+"relation": "has ctdc value",
+"probability": 0.9440139532089233
+},
+"20-38": {
+"relation": "inheritance type of",
+"probability": 0.2465299665927887
+},
+"20-39": {
+"relation": "has mapping qualifier",
+"probability": 0.12105897068977356
+},
+"24-31": {
+"relation": "has manifestation",
+"probability": 0.2885051965713501
+},
+"24-32": {
+"relation": "is ctdc value of",
+"probability": 0.893790602684021
+},
+"24-38": {
+"relation": "prev name of",
+"probability": 0.4823482930660248
+},
+"25-32": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.23989076912403107
+},
+"31-32": {
+"relation": "is ctdc value of",
+"probability": 0.5842100381851196
+},
+"31-38": {
+"relation": "has manifestation",
+"probability": 0.17120863497257233
+},
+"32-38": {
+"relation": "has ctdc value",
+"probability": 0.7380102872848511
+}
+},
+"train-74": {
+"3-5": {
+"relation": "has manifestation",
+"probability": 0.6840612292289734
+},
+"3-6": {
+"relation": "has ctdc value",
+"probability": 0.6813287734985352
+},
+"3-15": {
+"relation": "severity of",
+"probability": 0.9786143898963928
+},
+"3-18": {
+"relation": "has manifestation",
+"probability": 0.3933159112930298
+},
+"5-6": {
+"relation": "has ctdc value",
+"probability": 0.572584331035614
+},
+"5-10": {
+"relation": "has manifestation",
+"probability": 0.6840612292289734
+},
+"5-15": {
+"relation": "severity of",
+"probability": 0.9885947704315186
+},
+"5-18": {
+"relation": "manifestation of",
+"probability": 0.6699159145355225
+},
+"6-10": {
+"relation": "has ctdc value",
+"probability": 0.6813287734985352
+},
+"6-11": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.42889413237571716
+},
+"6-13": {
+"relation": "is ctdc value of",
+"probability": 0.43714308738708496
+},
+"6-15": {
+"relation": "is ctdc value of",
+"probability": 0.4477827548980713
+},
+"6-18": {
+"relation": "cytogenetic abnormality involves chromosome",
+"probability": 0.37742310762405396
+},
+"10-15": {
+"relation": "severity of",
+"probability": 0.9786143898963928
+},
+"10-18": {
+"relation": "has manifestation",
+"probability": 0.3933159112930298
+},
+"13-15": {
+"relation": "answer to",
+"probability": 0.9573494791984558
+},
+"15-18": {
+"relation": "has severity",
+"probability": 0.9872419834136963
+}
+},
+"train-75": {
+"9-15": {
+"relation": "gene product encoded by gene",
+"probability": 0.1556311547756195
+},
+"9-19": {
+"relation": "disease has associated gene",
+"probability": 0.7173374891281128
+},
+"15-16": {
+"relation": "has time aspect",
+"probability": 0.1821449100971222
+}
+},
+"train-76": {
+"4-16": {
+"relation": "has recipient category",
+"probability": 0.5437696576118469
+},
+"6-10": {
+"relation": "prev name of",
+"probability": 0.11594605445861816
+},
+"6-16": {
+"relation": "has recipient category",
+"probability": 0.44708630442619324
+},
+"6-20": {
+"relation": "gene found in organism",
+"probability": 0.10583334416151047
+},
+"7-10": {
+"relation": "gene associated with disease",
+"probability": 0.796262800693512
+},
+"7-16": {
+"relation": "has focus",
+"probability": 0.9975907802581787
+},
+"7-20": {
+"relation": "gene associated with disease",
+"probability": 0.16671936213970184
+},
+"8-16": {
+"relation": "has time aspect",
+"probability": 0.8585455417633057
+},
+"8-20": {
+"relation": "has time aspect",
+"probability": 0.5226312875747681
+},
+"10-16": {
+"relation": "has focus",
+"probability": 0.8459279537200928
+},
+"10-20": {
+"relation": "gene encodes gene product",
+"probability": 0.4142829477787018
+},
+"11-16": {
+"relation": "has focus",
+"probability": 0.8206019401550293
+},
+"15-16": {
+"relation": "has focus",
+"probability": 0.3172663152217865
+},
+"15-20": {
+"relation": "has pcdc os permissible value",
+"probability": 0.10390108823776245
+}
+},
+"train-77": {
+"7-8": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.282256543636322
+},
+"7-11": {
+"relation": "has pcdc gct permissible value",
+"probability": 0.31974127888679504
+},
+"7-17": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.4225747883319855
+},
+"7-19": {
+"relation": "has answer",
+"probability": 0.3670269548892975
+},
+"7-20": {
+"relation": "has seronet permissible value",
+"probability": 0.9561999440193176
+},
+"8-19": {
+"relation": "has associated finding",
+"probability": 0.9073865413665771
+},
+"11-19": {
+"relation": "has associated finding",
+"probability": 0.9750607013702393
+},
+"17-19": {
+"relation": "has associated finding",
+"probability": 0.8468125462532043
+},
+"17-20": {
+"relation": "answer to",
+"probability": 0.4606844186782837
+},
+"19-20": {
+"relation": "associated finding of",
+"probability": 0.9982366561889648
+}
+},
+"train-78": {
+"1-19": {
+"relation": "has property",
+"probability": 0.9957197308540344
+},
+"11-19": {
+"relation": "has answer",
+"probability": 0.3499912917613983
+},
+"12-19": {
+"relation": "has associated finding",
+"probability": 0.5574972629547119
+},
+"13-19": {
+"relation": "has system",
+"probability": 0.5648870468139648
+},
+"16-19": {
+"relation": "has time aspect",
+"probability": 0.30628257989883423
+},
+"19-21": {
+"relation": "subset includes concept",
+"probability": 0.20283368229866028
+},
+"21-24": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.1656714677810669
+}
+},
+"train-79": {
+"0-8": {
+"relation": "has manifestation",
+"probability": 0.952548086643219
+},
+"0-10": {
+"relation": "has manifestation",
+"probability": 0.8384908437728882
+},
+"2-8": {
+"relation": "has mapping qualifier",
+"probability": 0.44853028655052185
+},
+"3-8": {
+"relation": "disease mapped to gene",
+"probability": 0.21372079849243164
+},
+"8-10": {
+"relation": "manifestation of",
+"probability": 0.6441610455513
+}
+},
+"train-80": {
+"0-10": {
+"relation": "has mapping qualifier",
+"probability": 0.6889049410820007
+},
+"0-13": {
+"relation": "has mapping qualifier",
+"probability": 0.5085757970809937
+},
+"0-18": {
+"relation": "has associated condition",
+"probability": 0.21705059707164764
+},
+"0-19": {
+"relation": "has mapping qualifier",
+"probability": 0.47513601183891296
+},
+"0-20": {
+"relation": "has mapping qualifier",
+"probability": 0.6572251915931702
+},
+"0-22": {
+"relation": "has mapping qualifier",
+"probability": 0.6629668474197388
+},
+"3-5": {
+"relation": "is biochemical function of gene product",
+"probability": 0.9839698672294617
+},
+"3-7": {
+"relation": "is chemical classification of gene product",
+"probability": 0.548925518989563
+},
+"3-10": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.45937129855155945
+},
+"3-13": {
+"relation": "gene product has associated anatomy",
+"probability": 0.4139690697193146
+},
+"3-18": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.5032155513763428
+},
+"3-19": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.693263828754425
+},
+"3-20": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.5744343400001526
+},
+"3-22": {
+"relation": "is associated anatomy of gene product",
+"probability": 0.6248165369033813
+},
+"5-7": {
+"relation": "gene product has biochemical function",
+"probability": 0.9686721563339233
+},
+"5-10": {
+"relation": "gene product has biochemical function",
+"probability": 0.5402669906616211
+},
+"5-13": {
+"relation": "gene product has biochemical function",
+"probability": 0.9647423028945923
+},
+"5-20": {
+"relation": "gene product has biochemical function",
+"probability": 0.820762038230896
+},
+"5-22": {
+"relation": "gene product has biochemical function",
+"probability": 0.9004489779472351
+},
+"7-10": {
+"relation": "associated with malfunction of gene product",
+"probability": 0.22734059393405914
+},
+"7-13": {
+"relation": "gene product has chemical classification",
+"probability": 0.5257874131202698
+},
+"7-20": {
+"relation": "gene product has chemical classification",
+"probability": 0.32870495319366455
+},
+"7-22": {
+"relation": "gene product has chemical classification",
+"probability": 0.33411815762519836
+},
+"10-13": {
+"relation": "gene associated with disease",
+"probability": 0.4254341125488281
+},
+"10-18": {
+"relation": "has occurrence",
+"probability": 0.8072589635848999
+},
+"10-19": {
+"relation": "manifestation of",
+"probability": 0.7161141633987427
+},
+"10-20": {
+"relation": "has manifestation",
+"probability": 0.8896009922027588
+},
+"10-22": {
+"relation": "has manifestation",
+"probability": 0.765192985534668
+},
+"13-18": {
+"relation": "prev name of",
+"probability": 0.12260642647743225
+},
+"13-19": {
+"relation": "associated with malfunction of gene product",
+"probability": 0.48596277832984924
+},
+"13-20": {
+"relation": "disease mapped to gene",
+"probability": 0.7564617395401001
+},
+"13-22": {
+"relation": "disease mapped to gene",
+"probability": 0.6448118686676025
+},
+"18-19": {
+"relation": "occurs in",
+"probability": 0.41747361421585083
+},
+"18-20": {
+"relation": "occurs in",
+"probability": 0.4740702211856842
+},
+"18-22": {
+"relation": "occurs in",
+"probability": 0.6558911204338074
+},
+"19-20": {
+"relation": "has manifestation",
+"probability": 0.8925415277481079
+},
+"19-22": {
+"relation": "has manifestation",
+"probability": 0.9340108036994934
+},
+"20-22": {
+"relation": "manifestation of",
+"probability": 0.14657950401306152
+}
+},
+"train-81": {
+"0-3": {
+"relation": "has inheritance type",
+"probability": 0.5494560599327087
+},
+"0-4": {
+"relation": "has inheritance type",
+"probability": 0.10808145254850388
+},
+"0-5": {
+"relation": "gene encodes gene product",
+"probability": 0.09181711077690125
+},
+"0-7": {
+"relation": "subject relationship context of",
+"probability": 0.49467748403549194
+},
+"0-9": {
+"relation": "has inheritance type",
+"probability": 0.698825478553772
+},
+"3-5": {
+"relation": "gene encodes gene product",
+"probability": 0.9360478520393372
+},
+"3-7": {
+"relation": "organism has gene",
+"probability": 0.7990630865097046
+},
+"3-9": {
+"relation": "disease has associated gene",
+"probability": 0.4106104075908661
+},
+"4-5": {
+"relation": "gene associated with disease",
+"probability": 0.2955038845539093
+},
+"5-7": {
+"relation": "organism has gene",
+"probability": 0.6107494235038757
+},
+"5-9": {
+"relation": "disease has associated gene",
+"probability": 0.45825085043907166
+},
+"7-9": {
+"relation": "has at risk population",
+"probability": 0.2544516324996948
+}
+},
+"train-82": {
+"3-15": {
+"relation": "has mapping qualifier",
+"probability": 0.7242404818534851
+},
+"4-6": {
+"relation": "process includes biological process",
+"probability": 0.5682010054588318
+},
+"4-7": {
+"relation": "process includes biological process",
+"probability": 0.9496800303459167
+},
+"4-15": {
+"relation": "cytogenetic abnormality involves chromosome",
+"probability": 0.10296095907688141
+},
+"6-7": {
+"relation": "process includes biological process",
+"probability": 0.9356560111045837
+},
+"6-15": {
+"relation": "cytogenetic abnormality involves chromosome",
+"probability": 0.14830254018306732
+}
+},
+"train-83": {
+"0-1": {
+"relation": "has mapping qualifier",
+"probability": 0.2463768720626831
+},
+"0-3": {
+"relation": "has mapping qualifier",
+"probability": 0.4318127930164337
+},
+"0-13": {
+"relation": "organism has gene",
+"probability": 0.9907750487327576
+},
+"0-14": {
+"relation": "has mapping qualifier",
+"probability": 0.8287422060966492
+},
+"1-3": {
+"relation": "has prev name",
+"probability": 0.4186512529850006
+},
+"1-5": {
+"relation": "gene product encoded by gene",
+"probability": 0.1819344460964203
+},
+"1-7": {
+"relation": "gene encodes gene product",
+"probability": 0.295043021440506
+},
+"1-13": {
+"relation": "organism has gene",
+"probability": 0.9791585803031921
+},
+"1-14": {
+"relation": "disease mapped to gene",
+"probability": 0.7653477191925049
+},
+"3-5": {
+"relation": "has prev name",
+"probability": 0.2326366901397705
+},
+"3-7": {
+"relation": "has prev name",
+"probability": 0.4037359356880188
+},
+"3-13": {
+"relation": "organism has gene",
+"probability": 0.9949855804443359
+},
+"3-14": {
+"relation": "disease mapped to gene",
+"probability": 0.42305880784988403
+},
+"5-7": {
+"relation": "gene product encoded by gene",
+"probability": 0.1924096941947937
+},
+"5-13": {
+"relation": "organism has gene",
+"probability": 0.9900920987129211
+},
+"5-14": {
+"relation": "disease mapped to gene",
+"probability": 0.168194979429245
+},
+"7-13": {
+"relation": "organism has gene",
+"probability": 0.9882918000221252
+},
+"7-14": {
+"relation": "disease mapped to gene",
+"probability": 0.7937079668045044
+},
+"10-13": {
+"relation": "organism has gene",
+"probability": 0.9514323472976685
+},
+"13-14": {
+"relation": "gene found in organism",
+"probability": 0.988617479801178
+}
+},
+"train-84": {
+"1-5": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.0926729291677475
+},
+"1-9": {
+"relation": "has inheritance type",
+"probability": 0.5488423705101013
+},
+"1-10": {
+"relation": "supersystem of",
+"probability": 0.47188329696655273
+},
+"1-18": {
+"relation": "mapping qualifier of",
+"probability": 0.09007255733013153
+},
+"1-25": {
+"relation": "has inheritance type",
+"probability": 0.26229774951934814
+},
+"4-9": {
+"relation": "has mapping qualifier",
+"probability": 0.6949180960655212
+},
+"4-10": {
+"relation": "supersystem of",
+"probability": 0.49525025486946106
+},
+"5-10": {
+"relation": "supersystem of",
+"probability": 0.49745655059814453
+},
+"5-14": {
+"relation": "concept in subset",
+"probability": 0.14062029123306274
+},
+"5-25": {
+"relation": "concept in subset",
+"probability": 0.1775098443031311
+},
+"5-26": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.1492968052625656
+},
+"7-9": {
+"relation": "disease has normal cell origin",
+"probability": 0.9805461764335632
+},
+"7-14": {
+"relation": "gene product expressed in tissue",
+"probability": 0.9892494678497314
+},
+"7-18": {
+"relation": "disease has normal cell origin",
+"probability": 0.6935807466506958
+},
+"7-25": {
+"relation": "gene product expressed in tissue",
+"probability": 0.9466121196746826
+},
+"9-14": {
+"relation": "gene mapped to disease",
+"probability": 0.5236261487007141
+},
+"9-18": {
+"relation": "mapping qualifier of",
+"probability": 0.22262516617774963
+},
+"9-20": {
+"relation": "gene product malfunction associated with disease",
+"probability": 0.5207069516181946
+},
+"9-25": {
+"relation": "gene mapped to disease",
+"probability": 0.6613877415657043
+},
+"9-26": {
+"relation": "cause of",
+"probability": 0.7594674825668335
+},
+"10-13": {
+"relation": "has supersystem",
+"probability": 0.5084196329116821
+},
+"10-15": {
+"relation": "has supersystem",
+"probability": 0.5269670486450195
+},
+"10-18": {
+"relation": "has supersystem",
+"probability": 0.517632782459259
+},
+"10-21": {
+"relation": "has supersystem",
+"probability": 0.5075328946113586
+},
+"10-23": {
+"relation": "has supersystem",
+"probability": 0.49513721466064453
+},
+"10-26": {
+"relation": "has supersystem",
+"probability": 0.4467659890651703
+},
+"13-15": {
+"relation": "has answer",
+"probability": 0.8589443564414978
+},
+"14-18": {
+"relation": "has prev name",
+"probability": 0.0777430608868599
+},
+"14-20": {
+"relation": "complex has physical part",
+"probability": 0.6768194437026978
+},
+"14-25": {
+"relation": "gene encodes gene product",
+"probability": 0.8489532470703125
+},
+"18-23": {
+"relation": "biological process has result biological process",
+"probability": 0.31584182381629944
+},
+"18-25": {
+"relation": "genetic biomarker related to",
+"probability": 0.10218482464551926
+},
+"20-25": {
+"relation": "gene product is physical part of",
+"probability": 0.41150611639022827
+},
+"23-26": {
+"relation": "biological process has result biological process",
+"probability": 0.6796218156814575
+}
+},
+"train-85": {
+"1-5": {
+"relation": "has scale",
+"probability": 0.32847827672958374
+},
+"1-7": {
+"relation": "has scale",
+"probability": 0.2951045334339142
+},
+"1-13": {
+"relation": "has scale",
+"probability": 0.3181793987751007
+},
+"1-22": {
+"relation": "has scale",
+"probability": 0.3550943434238434
+},
+"4-5": {
+"relation": "occurs in",
+"probability": 0.6050803065299988
+},
+"4-7": {
+"relation": "occurs in",
+"probability": 0.7676222324371338
+},
+"4-9": {
+"relation": "occurs in",
+"probability": 0.7725008130073547
+},
+"4-13": {
+"relation": "occurs in",
+"probability": 0.6359263062477112
+},
+"4-19": {
+"relation": "gene product has associated anatomy",
+"probability": 0.9752594232559204
+},
+"4-20": {
+"relation": "gene product has associated anatomy",
+"probability": 0.9947370886802673
+},
+"4-22": {
+"relation": "gene product has associated anatomy",
+"probability": 0.9916559457778931
+},
+"5-7": {
+"relation": "has manifestation",
+"probability": 0.3075108826160431
+},
+"5-8": {
+"relation": "inheritance type of",
+"probability": 0.10441906005144119
+},
+"5-9": {
+"relation": "has at risk population",
+"probability": 0.09266772121191025
+},
+"5-12": {
+"relation": "mapping qualifier of",
+"probability": 0.42766687273979187
+},
+"5-13": {
+"relation": "manifestation of",
+"probability": 0.34932056069374084
+},
+"5-15": {
+"relation": "mapping qualifier of",
+"probability": 0.42547231912612915
+},
+"5-19": {
+"relation": "genetic biomarker related to",
+"probability": 0.5298289060592651
+},
+"5-20": {
+"relation": "genetic biomarker related to",
+"probability": 0.3499009311199188
+},
+"5-22": {
+"relation": "genetic biomarker related to",
+"probability": 0.21187056601047516
+},
+"7-8": {
+"relation": "manifestation of",
+"probability": 0.30039942264556885
+},
+"7-13": {
+"relation": "manifestation of",
+"probability": 0.6282838582992554
+},
+"7-19": {
+"relation": "is biochemical function of gene product",
+"probability": 0.9789429306983948
+},
+"7-20": {
+"relation": "gene mapped to disease",
+"probability": 0.4904612600803375
+},
+"7-22": {
+"relation": "gene mapped to disease",
+"probability": 0.5918205976486206
+},
+"8-13": {
+"relation": "has associated condition",
+"probability": 0.24908141791820526
+},
+"8-20": {
+"relation": "gene associated with disease",
+"probability": 0.17146600782871246
+},
+"8-22": {
+"relation": "gene associated with disease",
+"probability": 0.09594707190990448
+},
+"9-13": {
+"relation": "biological process results from biological process",
+"probability": 0.38942286372184753
+},
+"9-20": {
+"relation": "gene product is element in pathway",
+"probability": 0.6004830598831177
+},
+"9-22": {
+"relation": "gene product is element in pathway",
+"probability": 0.427834689617157
+},
+"13-20": {
+"relation": "gene associated with disease",
+"probability": 0.2648497223854065
+},
+"13-22": {
+"relation": "gene associated with disease",
+"probability": 0.5955604314804077
+},
+"15-19": {
+"relation": "gene product has structural domain or motif",
+"probability": 0.7759197354316711
+},
+"15-20": {
+"relation": "gene product has structural domain or motif",
+"probability": 0.7970318794250488
+},
+"15-22": {
+"relation": "gene product has structural domain or motif",
+"probability": 0.8129017353057861
+},
+"19-20": {
+"relation": "gene product has biochemical function",
+"probability": 0.9988662004470825
+},
+"19-22": {
+"relation": "gene product has biochemical function",
+"probability": 0.9953706860542297
+},
+"20-22": {
+"relation": "prev name of",
+"probability": 0.34529930353164673
+}
+},
+"train-86": {
+"3-5": {
+"relation": "measured by",
+"probability": 0.4142581820487976
+},
+"3-7": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.21798568964004517
+},
+"3-11": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.18379554152488708
+},
+"3-12": {
+"relation": "class of",
+"probability": 0.3935684561729431
+},
+"5-7": {
+"relation": "is pcdc ews permissible value for variable",
+"probability": 0.08484204858541489
+},
+"5-11": {
+"relation": "has finding method",
+"probability": 0.20486168563365936
+},
+"5-12": {
+"relation": "recipient category of",
+"probability": 0.41071873903274536
+},
+"7-11": {
+"relation": "disease has associated gene",
+"probability": 0.2624220550060272
+},
+"7-12": {
+"relation": "subject of information of",
+"probability": 0.4479396939277649
+},
+"11-12": {
+"relation": "subject of information of",
+"probability": 0.3489637076854706
+}
+},
+"train-87": {
+"1-2": {
+"relation": "has finding method",
+"probability": 0.5326476693153381
+},
+"1-8": {
+"relation": "has finding method",
+"probability": 0.7513376474380493
+},
+"1-12": {
+"relation": "has finding method",
+"probability": 0.43179357051849365
+},
+"1-30": {
+"relation": "has finding method",
+"probability": 0.830173671245575
+},
+"1-34": {
+"relation": "has finding method",
+"probability": 0.41559189558029175
+},
+"1-40": {
+"relation": "has finding method",
+"probability": 0.6601621508598328
+},
+"1-44": {
+"relation": "has finding method",
+"probability": 0.6661726832389832
+},
+"1-46": {
+"relation": "has finding method",
+"probability": 0.6191819906234741
+},
+"1-49": {
+"relation": "has finding method",
+"probability": 0.6792460680007935
+},
+"1-57": {
+"relation": "has finding method",
+"probability": 0.6398465037345886
+},
+"1-58": {
+"relation": "has finding method",
+"probability": 0.5548935532569885
+},
+"5-12": {
+"relation": "concept in subset",
+"probability": 0.4125378131866455
+},
+"5-16": {
+"relation": "concept in subset",
+"probability": 0.38556528091430664
+},
+"5-18": {
+"relation": "concept in subset",
+"probability": 0.2685500681400299
+},
+"5-20": {
+"relation": "concept in subset",
+"probability": 0.42008456587791443
+},
+"5-24": {
+"relation": "concept in subset",
+"probability": 0.38556528091430664
+},
+"5-34": {
+"relation": "concept in subset",
+"probability": 0.6381965279579163
+},
+"5-57": {
+"relation": "subset includes concept",
+"probability": 0.3320298194885254
+},
+"7-10": {
+"relation": "concept in subset",
+"probability": 0.2890731394290924
+},
+"7-16": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.17420902848243713
+},
+"7-18": {
+"relation": "concept in subset",
+"probability": 0.2266426682472229
+},
+"7-24": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.17420902848243713
+},
+"7-32": {
+"relation": "concept in subset",
+"probability": 0.21435338258743286
+},
+"7-40": {
+"relation": "has structural class",
+"probability": 0.2175917774438858
+},
+"7-44": {
+"relation": "has structural class",
+"probability": 0.2633224427700043
+},
+"7-46": {
+"relation": "has structural class",
+"probability": 0.20544324815273285
+},
+"7-49": {
+"relation": "has structural class",
+"probability": 0.33362963795661926
+},
+"10-12": {
+"relation": "has prev name",
+"probability": 0.44690582156181335
+},
+"10-16": {
+"relation": "prev name of",
+"probability": 0.3789621591567993
+},
+"10-18": {
+"relation": "prev name of",
+"probability": 0.5025240182876587
+},
+"10-20": {
+"relation": "has prev name",
+"probability": 0.4308238923549652
+},
+"10-24": {
+"relation": "prev name of",
+"probability": 0.3789621591567993
+},
+"10-29": {
+"relation": "disease has associated gene",
+"probability": 0.366102397441864
+},
+"10-32": {
+"relation": "prev name of",
+"probability": 0.4939151704311371
+},
+"10-34": {
+"relation": "has prev name",
+"probability": 0.22550666332244873
+},
+"10-40": {
+"relation": "has prev name",
+"probability": 0.4119027554988861
+},
+"10-44": {
+"relation": "has prev name",
+"probability": 0.3465464115142822
+},
+"10-46": {
+"relation": "has prev name",
+"probability": 0.39201483130455017
+},
+"10-49": {
+"relation": "has prev name",
+"probability": 0.3764442205429077
+},
+"10-57": {
+"relation": "subset includes concept",
+"probability": 0.18517501652240753
+},
+"10-61": {
+"relation": "disease has associated gene",
+"probability": 0.366102397441864
+},
+"12-18": {
+"relation": "prev name of",
+"probability": 0.4560607373714447
+},
+"12-20": {
+"relation": "prev name of",
+"probability": 0.3853163421154022
+},
+"12-29": {
+"relation": "manifestation of",
+"probability": 0.2828764319419861
+},
+"12-32": {
+"relation": "has prev name",
+"probability": 0.44278013706207275
+},
+"12-34": {
+"relation": "prev name of",
+"probability": 0.15215082466602325
+},
+"12-40": {
+"relation": "prev name of",
+"probability": 0.2504967451095581
+},
+"12-44": {
+"relation": "prev name of",
+"probability": 0.12234717607498169
+},
+"12-46": {
+"relation": "prev name of",
+"probability": 0.19950060546398163
+},
+"12-49": {
+"relation": "prev name of",
+"probability": 0.2817482054233551
+},
+"12-57": {
+"relation": "has ctdc value",
+"probability": 0.27861231565475464
+},
+"12-61": {
+"relation": "manifestation of",
+"probability": 0.2828764319419861
+},
+"16-18": {
+"relation": "prev name of",
+"probability": 0.4632015526294708
+},
+"16-20": {
+"relation": "prev name of",
+"probability": 0.14988303184509277
+},
+"16-29": {
+"relation": "has manifestation",
+"probability": 0.45251181721687317
+},
+"16-32": {
+"relation": "prev name of",
+"probability": 0.48505792021751404
+},
+"16-34": {
+"relation": "prev name of",
+"probability": 0.1956055611371994
+},
+"16-40": {
+"relation": "prev name of",
+"probability": 0.1583375185728073
+},
+"16-49": {
+"relation": "prev name of",
+"probability": 0.149237260222435
+},
+"16-57": {
+"relation": "has ctdc value",
+"probability": 0.21284158527851105
+},
+"16-61": {
+"relation": "has manifestation",
+"probability": 0.45251181721687317
+},
+"18-20": {
+"relation": "has prev name",
+"probability": 0.43548282980918884
+},
+"18-24": {
+"relation": "prev name of",
+"probability": 0.4632015526294708
+},
+"18-29": {
+"relation": "disease mapped to gene",
+"probability": 0.4113702178001404
+},
+"18-32": {
+"relation": "prev name of",
+"probability": 0.4654974341392517
+},
+"18-34": {
+"relation": "prev name of",
+"probability": 0.20782352983951569
+},
+"18-40": {
+"relation": "has prev name",
+"probability": 0.4243599474430084
+},
+"18-44": {
+"relation": "has prev name",
+"probability": 0.35399606823921204
+},
+"18-46": {
+"relation": "has prev name",
+"probability": 0.396011620759964
+},
+"18-49": {
+"relation": "has prev name",
+"probability": 0.3845495283603668
+},
+"18-57": {
+"relation": "has ctdc value",
+"probability": 0.1874237060546875
+},
+"18-61": {
+"relation": "disease mapped to gene",
+"probability": 0.4113702178001404
+},
+"20-24": {
+"relation": "prev name of",
+"probability": 0.14988303184509277
+},
+"20-29": {
+"relation": "disease mapped to gene",
+"probability": 0.2703673243522644
+},
+"20-32": {
+"relation": "has prev name",
+"probability": 0.4431169629096985
+},
+"20-34": {
+"relation": "prev name of",
+"probability": 0.25197091698646545
+},
+"20-40": {
+"relation": "prev name of",
+"probability": 0.16182273626327515
+},
+"20-44": {
+"relation": "prev name of",
+"probability": 0.11873462796211243
+},
+"20-46": {
+"relation": "prev name of",
+"probability": 0.2141210436820984
+},
+"20-49": {
+"relation": "prev name of",
+"probability": 0.1889006793498993
+},
+"20-57": {
+"relation": "has ctdc value",
+"probability": 0.3200455605983734
+},
+"20-61": {
+"relation": "disease mapped to gene",
+"probability": 0.2703673243522644
+},
+"24-29": {
+"relation": "has manifestation",
+"probability": 0.45251181721687317
+},
+"24-32": {
+"relation": "prev name of",
+"probability": 0.48505792021751404
+},
+"24-34": {
+"relation": "prev name of",
+"probability": 0.1956055611371994
+},
+"24-40": {
+"relation": "prev name of",
+"probability": 0.1583375185728073
+},
+"24-49": {
+"relation": "prev name of",
+"probability": 0.149237260222435
+},
+"24-57": {
+"relation": "has ctdc value",
+"probability": 0.21284158527851105
+},
+"24-61": {
+"relation": "has manifestation",
+"probability": 0.45251181721687317
+},
+"29-32": {
+"relation": "disease mapped to gene",
+"probability": 0.37917622923851013
+},
+"29-34": {
+"relation": "inheritance type of",
+"probability": 0.2971549332141876
+},
+"29-40": {
+"relation": "manifestation of",
+"probability": 0.5867125391960144
+},
+"29-44": {
+"relation": "manifestation of",
+"probability": 0.7035036087036133
+},
+"29-46": {
+"relation": "manifestation of",
+"probability": 0.5508029460906982
+},
+"29-49": {
+"relation": "manifestation of",
+"probability": 0.5518242120742798
+},
+"29-57": {
+"relation": "inheritance type of",
+"probability": 0.3071290850639343
+},
+"32-34": {
+"relation": "prev name of",
+"probability": 0.40189531445503235
+},
+"32-40": {
+"relation": "has prev name",
+"probability": 0.40353941917419434
+},
+"32-44": {
+"relation": "has prev name",
+"probability": 0.33001717925071716
+},
+"32-46": {
+"relation": "has prev name",
+"probability": 0.3714733123779297
+},
+"32-49": {
+"relation": "has prev name",
+"probability": 0.37054377794265747
+},
+"32-57": {
+"relation": "subset includes concept",
+"probability": 0.1421562135219574
+},
+"32-61": {
+"relation": "disease mapped to gene",
+"probability": 0.37917622923851013
+},
+"34-40": {
+"relation": "has inheritance type",
+"probability": 0.06759727001190186
+},
+"34-44": {
+"relation": "disease mapped to gene",
+"probability": 0.09175150096416473
+},
+"34-46": {
+"relation": "has inheritance type",
+"probability": 0.09413111954927444
+},
+"34-49": {
+"relation": "has inheritance type",
+"probability": 0.07668693363666534
+},
+"34-57": {
+"relation": "has ctdc value",
+"probability": 0.2957645058631897
+},
+"34-61": {
+"relation": "inheritance type of",
+"probability": 0.2971549332141876
+},
+"40-44": {
+"relation": "prev name of",
+"probability": 0.28577378392219543
+},
+"40-46": {
+"relation": "prev name of",
+"probability": 0.3955865502357483
+},
+"40-49": {
+"relation": "prev name of",
+"probability": 0.38340529799461365
+},
+"40-57": {
+"relation": "has ctdc value",
+"probability": 0.12929590046405792
+},
+"40-61": {
+"relation": "manifestation of",
+"probability": 0.5867125391960144
+},
+"44-46": {
+"relation": "prev name of",
+"probability": 0.36558863520622253
+},
+"44-49": {
+"relation": "prev name of",
+"probability": 0.3688933551311493
+},
+"44-57": {
+"relation": "has ctdc value",
+"probability": 0.1378004550933838
+},
+"44-61": {
+"relation": "manifestation of",
+"probability": 0.7035036087036133
+},
+"46-49": {
+"relation": "prev name of",
+"probability": 0.39704620838165283
+},
+"46-57": {
+"relation": "inheritance type of",
+"probability": 0.14010493457317352
+},
+"46-61": {
+"relation": "manifestation of",
+"probability": 0.5508029460906982
+},
+"49-57": {
+"relation": "has ctdc value",
+"probability": 0.11745381355285645
+},
+"49-61": {
+"relation": "manifestation of",
+"probability": 0.5518242120742798
+},
+"57-61": {
+"relation": "inheritance type of",
+"probability": 0.3071290850639343
+}
+},
+"train-88": {
+"0-2": {
+"relation": "has class",
+"probability": 0.9211795330047607
+},
+"0-3": {
+"relation": "has class",
+"probability": 0.8929572105407715
+},
+"0-8": {
+"relation": "has class",
+"probability": 0.7377843260765076
+},
+"3-6": {
+"relation": "has inheritance type",
+"probability": 0.6251825094223022
+},
+"3-8": {
+"relation": "has inheritance type",
+"probability": 0.8955768942832947
+},
+"3-13": {
+"relation": "has inheritance type",
+"probability": 0.8924160003662109
+},
+"6-8": {
+"relation": "due to",
+"probability": 0.5008369088172913
+},
+"6-10": {
+"relation": "cause of",
+"probability": 0.211045503616333
+},
+"6-13": {
+"relation": "due to",
+"probability": 0.8471205830574036
+},
+"8-10": {
+"relation": "associated condition of",
+"probability": 0.47230955958366394
+},
+"8-13": {
+"relation": "has manifestation",
+"probability": 0.9434098601341248
+},
+"10-13": {
+"relation": "due to",
+"probability": 0.9867867231369019
+}
+},
+"train-89": {
+"3-10": {
+"relation": "mapping qualifier of",
+"probability": 0.3478504419326782
+},
+"3-11": {
+"relation": "has pcdc aml permissible value",
+"probability": 0.19591200351715088
+},
+"3-22": {
+"relation": "subject relationship context of",
+"probability": 0.9903131723403931
+},
+"3-26": {
+"relation": "subject of information of",
+"probability": 0.9466796517372131
+},
+"3-28": {
+"relation": "has manifestation",
+"probability": 0.607543408870697
+},
+"5-22": {
+"relation": "subject relationship context of",
+"probability": 0.9882209300994873
+},
+"5-26": {
+"relation": "subject of information of",
+"probability": 0.978908896446228
+},
+"8-11": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.46874746680259705
+},
+"8-22": {
+"relation": "subject relationship context of",
+"probability": 0.8827787041664124
+},
+"8-26": {
+"relation": "subject of information of",
+"probability": 0.9223012328147888
+},
+"10-11": {
+"relation": "has pcdc aml permissible value",
+"probability": 0.12131758034229279
+},
+"10-22": {
+"relation": "subject relationship context of",
+"probability": 0.9807804226875305
+},
+"10-26": {
+"relation": "subject of information of",
+"probability": 0.3263631761074066
+},
+"10-28": {
+"relation": "has inheritance type",
+"probability": 0.15234485268592834
+},
+"11-19": {
+"relation": "has mapping qualifier",
+"probability": 0.25353968143463135
+},
+"11-22": {
+"relation": "subject relationship context of",
+"probability": 0.9913105964660645
+},
+"11-26": {
+"relation": "may be qualified by",
+"probability": 0.32596543431282043
+},
+"11-28": {
+"relation": "is pcdc gct permissible value for variable",
+"probability": 0.21855755150318146
+},
+"15-22": {
+"relation": "subject relationship context of",
+"probability": 0.9954442977905273
+},
+"17-22": {
+"relation": "subject relationship context of",
+"probability": 0.9720998406410217
+},
+"19-22": {
+"relation": "subject relationship context of",
+"probability": 0.9373760223388672
+},
+"19-26": {
+"relation": "subject of information of",
+"probability": 0.9648424983024597
+},
+"19-28": {
+"relation": "has manifestation",
+"probability": 0.7191252708435059
+},
+"22-26": {
+"relation": "has subject relationship context",
+"probability": 0.9656347632408142
+},
+"22-28": {
+"relation": "has subject relationship context",
+"probability": 0.9625575542449951
+},
+"26-28": {
+"relation": "has subject of information",
+"probability": 0.9587042927742004
+}
+},
+"train-90": {
+"0-2": {
+"relation": "is pcdc ews permissible value for variable",
+"probability": 0.315385103225708
+},
+"0-5": {
+"relation": "recipient category of",
+"probability": 0.9371668696403503
+},
+"0-7": {
+"relation": "has mapping qualifier",
+"probability": 0.2905327081680298
+},
+"0-10": {
+"relation": "focus of",
+"probability": 0.2540268301963806
+},
+"0-12": {
+"relation": "genetic biomarker related to",
+"probability": 0.20091035962104797
+},
+"2-5": {
+"relation": "subject of information of",
+"probability": 0.8385173678398132
+},
+"2-7": {
+"relation": "has manifestation",
+"probability": 0.08887359499931335
+},
+"2-10": {
+"relation": "mapping qualifier of",
+"probability": 0.4442114531993866
+},
+"2-12": {
+"relation": "gene encodes gene product",
+"probability": 0.30374786257743835
+},
+"5-7": {
+"relation": "has subject of information",
+"probability": 0.8814916610717773
+},
+"5-10": {
+"relation": "has subject of information",
+"probability": 0.5515552759170532
+},
+"5-12": {
+"relation": "has subject of information",
+"probability": 0.6392030715942383
+},
+"7-10": {
+"relation": "mapping qualifier of",
+"probability": 0.41314810514450073
+},
+"7-12": {
+"relation": "gene mapped to disease",
+"probability": 0.8120652437210083
+},
+"10-12": {
+"relation": "has mapping qualifier",
+"probability": 0.10125905275344849
+}
+},
+"train-91": {
+"0-5": {
+"relation": "has inheritance type",
+"probability": 0.6948614120483398
+},
+"0-17": {
+"relation": "has inheritance type",
+"probability": 0.9635467529296875
+},
+"2-15": {
+"relation": "measures",
+"probability": 0.5290451645851135
+},
+"2-17": {
+"relation": "has mapping qualifier",
+"probability": 0.16129107773303986
+},
+"5-15": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.742881178855896
+},
+"5-17": {
+"relation": "disease mapped to gene",
+"probability": 0.4741213917732239
+},
+"6-17": {
+"relation": "has mapping qualifier",
+"probability": 0.5552598834037781
+},
+"12-15": {
+"relation": "class of",
+"probability": 0.3132830262184143
+},
+"12-17": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.2778029441833496
+},
+"14-15": {
+"relation": "has class",
+"probability": 0.3860670328140259
+},
+"14-17": {
+"relation": "has mapping qualifier",
+"probability": 0.28971949219703674
+},
+"15-17": {
+"relation": "is pcdc hl permissible value for variable",
+"probability": 0.6214050054550171
+}
+},
+"train-92": {
+"0-2": {
+"relation": "has supersystem",
+"probability": 0.4886648654937744
+},
+"0-7": {
+"relation": "has supersystem",
+"probability": 0.5304058194160461
+},
+"0-9": {
+"relation": "has supersystem",
+"probability": 0.5542462468147278
+},
+"0-10": {
+"relation": "has system",
+"probability": 0.505425751209259
+},
+"0-13": {
+"relation": "has supersystem",
+"probability": 0.44224628806114197
+},
+"0-14": {
+"relation": "has supersystem",
+"probability": 0.5023387670516968
+},
+"0-17": {
+"relation": "has supersystem",
+"probability": 0.5137130618095398
+},
+"0-18": {
+"relation": "has system",
+"probability": 0.4186286926269531
+},
+"0-21": {
+"relation": "has supersystem",
+"probability": 0.4785394072532654
+},
+"0-22": {
+"relation": "has supersystem",
+"probability": 0.4695338010787964
+},
+"2-4": {
+"relation": "prev name of",
+"probability": 0.3817940652370453
+},
+"2-7": {
+"relation": "inheritance type of",
+"probability": 0.13938800990581512
+},
+"2-9": {
+"relation": "has ctdc value",
+"probability": 0.16291162371635437
+},
+"2-10": {
+"relation": "mapping qualifier of",
+"probability": 0.5371477007865906
+},
+"2-13": {
+"relation": "prev name of",
+"probability": 0.2562747299671173
+},
+"2-14": {
+"relation": "gene encodes gene product",
+"probability": 0.8299156427383423
+},
+"2-17": {
+"relation": "subset includes concept",
+"probability": 0.32775044441223145
+},
+"2-18": {
+"relation": "associated genetic condition",
+"probability": 0.571453332901001
+},
+"2-21": {
+"relation": "associated genetic condition",
+"probability": 0.45807337760925293
+},
+"2-22": {
+"relation": "has occurrence",
+"probability": 0.966418445110321
+},
+"2-24": {
+"relation": "has occurrence",
+"probability": 0.20354241132736206
+},
+"4-9": {
+"relation": "subset includes concept",
+"probability": 0.1471317559480667
+},
+"4-10": {
+"relation": "mapping qualifier of",
+"probability": 0.3284516930580139
+},
+"4-13": {
+"relation": "disease mapped to gene",
+"probability": 0.6929523944854736
+},
+"4-14": {
+"relation": "gene encodes gene product",
+"probability": 0.526350200176239
+},
+"4-18": {
+"relation": "associated genetic condition",
+"probability": 0.3683178424835205
+},
+"4-21": {
+"relation": "may be associated disease of disease",
+"probability": 0.30140623450279236
+},
+"4-22": {
+"relation": "has occurrence",
+"probability": 0.9730438590049744
+},
+"4-24": {
+"relation": "has occurrence",
+"probability": 0.4083445072174072
+},
+"7-9": {
+"relation": "has ctdc value",
+"probability": 0.07874912768602371
+},
+"7-13": {
+"relation": "tissue is expression site of gene product",
+"probability": 0.7411583065986633
+},
+"7-14": {
+"relation": "gene encodes gene product",
+"probability": 0.22436214983463287
+},
+"7-17": {
+"relation": "concept in subset",
+"probability": 0.3855467140674591
+},
+"7-18": {
+"relation": "disease excludes primary anatomic site",
+"probability": 0.27139779925346375
+},
+"7-22": {
+"relation": "has occurrence",
+"probability": 0.5582603812217712
+},
+"7-24": {
+"relation": "procedure has target anatomy",
+"probability": 0.4705406725406647
+},
+"9-13": {
+"relation": "gene encodes gene product",
+"probability": 0.3498532176017761
+},
+"9-14": {
+"relation": "gene encodes gene product",
+"probability": 0.7407242059707642
+},
+"9-17": {
+"relation": "concept in subset",
+"probability": 0.9452713131904602
+},
+"9-18": {
+"relation": "disease mapped to gene",
+"probability": 0.07099128514528275
+},
+"9-22": {
+"relation": "may qualify",
+"probability": 0.29929327964782715
+},
+"9-24": {
+"relation": "concept in subset",
+"probability": 0.24372616410255432
+},
+"10-22": {
+"relation": "has occurrence",
+"probability": 0.741055428981781
+},
+"13-14": {
+"relation": "gene encodes gene product",
+"probability": 0.9741352796554565
+},
+"13-18": {
+"relation": "disease has associated gene",
+"probability": 0.526196300983429
+},
+"13-21": {
+"relation": "disease has associated gene",
+"probability": 0.7366597652435303
+},
+"13-22": {
+"relation": "has occurrence",
+"probability": 0.5621468424797058
+},
+"13-24": {
+"relation": "gene encodes gene product",
+"probability": 0.09792731702327728
+},
+"14-18": {
+"relation": "disease mapped to gene",
+"probability": 0.459249883890152
+},
+"14-21": {
+"relation": "disease has associated gene",
+"probability": 0.4583183526992798
+},
+"18-21": {
+"relation": "is associated disease of",
+"probability": 0.21655897796154022
+},
+"18-22": {
+"relation": "has occurrence",
+"probability": 0.581598162651062
+},
+"18-24": {
+"relation": "has occurrence",
+"probability": 0.3886883854866028
+},
+"22-24": {
+"relation": "occurs in",
+"probability": 0.46813324093818665
+}
+},
+"train-93": {
+"5-8": {
+"relation": "property of",
+"probability": 0.3188233971595764
+},
+"5-11": {
+"relation": "class of",
+"probability": 0.35430318117141724
+},
+"5-15": {
+"relation": "measures",
+"probability": 0.38088032603263855
+},
+"5-17": {
+"relation": "class of",
+"probability": 0.5126085877418518
+},
+"5-18": {
+"relation": "measures",
+"probability": 0.6695488095283508
+},
+"8-15": {
+"relation": "has property",
+"probability": 0.48639097809791565
+},
+"8-18": {
+"relation": "has property",
+"probability": 0.8527063727378845
+},
+"11-12": {
+"relation": "has inheritance type",
+"probability": 0.46139705181121826
+},
+"12-15": {
+"relation": "has pcdc gct permissible value",
+"probability": 0.3163398802280426
+},
+"12-18": {
+"relation": "has pcdc hl permissible value",
+"probability": 0.44419828057289124
+},
+"17-18": {
+"relation": "has class",
+"probability": 0.3968070149421692
+}
+},
+"train-94": {
+"5-8": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.3594112992286682
+},
+"5-9": {
+"relation": "is dipg dmg permissible value for variable",
+"probability": 0.4820769727230072
+},
+"8-12": {
+"relation": "has inheritance type",
+"probability": 0.24974672496318817
+},
+"8-13": {
+"relation": "gene encodes gene product",
+"probability": 0.5311842560768127
+},
+"8-16": {
+"relation": "severity of",
+"probability": 0.646764874458313
+},
+"8-17": {
+"relation": "has inheritance type",
+"probability": 0.743301272392273
+},
+"9-10": {
+"relation": "has dipg dmg permissible value",
+"probability": 0.1275176852941513
+},
+"9-12": {
+"relation": "genetic biomarker related to",
+"probability": 0.08144275099039078
+},
+"9-13": {
+"relation": "gene encodes gene product",
+"probability": 0.8066364526748657
+},
+"9-16": {
+"relation": "severity of",
+"probability": 0.655181884765625
+},
+"12-13": {
+"relation": "gene encodes gene product",
+"probability": 0.9676504135131836
+},
+"12-15": {
+"relation": "disease mapped to gene",
+"probability": 0.7028998732566833
+},
+"12-16": {
+"relation": "is grade of disease",
+"probability": 0.7418413162231445
+},
+"12-17": {
+"relation": "disease has associated gene",
+"probability": 0.5138418078422546
+},
+"13-15": {
+"relation": "gene product encoded by gene",
+"probability": 0.6394197344779968
+},
+"13-17": {
+"relation": "disease has associated gene",
+"probability": 0.2784731686115265
+},
+"15-16": {
+"relation": "answer to",
+"probability": 0.8839643597602844
+},
+"16-17": {
+"relation": "has severity",
+"probability": 0.9585636258125305
+}
+},
+"train-95": {
+"0-2": {
+"relation": "property of",
+"probability": 0.987128496170044
+},
+"2-6": {
+"relation": "has property",
+"probability": 0.943885326385498
+},
+"2-13": {
+"relation": "has property",
+"probability": 0.9673880934715271
+},
+"2-14": {
+"relation": "has property",
+"probability": 0.5393134355545044
+},
+"2-17": {
+"relation": "has property",
+"probability": 0.6893089413642883
+},
+"2-20": {
+"relation": "has property",
+"probability": 0.9972628355026245
+},
+"2-24": {
+"relation": "has property",
+"probability": 0.9741148948669434
+},
+"2-26": {
+"relation": "has property",
+"probability": 0.7907484173774719
+},
+"3-6": {
+"relation": "gene product encoded by gene",
+"probability": 0.18027640879154205
+},
+"3-8": {
+"relation": "is biochemical function of gene product",
+"probability": 0.7597525119781494
+},
+"3-11": {
+"relation": "gene product encoded by gene",
+"probability": 0.5949140787124634
+},
+"3-13": {
+"relation": "gene encodes gene product",
+"probability": 0.1998162865638733
+},
+"3-14": {
+"relation": "has gene product element",
+"probability": 0.5933824181556702
+},
+"3-17": {
+"relation": "has gene product element",
+"probability": 0.1674124300479889
+},
+"3-24": {
+"relation": "manifestation of",
+"probability": 0.15015766024589539
+},
+"3-26": {
+"relation": "has prev name",
+"probability": 0.26934459805488586
+},
+"4-13": {
+"relation": "regulates",
+"probability": 0.3752470016479492
+},
+"4-14": {
+"relation": "biological process is part of process",
+"probability": 0.978054940700531
+},
+"4-17": {
+"relation": "biological process is part of process",
+"probability": 0.33228376507759094
+},
+"6-8": {
+"relation": "is biochemical function of gene product",
+"probability": 0.485738068819046
+},
+"6-11": {
+"relation": "gene product is physical part of",
+"probability": 0.3242770731449127
+},
+"6-13": {
+"relation": "has gene product element",
+"probability": 0.13409680128097534
+},
+"6-14": {
+"relation": "has gene product element",
+"probability": 0.3591577708721161
+},
+"6-17": {
+"relation": "negatively regulates",
+"probability": 0.11712794750928879
+},
+"6-21": {
+"relation": "gene product encoded by gene",
+"probability": 0.18027640879154205
+},
+"6-24": {
+"relation": "disease has associated gene",
+"probability": 0.1290246844291687
+},
+"6-26": {
+"relation": "gene product encoded by gene",
+"probability": 0.24600133299827576
+},
+"8-11": {
+"relation": "gene product has biochemical function",
+"probability": 0.9774149656295776
+},
+"8-17": {
+"relation": "has gene product element",
+"probability": 0.20711654424667358
+},
+"8-21": {
+"relation": "is biochemical function of gene product",
+"probability": 0.7597525119781494
+},
+"8-26": {
+"relation": "gene encodes gene product",
+"probability": 0.3493722081184387
+},
+"11-13": {
+"relation": "has gene product element",
+"probability": 0.2162569761276245
+},
+"11-14": {
+"relation": "has gene product element",
+"probability": 0.4981205463409424
+},
+"11-17": {
+"relation": "has gene product element",
+"probability": 0.19135774672031403
+},
+"11-21": {
+"relation": "gene product encoded by gene",
+"probability": 0.5949140787124634
+},
+"11-24": {
+"relation": "is structural domain or motif of gene product",
+"probability": 0.14166253805160522
+},
+"11-26": {
+"relation": "has prev name",
+"probability": 0.2668055295944214
+},
+"13-17": {
+"relation": "biological process has result biological process",
+"probability": 0.2753535807132721
+},
+"13-21": {
+"relation": "gene encodes gene product",
+"probability": 0.1998162865638733
+},
+"14-17": {
+"relation": "biological process has result biological process",
+"probability": 0.7606595158576965
+},
+"14-21": {
+"relation": "has gene product element",
+"probability": 0.5933824181556702
+},
+"14-26": {
+"relation": "biological process is part of process",
+"probability": 0.3185555636882782
+},
+"17-21": {
+"relation": "has gene product element",
+"probability": 0.1674124300479889
+},
+"17-26": {
+"relation": "biological process results from biological process",
+"probability": 0.16063784062862396
+},
+"21-24": {
+"relation": "manifestation of",
+"probability": 0.15015766024589539
+},
+"21-26": {
+"relation": "has prev name",
+"probability": 0.26934459805488586
+},
+"24-26": {
+"relation": "has manifestation",
+"probability": 0.12012588977813721
+}
+},
+"train-96": {
+"0-2": {
+"relation": "is ctdc value of",
+"probability": 0.06881452351808548
+},
+"0-6": {
+"relation": "gene found in organism",
+"probability": 0.2089545577764511
+},
+"0-9": {
+"relation": "gene encodes gene product",
+"probability": 0.23095975816249847
+},
+"0-16": {
+"relation": "has inheritance type",
+"probability": 0.3730109632015228
+},
+"2-6": {
+"relation": "gene product encoded by gene",
+"probability": 0.17510652542114258
+},
+"2-7": {
+"relation": "has inherent attribute",
+"probability": 0.6533684730529785
+},
+"2-9": {
+"relation": "gene encodes gene product",
+"probability": 0.7870718836784363
+},
+"2-16": {
+"relation": "concept in subset",
+"probability": 0.06526614725589752
+},
+"6-9": {
+"relation": "gene encodes gene product",
+"probability": 0.941422164440155
+},
+"6-16": {
+"relation": "disease mapped to gene",
+"probability": 0.28304412961006165
+},
+"7-9": {
+"relation": "gene associated with disease",
+"probability": 0.32117193937301636
+},
+"9-11": {
+"relation": "gene product encoded by gene",
+"probability": 0.6502729654312134
+},
+"9-14": {
+"relation": "gene product encoded by gene",
+"probability": 0.23598621785640717
+},
+"9-16": {
+"relation": "disease mapped to gene",
+"probability": 0.3023208677768707
+},
+"11-13": {
+"relation": "answer to",
+"probability": 0.8047538995742798
+},
+"11-14": {
+"relation": "has answer",
+"probability": 0.615127682685852
+},
+"13-14": {
+"relation": "has answer",
+"probability": 0.7279567718505859
+},
+"13-16": {
+"relation": "has answer",
+"probability": 0.3041819930076599
+},
+"14-16": {
+"relation": "population at risk for",
+"probability": 0.180125430226326
+}
+},
+"train-97": {
+"2-4": {
+"relation": "specimen of",
+"probability": 0.8639312982559204
+},
+"2-7": {
+"relation": "system of",
+"probability": 0.4203328490257263
+},
+"2-13": {
+"relation": "focus of",
+"probability": 0.8538306951522827
+},
+"4-7": {
+"relation": "system of",
+"probability": 0.4985210597515106
+},
+"4-13": {
+"relation": "has specimen",
+"probability": 0.8319982886314392
+}
+},
+"train-98": {
+"2-4": {
+"relation": "gene encodes gene product",
+"probability": 0.45937156677246094
+},
+"2-7": {
+"relation": "is biochemical function of gene product",
+"probability": 0.9058531522750854
+},
+"2-9": {
+"relation": "is biochemical function of gene product",
+"probability": 0.9058531522750854
+},
+"2-13": {
+"relation": "disease mapped to gene",
+"probability": 0.7030804753303528
+},
+"4-7": {
+"relation": "is biochemical function of gene product",
+"probability": 0.5833264589309692
+},
+"4-9": {
+"relation": "is biochemical function of gene product",
+"probability": 0.5833264589309692
+},
+"4-13": {
+"relation": "disease mapped to gene",
+"probability": 0.754410445690155
+}
+},
+"train-99": {
+"0-8": {
+"relation": "system of",
+"probability": 0.5066435933113098
+},
+"3-8": {
+"relation": "supersystem of",
+"probability": 0.5712802410125732
+},
+"3-10": {
+"relation": "disease mapped to gene",
+"probability": 0.6674681305885315
+},
+"6-8": {
+"relation": "supersystem of",
+"probability": 0.530750572681427
+}
+}
+}

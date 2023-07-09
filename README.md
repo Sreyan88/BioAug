@@ -3,7 +3,7 @@ Implementation of [BioAug: Conditional Generation based Data Augmentation for Lo
 
 ![Proposed Methodology](./assets/bioaug.jpeg)
 
-### Steps to generating data augmentations from BioAug
+### Steps to generate data augmentations from BioAug
 
 1. Instal dependencies using:
 ```
@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 2. Identify keywords and prepare your dataset in the format given in [sample-dataset](./sample-dataset/). We have uploaded the original datasets used in our paper in the [datasets](./datasets/) folder. We have also uploaded the datasets after keyword identification in the [spacy-datasets](./spacy-datasets/) folder.
 
-Given below is the required format of after keyword identification:
+Given below is the required format after keyword identification:
 
 ```
 Word \tabspace Label \tabspace Word Class (NOUN, PRONOUN, ...) \tabspace IsKeyword? (use BIO tagging scheme)
@@ -33,6 +33,8 @@ python preprocess.py \
     --input_file ./spacy-datasets/bc2gm/100/train.txt
 ```
 
+We have uploaded our preprocessed files in the [datasets-precompute](./datasets-precompute/) folder.
+
 5. Run [train_dynamic.sh](./script/train_dynamic.sh) to train your model using the following command:
   ```
   sh train_dynamic.sh <size> <dataset> <flair_batch_size> <SEED> <generations> <shouldLinearizeAllWords>
@@ -43,7 +45,7 @@ python preprocess.py \
   ```
   The above step will train and generate data augmentations using BioAug followed by training a NER model on gold + augmentations using [flair](https://github.com/flairNLP/flair)
 
-### Note: You'll need to replace the encoder and decoder embeddings in [pretrain_dynamic.py](./script/pretrain_dynamic.py) line 246-300 if using an external dataset.
+### Note: You'll need to replace the encoder and decoder embeddings in [pretrain_dynamic.py](./script/pretrain_dynamic.py) line 246-300 if using an external dataset. Also update the new tokens in [pretrain_dynamic.py](./script/pretrain_dynamic.py) and [test-dynamic.py](./script/test-dynamic.py)
 
 ---
 **Please cite our work:**
