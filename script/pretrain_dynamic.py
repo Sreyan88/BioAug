@@ -16,7 +16,6 @@ from dataclasses import dataclass
 from utils import get_random_gauss_value, linearize, mask_spacy_entities, add_relations, merge_list
 import random
 import torch
-import opennre
 # import time
 import os
 import json
@@ -313,7 +312,7 @@ training_args = Seq2SeqTrainingArguments(
     save_total_limit = 1,
     load_best_model_at_end = True,
     metric_for_best_model = "eval_loss",
-    fp16 = True,
+    fp16 = False,
     learning_rate=5.6e-5,
     per_device_train_batch_size=batch_size,
     per_device_eval_batch_size=batch_size,

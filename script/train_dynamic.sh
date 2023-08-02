@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 set -e
 set -x
 
@@ -9,14 +8,24 @@ dataset=$2
 flair_batch_size=$3
 SEED=$4
 generations=$5
-shouldLinearizeAllWords=$6
 
-directory="./datasets-precompute/${dataset}/${size}"
+directory="../datasets-precompute/${dataset}/${size}"
 
 attn_train="train_processed"
 attn_dev="dev_processed"
 
 run="${generations}-${size}-${SEED}-${shouldLinearizeAllWords}-tokenfix"
+
+python flair_train.py \
+--input_folder $directory \
+--output_folder "${directory}/consistency" \
+--gpu cuda:0 \
+--train_file "${attn_train}.txt" \
+--batch_size $flair_batch_size \
+--lr 0.01 \
+--epochs 100 \
+--seed $SEED \
+--model dmis-lab/biobert-large-cased-v1.1
 
 python pretrain_dynamic.py \
 --directory $directory \
@@ -44,8 +53,7 @@ python test-dynamic.py \
 --file_name $run \
 --root_dir $directory \
 --remove_repetitions False \
---seed $SEED \
---shouldLinearizeAllWords $shouldLinearizeAllWords
+--seed $SEED
 
 generated_file="${inference_file}-${run}"
 
@@ -58,7 +66,7 @@ python flair_eval_equal.py \
 --file_name $run \
 --seed $SEED \
 --gold_file $inference_file \
---checkpoint ""   # add your base checkpoint here
+--checkpoint "${directory}/consistency/best-model.pt"
 
 consistent_file="${generated_file}-aug+gold.txt"
 
