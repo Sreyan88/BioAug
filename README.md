@@ -20,7 +20,7 @@ Word \tabspace Label \tabspace Word Class (NOUN, PRONOUN, ...) \tabspace IsKeywo
 
 3. Setup [OpenNRE](https://github.com/thunlp/OpenNRE) and download the checkpoint [here](https://drive.google.com/file/d/1crS7O0FZvBWTF_XZNba3Kt2nVxHao8po/view?usp=sharing). If you want to train your own OpenNRE model, follow the steps below:
     * Prepare a dataset using [this GitHub link](https://github.com/IBM/aihn-ucsd/tree/master/amil) or any other relation extraction (RE) dataset. You would need to follow Step 1 and Step 2. For Step 1, you can use the dataset [here](https://drive.google.com/file/d/1toip1QMx4FkYBqk6fgXnZllTjIjbP1RO/view?usp=sharing)
-    * OpenNRE does not support pretraining random models. We had to update their code. You can use [pretrain.py](./assets/pretrain.py) to update their base code.
+    * OpenNRE does not support pretraining random models. We had to update their code. You can use [pretrain.py](./assets/pretrain.py) to update their base code. You'll also need a relation-to-id json file to train. We have provided the file for the UMLS dataset [umls-rel2id.json](./assets/umls-rel2id.json).
 
 4. With the help of the pretrained OpenNRE model, run [preprocess.py](preprocess.py) to convert the data into the correct format and also precompute the relations between entities. (Do update lines 75, 100 and 120 according to your dataset)
 
