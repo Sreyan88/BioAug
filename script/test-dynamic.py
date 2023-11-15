@@ -92,7 +92,7 @@ def isGeneratedSentenceValid(sent):
     return True
 
 # args.model[:-6].strip(args.file_name) + '-' +
-generated_file = args.root_dir + "/" + args.input_file + '-' + args.file_name + 'old' + '.txt'
+generated_file = args.root_dir + "/" + args.input_file + '-' + args.file_name + '.txt'
 
 def get_label(label):
     temp_dict = {
